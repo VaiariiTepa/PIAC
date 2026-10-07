@@ -1688,7 +1688,11 @@ render(false);
 </html>
 '''
 
+with open('index.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+# Garder également une copie paea-entreprises.html pour compatibilité des raccourcis existants
 with open('paea-entreprises.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-print(f"paea-entreprises.html généré avec succès ! Taille : {len(html_content):,} caractères.")
+print(f"index.html & paea-entreprises.html générés avec succès ! Taille : {len(html_content):,} caractères.")

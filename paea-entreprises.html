@@ -905,6 +905,90 @@ td.td-addr {
 .anim-fade {
   animation: fadeIn 0.3s ease-out forwards;
 }
+
+/* Bouton Filtres mobile (caché sur desktop) */
+.mobile-filter-btn {
+  display: none;
+  height: 40px;
+  padding: 0 14px;
+  background: var(--lagoon-600);
+  border: 1px solid var(--lagoon-600);
+  color: #fff;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 700;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.mobile-filter-btn.active {
+  background: var(--lagoon-700);
+}
+
+/* ==========================================================================
+   OPTIMISATION MOBILE ≤768px : LA LISTE PREND LA MAJORITÉ DE L'ÉCRAN
+   Option A compacte : hero réduit, stats 2x2, recherche sticky seule,
+   filtres/PK repliés par défaut, vue cartes par défaut.
+   ========================================================================== */
+@media (max-width: 768px) {
+  .hero { padding: 14px 14px 18px; }
+  .hero h1 { font-size: 1.25rem; line-height: 1.25; }
+  .hero-badge { font-size: 0.72rem; padding: 4px 10px; }
+  .hero-top { margin-bottom: 4px; }
+
+  .main-wrapper { padding: 0 12px; margin: -14px auto 0; }
+
+  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 10px; }
+  .stat-pill { padding: 6px 8px; gap: 8px; }
+  .stat-icon { width: 28px; height: 28px; font-size: 0.85rem; }
+  .stat-num { font-size: 1rem; }
+  .stat-txt { font-size: 0.66rem; white-space: normal; line-height: 1.2; }
+
+  .control-panel {
+    position: sticky;
+    top: 8px;
+    padding: 10px 12px;
+    gap: 8px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+  }
+  .search-row { gap: 8px; }
+  .search-box { flex: 1 1 100%; min-width: 0; }
+  .search-input { height: 42px; font-size: 0.9rem; }
+  .kbd-hint { display: none; }
+
+  .view-switch { flex: 1 1 auto; }
+  .view-btn { flex: 1; justify-content: center; padding: 7px 8px; font-size: 0.8rem; white-space: nowrap; }
+  .csv-btn { margin-left: 0; height: 38px; padding: 0 12px; font-size: 0.8rem; white-space: nowrap; }
+  .mobile-filter-btn { display: inline-flex; flex: 1 1 auto; justify-content: center; height: 38px; }
+
+  /* Filtres et ruban PK repliés par défaut sur mobile */
+  .control-panel .pk-ribbon,
+  .control-panel .filters-row { display: none; }
+  .control-panel.expanded .pk-ribbon { display: flex; }
+  .control-panel.expanded .filters-row { display: flex; }
+
+  .filters-row { gap: 8px; }
+  .custom-select { flex: 1 1 calc(50% - 4px); min-width: 0; height: 38px; font-size: 0.8rem; }
+  .reset-btn { flex: 1 1 auto; height: 38px; justify-content: center; }
+  #activeCountBadge { margin-left: 0; width: 100%; text-align: left; }
+
+  .cards-grid { grid-template-columns: 1fr; gap: 10px; }
+  .biz-card { padding: 14px; }
+  .biz-title { font-size: 1rem; }
+
+  /* Évite le chevauchement du thead sticky avec le panneau réduit */
+  thead { position: static; }
+  .table-scroll { overflow-x: auto; }
+  td.td-name, td.td-rep, td.td-addr { max-width: none; }
+}
+/* Garde 2 colonnes stats même sur très petits écrans (évite 4 lignes empilées) */
+@media (max-width: 480px) {
+  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .stat-num { font-size: 0.95rem; }
+}
 </style>
 </head>
 <body>
@@ -986,6 +1070,11 @@ td.td-addr {
       <button class="csv-btn" id="btnExportCsv" title="Exporter la sélection courante en CSV (Excel)">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
         <span>Export CSV</span>
+      </button>
+
+      <button class="mobile-filter-btn" id="btnMobileFilters" aria-expanded="false" title="Afficher / masquer les filtres">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 3H2l8 9.5V19l4 2v-8.5L22 3z"/></svg>
+        <span class="lbl">Filtres</span>
       </button>
     </div>
 
@@ -1653,6 +1742,37 @@ $('bTabPk').addEventListener('click', () => {
 $('bTabStats').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// OPTIMISATION MOBILE : vue cartes par défaut + panneau filtres repliable
+(function initMobileLayout(){
+  const mq = window.matchMedia('(max-width: 768px)');
+  const panel = document.querySelector('.control-panel');
+  const btnF = document.getElementById('btnMobileFilters');
+  function applyMobileDefault(){
+    if(mq.matches && typeof currentView !== 'undefined' && currentView !== 'cards'){
+      switchView('cards');
+    }
+  }
+  if(btnF && panel){
+    btnF.addEventListener('click', () => {
+      const exp = panel.classList.toggle('expanded');
+      btnF.classList.toggle('active', exp);
+      btnF.setAttribute('aria-expanded', exp ? 'true' : 'false');
+      const lbl = btnF.querySelector('.lbl');
+      if(lbl) lbl.textContent = exp ? 'Masquer' : 'Filtres';
+    });
+  }
+  // Quand on tape "Par PK" en bas, déplie le panneau pour montrer le ruban
+  const bPk = document.getElementById('bTabPk');
+  if(bPk && panel){
+    bPk.addEventListener('click', () => {
+      if(mq.matches && !panel.classList.contains('expanded') && btnF){
+        btnF.click();
+      }
+    }, { capture: false });
+  }
+  applyMobileDefault();
+})();
 
 // DÉMARRAGE INITIAL
 sortData();

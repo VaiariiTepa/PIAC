@@ -1,0 +1,2191 @@
+[
+  {
+    "name": "SOCIETE COMMERCIALE DE PAEA",
+    "form": "SAS",
+    "cat": "COMMERCE",
+    "rep": "Mme Nancy Wane (Présidente)",
+    "naf": "4711D – Grande distribution alimentaire",
+    "ids": [
+      "TAHITI A94570",
+      "RCS 14 20 B"
+    ],
+    "address": "PK 21 côté montagne (Magasin Champion), Paea",
+    "contact": "☎ 40 52 30 03 · 🌐 championtahiti.com · 🌐 facebook.com/ChampionTahiti"
+  },
+  {
+    "name": "HAPPY MARKET PAEA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Stéphane Antoine Jimenez (Gérant)",
+    "naf": "4711D – Commerce de détail non spécialisé",
+    "ids": [
+      "TAHITI B63854",
+      "RCS 15 224 B"
+    ],
+    "address": "Route Territoriale 1, PK 19,500 côté mer, Paea",
+    "contact": "☎ 40 82 89 89 / 40 50 75 75 · U Express Paea · 🌐 facebook.com/HappyMarketPaea"
+  },
+  {
+    "name": "STE DE DISTRIBUTION DE PAEA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Christophe Dufour (Gérant)",
+    "naf": "Distribution alimentaire générale",
+    "ids": [
+      "TAHITI 599076",
+      "RCS 8443 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 53 32 19 / 89 46 66 66 · 🌐 magasins-u.pf · 🌐 facebook.com/superupaearte"
+  },
+  {
+    "name": "SOCIETE DE GESTION D'APPROVISIONNEMENT ET DE MARKETING",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Stéphane Antoine Jimenez (Gérant)",
+    "naf": "Conseil en gestion, centrale d'achat",
+    "ids": [
+      "TAHITI C56641",
+      "RCS 17 305 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 82 89 89"
+  },
+  {
+    "name": "ATLAS PARTS IMPORT",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Robson Tevitau (Gérant)",
+    "naf": "Commerce de gros pièces auto",
+    "ids": [
+      "TAHITI F83150",
+      "RCS 24 137 B"
+    ],
+    "address": "Vallée Orofero, PK 22 c/mont, Servitude Mataeho n°6, Paea",
+    "contact": "☎ 88 88 23 73 · ✉ atlaspartsimport@icloud.com"
+  },
+  {
+    "name": "ATRIA (ATRIATEITIEI 1 ET TEURUFARAPA)",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Julien Marchandise (Gérant)",
+    "naf": "Ingénierie, études techniques",
+    "ids": [
+      "TAHITI E42299",
+      "RCS 21 268 B"
+    ],
+    "address": "Sect° AC 535, Paea",
+    "contact": "☎ 87 37 37 09 · ✉ direction.proenergie@gmail.com · 🌐 pro-energie-987.com"
+  },
+  {
+    "name": "BIBI CASSE AUTO",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Didier Bireau (Gérant)",
+    "naf": "Démolition auto, recyclage métaux",
+    "ids": [
+      "TAHITI D42573",
+      "RCS 19 298 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 48 20 11 / 40 53 20 11 · 🌐 facebook.com/bibicasseauto · 🌐 instagram.com/bibicasseauto"
+  },
+  {
+    "name": "CASH METAL POLYNESIE",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Laurent Joubert (Gérant)",
+    "naf": "Collecte et négoce de déchets métalliques",
+    "ids": [
+      "TAHITI A62445",
+      "RCS 13 74 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "CAISHEN-TEMANA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Gwendoline Manate-Maraetaata (Gérante)",
+    "naf": "Activités commerciales générales",
+    "ids": [
+      "TAHITI D08590",
+      "RCS 13 9 B"
+    ],
+    "address": "Servitude Papehue, Paea",
+    "contact": "☎ 40 43 15 41"
+  },
+  {
+    "name": "CHEZ DONDON GRILL",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Raitae Aroul Jérémie Maraetefau (Gérant)",
+    "naf": "Restauration traditionnelle, traiteur",
+    "ids": [
+      "TAHITI F50167",
+      "RCS 23 286 B"
+    ],
+    "address": "Papehue, Paea",
+    "contact": "☎ 89 46 14 61 / 89 79 35 85 · 🌐 facebook.com/ChezDondonGrill"
+  },
+  {
+    "name": "COOPERATIVE PAHIAREPO NUI RAVA'AI",
+    "form": "COOP",
+    "cat": "COMMERCE",
+    "rep": "M. Darrel Teriitevaeara Duval (Représentant)",
+    "naf": "Pêche en mer côtière et hauturière",
+    "ids": [
+      "TAHITI 923466",
+      "RCS 21 68 B"
+    ],
+    "address": "Port de pêche – Pahiaripo, Paea",
+    "contact": "☎ 87 79 65 85 · Port de pêche de Pahiaripo"
+  },
+  {
+    "name": "E-TOA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Michael Toromona (Gérant)",
+    "naf": "Services aux entreprises et équipements",
+    "ids": [
+      "TAHITI E48197",
+      "RCS 21 352 A"
+    ],
+    "address": "29 quartier Vaiatu, Paea",
+    "contact": ""
+  },
+  {
+    "name": "FAAPU AGRO",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Georges Frouge (Gérant)",
+    "naf": "Exploitation agricole, cultures vivrières",
+    "ids": [
+      "TAHITI A69234",
+      "RCS 13 126 B"
+    ],
+    "address": "Servitude Charles, Paea",
+    "contact": ""
+  },
+  {
+    "name": "HAUHIVAHERE",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Teura Karrigan Hellemont (Gérante)",
+    "naf": "Commerce de détail et services",
+    "ids": [
+      "TAHITI E44220",
+      "RCS 21 328 B"
+    ],
+    "address": "Rte lotissement Vaiterupe, Paea",
+    "contact": ""
+  },
+  {
+    "name": "HEIANI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Tevaiti Michel Sarciaux (Gérant)",
+    "naf": "Prestations de services et commerce",
+    "ids": [
+      "TAHITI A61264",
+      "RCS 13 66 B"
+    ],
+    "address": "Quartier Sarciaux, Paea",
+    "contact": ""
+  },
+  {
+    "name": "HIGH PROTECT SYSTEMS",
+    "form": "SAS",
+    "cat": "COMMERCE",
+    "rep": "M. Yannick Chartiez (Président)",
+    "naf": "Installation systèmes de sécurité",
+    "ids": [
+      "TAHITI E95982",
+      "RCS 22 361 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 77 62 22 · ✉ hps-agrizap@mail.pf"
+  },
+  {
+    "name": "HM IMPORT",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Heiarii Moracchini née Guinebert (Gérante)",
+    "naf": "Commerce de gros et importation",
+    "ids": [
+      "TAHITI D59148",
+      "RCS 20 37 B"
+    ],
+    "address": "PK 19.800 côté mer, Paea",
+    "contact": "☎ 89 53 04 85"
+  },
+  {
+    "name": "HOTU MAHANA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Turia Faaeva (Gérante)",
+    "naf": "Exploitation maraîchère, horticulture",
+    "ids": [
+      "TAHITI F79620",
+      "RCS 24 97 B"
+    ],
+    "address": "Mahana Park, Paea",
+    "contact": "☎ 40 45 22 88 / 87 38 87 10 · ✉ hotumahana@gmail.com · 🌐 facebook.com/MahanaParkTahiti"
+  },
+  {
+    "name": "INNOVATION TRADING",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Alessandro Giovanni Raccuia (Gérant)",
+    "naf": "Négoce international, import-export",
+    "ids": [
+      "TAHITI D31030",
+      "RCS 19 199 B"
+    ],
+    "address": "Immeuble Totoe Beach – 1er étage, Paea",
+    "contact": "☎ 87 00 39 00 · Imm. Totoe Beach"
+  },
+  {
+    "name": "JOUAN & CO",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Erwan Jouan (Gérant)",
+    "naf": "Activités commerciales spécialisées",
+    "ids": [
+      "TAHITI F46652",
+      "RCS 24 96 B"
+    ],
+    "address": "Servitude Lehartel Lot 26, Paea",
+    "contact": ""
+  },
+  {
+    "name": "LA GRANITIERE DU FENUA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Stéphanie Barriere (Gérante)",
+    "naf": "Marbrerie, travail de pierres et granit",
+    "ids": [
+      "TAHITI A93762",
+      "RCS 14 11 B"
+    ],
+    "address": "Servitude Cadousteau, Paea",
+    "contact": ""
+  },
+  {
+    "name": "L'ART DU TAPOI ROI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Patrick Maurice Juif (Gérant)",
+    "naf": "Tapisserie, sellerie nautique",
+    "ids": [
+      "TAHITI 609628",
+      "RCS 8600 B"
+    ],
+    "address": "PK 20,200 côté montagne, Paea",
+    "contact": ""
+  },
+  {
+    "name": "LE TAKI",
+    "form": "SAS",
+    "cat": "COMMERCE",
+    "rep": "Mme France Moea Bretagnon (Présidente)",
+    "naf": "Exploitation commerciale et restauration",
+    "ids": [
+      "TAHITI F54466",
+      "RCS 23 494 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 22 16 49 (Tropical Grill Paea) · 🌐 instagram.com/restaurant.letaki"
+  },
+  {
+    "name": "LS TEHITI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Vairua Albert Richmond (Gérant)",
+    "naf": "Prestations techniques et logistiques",
+    "ids": [
+      "TAHITI B78712",
+      "RCS 16 11 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 57 50 10 (source réseau ManaGaz — à confirmer)"
+  },
+  {
+    "name": "MAHANA PARK CENTER",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Yves Vavitu Salmon (Gérant)",
+    "naf": "Gestion d'espaces touristiques et loisirs",
+    "ids": [
+      "TAHITI 956557",
+      "RCS 10 241 B"
+    ],
+    "address": "PK 18,5 côté mer (Parc Mahana), Paea",
+    "contact": "☎ 40 45 22 88 / 87 38 87 10 · ✉ hotumahana@gmail.com · 🌐 facebook.com/MahanaParkTahiti"
+  },
+  {
+    "name": "MAMITA AND CO",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Gwendoline Manate-Maraetaata (Gérante)",
+    "naf": "Restauration, pâtisserie, petite alimentation",
+    "ids": [
+      "TAHITI D90135",
+      "RCS 20 322 B"
+    ],
+    "address": "Servitude Papehue, Paea",
+    "contact": "☎ 40 43 15 41"
+  },
+  {
+    "name": "MANA CATERING",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Teva Henry (Gérant)",
+    "naf": "Traiteur événementiel, restauration collective",
+    "ids": [
+      "TAHITI C88420",
+      "RCS 21 112 B"
+    ],
+    "address": "PK 22,700 côté montagne, Paea",
+    "contact": "☎ 40 58 32 22 (Restaurant Te Manu Kura Paea) · 🌐 instagram.com/manacatering_"
+  },
+  {
+    "name": "MANA ITI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Isabelle Trebucq (Gérante)",
+    "naf": "Vente au détail et services marchands",
+    "ids": [
+      "TAHITI B23734",
+      "RCS 14 243 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "🌐 instagram.com/mana_iti_tahiti"
+  },
+  {
+    "name": "SAFE TAHITI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Frédérique Dian (Gérant)",
+    "naf": "Sécurité privée, gardiennage",
+    "ids": [
+      "TAHITI D24050",
+      "RCS 19 138 B"
+    ],
+    "address": "Route Lotissement Bourne, Lot 17, Paea",
+    "contact": "🌐 facebook.com/SafeTahiti"
+  },
+  {
+    "name": "SARL PACIFIC BUSINESS OVERSEAS",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Kevin Puaita Robson (Gérant)",
+    "naf": "Négoce international et logistique maritime",
+    "ids": [
+      "TAHITI C20407",
+      "RCS 17 5 B"
+    ],
+    "address": "PK 25,500, côté montagne, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SELARL PHARMACIE OPUHI",
+    "form": "SELARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Lucie Françoise Dubost née Dufour (Gérante)",
+    "naf": "4773Z – Commerce de détail pharmaceutique",
+    "ids": [
+      "TAHITI C74032",
+      "RCS 18 90109"
+    ],
+    "address": "PK 23,7 côté mer, Immeuble Totoe Beach, Paea",
+    "contact": "☎ 40 50 30 05 / 40 53 31 53 · 🌐 pharmacieopuhi-pf.fr · 🌐 facebook.com/pharmacieopuhi"
+  },
+  {
+    "name": "SM2D",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Samuel Philippe Berquer (Gérant)",
+    "naf": "Distribution de marchandises et logistique",
+    "ids": [
+      "TAHITI 820043",
+      "RCS 07 115 B"
+    ],
+    "address": "PK 19 c/mont – Servitude Sarciaux, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SNACK FUKU",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Yoshiaki Chisaka (Gérant)",
+    "naf": "5610C – Restauration rapide",
+    "ids": [
+      "TAHITI E07367",
+      "RCS 21 56 B"
+    ],
+    "address": "Route Territoriale 1, Paea",
+    "contact": "☎ 87 26 29 29 · ✉ chisaka@mail.pf"
+  },
+  {
+    "name": "TAHITI DIRECT IMPORT",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Patrick Maurice Juif (Gérant)",
+    "naf": "Centrale d'importation et commerce de gros",
+    "ids": [
+      "TAHITI C62540",
+      "RCS 17 374 B"
+    ],
+    "address": "Rte lotissement Papehue Lot N°AA93, Paea",
+    "contact": "🌐 facebook.com/people/Tahiti-direct-import/100069333663205"
+  },
+  {
+    "name": "TAHITI FENG SHUI",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Gabriel Laut (Gérant)",
+    "naf": "Conseil en agencement, décoration intérieure",
+    "ids": [
+      "TAHITI C06786",
+      "RCS 16 254 B"
+    ],
+    "address": "Route Arahurahu, Paea",
+    "contact": "☎ 40 82 78 78 (PK 22.3) · 🌐 facebook.com/MonkeyGabriel68"
+  },
+  {
+    "name": "TAHITI HARDWARE STORE",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Philibert Veroarii J. Montaron (Gérant)",
+    "naf": "4752A – Quincaillerie, outillage, matériaux",
+    "ids": [
+      "TAHITI D19654",
+      "RCS 19 92 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 85 60 43 (Quincaillerie Montaron PK 19.1) · 🌐 facebook.com/SASTahiti"
+  },
+  {
+    "name": "TAHITI LITERIE EURL",
+    "form": "EURL",
+    "cat": "COMMERCE",
+    "rep": "M. Marc Tinorua Massoutier (Gérant)",
+    "naf": "Commerce de détail literie et mobilier",
+    "ids": [
+      "TAHITI B46172",
+      "RCS 15 95 B"
+    ],
+    "address": "Qt Montaron, Paea",
+    "contact": "☎ 40 82 48 24 · 🌐 facebook.com/tahitiliterie"
+  },
+  {
+    "name": "PACIFIQUE KEROZENE",
+    "form": "SCP",
+    "cat": "SERVICE",
+    "rep": "M. Pierre Marie Edmond Colardeau (Gérant)",
+    "naf": "SCP d'études et prestations",
+    "ids": [
+      "TAHITI D14952",
+      "RCS 19 44 C"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "LA SAVONNERIE DE TAHITI (Tahitian Soap / Heiva Cosmétiques)",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Philippe Maunier (Directeur général) · Mme Nirvana Maunier (Co-fondatrice)",
+    "naf": "2042Z – Fabrication savons, cosmétiques, huiles essentielles",
+    "ids": [
+      "TAHITI 57361",
+      "RCS 88 103 B",
+      "SIREN 493 278 600",
+      "TVA FR29493278600"
+    ],
+    "address": "PK 20,5 côté montagne (derrière pharmacie Tiapa) – BP 330006, Paea",
+    "contact": "☎ 40 42 31 31 / 87 79 28 40 · ✉ tahitiansoap@mail.pf · ✉ contact@heivacosmetics.com · 🌐 savonneriedetahiti.com · 🌐 facebook.com/HeivaCosmetiques"
+  },
+  {
+    "name": "ACTISOL",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "Mme Céline Maunier (Gérante)",
+    "naf": "13511Z – Travaux d'isolation",
+    "ids": [
+      "TAHITI 49336",
+      "RCS 21 354 B"
+    ],
+    "address": "PK 23,030 c/mont, Paea",
+    "contact": "☎ 40 43 18 47 · ✉ acti-sol@acti-sol.com · 🌐 facebook.com/Actisol"
+  },
+  {
+    "name": "AVA TEA DISTILLATION",
+    "form": "SAS",
+    "cat": "INDUSTRIE",
+    "rep": "M. Fabrice Baffou (Président)",
+    "naf": "11101Z – Distillation et production d'alcool",
+    "ids": [
+      "TAHITI 54451",
+      "RCS 07 686 B"
+    ],
+    "address": "PK 26.200 c/mont, Paea",
+    "contact": "☎ 89 40 14 14 · ✉ contact@manao.pf · 🌐 manao.pf · 🌐 facebook.com/manaotahiti"
+  },
+  {
+    "name": "BIBI RECYCLAGE",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Didier Bireau",
+    "naf": "13811Z – Récupération et recyclage",
+    "ids": [
+      "TAHITI 75174",
+      "RCS 22 124 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 48 20 11 / 40 53 20 11 · 🌐 facebook.com/bibicasseauto · 🌐 instagram.com/bibicasseauto"
+  },
+  {
+    "name": "CONCEPT PEINTURE",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Gérard Fenez (Gérant)",
+    "naf": "14333Z – Peinture et vitrerie",
+    "ids": [
+      "TAHITI 8376",
+      "RCS 18 418 B"
+    ],
+    "address": "PK 18,900, lotissement Papehue 1, Paea",
+    "contact": "☎ 87 77 35 70 · ✉ conceptpeinture.tahiti@gmail.com · 🌐 facebook.com/conceptpeinturetahiti"
+  },
+  {
+    "name": "HH TOUS TRAVAUX",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "Mme Edgardine Huuti (Gérante)",
+    "naf": "14120A – Travaux de construction",
+    "ids": [
+      "TAHITI 95378",
+      "RCS 24 225 B"
+    ],
+    "address": "N°54 Serv Vaitiare 1, Paea",
+    "contact": ""
+  },
+  {
+    "name": "KH BAT",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Boris Hituputoka",
+    "naf": "14120A – Travaux de construction",
+    "ids": [
+      "TAHITI 83218",
+      "RCS 24 132 B"
+    ],
+    "address": "Face école Vaiatu, Paea",
+    "contact": "☎ 87 22 51 97 (Face école Vaiatu)"
+  },
+  {
+    "name": "M.V SERVICES",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Emile Ré Teraivetea Anihia (Gérant)",
+    "naf": "14321A – Travaux d'aménagement",
+    "ids": [
+      "TAHITI 19402",
+      "RCS 23 35 B"
+    ],
+    "address": "PK 20,600, lotissement CPS N°17, Paea",
+    "contact": "☎ 87 79 89 70 (Lotissement CPS)"
+  },
+  {
+    "name": "POLYETANCHE",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Jérôme Geffroy (Gérant)",
+    "naf": "14399A – Travaux spécialisés",
+    "ids": [
+      "TAHITI 38367",
+      "RCS 17 155 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "🌐 instagram.com/polyetanche"
+  },
+  {
+    "name": "SARL PRO ENERGIE",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Julien Marchandise (Gérant)",
+    "naf": "13511Z – Travaux d'isolation et énergie",
+    "ids": [
+      "TAHITI 3853",
+      "RCS 20 357 B"
+    ],
+    "address": "535 Lot A Terre Teitei et Teurufarapa, Paea",
+    "contact": "☎ 87 37 37 09 · ✉ direction.proenergie@gmail.com · 🌐 pro-energie-987.com"
+  },
+  {
+    "name": "SCIERIE DE TUBUAI",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Fabien Vavaseur (Gérant)",
+    "naf": "6463 – Scierie et travail du bois",
+    "ids": [
+      "TAHITI 52379",
+      "RCS 23 345 B"
+    ],
+    "address": "Vallée de Orofero, Paea",
+    "contact": "☎ 40 45 28 41 / 87 28 58 99 · ✉ vdm.charpente@yahoo.fr · 🌐 vdm-charpente.com"
+  },
+  {
+    "name": "TI AI MOANA",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Nicolas Brigato",
+    "naf": "Industrie manufacturière",
+    "ids": [
+      "TAHITI 9083",
+      "RCS 08 83 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 42 75 87 / 89 78 44 73 · ✉ tiaimoana@mail.pf · 🌐 tiaimoana.fr"
+  },
+  {
+    "name": "VDM (VDM CHARPENTE)",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Fabien Vavasseur (Gérant)",
+    "naf": "Construction bois / charpente",
+    "ids": [
+      "TAHITI 80690",
+      "RCS 07 12 B",
+      "SIREN 924 568 041",
+      "TVA FR96924568041"
+    ],
+    "address": "Rte vallée Orofero, Paea",
+    "contact": "☎ 40 45 28 41 / 87 28 58 99 · ✉ vdm.charpente@yahoo.fr · 🌐 vdm-charpente.com"
+  },
+  {
+    "name": "X-TRA-POSE",
+    "form": "SARL",
+    "cat": "INDUSTRIE",
+    "rep": "M. Philippe Soriano (Gérant)",
+    "naf": "578369 – Industrie manufacturière",
+    "ids": [
+      "TAHITI 57836",
+      "RCS 98 187 B"
+    ],
+    "address": "Paea Serv. Totoe N°5, Paea",
+    "contact": ""
+  },
+  {
+    "name": "AITO COMPOSITES",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "—",
+    "naf": "3012Z – Construction navale (composites)",
+    "ids": [
+      "TAHITI 26506",
+      "RCS 23 85 B"
+    ],
+    "address": "PK 22.300 c/mer N°392B, Paea",
+    "contact": "☎ 87 77 87 25 · 🌐 faivaa.com"
+  },
+  {
+    "name": "ALARME SCORPION",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Jean-Luc Conde (Gérant)",
+    "naf": "4321A – Installation alarmes et sécurité",
+    "ids": [
+      "TAHITI 724930",
+      "RCS 05 11 B"
+    ],
+    "address": "Paea Lotis Bourne Lot 2, Paea",
+    "contact": "☎ 40 43 78 18 / 87 77 78 05 · ✉ alarmescorpion@mail.pf · 🌐 videosurveillance-tahiti.com"
+  },
+  {
+    "name": "ANGELINA'S CROCHET TAHITI",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Angelina Teraiefa (Gérante)",
+    "naf": "1439Z – Fabrication artisanale textile",
+    "ids": [
+      "TAHITI 87854",
+      "RCS 24 258 B"
+    ],
+    "address": "Terre Teputaita Parcelle AE 26, Paea",
+    "contact": "☎ 89 49 85 13 · ✉ angelinascrochettahiti@gmail.com · 🌐 angelinascrochettahiti.com"
+  },
+  {
+    "name": "ASSISTANCE AMBULANCE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Pascal André Noël Jehel",
+    "naf": "8690A – Transports sanitaires",
+    "ids": [
+      "TAHITI 571026",
+      "RCS 80 65 B"
+    ],
+    "address": "PK 21 c/mer, Paea",
+    "contact": "☎ 40 42 06 05 / 40 94 52 79 (Urgence SAMU : 15)"
+  },
+  {
+    "name": "BATI FENUA",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Nathalie Sylvie Angelo (Gérante)",
+    "naf": "4120A – Construction de maisons",
+    "ids": [
+      "TAHITI 94368",
+      "RCS 20 269 B"
+    ],
+    "address": "PK 22,500, N°8 Servitude Taurua, Paea",
+    "contact": "☎ 89 40 50 80"
+  },
+  {
+    "name": "BRASSERIE MANU URA",
+    "form": "SAS",
+    "cat": "MÉTIER",
+    "rep": "M. Félix Bernadino (Président)",
+    "naf": "1105Z – Fabrication de bière",
+    "ids": [
+      "TAHITI 20251",
+      "RCS 23 54 B"
+    ],
+    "address": "Vallée Vaitupa PK 24, Paea",
+    "contact": "☎ 40 46 76 00 (Groupe Brapac) · Projet Vallée Vaitupa Paea"
+  },
+  {
+    "name": "DELICES DE TAHITI",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Dominique Blot (Gérant)",
+    "naf": "1084Z – Pâtisserie artisanale",
+    "ids": [
+      "TAHITI 39445",
+      "RCS 26 162 B"
+    ],
+    "address": "PK 21.800 c/mont, Paea",
+    "contact": "☎ 40 47 22 41 / 87 30 23 87 · 🌐 facebook.com/LesDelicesDeTahiti"
+  },
+  {
+    "name": "ECO H20 POLYNESIE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Reynolds Chin",
+    "naf": "4520A – Entretien et réparation auto",
+    "ids": [
+      "TAHITI 35288",
+      "RCS 19 253 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 71 56 10 · ✉ hhotahiti@gmail.com · 🌐 facebook.com/Eco-H2O-Polynesie-2174369222853632"
+  },
+  {
+    "name": "FENUA NATURA",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Tehea Ebb-Salmon (Gérante)",
+    "naf": "8130Z – Aménagement paysager",
+    "ids": [
+      "RCS 23 49 B"
+    ],
+    "address": "Terre Vihiauara, Parcelle 1C – AC 440, Paea",
+    "contact": ""
+  },
+  {
+    "name": "HIVAI",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Roger Tarano (Gérant)",
+    "naf": "4120B – Construction d'autres bâtiments",
+    "ids": [
+      "TAHITI 37281",
+      "RCS 21 225 B"
+    ],
+    "address": "Vallée Orofero PK 21,900, Paea",
+    "contact": "✉ hitivai.secretariat@gmail.com"
+  },
+  {
+    "name": "HOLOPUNI CANOES TAHITI",
+    "form": "SNC",
+    "cat": "MÉTIER",
+    "rep": "M. Christopher Knight (Gérant)",
+    "naf": "3012Z – Construction de pirogues",
+    "ids": [
+      "TAHITI 4700",
+      "RCS 14 83 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 78 01 01 · 🌐 holopunicanoes.com · 🌐 facebook.com/HolopuniCanoesTahiti"
+  },
+  {
+    "name": "HT MULTITRAVAUX",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Bill Holman (Gérant)",
+    "naf": "4339Z – Travaux de finition",
+    "ids": [
+      "TAHITI 72203",
+      "RCS 24 227 B"
+    ],
+    "address": "Lot N°21, Paea",
+    "contact": "☎ 89 65 08 01"
+  },
+  {
+    "name": "LE COMPTOIR DES PLANTES POLYNESIENNES",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Philippe Maunier (Gérant)",
+    "naf": "2120Z – Fabrication produits pharmaceutiques",
+    "ids": [
+      "TAHITI 82427",
+      "RCS 13 229 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 89 77 80 53 · 🌐 comptoir-plantes-polynesiennes.fr · 🌐 facebook.com/comptoirdesplantespolynesiennes"
+  },
+  {
+    "name": "MAINTENANCE ET TRAVAUX RESEAU ELECTRIQUE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Tehono Tevaearaia Flores",
+    "naf": "4321A – Installation électrique",
+    "ids": [
+      "TAHITI 36740",
+      "RCS 19 272 B"
+    ],
+    "address": "Rte vallée Orofero, Paea",
+    "contact": ""
+  },
+  {
+    "name": "MBB",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Bernard Marie Bornert (Gérant)",
+    "naf": "4520A – Entretien et réparation auto",
+    "ids": [
+      "TAHITI 665794",
+      "RCS 9456 B"
+    ],
+    "address": "PK 19.900 c/mont, Paea",
+    "contact": "☎ 40 67 10 24 / 87 67 10 24 (PK 19.900 c/mont)"
+  },
+  {
+    "name": "NOART",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Heimataiki Contios (Gérant)",
+    "naf": "4724Z – Commerce de détail art",
+    "ids": [
+      "TAHITI 40988",
+      "RCS 21 241 B"
+    ],
+    "address": "Lotissement Bourne Résidence Bourne Lot N°7, Paea",
+    "contact": ""
+  },
+  {
+    "name": "'OA'OA GARDEN",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Marurai Jacques Robson (Gérant)",
+    "naf": "8130Z – Aménagement paysager",
+    "ids": [
+      "TAHITI 56018",
+      "RCS 21 442 B"
+    ],
+    "address": "Rte du bassin Papehue 2e Av. Hector, Paea",
+    "contact": ""
+  },
+  {
+    "name": "PARC AUTO PAEA SERVICES",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Johanna Taata (Gérante) & M. Jean-Marc Lycurgue",
+    "naf": "4520A – Entretien et réparation auto",
+    "ids": [
+      "TAHITI 68930",
+      "RCS 22 91 B"
+    ],
+    "address": "Terre Tetaiopararua, Paea",
+    "contact": "☎ 89 49 00 40 / 89 49 00 52 / 89 49 00 51"
+  },
+  {
+    "name": "PHEBUS POLYNESIE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Nicolas Vauthier (Gérant)",
+    "naf": "4120B – Construction bâtiments",
+    "ids": [
+      "TAHITI 885780",
+      "RCS 08 308 B"
+    ],
+    "address": "PK 18.500 c/mont – Vallée Papehue, Paea",
+    "contact": "☎ 87 73 95 07 / 87 77 59 50 · 🌐 phebus-polynesie.com"
+  },
+  {
+    "name": "PLACOTECH",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Yasmina Moea Ahura Dexter (Gérante)",
+    "naf": "4331Z – Travaux de plâtrerie",
+    "ids": [
+      "TAHITI 905570",
+      "RCS 09 127 B"
+    ],
+    "address": "PK 22.900 c/mont – Serv. Teiri, Paea",
+    "contact": "🌐 facebook.com/placotech987"
+  },
+  {
+    "name": "POLYNESIE PLOMBERIE",
+    "form": "SNC",
+    "cat": "MÉTIER",
+    "rep": "M. Patrice Laurent Burgos",
+    "naf": "4322A – Travaux de plomberie",
+    "ids": [
+      "TAHITI 85159",
+      "RCS 08 31 B"
+    ],
+    "address": "PK 20.200 c/mer, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL GARAGE DE PAEA API",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Tilly Philippe Vaitu Aperahama-Taaroa (Gérant)",
+    "naf": "4520A – Entretien et réparation auto",
+    "ids": [
+      "TAHITI 37751",
+      "RCS 16 233 B"
+    ],
+    "address": "PK 20,200 côté montagne, Paea",
+    "contact": "☎ 40 85 00 07"
+  },
+  {
+    "name": "SARL HERERAGI",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Moehau Ruben Darrouzes (Gérant)",
+    "naf": "4339Z – Travaux de finition",
+    "ids": [
+      "TAHITI 43195",
+      "RCS 15 75 B"
+    ],
+    "address": "PK 20 côté montagne, Servitude Taputuarai, Paea",
+    "contact": "☎ 87 32 30 81 / 87 70 28 96 · ✉ sarlhereragi@yahoo.fr"
+  },
+  {
+    "name": "SERVICES ET TRAVAUX ELECTRIQUES DE POLYNESIE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Yves Teheipuarii (Gérant)",
+    "naf": "4321A – Installation électrique",
+    "ids": [
+      "TAHITI 78715",
+      "RCS 22 494 B"
+    ],
+    "address": "PK 19,200, servitude Avia, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SOCIETE IA ORA CLEAN",
+    "form": "SAS",
+    "cat": "MÉTIER",
+    "rep": "M. Grégory Bruno Detrun (Président)",
+    "naf": "8121Z – Nettoyage courant des bâtiments",
+    "ids": [
+      "TAHITI 54974",
+      "RCS 19 393 B"
+    ],
+    "address": "Quartier Tiapa, Paea",
+    "contact": "⚠️ En procédure de liquidation / dissolution"
+  },
+  {
+    "name": "TAHITI DETOX CENTER",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Mme Miluska Marilyne Frogier (Gérante)",
+    "naf": "9602B – Soins de beauté",
+    "ids": [
+      "TAHITI 15753",
+      "RCS 16 322 B"
+    ],
+    "address": "PK 18,8, Servitude Frogier, Paea",
+    "contact": "☎ 89 48 87 18 · 🌐 facebook.com/TahitiDetoxCenter"
+  },
+  {
+    "name": "TRADING & BUILDING",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Charles Teiva Glenn Huck",
+    "naf": "4120B – Construction de bâtiments",
+    "ids": [
+      "TAHITI 97245",
+      "RCS 11 18 B"
+    ],
+    "address": "PK 24.600 c/mont – Lotis Vaitiare, Paea",
+    "contact": ""
+  },
+  {
+    "name": "TUHEI MARINE",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Vatea Brodien",
+    "naf": "3012Z – Construction navale",
+    "ids": [
+      "TAHITI 32684",
+      "RCS 25 015 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "WES ELEC",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Wesley Toanui Butscher (Gérant)",
+    "naf": "4321A – Installation électrique",
+    "ids": [
+      "TAHITI 2981",
+      "RCS 18 356 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 89 72 78 31 / 87 75 08 15 · ✉ b.weselec@gmail.com"
+  },
+  {
+    "name": "ACEPP PACIFIC",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Yann Tanahère Teina Bizien (Gérant)",
+    "naf": "9609Z – Autres services personnels",
+    "ids": [
+      "TAHITI 91290",
+      "RCS 09 204 B"
+    ],
+    "address": "PK 24.600 c/mont, Paea",
+    "contact": ""
+  },
+  {
+    "name": "ACOUSTIQUE DISTRIBUTION SERVICE",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Jean-Raphaël Lopez (Gérant)",
+    "naf": "7112B – Ingénierie, études techniques",
+    "ids": [
+      "TAHITI 71581",
+      "RCS 04 467 B"
+    ],
+    "address": "Route de ceinture, Paea",
+    "contact": ""
+  },
+  {
+    "name": "ALOMA CL 28",
+    "form": "SAS",
+    "cat": "SERVICE",
+    "rep": "Mme Christelle Lancelin (Présidente)",
+    "naf": "6820A – Location de logements",
+    "ids": [
+      "TAHITI 38483",
+      "RCS 25 173 B"
+    ],
+    "address": "Res White Plage Appt B05, Paea",
+    "contact": "☎ 40 54 83 80 (Résidence White Plage / Poerava Immobilier)"
+  },
+  {
+    "name": "'ATA 'ATA",
+    "form": "SELARL",
+    "cat": "SERVICE",
+    "rep": "Mme Virginie Chambaud (Gérante)",
+    "naf": "8623Z – Pratique dentaire",
+    "ids": [
+      "TAHITI 34596",
+      "RCS 19 237 B"
+    ],
+    "address": "Centre Tiapa, Paea",
+    "contact": "☎ 40 53 35 01 · 🌐 dr-chambaud-virginie.chirurgiens-dentistes.fr"
+  },
+  {
+    "name": "BLACKSTONE PRODUCTIONS",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Jean-Sébastien Moana Louis (Gérant)",
+    "naf": "5911B – Production cinématographique",
+    "ids": [
+      "TAHITI B40498",
+      "RCS 15 53 B"
+    ],
+    "address": "Résidence Les Bougainvilliers N°13, Paea",
+    "contact": "☎ 87 27 69 31 / 89 36 47 66 · 🌐 blackstoneprod.com · 🌐 facebook.com/blackstoneprod"
+  },
+  {
+    "name": "BLUE PARADISE TOURS",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Grégory René Bonnard (Gérant)",
+    "naf": "4939B – Transports touristiques et excursions",
+    "ids": [
+      "TAHITI A75603",
+      "RCS 13 171 B"
+    ],
+    "address": "Route vallée Orofero, Paea",
+    "contact": "☎ 87 77 65 10 / 40 43 27 09 · 🌐 tahititourisme.fr/equipement/blue-paradise-tours"
+  },
+  {
+    "name": "BORA SEA SIDE DEXTER",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Éric Witz (Gérant)",
+    "naf": "6420Z – Activités de sociétés holding",
+    "ids": [
+      "TAHITI E53023",
+      "RCS 21 346 B"
+    ],
+    "address": "Dexter Lot 7 du Lot 2, Paea",
+    "contact": ""
+  },
+  {
+    "name": "C3R",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Lionel Royer (Gérant)",
+    "naf": "7112B – Ingénierie, études techniques",
+    "ids": [
+      "TAHITI 550640",
+      "RCS 7774 B"
+    ],
+    "address": "PK 23.500 c/mont – Serv. Totoe, Paea",
+    "contact": ""
+  },
+  {
+    "name": "CAP INGENIERIE",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Christophe René Dufour (Gérant)",
+    "naf": "7112B – Ingénierie, études techniques",
+    "ids": [
+      "TAHITI 52552",
+      "RCS 12 284 B"
+    ],
+    "address": "PK 27.300 c/mer – Centre Totoe Beach, Paea",
+    "contact": "☎ 40 54 41 25 · ✉ cap.contact@mail.pf"
+  },
+  {
+    "name": "CCT",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Louis Alves (Gérant)",
+    "naf": "9002Z – Activités de soutien au spectacle",
+    "ids": [
+      "TAHITI 15819",
+      "RCS 19 80 B"
+    ],
+    "address": "LG 5 Jaza, Paea",
+    "contact": ""
+  },
+  {
+    "name": "DIGITAL EXPERTS TAHITI (OCEAN4CLIMATE)",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Muriel Pontarollo (Gérante)",
+    "naf": "Ingénierie écologique et préservation marine",
+    "ids": [
+      "TAHITI C62771",
+      "RCS 18 4 B",
+      "SIREN 924 568 165"
+    ],
+    "address": "PK 22 côté mer, Paea",
+    "contact": "🌐 linkedin.com/in/muriel-pontarollo"
+  },
+  {
+    "name": "DOUDOU CREPES & GAUFFRES",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Leilanie Mareva Renouf (Gérante)",
+    "naf": "5610C – Restauration rapide",
+    "ids": [
+      "TAHITI 59788",
+      "RCS 23 455 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 24 23 18"
+  },
+  {
+    "name": "EASY LOC",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Antoine Teiki Galtier",
+    "naf": "7711A – Location de courte durée de véhicules",
+    "ids": [
+      "TAHITI 19647",
+      "RCS 19 148 B"
+    ],
+    "address": "444 Rte Résidence Les Jardins de Paea, Paea",
+    "contact": ""
+  },
+  {
+    "name": "ESPACE NATURA",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Teriitua Salmon (Gérant)",
+    "naf": "8130Z – Aménagement paysager",
+    "ids": [
+      "TAHITI 1666",
+      "RCS 16 206 B"
+    ],
+    "address": "Terre Vihiauara – Parcelle AC N°441, Paea",
+    "contact": "🌐 facebook.com/EspaceNATURA.pf (PK 19.500 c/mer)"
+  },
+  {
+    "name": "FILMIN TAHITI",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Laurent Jacquemin (Gérant)",
+    "naf": "5911B – Production audiovisuelle",
+    "ids": [
+      "TAHITI 71584",
+      "RCS 15 290 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 79 00 00 · 🌐 filmin-tahiti.com"
+  },
+  {
+    "name": "FUNERAIRE MARAETEFAU",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Raitae Aroul Jérémie Maraetefau (Gérant)",
+    "naf": "9603Z – Services funéraires",
+    "ids": [
+      "TAHITI 99141",
+      "RCS 22 370 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 89 50 15 02 / 87 73 80 97 (Permanence 24h/24) · 🌐 facebook.com/funerairemaraetefau"
+  },
+  {
+    "name": "GA.MA VISION & ADVOCACY",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Gabriel Tetiarahi (Gérant)",
+    "naf": "9609Z – Services personnels",
+    "ids": [
+      "TAHITI 91467",
+      "RCS 16 113 B"
+    ],
+    "address": "Quartier Salmon, Paea",
+    "contact": ""
+  },
+  {
+    "name": "GLOBAL SERVICES ET LOGISTIQUES",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Mereani Hélène Erika Leblanc & M. Bertrand Leblanc",
+    "naf": "5229B – Affrètement et organisation des transports",
+    "ids": [
+      "TAHITI D95951",
+      "RCS Papeete"
+    ],
+    "address": "PK 21,100, côté montagne, servitude Lehartel, Paea",
+    "contact": ""
+  },
+  {
+    "name": "ICEBERG ASSISTANCE",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Jean-Louis Besson (Gérant)",
+    "naf": "9522Z – Réparation d'appareils électroménagers",
+    "ids": [
+      "TAHITI 8027",
+      "RCS 85 06 B"
+    ],
+    "address": "Serv. Dexter, Paea",
+    "contact": "☎ 40 45 31 39 / 87 71 77 73 · ✉ iceberg.assistance@mail.pf"
+  },
+  {
+    "name": "IL HOLDING INVESTMENTS",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Thérèse Amaru (Gérante)",
+    "naf": "6420Z – Activités de sociétés holding",
+    "ids": [
+      "TAHITI 62589",
+      "RCS 20 55 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "INFINITE POWER",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. James Floyd Roger Te Frogier",
+    "naf": "7739Z – Location d'autres machines",
+    "ids": [
+      "TAHITI 16663",
+      "RCS 23 13 B"
+    ],
+    "address": "Lot 12 Serv Froger, Paea",
+    "contact": ""
+  },
+  {
+    "name": "JC A.G.I PEST CONTROL",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Jean-Luc Pierre Preziosi (Gérant)",
+    "naf": "8129A – Désinfection, désinsectisation",
+    "ids": [
+      "TAHITI 76585",
+      "RCS 13 184 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 45 31 81 / 87 72 15 04 · ✉ direction@jcpestcontrol.pf · 🌐 jcpestcontrol.pf"
+  },
+  {
+    "name": "JEMA CONSULTING",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Jessica Sorin",
+    "naf": "6312Z – Traitement de données et hébergement",
+    "ids": [
+      "TAHITI 53866",
+      "RCS 21 398 B"
+    ],
+    "address": "Résidence Bourne N°23, Paea",
+    "contact": ""
+  },
+  {
+    "name": "K'L SOL C' EDITION",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Luc Beneateau (Gérant)",
+    "naf": "7311Z – Agences de publicité",
+    "ids": [
+      "TAHITI 69951",
+      "RCS 29 981 B"
+    ],
+    "address": "PK 22 c/mont – Résidence Tarevare, Paea",
+    "contact": ""
+  },
+  {
+    "name": "LES DELICES DE MERCURE",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Leilanie Mareva Renouf (Gérante)",
+    "naf": "7010Z – Activités des sièges sociaux",
+    "ids": [
+      "TAHITI 59846",
+      "RCS 23 467 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 87 24 23 18"
+  },
+  {
+    "name": "LES SAPINS",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Angèle Antoinette Chin Loy (Gérante)",
+    "naf": "8891A – Accueil de jeunes enfants",
+    "ids": [
+      "TAHITI 907782",
+      "RCS 09 148 B"
+    ],
+    "address": "Papehua, Paea",
+    "contact": "☎ 40 53 33 87 / 87 74 29 42 (PK 18.5 c/mont)"
+  },
+  {
+    "name": "M INVESTMENT",
+    "form": "SAS",
+    "cat": "SERVICE",
+    "rep": "M. Moana Ihorai (Gérant)",
+    "naf": "8211Z – Services administratifs combinés",
+    "ids": [
+      "TAHITI 23909",
+      "RCS 23 52 B"
+    ],
+    "address": "PK 21,5 c/mer – Bord de route, Paea",
+    "contact": ""
+  },
+  {
+    "name": "MARAMA LOCATION",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Sylvia Tefaataumarama (Gérante)",
+    "naf": "7711A – Location de véhicules",
+    "ids": [
+      "TAHITI 42075",
+      "RCS 22 80 A"
+    ],
+    "address": "PK 25.600 côté montagne, Paea",
+    "contact": "☎ 87 74 72 59 · ✉ marama.location@gmail.com · 🌐 marama-location.com · 🌐 facebook.com/maramalocation"
+  },
+  {
+    "name": "SCP MATAIVA",
+    "form": "SCP",
+    "cat": "SERVICE",
+    "rep": "M. Pierre Marie Edmond Colardeau",
+    "naf": "6420Z – Activités de sociétés holding",
+    "ids": [
+      "TAHITI D14945",
+      "RCS 20 208 D"
+    ],
+    "address": "PK 18,500, côté mer, quartier Papehue, Paea",
+    "contact": ""
+  },
+  {
+    "name": "NICOLAS BICHON SERVICES",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Nicolas Jean-Paul Christian Bichon",
+    "naf": "9609Z – Autres services personnels",
+    "ids": [
+      "TAHITI 943639",
+      "RCS 10 122 B"
+    ],
+    "address": "Paea Servitude Hei Tiare, Paea",
+    "contact": ""
+  },
+  {
+    "name": "POLYSTREAM",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Christian Minot (Gérant)",
+    "naf": "6201Z – Programmation informatique",
+    "ids": [
+      "TAHITI 21373",
+      "RCS 14 214 B"
+    ],
+    "address": "Lotissement Vaitiare 1, Paea",
+    "contact": ""
+  },
+  {
+    "name": "RS CONCEPTION",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Reynald Szatapski (Gérant)",
+    "naf": "7410Z – Activités spécialisées de design",
+    "ids": [
+      "TAHITI 2228",
+      "RCS 20 352 B"
+    ],
+    "address": "PK 26,400 c/mer BP 330613, Paea",
+    "contact": "⚠️ Société dissoute / radiée (clôture 03/10/2025)"
+  },
+  {
+    "name": "SALT ADVENTURES",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Tevai Tapu (Gérant)",
+    "naf": "7721Z – Location d'articles de loisirs",
+    "ids": [
+      "TAHITI 74134",
+      "RCS 24 62 B"
+    ],
+    "address": "Servitude Vaieri, Paea",
+    "contact": "☎ 87 05 20 20 / 87 75 14 33 · 🌐 facebook.com/saltadventures"
+  },
+  {
+    "name": "SARL IRON GUARD",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Moehau Ruben Darrouzes (Gérant)",
+    "naf": "8010Z – Activités de sécurité privée",
+    "ids": [
+      "TAHITI B43203",
+      "RCS 15 28 B"
+    ],
+    "address": "PK 20 côté montagne, BP 20140 Papeete, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL PENSION TE MITI",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Frédéric Jean Cella (Gérant)",
+    "naf": "5520Z – Hébergement touristique",
+    "ids": [
+      "TAHITI 46314",
+      "RCS 23 235 B"
+    ],
+    "address": "N°19 Lotissement Papehue Voie 3, Paea",
+    "contact": "☎ 40 58 48 61 · ✉ pensiontemiti@mail.pf · 🌐 pensiontemiti.com · 🌐 facebook.com/pensiontemiti"
+  },
+  {
+    "name": "SOLUTIONS SECURITE INCENDIE",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Eric Daniel Pierre Moncomble (Gérant)",
+    "naf": "7112B – Ingénierie, études techniques",
+    "ids": [
+      "TAHITI 95170",
+      "RCS 10 186 B"
+    ],
+    "address": "Après Fare Amuiraa Protestant, Paea",
+    "contact": "☎ 87 21 41 19 · ✉ solutionsecuriteincendie@gmail.com · 🌐 solutionsecuriteincendie.pf"
+  },
+  {
+    "name": "STORIES&CO PRODUCTIONS",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Corinne Poulpard (Gérante)",
+    "naf": "5911A – Production de films",
+    "ids": [
+      "TAHITI 41653",
+      "RCS 23 203 B"
+    ],
+    "address": "Servitude Vaieri, Paea",
+    "contact": "☎ 87 32 14 14 · ✉ corinne.pouplard@gmail.com · 🌐 stories-tahiti.com"
+  },
+  {
+    "name": "SUGI",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "Mme Susanna Steindling (Gérante)",
+    "naf": "5010Z – Transports maritimes",
+    "ids": [
+      "TAHITI 97520",
+      "RCS 11 41 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "TAHITI AUTO CENTER",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Killian Marchal (Gérant)",
+    "naf": "7711A – Location de courte durée de véhicules",
+    "ids": [
+      "TAHITI 28070",
+      "RCS 14 918 B"
+    ],
+    "address": "PK 20.200 c/mont, Paea",
+    "contact": "☎ 40 82 33 33 / 89 52 62 89 / 87 28 06 78 · ✉ info@tahitiautocenter.com · 🌐 tahitiautocenter.com · 🌐 facebook.com/tahitiautocenter"
+  },
+  {
+    "name": "TAHITI COV CUSTOM",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Reynolds Chin",
+    "naf": "7410Z – Activités spécialisées de design",
+    "ids": [
+      "TAHITI 53810",
+      "RCS 19 388 B"
+    ],
+    "address": "Rte Servitude Badot Lot N°8, Paea",
+    "contact": "☎ 87 34 50 74 / 89 49 02 50"
+  },
+  {
+    "name": "TAHITIAN SPIRIT",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Nicolas Boussereau (Gérant)",
+    "naf": "8559A – Enseignement culturel et formation",
+    "ids": [
+      "TAHITI D11347",
+      "RCS Papeete"
+    ],
+    "address": "PK 19,200, côté mer, Fare N°14, Paea",
+    "contact": "☎ 87 27 79 07 · 🌐 osteopathie-tahiti.com"
+  },
+  {
+    "name": "TAKTIK.NET",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Minh Cao (Gérant)",
+    "naf": "7311Z – Agences de publicité et marketing",
+    "ids": [
+      "TAHITI 493981",
+      "RCS 16 975 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "🌐 taktik.net"
+  },
+  {
+    "name": "TALARIS COURSIER",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. David Dominique Jacques",
+    "naf": "4941B – Transports routiers de fret",
+    "ids": [
+      "TAHITI E81297",
+      "RCS 22 184 B"
+    ],
+    "address": "Lot 308 Résidence Les Jardins de Paea, Paea",
+    "contact": "✉ talaris.coursier@gmail.com · 🌐 facebook.com/talariscoursier"
+  },
+  {
+    "name": "TEK IT EZE",
+    "form": "SNC",
+    "cat": "SERVICE",
+    "rep": "M. Nicolas Claude Brigato (Gérant)",
+    "naf": "6201Z – Programmation informatique",
+    "ids": [
+      "TAHITI 43516",
+      "RCS 17 193 B"
+    ],
+    "address": "Commune de Paea",
+    "contact": "☎ 40 42 75 87 / 89 78 44 73 · ✉ tiaimoana@mail.pf · 🌐tiaimoana.fr"
+  },
+  {
+    "name": "VT ELEC",
+    "form": "SARL",
+    "cat": "SERVICE",
+    "rep": "M. Vincent Travers",
+    "naf": "7112B – Ingénierie, études techniques",
+    "ids": [
+      "TAHITI 25250",
+      "RCS 23 63 B"
+    ],
+    "address": "Derrière le magasin Apuarii, Paea",
+    "contact": "☎ 89 56 60 01 · ✉ vtelec@outlook.com"
+  },
+  {
+    "name": "PACIFIC MOBILE TELECOM SAS",
+    "form": "SAS",
+    "cat": "SERVICE",
+    "rep": "Présidence statutaire",
+    "naf": "6190Z – Télécommunications et infrastructures mobiles",
+    "ids": [
+      "SIREN 883 879 223"
+    ],
+    "address": "Immeuble Manarava, RDO Auae (siège) – Antenne Paea",
+    "contact": "☎ 89 89 (Vodafone Polynésie) · 🌐 vodafone.pf · 🌐 facebook.com/VodafonePolynesie"
+  },
+  {
+    "name": "MANUVAI SHOP",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "PITO Auïra",
+    "ids": [
+      "TAHITI 87532",
+      "RCS 24 164 B"
+    ],
+    "address": "Quartier Mahutatua, 98711 Paea",
+    "contact": "☎ 87 96 87 68 (Quartier Mahutatua)"
+  },
+  {
+    "name": "MARCHE FRAICHEUR PAEA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "JEGOU Joël Philippe",
+    "ids": [
+      "TAHITI 68768",
+      "RCS 10 340 B"
+    ],
+    "address": "98711 Paea",
+    "contact": "☎ 40 53 32 19 / 87 72 47 15 · 🌐 magasins-u.pf"
+  },
+  {
+    "name": "MARLON'S GASTRONOMY",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "ALBACETE Marlon",
+    "ids": [
+      "TAHITI 78681",
+      "RCS 22 244 B"
+    ],
+    "address": "Dauphin 1 PK 26,4 C/Mt, 98711 Paea",
+    "contact": "☎ 87 47 83 62 (PK 26.4 c/mont)"
+  },
+  {
+    "name": "MOHEA LOCAL STREET FOOD",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "TANATA Tehotu",
+    "ids": [
+      "TAHITI 76618",
+      "RCS 24 317 B"
+    ],
+    "address": "St de Papehue Lot 19, 98711 Paea",
+    "contact": "☎ 87 34 45 38 · 🌐 facebook.com/Mohea-Local-Street-Food"
+  },
+  {
+    "name": "MOON RAY",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "LAM CHEUNG Tania Jennifer",
+    "ids": [
+      "TAHITI 69289",
+      "RCS 08 173 B"
+    ],
+    "address": "PK 23.700 C/Mer – Imm Totoe Beach, 98711 Paea",
+    "contact": "☎ 40 82 89 89 / 89 58 64 66 · ✉ moonray@live.fr"
+  },
+  {
+    "name": "PAWER RANGERS",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "LEHARTEL Raiarii",
+    "ids": [
+      "TAHITI 78200",
+      "RCS 24 98 B"
+    ],
+    "address": "Al 499 Terre Haheaa-Tepeti I Uta 1, 98711 Paea",
+    "contact": ""
+  },
+  {
+    "name": "PUMANAWA TE NEHENEHENUI",
+    "form": "SAS",
+    "cat": "COMMERCE",
+    "rep": "PAPARA Angelina Vaea",
+    "ids": [
+      "TAHITI 69308",
+      "RCS 24 29 B"
+    ],
+    "address": "98711 Paea",
+    "contact": ""
+  },
+  {
+    "name": "RAITIREA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "OOPA Charlem",
+    "ids": [
+      "TAHITI 31894",
+      "RCS 23 414 B"
+    ],
+    "address": "98711 Paea",
+    "contact": "☎ 87 79 65 85 · Port de pêche de Pahiaripo"
+  },
+  {
+    "name": "RVRP",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "RICHMOND Vahitua Thomas",
+    "ids": [
+      "TAHITI 15876",
+      "RCS 19 61 B"
+    ],
+    "address": "Centre commercial Manuura Centre, 98711 Paea",
+    "contact": "☎ 89 46 14 61 (Centre commercial Manuura Centre)"
+  },
+  {
+    "name": "TENTATIONS",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "TETARIA Heiarii",
+    "ids": [
+      "TAHITI 10755",
+      "RCS 25 039 B"
+    ],
+    "address": "Du lot C Vaiterupe Lot 1, 98711 Paea",
+    "contact": "☎ 40 53 36 46 · ✉ tentations.tahiti@hotmail.fr · 🌐 facebook.com/TentationsTahiti"
+  },
+  {
+    "name": "TROPICAL BURGER",
+    "form": "SAS",
+    "cat": "COMMERCE",
+    "rep": "BRETAGNON France Moea",
+    "ids": [
+      "TAHITI 57709",
+      "RCS 23 378 B"
+    ],
+    "address": "98711 Paea",
+    "contact": "☎ 87 22 16 49 (Tropical Grill Paea) · 🌐 instagram.com/restaurant.letaki"
+  },
+  {
+    "name": "VISSAYAS DISTRIBUTION",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "GARCIA Christophe",
+    "ids": [
+      "TAHITI 45856",
+      "RCS 26 792 B"
+    ],
+    "address": "Montaron, 98711 Paea",
+    "contact": "⚠️ Société radiée / liquidation clôturée"
+  },
+  {
+    "name": "OAOA WEB",
+    "form": "EURL",
+    "cat": "SERVICES",
+    "rep": "Mme Nathalie Cinquin (Gérante)",
+    "naf": "6201Z – Programmation informatique",
+    "ids": [
+      "TAHITI F90833",
+      "RCS Papeete"
+    ],
+    "address": "10, servitude Teioatua, Paea",
+    "contact": ""
+  },
+  {
+    "name": "O PAIN DES ILES",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "M. Axel Delaporte (Gérant)",
+    "naf": "1071C – Industries alimentaires (Boulangerie)",
+    "ids": [
+      "TAHITI E47611",
+      "RCS Papeete"
+    ],
+    "address": "PK 22,200, côté montagne, servitude Brillant 1 lot 6, Paea",
+    "contact": "⚠️ Statut : Clôture pour insuffisance d'actif enregistrée"
+  },
+  {
+    "name": "FILMIN’ TAHITI",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "M. Denis Pinson (Gérant)",
+    "naf": "5911A – Production audiovisuelle et cinéma",
+    "ids": [
+      "TAHITI B71584",
+      "RCS Papeete"
+    ],
+    "address": "PK 29 C/Montagne, Paea",
+    "contact": ""
+  },
+  {
+    "name": "MOBYDICK TAHITI",
+    "form": "EURL",
+    "cat": "SERVICES",
+    "rep": "Direction Mobydick",
+    "naf": "5010Z – Transports maritimes, observation baleines et plongée",
+    "ids": [
+      "TAHITI B68440",
+      "RCS Papeete"
+    ],
+    "address": "Port de pêche de Pahiarepo, PK 26.7, Paea",
+    "contact": "☎ 87 20 72 14 · ✉ mobydicktahiti@gmail.com · 🌐 mobydicktahiti.com · 🌐 facebook.com/MobydickTahiti"
+  },
+  {
+    "name": "SARL TE VAKA CRUISE",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "M. Rehia Samg-Mouit & M. Karl Chang (Gérants)",
+    "naf": "5010Z – Transport maritime et côtier de passagers",
+    "ids": [
+      "TAHITI B18874",
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "HOHONU",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Todd Fagneaux (Gérant)",
+    "naf": "1399Z – Impression textile, prêt-à-porter océanien et sérigraphie",
+    "ids": [
+      "TAHITI D74820",
+      "RCS Papeete"
+    ],
+    "address": "Boutique Hohonu, Paea",
+    "contact": "🌐 hohonuworld.store · 🌐 facebook.com/HohonuTahiti"
+  },
+  {
+    "name": "SCI KAORIKI (VILLA TIAITI)",
+    "form": "SCI",
+    "cat": "SERVICES",
+    "rep": "Gérance Kaoriki",
+    "naf": "5520Z – Hébergement touristique et meublé de tourisme",
+    "ids": [
+      "TAHITI D55210",
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté mer, quartier Tiapa (face au temple Mormon), Paea",
+    "contact": "☎ 89 70 07 10 · 🌐 booking.com"
+  },
+  {
+    "name": "SAS PNEU FACTORY",
+    "form": "SAS",
+    "cat": "MÉTIER",
+    "rep": "Direction Pneu Factory",
+    "naf": "4520A – Pneumatiques et entretien automobile",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 22,100 côté mer, servitude Badot, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SCI TIAPA",
+    "form": "SCI",
+    "cat": "SERVICES",
+    "rep": "Gérance SCI Tiapa",
+    "naf": "6820B – Administration et location d'immeubles",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté montagne, Immeuble Tiapa, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SCI MANU 3",
+    "form": "SCI",
+    "cat": "SERVICES",
+    "rep": "Gérance SCI Manu 3",
+    "naf": "6820B – Administration et location d'immeubles",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté montagne, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SCI TAHATAI 202 (EX-NUUTEA)",
+    "form": "SCI",
+    "cat": "SERVICES",
+    "rep": "Gérance Tahatai",
+    "naf": "6820B – Administration d'immeubles",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 19,100, servitude Sarciaux, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SCI TE URA",
+    "form": "SCI",
+    "cat": "SERVICES",
+    "rep": "Gérance Te Ura",
+    "naf": "5520Z – Hébergement touristique de courte durée",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL MATA'IREA LODGE",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "Direction Mata'irea Lodge",
+    "naf": "5520Z – Hébergement touristique et lodge",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 18,500 côté montagne, quartier Papehue, Paea",
+    "contact": ""
+  },
+  {
+    "name": "ARGANCE II (FARE MITI)",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "Direction Fare Miti",
+    "naf": "5520Z – Hébergement touristique de courte durée",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,400, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL HISTOIRE DE GOUT",
+    "form": "SARL",
+    "cat": "RESTAURATION",
+    "rep": "M. Guillaume Harlall (Gérant)",
+    "naf": "5610A – Restauration et traiteur",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "ENORA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Raufea Ariipeu (Gérant)",
+    "naf": "4711D – Commerce et distribution",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "ONOIAU",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "M. Tepunavai Jouen (Gérant)",
+    "naf": "0311Z – Pêche en mer et palangre",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "MATAMARAMA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "M. Allan Likafia & Mme Noéline Mauore (Gérants)",
+    "naf": "4711D – Commerce et services",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "KIA MANUIA",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Vaihere Tuataa (Gérante)",
+    "naf": "4711D – Commerce et services",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL HAPPINESS",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Mme Jeannine Taae épouse Chavez (Gérante)",
+    "naf": "4711D – Commerce et services",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "NIKAEA",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "M. Michel Bourez (Gérant)",
+    "naf": "9319Z – Activités sportives, surf et coaching",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté mer (face au temple Mormon), Paea",
+    "contact": "🌐 facebook.com/michelbourez · 🌐 instagram.com/bourezmichel · 🌐 michelbourez.com"
+  },
+  {
+    "name": "ALIIKAI",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "M. Michel Bourez (Gérant)",
+    "naf": "9319Z – Activités nautiques et sportives",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté mer (face au temple Mormon), Paea",
+    "contact": "🌐 facebook.com/michelbourez · 🌐 instagram.com/bourezmichel · 🌐 michelbourez.com"
+  },
+  {
+    "name": "SARL PRO FLUIDE (EX-ATRIA PRO FLUIDE)",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction Pro Fluide",
+    "naf": "4322B – Plomberie sanitaire, climatisation et ventilation",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 19,800, servitude Teriitua, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL HAMANI CONCEPT",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction Hamani Concept",
+    "naf": "4332A – Menuiserie intérieure, électricité et second œuvre",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "VSM TERRASSEMENT",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction VSM",
+    "naf": "4312A – Travaux de terrassement et BTP",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 20,500 côté montagne, lotissement Tepuhapa, Paea",
+    "contact": ""
+  },
+  {
+    "name": "RENOV' TOIT TAHITI",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction Renov Toit",
+    "naf": "4391A – Travaux de couverture, toiture et maçonnerie",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "PK 28,500, Paea",
+    "contact": ""
+  },
+  {
+    "name": "TAHITI DIGITAL SERVICES",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "Direction TDS",
+    "naf": "6202A – Informatique et télésurveillance",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "H&N",
+    "form": "SARL",
+    "cat": "COMMERCE",
+    "rep": "Direction H&N",
+    "naf": "4771Z – Vente de prêt-à-porter, accessoires et chaussures",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Vallée Orofero, Paea",
+    "contact": ""
+  },
+  {
+    "name": "SARL MAITAI NETTOYAGE",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "Direction Maitai Nettoyage",
+    "naf": "8121Z – Nettoyage courant des bâtiments",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "KAHIWAI CREATION",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction Kahiwai Creation",
+    "naf": "3213Z – Artisanat d'art et bijoux",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "PACIFIC NOMAD",
+    "form": "SARL",
+    "cat": "SERVICES",
+    "rep": "Direction Pacific Nomad",
+    "naf": "7721Z – Location d'articles de sport et loisirs",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  },
+  {
+    "name": "R.H.F.C.",
+    "form": "SARL",
+    "cat": "MÉTIER",
+    "rep": "Direction RHFC",
+    "naf": "4120A – Travaux du bâtiment",
+    "ids": [
+      "RCS Papeete"
+    ],
+    "address": "Commune de Paea",
+    "contact": ""
+  }
+]

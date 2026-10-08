@@ -2528,11 +2528,11 @@ td.td-addr {
     <!-- LIGNE DES 4 BOUTONS ALIGNÉS SUR LA MÊME LIGNE : TABLEAU, CARTES, FILTRES, IMPRIMER -->
     <div class="actions-row">
       <div class="view-switch" id="viewSwitcher">
-        <button class="view-btn active" id="btnViewTable" title="Affichage tableau">
+        <button class="view-btn" id="btnViewTable" title="Affichage tableau">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18M3 15h18M9 9v12M15 9v12"/></svg>
           <span>Tableau</span>
         </button>
-        <button class="view-btn" id="btnViewCards" title="Affichage cartes">
+        <button class="view-btn active" id="btnViewCards" title="Affichage cartes">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
           <span>Cartes</span>
         </button>
@@ -2587,7 +2587,7 @@ td.td-addr {
   </header>
 
   <!-- VUE 1 : TABLEAU PRO (DESKTOP) -->
-  <section class="table-panel" id="tableContainer">
+  <section class="table-panel" id="tableContainer" style="display:none;">
     <div class="table-scroll">
       <table>
         <thead>
@@ -2608,7 +2608,7 @@ td.td-addr {
   </section>
 
   <!-- VUE 2 : CARTES BENTO (GRID VIEW) -->
-  <section class="cards-grid" id="cardsContainer" style="display:none;"></section>
+  <section class="cards-grid" id="cardsContainer"></section>
 
   <!-- FEEDBACK SI AUCUN RÉSULTAT -->
   <div class="empty-feedback" id="emptyFeedback">
@@ -3079,7 +3079,11 @@ function renderBizCard(r) {
 let filtered = [...DATA];
 let sortKey = 'name';
 let sortDir = 1;
-let currentView = 'table';
+let currentView = 'cards';
+try {
+  const savedView = localStorage.getItem('paea_view');
+  if(savedView === 'table' || savedView === 'cards') currentView = savedView;
+} catch(e) {}
 let pageIndex = 1;
 const PAGE_SIZE = 40;
 
@@ -3410,6 +3414,7 @@ $('btnDownloadVcard').addEventListener('click', () => {
 function switchView(newView) {
   if(currentView === newView) return;
   currentView = newView;
+  try { localStorage.setItem('paea_view', newView); } catch(e) {}
   $('btnViewTable').classList.toggle('active', newView === 'table');
   $('btnViewCards').classList.toggle('active', newView === 'cards');
   // Conserver le nombre d'éléments chargés et la position de défilement actuelle (zéro saut d'écran)
@@ -3874,7 +3879,9 @@ if($('bTabFilters')) {
   });
 }
 
-// DÉMARRAGE INITIAL
+// DÉMARRAGE INITIAL (cartes par défaut, sinon dernière vue mémorisée)
+$('btnViewTable').classList.toggle('active', currentView === 'table');
+$('btnViewCards').classList.toggle('active', currentView === 'cards');
 sortData();
 render(false);
 updateFilterActiveIndicators();

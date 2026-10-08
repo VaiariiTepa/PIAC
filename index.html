@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme="light">
+<html lang="fr" data-theme="light" data-palette="lagoon">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -11,29 +11,11 @@
 
 <style>
 /* ==========================================================================
-   DESIGN SYSTEM "POLYNÉSIE MODERNE" - TOKENS & THÈMES
+   DESIGN SYSTEM "POLYNÉSIE MODERNE" - 6 PALETTES ASSORTIES & MODES CLAIR / NUIT
    ========================================================================== */
 :root {
   --font-title: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-
-  /* Thème Clair "Lagon & Nacre" */
-  --bg-app: #f8fafc;
-  --bg-card: rgba(255, 255, 255, 0.88);
-  --bg-card-solid: #ffffff;
-  --bg-hover: #f1f5f9;
-  --border: #e2e8f0;
-  --border-subtle: #cbd5e1;
-  --text-main: #0f172a;
-  --text-muted: #64748b;
-  --text-dim: #94a3b8;
-
-  --lagoon-900: #082f49;
-  --lagoon-700: #0369a1;
-  --lagoon-600: #0284c7;
-  --lagoon-500: #0ea5e9;
-  --lagoon-100: #e0f2fe;
-  --lagoon-50: #f0f9ff;
 
   --emerald-700: #047857;
   --emerald-600: #059669;
@@ -60,7 +42,32 @@
   --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-[data-theme="dark"] {
+/* --------------------------------------------------------------------------
+   1. PALETTE LAGON DE PAEA (Bleu Océan & Cyan Lagon) - DÉFAUT
+   -------------------------------------------------------------------------- */
+html, html[data-palette="lagoon"] {
+  --hero-gradient: linear-gradient(135deg, #063156 0%, #0c4a6e 50%, #047857 100%);
+  --palette-accent: #0284c7;
+  --bg-app: #f8fafc;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #f1f5f9;
+  --border: #e2e8f0;
+  --border-subtle: #cbd5e1;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+
+  --lagoon-900: #082f49;
+  --lagoon-700: #0369a1;
+  --lagoon-600: #0284c7;
+  --lagoon-500: #0ea5e9;
+  --lagoon-100: #e0f2fe;
+  --lagoon-50: #f0f9ff;
+}
+html[data-palette="lagoon"][data-theme="dark"], html:not([data-palette])[data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #031b2e 0%, #082f49 50%, #064e3b 100%);
+  --palette-accent: #38bdf8;
   --bg-app: #080d1a;
   --bg-card: rgba(15, 23, 42, 0.78);
   --bg-card-solid: #0f172a;
@@ -74,21 +81,233 @@
   --lagoon-900: #e0f2fe;
   --lagoon-700: #38bdf8;
   --lagoon-600: #0ea5e9;
+  --lagoon-500: #38bdf8;
   --lagoon-100: #082f49;
   --lagoon-50: #0c1e36;
+}
 
-  --emerald-700: #34d399;
-  --emerald-600: #10b981;
-  --emerald-100: #064e3b;
-  --emerald-50: #062e24;
+/* --------------------------------------------------------------------------
+   2. PALETTE ÉMERAUDE TIARE (Vert Tropical & Menthe Exotique)
+   -------------------------------------------------------------------------- */
+html[data-palette="emerald"] {
+  --hero-gradient: linear-gradient(135deg, #064e3b 0%, #047857 50%, #0d9488 100%);
+  --palette-accent: #059669;
+  --bg-app: #f6fbf8;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #eef7f2;
+  --border: #d2e7db;
+  --border-subtle: #bcdbc8;
+  --text-main: #062b1e;
+  --text-muted: #4b6b5d;
+  --text-dim: #7f9f91;
 
-  --amber-600: #fbbf24;
-  --amber-100: #451a03;
-  --amber-50: #291503;
+  --lagoon-900: #022c22;
+  --lagoon-700: #047857;
+  --lagoon-600: #059669;
+  --lagoon-500: #10b981;
+  --lagoon-100: #d1fae5;
+  --lagoon-50: #ecfdf5;
+}
+html[data-palette="emerald"][data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #022c22 0%, #064e3b 50%, #134e4a 100%);
+  --palette-accent: #34d399;
+  --bg-app: #04140e;
+  --bg-card: rgba(6, 35, 25, 0.82);
+  --bg-card-solid: #08281d;
+  --bg-hover: #0e3d2e;
+  --border: #124334;
+  --border-subtle: #1c5946;
+  --text-main: #f0fdf4;
+  --text-muted: #86efac;
+  --text-dim: #4ade80;
 
-  --coral-600: #fb7185;
-  --coral-100: #4c0519;
+  --lagoon-900: #d1fae5;
+  --lagoon-700: #34d399;
+  --lagoon-600: #10b981;
+  --lagoon-500: #34d399;
+  --lagoon-100: #064e3b;
+  --lagoon-50: #032e22;
+}
 
+/* --------------------------------------------------------------------------
+   3. PALETTE SUNSET MARA'A (Ambre Flamboyant & Cuivre Chaud)
+   -------------------------------------------------------------------------- */
+html[data-palette="sunset"] {
+  --hero-gradient: linear-gradient(135deg, #7c2d12 0%, #c2410c 50%, #d97706 100%);
+  --palette-accent: #ea580c;
+  --bg-app: #fdfaf6;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #fceddf;
+  --border: #fae0cd;
+  --border-subtle: #f4cbb0;
+  --text-main: #331505;
+  --text-muted: #784c2f;
+  --text-dim: #ab7f62;
+
+  --lagoon-900: #431407;
+  --lagoon-700: #c2410c;
+  --lagoon-600: #ea580c;
+  --lagoon-500: #f97316;
+  --lagoon-100: #ffedd5;
+  --lagoon-50: #fff7ed;
+}
+html[data-palette="sunset"][data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #431407 0%, #7c2d12 50%, #78350f 100%);
+  --palette-accent: #fb923c;
+  --bg-app: #150904;
+  --bg-card: rgba(38, 18, 10, 0.82);
+  --bg-card-solid: #2a140a;
+  --bg-hover: #3d1f11;
+  --border: #452416;
+  --border-subtle: #63321f;
+  --text-main: #fff7ed;
+  --text-muted: #fdba74;
+  --text-dim: #fb923c;
+
+  --lagoon-900: #ffedd5;
+  --lagoon-700: #fb923c;
+  --lagoon-600: #f97316;
+  --lagoon-500: #fb923c;
+  --lagoon-100: #431407;
+  --lagoon-50: #290e05;
+}
+
+/* --------------------------------------------------------------------------
+   4. PALETTE PERLE ROYALE (Pourpre & Nacre Améthyste)
+   -------------------------------------------------------------------------- */
+html[data-palette="amethyst"] {
+  --hero-gradient: linear-gradient(135deg, #3b0764 0%, #6b21a8 50%, #9333ea 100%);
+  --palette-accent: #7c3aed;
+  --bg-app: #faf8fd;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #f3ebfa;
+  --border: #e8d7f7;
+  --border-subtle: #d6bdf0;
+  --text-main: #1f0b35;
+  --text-muted: #64467c;
+  --text-dim: #997bab;
+
+  --lagoon-900: #2e1065;
+  --lagoon-700: #6d28d9;
+  --lagoon-600: #7c3aed;
+  --lagoon-500: #8b5cf6;
+  --lagoon-100: #ede9fe;
+  --lagoon-50: #f5f3ff;
+}
+html[data-palette="amethyst"][data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #24053e 0%, #3b0764 50%, #4a044e 100%);
+  --palette-accent: #c084fc;
+  --bg-app: #100618;
+  --bg-card: rgba(30, 14, 46, 0.82);
+  --bg-card-solid: #210f33;
+  --bg-hover: #341850;
+  --border: #3c1c5c;
+  --border-subtle: #552783;
+  --text-main: #faf5ff;
+  --text-muted: #d8b4fe;
+  --text-dim: #c084fc;
+
+  --lagoon-900: #ede9fe;
+  --lagoon-700: #c084fc;
+  --lagoon-600: #a855f7;
+  --lagoon-500: #c084fc;
+  --lagoon-100: #2e1065;
+  --lagoon-50: #1b073e;
+}
+
+/* --------------------------------------------------------------------------
+   5. PALETTE CORAIL TUAMOTU (Rose Corallien & Rubis Ensoleillé)
+   -------------------------------------------------------------------------- */
+html[data-palette="coral"] {
+  --hero-gradient: linear-gradient(135deg, #4c0519 0%, #be123c 50%, #e11d48 100%);
+  --palette-accent: #e11d48;
+  --bg-app: #fdf7f8;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #fde8eb;
+  --border: #fcd0d7;
+  --border-subtle: #f9afbc;
+  --text-main: #370614;
+  --text-muted: #7f3e4e;
+  --text-dim: #b26c7e;
+
+  --lagoon-900: #4c0519;
+  --lagoon-700: #be123c;
+  --lagoon-600: #e11d48;
+  --lagoon-500: #f43f5e;
+  --lagoon-100: #ffe4e6;
+  --lagoon-50: #fff1f2;
+}
+html[data-palette="coral"][data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #2d020d 0%, #4c0519 50%, #700a25 100%);
+  --palette-accent: #fb7185;
+  --bg-app: #140408;
+  --bg-card: rgba(38, 10, 20, 0.82);
+  --bg-card-solid: #280a15;
+  --bg-hover: #3e1222;
+  --border: #471527;
+  --border-subtle: #681f3a;
+  --text-main: #fff1f2;
+  --text-muted: #fda4af;
+  --text-dim: #fb7185;
+
+  --lagoon-900: #ffe4e6;
+  --lagoon-700: #fb7185;
+  --lagoon-600: #f43f5e;
+  --lagoon-500: #fb7185;
+  --lagoon-100: #4c0519;
+  --lagoon-50: #2a030d;
+}
+
+/* --------------------------------------------------------------------------
+   6. PALETTE OCÉAN SAPHIR (Bleu Cobalt & Outremer Pacifique)
+   -------------------------------------------------------------------------- */
+html[data-palette="sapphire"] {
+  --hero-gradient: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%);
+  --palette-accent: #2563eb;
+  --bg-app: #f6f8fd;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-solid: #ffffff;
+  --bg-hover: #ebf1fd;
+  --border: #d4e0fa;
+  --border-subtle: #b6ccf7;
+  --text-main: #0c1a3b;
+  --text-muted: #42588c;
+  --text-dim: #748bc2;
+
+  --lagoon-900: #172554;
+  --lagoon-700: #1d4ed8;
+  --lagoon-600: #2563eb;
+  --lagoon-500: #3b82f6;
+  --lagoon-100: #dbeafe;
+  --lagoon-50: #eff6ff;
+}
+html[data-palette="sapphire"][data-theme="dark"] {
+  --hero-gradient: linear-gradient(135deg, #090e1c 0%, #0f2452 50%, #17387a 100%);
+  --palette-accent: #60a5fa;
+  --bg-app: #080e1e;
+  --bg-card: rgba(14, 25, 48, 0.82);
+  --bg-card-solid: #101c38;
+  --bg-hover: #192a54;
+  --border: #1d3366;
+  --border-subtle: #29478e;
+  --text-main: #eff6ff;
+  --text-muted: #93c5fd;
+  --text-dim: #60a5fa;
+
+  --lagoon-900: #dbeafe;
+  --lagoon-700: #60a5fa;
+  --lagoon-600: #3b82f6;
+  --lagoon-500: #60a5fa;
+  --lagoon-100: #172554;
+  --lagoon-50: #0d1733;
+}
+
+/* Ombrages en mode sombre */
+[data-theme="dark"] {
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 12px 32px -4px rgba(0, 0, 0, 0.6);
@@ -115,11 +334,13 @@ body {
    ========================================================================== */
 .hero {
   position: relative;
-  background: linear-gradient(135deg, #063156 0%, #0c4a6e 50%, #047857 100%);
+  background: var(--hero-gradient);
   color: #ffffff;
   padding: 20px 20px 38px;
-  overflow: hidden;
+  overflow: visible;
+  z-index: 50;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  transition: background 0.35s ease;
 }
 .hero::before {
   content: '';
@@ -174,8 +395,8 @@ body {
   gap: 10px;
 }
 .icon-btn {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   color: #fff;
   width: 38px;
   height: 38px;
@@ -185,11 +406,140 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: var(--transition);
+  position: relative;
 }
 .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.25);
   transform: translateY(-2px);
 }
+
+/* ==========================================================================
+   SÉLECTEUR DE PALETTE & THÈMES GÉNÉRAUX ASSORTIS
+   ========================================================================== */
+.palette-picker-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.palette-btn {
+  position: relative;
+}
+.active-palette-dot {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--palette-accent, #0284c7);
+  border: 1.5px solid #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+  transition: background 0.25s ease;
+}
+.palette-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 250px;
+  max-width: calc(100vw - 32px);
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  padding: 8px;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 3000;
+  backdrop-filter: var(--glass-blur);
+  animation: fadeIn 0.18s ease-out;
+}
+.palette-dropdown.open {
+  display: flex;
+}
+.palette-dropdown-header {
+  padding: 8px 10px 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.palette-dropdown-title {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.palette-dropdown-sub {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+.palette-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.palette-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-main);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: left;
+  transition: var(--transition);
+}
+.palette-option:hover {
+  background: var(--bg-hover);
+  border-color: var(--border);
+}
+.palette-option.active {
+  background: var(--lagoon-50);
+  border-color: var(--lagoon-500);
+  color: var(--lagoon-700);
+}
+.palette-swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.swatch-lagoon { background: linear-gradient(135deg, #0284c7 0%, #047857 100%); }
+.swatch-emerald { background: linear-gradient(135deg, #059669 0%, #10b981 100%); }
+.swatch-sunset { background: linear-gradient(135deg, #ea580c 0%, #f59e0b 100%); }
+.swatch-amethyst { background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); }
+.swatch-coral { background: linear-gradient(135deg, #e11d48 0%, #fb7185 100%); }
+.swatch-sapphire { background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%); }
+
+.palette-name {
+  flex: 1;
+}
+.palette-check {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--lagoon-600);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.palette-option.active .palette-check {
+  opacity: 1;
+}
+
+/* Icônes dynamiques bouton Dark / Light */
+[data-theme="dark"] #themeToggle .sun-icon { display: none !important; }
+[data-theme="dark"] #themeToggle .moon-icon { display: block !important; }
+#themeToggle .sun-icon { display: block; }
+#themeToggle .moon-icon { display: none; }
+
 .hero h1 {
   font-family: var(--font-title);
   font-size: clamp(1.4rem, 2.5vw, 1.95rem);
@@ -211,7 +561,7 @@ body {
 }
 
 /* ==========================================================================
-   RUBAN STATISTIQUES COMPACT (INTERACTIF)
+   RUBAN STATISTIQUES COMPACT (INTERACTIF - ALIGNÉ SUR 1 LIGNE MOBILE)
    ========================================================================== */
 .stats-strip {
   display: grid;
@@ -219,12 +569,66 @@ body {
   gap: 12px;
   margin-bottom: 16px;
 }
+.stat-label-long { display: inline; }
+.stat-label-short { display: none; }
+
 @media (max-width: 960px) {
-  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .stats-strip { gap: 8px; }
+  .stat-pill { padding: 7px 9px; gap: 8px; }
+  .stat-num { font-size: 1.05rem; }
 }
-@media (max-width: 480px) {
-  .stats-strip { grid-template-columns: 1fr; gap: 6px; }
+
+/* Forcer l'alignement strict des 4 statistiques sur la même ligne horizontale sur mobile */
+@media (max-width: 680px) {
+  .stats-strip {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 5px !important;
+  }
+  .stat-pill {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 6px 2px !important;
+    gap: 3px !important;
+    min-width: 0 !important;
+  }
+  .stat-icon {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 1px !important;
+  }
+  .stat-meta {
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .stat-num {
+    font-size: 0.92rem !important;
+    font-weight: 800 !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
+  }
+  .stat-pct {
+    display: none !important;
+  }
+  .stat-txt {
+    font-size: 0.62rem !important;
+    line-height: 1.05 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
+  }
+  .stat-label-long {
+    display: none !important;
+  }
+  .stat-label-short {
+    display: inline !important;
+  }
 }
+
 .stat-pill {
   background: var(--bg-card);
   backdrop-filter: var(--glass-blur);
@@ -1971,9 +2375,65 @@ td.td-addr {
         <span class="pulse-dot"></span>
         <span>Observatoire Économique de Paea</span>
       </div>
-      <button class="icon-btn" id="themeToggle" title="Changer de thème (Clair / Nuit)">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
-      </button>
+      <div class="hero-controls">
+        <!-- SÉLECTEUR DE THÈMES & PALETTES ASSORTIES -->
+        <div class="palette-picker-wrapper" id="palettePickerWrapper">
+          <button class="icon-btn palette-btn" id="paletteToggle" type="button" title="Changer l'ambiance et les couleurs" aria-expanded="false" aria-haspopup="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/>
+              <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/>
+              <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>
+              <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/>
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+            </svg>
+            <span class="active-palette-dot" id="activePaletteDot"></span>
+          </button>
+          <div class="palette-dropdown" id="paletteDropdown" role="menu">
+            <div class="palette-dropdown-header">
+              <span class="palette-dropdown-title">Thèmes &amp; Couleurs</span>
+              <span class="palette-dropdown-sub">6 palettes assorties</span>
+            </div>
+            <div class="palette-options-list">
+              <button type="button" class="palette-option active" data-palette-val="lagoon">
+                <span class="palette-swatch swatch-lagoon"></span>
+                <span class="palette-name">Lagon de Paea</span>
+                <span class="palette-check">✓</span>
+              </button>
+              <button type="button" class="palette-option" data-palette-val="emerald">
+                <span class="palette-swatch swatch-emerald"></span>
+                <span class="palette-name">Émeraude Tiare</span>
+                <span class="palette-check">✓</span>
+              </button>
+              <button type="button" class="palette-option" data-palette-val="sunset">
+                <span class="palette-swatch swatch-sunset"></span>
+                <span class="palette-name">Sunset Mara'a</span>
+                <span class="palette-check">✓</span>
+              </button>
+              <button type="button" class="palette-option" data-palette-val="amethyst">
+                <span class="palette-swatch swatch-amethyst"></span>
+                <span class="palette-name">Perle Royale</span>
+                <span class="palette-check">✓</span>
+              </button>
+              <button type="button" class="palette-option" data-palette-val="coral">
+                <span class="palette-swatch swatch-coral"></span>
+                <span class="palette-name">Corail Tuamotu</span>
+                <span class="palette-check">✓</span>
+              </button>
+              <button type="button" class="palette-option" data-palette-val="sapphire">
+                <span class="palette-swatch swatch-sapphire"></span>
+                <span class="palette-name">Océan Saphir</span>
+                <span class="palette-check">✓</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOUTON BASCULE CLAIR / SOMBRE -->
+        <button class="icon-btn" id="themeToggle" type="button" title="Changer de mode (Clair / Nuit)">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
     </div>
     <h1>Répertoire des entreprises et patentés</h1>
   </div>
@@ -1982,13 +2442,16 @@ td.td-addr {
 <!-- MAIN WRAPPER -->
 <main class="main-wrapper">
 
-  <!-- RUBAN STATISTIQUES COMPACT (INTERACTIF) -->
+  <!-- RUBAN STATISTIQUES COMPACT (INTERACTIF - ALIGNÉ SUR 1 LIGNE HORIZONTALE MOBILE) -->
   <section class="stats-strip" aria-label="Statistiques clés">
     <button type="button" class="stat-pill active" id="cardTotal" data-filter="all" title="Afficher toutes les entités">
       <span class="stat-icon">🏢</span>
       <div class="stat-meta">
         <span class="stat-num" id="statTotalVal">1296</span>
-        <span class="stat-txt">Total entités</span>
+        <span class="stat-txt">
+          <span class="stat-label-long">Total entités</span>
+          <span class="stat-label-short">Total</span>
+        </span>
       </div>
     </button>
 
@@ -1996,7 +2459,10 @@ td.td-addr {
       <span class="stat-icon" style="background:rgba(126, 34, 206, 0.1);color:#7e22ce;">⚖️</span>
       <div class="stat-meta">
         <span class="stat-num" id="statSocietesVal">171</span>
-        <span class="stat-txt">Sociétés</span>
+        <span class="stat-txt">
+          <span class="stat-label-long">Sociétés</span>
+          <span class="stat-label-short">Sociétés</span>
+        </span>
       </div>
     </button>
 
@@ -2004,15 +2470,21 @@ td.td-addr {
       <span class="stat-icon" style="background:rgba(217, 119, 6, 0.1);color:#d97706;">👤</span>
       <div class="stat-meta">
         <span class="stat-num" id="statPphyVal">1113</span>
-        <span class="stat-txt">Patentés individuels</span>
+        <span class="stat-txt">
+          <span class="stat-label-long">Patentés individuels</span>
+          <span class="stat-label-short">Patentés</span>
+        </span>
       </div>
     </button>
 
     <button type="button" class="stat-pill" id="cardDigital" data-filter="direct" title="Filtrer avec contacts directs vérifiés">
       <span class="stat-icon" style="background:rgba(5, 150, 105, 0.1);color:#059669;">⭐</span>
       <div class="stat-meta">
-        <span class="stat-num" id="statDirectVal">179 <small style="font-size:0.75rem;font-weight:600;opacity:0.85;">(14%)</small></span>
-        <span class="stat-txt">Contacts directs vérifiés</span>
+        <span class="stat-num" id="statDirectVal">179 <small class="stat-pct" style="font-size:0.75rem;font-weight:600;opacity:0.85;">(14%)</small></span>
+        <span class="stat-txt">
+          <span class="stat-label-long">Contacts vérifiés</span>
+          <span class="stat-label-short">Contacts</span>
+        </span>
       </div>
     </button>
   </section>
@@ -3004,10 +3476,82 @@ window.addEventListener('keydown', e => {
     closeDetails();
     closePrintModal();
     closeFilterDrawer();
+    closePaletteDropdown();
   }
 });
 
-// THÈME CLAIR / NUIT (LOCALSTORAGE)
+// ==========================================================================
+// GESTION DU SYSTÈME DE THÈMES & PALETTES DE COULEURS ASSORTIES
+// ==========================================================================
+let isPaletteOpen = false;
+
+function openPaletteDropdown() {
+  isPaletteOpen = true;
+  $('paletteDropdown').classList.add('open');
+  $('paletteToggle').setAttribute('aria-expanded', 'true');
+}
+
+function closePaletteDropdown() {
+  if(!isPaletteOpen) return;
+  isPaletteOpen = false;
+  $('paletteDropdown').classList.remove('open');
+  $('paletteToggle').setAttribute('aria-expanded', 'false');
+}
+
+const paletteAccentMap = {
+  lagoon: '#0284c7',
+  emerald: '#059669',
+  sunset: '#ea580c',
+  amethyst: '#7c3aed',
+  coral: '#e11d48',
+  sapphire: '#2563eb'
+};
+
+function applyPalette(palName) {
+  if(!paletteAccentMap[palName]) palName = 'lagoon';
+  document.documentElement.setAttribute('data-palette', palName);
+  localStorage.setItem('paea_palette', palName);
+
+  document.querySelectorAll('.palette-option').forEach(opt => {
+    opt.classList.toggle('active', opt.dataset.paletteVal === palName);
+  });
+
+  const dot = $('activePaletteDot');
+  if(dot) {
+    dot.style.background = paletteAccentMap[palName] || '#0284c7';
+  }
+}
+
+// Initialiser la palette sauvegardée
+const savedPalette = localStorage.getItem('paea_palette') || 'lagoon';
+applyPalette(savedPalette);
+
+// Clic bouton d'ouverture dropdown palette
+$('paletteToggle').addEventListener('click', (e) => {
+  e.stopPropagation();
+  if(isPaletteOpen) closePaletteDropdown();
+  else openPaletteDropdown();
+});
+
+// Clic sur une des options de palette
+document.querySelectorAll('.palette-option').forEach(opt => {
+  opt.addEventListener('click', (e) => {
+    e.stopPropagation();
+    applyPalette(opt.dataset.paletteVal);
+    closePaletteDropdown();
+  });
+});
+
+// Fermeture automatique au clic en dehors du sélecteur de palette
+document.addEventListener('click', (e) => {
+  if(!isPaletteOpen) return;
+  const wrap = $('palettePickerWrapper');
+  if(wrap && !wrap.contains(e.target)) {
+    closePaletteDropdown();
+  }
+});
+
+// GESTION DU MODE CLAIR / SOMBRE (LOCALSTORAGE)
 const themeToggle = $('themeToggle');
 const savedTheme = localStorage.getItem('paea_theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);

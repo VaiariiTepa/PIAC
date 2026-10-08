@@ -303,15 +303,8 @@ body {
   top: 10px;
   z-index: 40;
 }
-.search-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
 .search-box {
-  flex: 1;
-  min-width: 280px;
+  width: 100%;
   position: relative;
 }
 .search-box svg {
@@ -353,12 +346,21 @@ body {
   border: 1px solid var(--border);
   pointer-events: none;
 }
+
+/* LIGNE DES ACTIONS & VUES (TABLEAU, CARTES, FILTRES, IMPRIMER SUR LA MÊME LIGNE) */
+.actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
 .view-switch {
   display: flex;
   background: var(--bg-hover);
   padding: 4px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 .view-btn {
   border: none;
@@ -373,83 +375,18 @@ body {
   gap: 6px;
   cursor: pointer;
   transition: var(--transition);
+  white-space: nowrap;
 }
 .view-btn.active {
   background: var(--bg-card-solid);
   color: var(--text-main);
   box-shadow: var(--shadow-sm);
 }
-.results-meta-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px 2px 0 2px;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.results-count-text {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 500;
-}
-.results-count-text strong {
-  color: var(--text-main);
-  font-weight: 700;
-}
-.filter-summary-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--lagoon-50);
-  border: 1px solid var(--lagoon-100);
-  color: var(--lagoon-700);
-  padding: 2px 8px;
-  border-radius: var(--radius-full);
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-.filter-summary-chip button {
-  background: none;
-  border: none;
-  color: var(--lagoon-700);
-  font-size: 0.95rem;
-  cursor: pointer;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  line-height: 1;
-}
-.filter-btn-compact {
-  display: none;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg-card-solid);
-  border: 1px solid var(--border);
-  padding: 5px 12px;
-  border-radius: var(--radius-md);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: var(--transition);
-}
-.filter-btn-compact:hover {
-  color: var(--lagoon-600);
-  border-color: var(--lagoon-500);
-}
-@media (max-width: 768px) {
-  .filter-btn-compact {
-    display: inline-flex;
-  }
-}
 .toolbar-actions {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-left: auto;
+  flex-shrink: 0;
 }
 .filter-btn, .print-btn {
   height: 40px;
@@ -509,48 +446,105 @@ body {
   color: #fff;
   border-color: var(--emerald-600);
 }
-@media (max-width: 768px) {
-  .toolbar-actions {
-    width: 100%;
-    margin-left: 0;
+@media (max-width: 640px) {
+  .actions-row {
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+  .view-switch {
+    padding: 3px;
+  }
+  .view-btn {
+    padding: 6px 10px;
+    font-size: 0.8rem;
   }
   .filter-btn, .print-btn {
-    flex: 1;
-    justify-content: center;
+    height: 36px;
+    padding: 0 10px;
+    font-size: 0.8rem;
   }
 }
 
-/* Ruban Kilométrique RT1 (Paea PK 18 -> PK 28.3) */
-.pk-ribbon {
+/* Barre d'état des résultats sous les actions */
+.results-meta-bar {
   display: flex;
   align-items: center;
-  gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: thin;
-}
-.pk-ribbon::-webkit-scrollbar { height: 4px; }
-.pk-ribbon::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 4px; }
-.pk-pill {
-  white-space: nowrap;
-  padding: 5px 12px;
-  border-radius: var(--radius-full);
-  background: var(--bg-hover);
-  border: 1px solid var(--border);
+  justify-content: space-between;
+  padding: 4px 2px 0 2px;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  font-size: 0.8rem;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.results-count-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.results-count-text strong {
+  color: var(--text-main);
+  font-weight: 700;
+}
+.filter-summary-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--lagoon-50);
+  border: 1px solid var(--lagoon-100);
+  color: var(--lagoon-700);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.filter-summary-chip button {
+  background: none;
+  border: none;
+  color: var(--lagoon-700);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+/* Grille PK intégrée au tiroir de filtres */
+.pk-drawer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.pk-drawer-grid .pk-pill:first-child {
+  grid-column: span 2;
+}
+.pk-pill {
+  padding: 9px 12px;
+  border-radius: var(--radius-md);
+  background: var(--bg-app);
+  border: 1.5px solid var(--border);
+  color: var(--text-main);
+  font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pk-pill:hover {
   border-color: var(--lagoon-500);
+  background: var(--lagoon-50);
   color: var(--lagoon-700);
 }
 .pk-pill.active {
   background: var(--lagoon-600);
   color: #fff;
   border-color: var(--lagoon-600);
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
 }
 
 /* ==========================================================================
@@ -1958,15 +1952,16 @@ td.td-addr {
     </button>
   </section>
 
-  <!-- CONTROL PANEL : RECHERCHE UNIVERSELLE & FILTRES -->
+  <!-- CONTROL PANEL : RECHERCHE UNIVERSELLE & ACTIONS -->
   <section class="control-panel">
-    <div class="search-row">
-      <div class="search-box">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="Rechercher une entreprise, un gérant, un PK, une activité, n° TAHITI…">
-        <span class="kbd-hint">Ctrl K</span>
-      </div>
+    <div class="search-box">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="searchInput" class="search-input" placeholder="Rechercher une entreprise, un gérant, un PK, une activité, n° TAHITI…">
+      <span class="kbd-hint">Ctrl K</span>
+    </div>
 
+    <!-- LIGNE DES 4 BOUTONS ALIGNÉS SUR LA MÊME LIGNE : TABLEAU, CARTES, FILTRES, IMPRIMER -->
+    <div class="actions-row">
       <div class="view-switch" id="viewSwitcher">
         <button class="view-btn active" id="btnViewTable" title="Affichage tableau">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18M3 15h18M9 9v12M15 9v12"/></svg>
@@ -1979,7 +1974,7 @@ td.td-addr {
       </div>
 
       <div class="toolbar-actions">
-        <button class="filter-btn" id="btnToggleFilters" title="Filtrer par collège, forme juridique, contact...">
+        <button class="filter-btn" id="btnToggleFilters" title="Filtrer par collège, forme juridique, PK, contact...">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
           <span>Filtres</span>
           <span class="filter-count-badge" id="filterActiveBadge" style="display:none;">0</span>
@@ -1991,16 +1986,6 @@ td.td-addr {
       </div>
     </div>
 
-    <!-- RUBAN PK INTERACTIF (AXE RT1) -->
-    <div class="pk-ribbon" id="pkRibbon">
-      <span class="pk-pill active" data-pk="">Tout Paea (PK 18 à 28)</span>
-      <span class="pk-pill" data-pk="18">PK 18 – 19 (Papehue)</span>
-      <span class="pk-pill" data-pk="20">PK 20 – 21 (Tiapa / Mairie)</span>
-      <span class="pk-pill" data-pk="22">PK 22 – 23 (Orofero / Arahurahu)</span>
-      <span class="pk-pill" data-pk="24">PK 24 – 25 (Vaiterupe)</span>
-      <span class="pk-pill" data-pk="26">PK 26 – 28 (Mara'a / Pahiarepo)</span>
-    </div>
-
     <!-- RÉSULTATS & STATUT DE SÉLECTION -->
     <div class="results-meta-bar">
       <div class="results-count-text">
@@ -2010,10 +1995,6 @@ td.td-addr {
           <button type="button" id="btnClearQuickFilters" title="Effacer tous les filtres">✕</button>
         </span>
       </div>
-      <button type="button" class="filter-btn-compact" id="btnOpenFiltersCompact" title="Ouvrir le panneau de filtrage">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
-        <span>Filtres</span>
-      </button>
     </div>
   </section>
 
@@ -2153,7 +2134,23 @@ td.td-addr {
       </select>
     </div>
 
-    <!-- Groupe 3 : Canaux de contact public -->
+    <!-- Groupe 3 : Secteur / Repère Kilométrique (PK) -->
+    <div class="filter-group">
+      <label class="filter-label">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Secteur / Repère Kilométrique (PK)</span>
+      </label>
+      <div class="pk-drawer-grid" id="pkRibbon">
+        <button type="button" class="pk-pill active" data-pk="">Tout Paea (PK 18 à 28)</button>
+        <button type="button" class="pk-pill" data-pk="18">PK 18 – 19 (Papehue)</button>
+        <button type="button" class="pk-pill" data-pk="20">PK 20 – 21 (Tiapa / Mairie)</button>
+        <button type="button" class="pk-pill" data-pk="22">PK 22 – 23 (Orofero / Arahurahu)</button>
+        <button type="button" class="pk-pill" data-pk="24">PK 24 – 25 (Vaiterupe)</button>
+        <button type="button" class="pk-pill" data-pk="26">PK 26 – 28 (Mara'a / Pahiarepo)</button>
+      </div>
+    </div>
+
+    <!-- Groupe 4 : Canaux de contact public -->
     <div class="filter-group">
       <label class="filter-label" for="filterContact">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -2861,9 +2858,12 @@ function updateFilterActiveIndicators() {
   const cat = $('filterCat').value;
   const form = $('filterForm').value;
   const contact = $('filterContact').value;
+  const pkSelected = document.querySelector('.pk-pill.active')?.dataset.pk || '';
+
   if(cat) activeCount++;
   if(form) activeCount++;
   if(contact) activeCount++;
+  if(pkSelected) activeCount++;
 
   const badge = $('filterActiveBadge');
   const btnToggle = $('btnToggleFilters');
@@ -3127,7 +3127,11 @@ $('bTabFilters').addEventListener('click', () => {
   openFilterDrawer();
 });
 $('bTabPk').addEventListener('click', () => {
-  $('pkRibbon').scrollIntoView({ behavior: 'smooth' });
+  openFilterDrawer();
+  setTimeout(() => {
+    const pkEl = $('pkRibbon');
+    if(pkEl) pkEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 150);
 });
 $('bTabStats').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });

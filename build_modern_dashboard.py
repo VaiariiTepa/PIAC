@@ -373,25 +373,27 @@ body {{
   pointer-events: none;
 }}
 
-/* LIGNE DES ACTIONS & VUES (TABLEAU, CARTES, FILTRES, IMPRIMER SUR LA MÊME LIGNE) */
+/* LIGNE DES ACTIONS & VUES (TABLEAU, CARTES, FILTRES, IMPRIMER - 100% FLUIDE ET SANS ASCENSEUR) */
 .actions-row {{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }}
 .view-switch {{
   display: flex;
   background: var(--bg-hover);
-  padding: 4px;
+  padding: 3px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  flex-shrink: 0;
+  box-sizing: border-box;
 }}
 .view-btn {{
   border: none;
   background: transparent;
-  padding: 8px 14px;
+  padding: 8px 12px;
   border-radius: var(--radius-sm);
   color: var(--text-muted);
   font-size: 0.85rem;
@@ -402,6 +404,10 @@ body {{
   cursor: pointer;
   transition: var(--transition);
   white-space: nowrap;
+  box-sizing: border-box;
+}}
+.view-btn svg {{
+  flex-shrink: 0;
 }}
 .view-btn.active {{
   background: var(--bg-card-solid);
@@ -412,11 +418,11 @@ body {{
   display: flex;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
+  box-sizing: border-box;
 }}
 .filter-btn, .print-btn {{
   height: 40px;
-  padding: 0 14px;
+  padding: 0 12px;
   border-radius: var(--radius-md);
   font-size: 0.85rem;
   font-weight: 600;
@@ -426,6 +432,10 @@ body {{
   cursor: pointer;
   transition: var(--transition);
   white-space: nowrap;
+  box-sizing: border-box;
+}}
+.filter-btn svg, .print-btn svg {{
+  flex-shrink: 0;
 }}
 .filter-btn {{
   background: var(--lagoon-50);
@@ -457,6 +467,7 @@ body {{
   padding: 0 5px;
   border-radius: 9999px;
   line-height: 1;
+  flex-shrink: 0;
 }}
 .filter-btn.has-active-filters .filter-count-badge {{
   background: #fff;
@@ -472,23 +483,77 @@ body {{
   color: #fff;
   border-color: var(--emerald-600);
 }}
-@media (max-width: 640px) {{
-  .actions-row {{
+
+/* ADAPTATION MOBILE FLUIDE SANS ASCENSEUR HORIZONTAL */
+@media (max-width: 768px) {{
+  .control-panel {{
+    padding: 10px 10px;
     gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 2px;
+  }}
+  .actions-row {{
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    overflow: hidden; /* Aucun ascenseur */
   }}
   .view-switch {{
-    padding: 3px;
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    padding: 2px;
   }}
   .view-btn {{
-    padding: 6px 10px;
-    font-size: 0.8rem;
+    flex: 1 1 0;
+    min-width: 0;
+    justify-content: center;
+    padding: 6px 4px;
+    font-size: 0.78rem;
+    gap: 4px;
+  }}
+  .view-btn span {{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }}
+  .toolbar-actions {{
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    gap: 6px;
   }}
   .filter-btn, .print-btn {{
+    flex: 1 1 0;
+    min-width: 0;
+    justify-content: center;
     height: 36px;
-    padding: 0 10px;
-    font-size: 0.8rem;
+    padding: 0 4px;
+    font-size: 0.78rem;
+    gap: 4px;
+  }}
+  .filter-btn span, .print-btn span {{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }}
+  .filter-count-badge {{
+    min-width: 16px;
+    height: 16px;
+    font-size: 0.65rem;
+    padding: 0 3px;
+  }}
+}}
+
+@media (max-width: 380px) {{
+  .control-panel {{
+    padding: 8px 6px;
+  }}
+  .actions-row {{
+    gap: 4px;
+  }}
+  .view-btn, .filter-btn, .print-btn {{
+    font-size: 0.72rem;
+    padding: 0 2px;
+    gap: 3px;
   }}
 }}
 

@@ -336,11 +336,16 @@ body {
   position: relative;
   background: var(--hero-gradient);
   color: #ffffff;
-  padding: 20px 20px 38px;
+  padding: 20px 20px 22px;
   overflow: visible;
   z-index: 50;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   transition: background 0.35s ease;
+}
+@media (max-width: 680px) {
+  .hero {
+    padding: 16px 14px 18px;
+  }
 }
 .hero::before {
   content: '';
@@ -554,10 +559,16 @@ body {
    ========================================================================== */
 .main-wrapper {
   max-width: 1400px;
-  margin: -22px auto 0;
+  margin: 16px auto 0;
   padding: 0 20px;
   position: relative;
   z-index: 10;
+}
+@media (max-width: 680px) {
+  .main-wrapper {
+    margin: 12px auto 0;
+    padding: 0 12px;
+  }
 }
 
 /* ==========================================================================

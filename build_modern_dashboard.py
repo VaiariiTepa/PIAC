@@ -405,50 +405,71 @@ body {{
   color: var(--text-main);
   box-shadow: var(--shadow-sm);
 }}
-.filters-row {{
+.results-meta-bar {{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 2px 0 2px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}}
+.results-count-text {{
   display: flex;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
-}}
-.custom-select {{
-  height: 40px;
-  padding: 0 32px 0 12px;
-  background: var(--bg-card-solid);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  color: var(--text-main);
-  font-size: 0.85rem;
   font-weight: 500;
-  cursor: pointer;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  outline: none;
-  transition: var(--transition);
 }}
-.custom-select:focus {{
-  border-color: var(--lagoon-600);
+.results-count-text strong {{
+  color: var(--text-main);
+  font-weight: 700;
 }}
-.reset-btn {{
-  height: 40px;
-  padding: 0 14px;
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  font-weight: 600;
-  display: flex;
+.filter-summary-chip {{
+  display: inline-flex;
   align-items: center;
   gap: 6px;
+  background: var(--lagoon-50);
+  border: 1px solid var(--lagoon-100);
+  color: var(--lagoon-700);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}}
+.filter-summary-chip button {{
+  background: none;
+  border: none;
+  color: var(--lagoon-700);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}}
+.filter-btn-compact {{
+  display: none;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: var(--radius-md);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
   cursor: pointer;
   transition: var(--transition);
 }}
-.reset-btn:hover {{
-  background: var(--bg-hover);
-  color: var(--coral-600);
+.filter-btn-compact:hover {{
+  color: var(--lagoon-600);
+  border-color: var(--lagoon-500);
+}}
+@media (max-width: 768px) {{
+  .filter-btn-compact {{
+    display: inline-flex;
+  }}
 }}
 .toolbar-actions {{
   display: flex;
@@ -456,7 +477,7 @@ body {{
   gap: 8px;
   margin-left: auto;
 }}
-.csv-btn, .print-btn {{
+.filter-btn, .print-btn {{
   height: 40px;
   padding: 0 14px;
   border-radius: var(--radius-md);
@@ -469,15 +490,40 @@ body {{
   transition: var(--transition);
   white-space: nowrap;
 }}
-.csv-btn {{
+.filter-btn {{
   background: var(--lagoon-50);
   border: 1px solid var(--lagoon-100);
   color: var(--lagoon-700);
+  position: relative;
 }}
-.csv-btn:hover {{
+.filter-btn:hover {{
   background: var(--lagoon-600);
   color: #fff;
   border-color: var(--lagoon-600);
+}}
+.filter-btn.has-active-filters {{
+  background: var(--lagoon-600);
+  color: #fff;
+  border-color: var(--lagoon-700);
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
+}}
+.filter-count-badge {{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--coral-600);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9999px;
+  line-height: 1;
+}}
+.filter-btn.has-active-filters .filter-count-badge {{
+  background: #fff;
+  color: var(--lagoon-700);
 }}
 .print-btn {{
   background: var(--emerald-50);
@@ -494,7 +540,7 @@ body {{
     width: 100%;
     margin-left: 0;
   }}
-  .csv-btn, .print-btn {{
+  .filter-btn, .print-btn {{
     flex: 1;
     justify-content: center;
   }}
@@ -987,6 +1033,229 @@ td.td-addr {{
 .btn-action-big.vcard:hover {{ background: var(--emerald-600); color: #fff; }}
 
 /* ==========================================================================
+   TIROIR DE FILTRES GLISSANT (DRAWER / FLYOUT)
+   ========================================================================== */
+.filter-drawer-backdrop {{
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(4px);
+  z-index: 1040;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}}
+.filter-drawer-backdrop.open {{
+  opacity: 1;
+  pointer-events: auto;
+}}
+.filter-drawer {{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(420px, 100vw);
+  background: var(--bg-card-solid);
+  box-shadow: var(--shadow-lg);
+  z-index: 1050;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+}}
+.filter-drawer.open {{
+  transform: translateX(0);
+}}
+@media (max-width: 640px) {{
+  .filter-drawer {{
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 85vh;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    transform: translateY(100%);
+  }}
+  .filter-drawer.open {{
+    transform: translateY(0);
+  }}
+}}
+.filter-drawer-head {{
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-card);
+}}
+.filter-drawer-title-group {{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}}
+.filter-drawer-icon {{
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  background: var(--lagoon-50);
+  color: var(--lagoon-600);
+  border: 1px solid var(--lagoon-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}}
+.filter-drawer-title {{
+  font-family: var(--font-title);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0;
+  line-height: 1.2;
+}}
+.filter-drawer-sub {{
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  margin: 2px 0 0;
+}}
+.filter-drawer-close {{
+  background: var(--bg-hover);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}}
+.filter-drawer-close:hover {{
+  color: var(--text-main);
+  background: var(--border);
+}}
+.filter-drawer-body {{
+  padding: 22px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1;
+}}
+.filter-group {{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}}
+.filter-label {{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-main);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}}
+.filter-label svg {{
+  color: var(--lagoon-600);
+}}
+.filter-drawer-select {{
+  width: 100%;
+  height: 44px;
+  padding: 0 36px 0 14px;
+  background: var(--bg-app);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  outline: none;
+  transition: var(--transition);
+}}
+.filter-drawer-select:focus {{
+  border-color: var(--lagoon-600);
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}}
+.filter-drawer-status-box {{
+  padding: 12px 14px;
+  background: var(--lagoon-50);
+  border: 1px solid var(--lagoon-100);
+  border-radius: var(--radius-md);
+  margin-top: 4px;
+}}
+.filter-status-count {{
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}}
+.count-highlight {{
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--lagoon-700);
+  font-family: var(--font-title);
+}}
+.count-subtext {{
+  font-size: 0.82rem;
+  color: var(--lagoon-700);
+  font-weight: 600;
+}}
+.filter-drawer-footer {{
+  padding: 16px 22px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 10px;
+  background: var(--bg-hover);
+}}
+.btn-drawer-reset {{
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition);
+}}
+.btn-drawer-reset:hover {{
+  color: var(--coral-600);
+  border-color: var(--coral-100);
+  background: var(--coral-100);
+}}
+.btn-drawer-apply {{
+  flex: 1;
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  background: var(--lagoon-600);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
+  transition: var(--transition);
+}}
+.btn-drawer-apply:hover {{
+  background: var(--lagoon-700);
+}}
+
+/* ==========================================================================
    BOTTOM NAVIGATION BAR FIXE (MOBILE ONLY)
    ========================================================================== */
 .bottom-bar {{
@@ -1296,9 +1565,12 @@ td.td-addr {{
   .search-row,
   .pk-ribbon,
   .filters-row,
+  .results-meta-bar,
   .bottom-bar,
   .drawer-backdrop,
   .drawer,
+  .filter-drawer-backdrop,
+  .filter-drawer,
   .print-modal-backdrop,
   .loading-more,
   .empty-feedback,
@@ -1307,6 +1579,7 @@ td.td-addr {{
   .biz-actions,
   #bTabSearch,
   #bTabContact,
+  #bTabFilters,
   #bTabPk,
   #bTabStats,
   .view-switch,
@@ -1732,9 +2005,10 @@ td.td-addr {{
       </div>
 
       <div class="toolbar-actions">
-        <button class="csv-btn" id="btnExportCsv" title="Exporter la sélection courante en CSV (Excel)">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          <span>Export CSV</span>
+        <button class="filter-btn" id="btnToggleFilters" title="Filtrer par collège, forme juridique, contact...">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <span>Filtres</span>
+          <span class="filter-count-badge" id="filterActiveBadge" style="display:none;">0</span>
         </button>
         <button class="print-btn" id="btnPrintList" title="Imprimer la sélection filtrée (Tableau ou Cartes)">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
@@ -1753,44 +2027,19 @@ td.td-addr {{
       <span class="pk-pill" data-pk="26">PK 26 – 28 (Mara'a / Pahiarepo)</span>
     </div>
 
-    <!-- FILTRES SECONDAIRES -->
-    <div class="filters-row">
-      <select id="filterCat" class="custom-select">
-        <option value="">Tous les collèges (4)</option>
-        <option value="COMMERCE">Commerce</option>
-        <option value="INDUSTRIE">Industrie</option>
-        <option value="MÉTIER">Métier</option>
-        <option value="SERVICE">Service</option>
-        <option value="INSTITUTION">Institutions</option>
-      </select>
-
-      <select id="filterForm" class="custom-select">
-        <option value="">Toutes les formes</option>
-        <option value="PPHY">Patentés (PPHY)</option>
-        <option value="SARL">SARL</option>
-        <option value="SAS">SAS / SASU</option>
-        <option value="SCI">SCI</option>
-        <option value="EURL">EURL</option>
-        <option value="SCP">SCP</option>
-      </select>
-
-      <select id="filterContact" class="custom-select">
-        <option value="">Tous les contacts ({total_entries})</option>
-        <option value="with">⭐ Avec contact direct ({with_contact})</option>
-        <option value="tel">📞 Avec ligne téléphonique</option>
-        <option value="web_mail">🌐 Avec e-mail, site ou réseaux</option>
-        <option value="alert">⚠️ Avec statut particulier ({alert_status})</option>
-        <option value="without">Sans contact</option>
-      </select>
-
-      <button id="btnResetFilters" class="reset-btn" title="Réinitialiser les filtres">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-        <span>Effacer</span>
+    <!-- RÉSULTATS & STATUT DE SÉLECTION -->
+    <div class="results-meta-bar">
+      <div class="results-count-text">
+        <span><strong id="resultCount">{total_entries}</strong> résultats affichés</span>
+        <span id="activeFiltersSummaryChip" class="filter-summary-chip" style="display:none;">
+          <span id="activeFiltersSummaryText">0 filtre</span>
+          <button type="button" id="btnClearQuickFilters" title="Effacer tous les filtres">✕</button>
+        </span>
+      </div>
+      <button type="button" class="filter-btn-compact" id="btnOpenFiltersCompact" title="Ouvrir le panneau de filtrage">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        <span>Filtres</span>
       </button>
-
-      <span id="activeCountBadge" style="font-size:0.85rem;font-weight:600;color:var(--text-muted);margin-left:auto;">
-        <span id="resultCount">{total_entries}</span> résultats affichés
-      </span>
     </div>
   </section>
 
@@ -1864,9 +2113,9 @@ td.td-addr {{
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
     <span>Rechercher</span>
   </button>
-  <button class="b-tab" id="bTabContact">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <span>Contacts</span>
+  <button class="b-tab" id="bTabFilters">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+    <span>Filtres</span>
   </button>
   <button class="b-tab" id="bTabPk">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -1877,6 +2126,94 @@ td.td-addr {{
     <span>Chiffres</span>
   </button>
 </nav>
+
+<!-- TIROIR DE FILTRES GLISSANT (DRAWER / FLYOUT) -->
+<div class="filter-drawer-backdrop" id="filterDrawerBackdrop"></div>
+<aside class="filter-drawer" id="filterDrawer" aria-hidden="true" role="dialog" aria-label="Filtres de sélection">
+  <div class="filter-drawer-head">
+    <div class="filter-drawer-title-group">
+      <div class="filter-drawer-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+      </div>
+      <div>
+        <h2 class="filter-drawer-title">Filtres de sélection</h2>
+        <p class="filter-drawer-sub">Affinez selon vos besoins</p>
+      </div>
+    </div>
+    <button class="filter-drawer-close" id="filterDrawerClose" title="Fermer le tiroir de filtres">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+
+  <div class="filter-drawer-body">
+    <!-- Groupe 1 : Collège d'activité -->
+    <div class="filter-group">
+      <label class="filter-label" for="filterCat">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        <span>Collège d'activité</span>
+      </label>
+      <select id="filterCat" class="filter-drawer-select">
+        <option value="">Tous les collèges (4)</option>
+        <option value="COMMERCE">Commerce</option>
+        <option value="INDUSTRIE">Industrie</option>
+        <option value="MÉTIER">Métier</option>
+        <option value="SERVICE">Service</option>
+        <option value="INSTITUTION">Institutions</option>
+      </select>
+    </div>
+
+    <!-- Groupe 2 : Forme juridique -->
+    <div class="filter-group">
+      <label class="filter-label" for="filterForm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span>Forme juridique</span>
+      </label>
+      <select id="filterForm" class="filter-drawer-select">
+        <option value="">Toutes les formes</option>
+        <option value="PPHY">Patentés (PPHY)</option>
+        <option value="SARL">SARL</option>
+        <option value="SAS">SAS / SASU</option>
+        <option value="SCI">SCI</option>
+        <option value="EURL">EURL</option>
+        <option value="SCP">SCP</option>
+      </select>
+    </div>
+
+    <!-- Groupe 3 : Canaux de contact public -->
+    <div class="filter-group">
+      <label class="filter-label" for="filterContact">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>Disponibilité contact</span>
+      </label>
+      <select id="filterContact" class="filter-drawer-select">
+        <option value="">Tous les contacts ({total_entries})</option>
+        <option value="with">⭐ Avec contact direct vérifié ({with_contact})</option>
+        <option value="tel">📞 Avec ligne téléphonique</option>
+        <option value="web_mail">🌐 Avec e-mail, site ou réseaux</option>
+        <option value="alert">⚠️ Avec statut particulier ({alert_status})</option>
+        <option value="without">Sans contact</option>
+      </select>
+    </div>
+
+    <!-- Statut en direct dans le tiroir -->
+    <div class="filter-drawer-status-box">
+      <div class="filter-status-count">
+        <span id="filterDrawerCount" class="count-highlight">{total_entries}</span>
+        <span class="count-subtext">entités correspondent à ces filtres</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-drawer-footer">
+    <button type="button" id="btnResetFilters" class="btn-drawer-reset" title="Réinitialiser tous les filtres">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+      <span>Effacer</span>
+    </button>
+    <button type="button" id="btnApplyFilters" class="btn-drawer-apply">
+      <span>Appliquer (<span id="filterDrawerApplyCount">{total_entries}</span>)</span>
+    </button>
+  </div>
+</aside>
 
 <!-- FICHE DÉTAIL GLISSANTE (DRAWER / BOTTOM SHEET) -->
 <div class="drawer-backdrop" id="drawerBackdrop"></div>
@@ -2319,6 +2656,7 @@ function applyFilters() {{
 
   sortData();
   render(false);
+  updateFilterActiveIndicators();
 }}
 
 // DÉTAILS MODAL / DRAWER
@@ -2481,7 +2819,7 @@ $('filterCat').addEventListener('change', applyFilters);
 $('filterForm').addEventListener('change', applyFilters);
 $('filterContact').addEventListener('change', applyFilters);
 
-$('btnResetFilters').addEventListener('click', () => {{
+function resetAllFilters() {{
   $('searchInput').value = '';
   $('filterCat').value = '';
   $('filterForm').value = '';
@@ -2491,7 +2829,13 @@ $('btnResetFilters').addEventListener('click', () => {{
   sortKey = 'name';
   sortDir = 1;
   applyFilters();
-}});
+}}
+
+$('btnResetFilters').addEventListener('click', resetAllFilters);
+const btnClearChip = $('btnClearQuickFilters');
+if(btnClearChip) {{
+  btnClearChip.addEventListener('click', resetAllFilters);
+}}
 
 // TRI DES COLONNES
 document.querySelectorAll('thead th').forEach(th => {{
@@ -2507,6 +2851,109 @@ document.querySelectorAll('thead th').forEach(th => {{
   }});
 }});
 
+// ==========================================================================
+// GESTION DU TIROIR DE FILTRES LATÉRAL (DRAWER & FERMETURE CLIC EXTÉRIEUR)
+// ==========================================================================
+let isFilterDrawerOpen = false;
+
+function openFilterDrawer() {{
+  isFilterDrawerOpen = true;
+  closeDetails();
+  closePrintModal();
+  $('filterDrawerBackdrop').classList.add('open');
+  $('filterDrawer').classList.add('open');
+  $('filterDrawer').setAttribute('aria-hidden', 'false');
+  updateFilterDrawerCounts();
+}}
+
+function closeFilterDrawer() {{
+  if(!isFilterDrawerOpen) return;
+  isFilterDrawerOpen = false;
+  $('filterDrawerBackdrop').classList.remove('open');
+  $('filterDrawer').classList.remove('open');
+  $('filterDrawer').setAttribute('aria-hidden', 'true');
+}}
+
+function updateFilterDrawerCounts() {{
+  const c = filtered.length.toLocaleString('fr-FR');
+  const countEl = $('filterDrawerCount');
+  const applyCountEl = $('filterDrawerApplyCount');
+  if(countEl) countEl.textContent = c;
+  if(applyCountEl) applyCountEl.textContent = c;
+}}
+
+function updateFilterActiveIndicators() {{
+  let activeCount = 0;
+  const cat = $('filterCat').value;
+  const form = $('filterForm').value;
+  const contact = $('filterContact').value;
+  if(cat) activeCount++;
+  if(form) activeCount++;
+  if(contact) activeCount++;
+
+  const badge = $('filterActiveBadge');
+  const btnToggle = $('btnToggleFilters');
+  const summaryChip = $('activeFiltersSummaryChip');
+  const summaryText = $('activeFiltersSummaryText');
+
+  if(activeCount > 0) {{
+    badge.textContent = activeCount;
+    badge.style.display = 'inline-flex';
+    btnToggle.classList.add('has-active-filters');
+    if(summaryChip && summaryText) {{
+      summaryText.textContent = `${{activeCount}} filtre${{activeCount > 1 ? 's' : ''}} actif${{activeCount > 1 ? 's' : ''}}`;
+      summaryChip.style.display = 'inline-flex';
+    }}
+  }} else {{
+    badge.style.display = 'none';
+    btnToggle.classList.remove('has-active-filters');
+    if(summaryChip) summaryChip.style.display = 'none';
+  }}
+
+  updateFilterDrawerCounts();
+}}
+
+// OUVERTURE PAR LES BOUTONS FILTRES
+$('btnToggleFilters').addEventListener('click', (e) => {{
+  e.stopPropagation();
+  if(isFilterDrawerOpen) {{
+    closeFilterDrawer();
+  }} else {{
+    openFilterDrawer();
+  }}
+}});
+
+const btnCompact = $('btnOpenFiltersCompact');
+if(btnCompact) {{
+  btnCompact.addEventListener('click', (e) => {{
+    e.stopPropagation();
+    openFilterDrawer();
+  }});
+}}
+
+// FERMETURE PAR CROIX, BOUTON APPLIQUER OU BACKDROP
+$('filterDrawerClose').addEventListener('click', closeFilterDrawer);
+$('btnApplyFilters').addEventListener('click', closeFilterDrawer);
+$('filterDrawerBackdrop').addEventListener('click', closeFilterDrawer);
+
+// FERMETURE AUTOMATIQUE DÈS QU'ON CLIQUE EN DEHORS DU TIROIR
+document.addEventListener('click', (e) => {{
+  if(!isFilterDrawerOpen) return;
+  const drawer = $('filterDrawer');
+  const btnToggle = $('btnToggleFilters');
+  const btnCompactEl = $('btnOpenFiltersCompact');
+  const bTab = $('bTabFilters');
+  
+  const clickedInsideDrawer = drawer && drawer.contains(e.target);
+  const clickedOnTrigger = (btnToggle && btnToggle.contains(e.target)) || 
+                           (btnCompactEl && btnCompactEl.contains(e.target)) ||
+                           (bTab && bTab.contains(e.target));
+
+  if(!clickedInsideDrawer && !clickedOnTrigger) {{
+    closeFilterDrawer();
+  }}
+}});
+
 // RACCOURCI CLAVIER CTRL+K & ECHAP
 window.addEventListener('keydown', e => {{
   if((e.ctrlKey || e.metaKey) && e.key === 'k') {{
@@ -2517,6 +2964,7 @@ window.addEventListener('keydown', e => {{
   if(e.key === 'Escape') {{
     closeDetails();
     closePrintModal();
+    closeFilterDrawer();
   }}
 }});
 
@@ -2530,26 +2978,6 @@ themeToggle.addEventListener('click', () => {{
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('paea_theme', next);
-}});
-
-// EXPORT CSV
-$('btnExportCsv').addEventListener('click', () => {{
-  const sep = ';';
-  const headers = ['Dénomination / Nom','Forme','Catégorie','Dirigeant / Mandataire','NAF / Activité','Identifiants','Adresse','Contact'];
-  const lines = [headers.join(sep)];
-  filtered.forEach(r => {{
-    const row = [r.name, r.form, r.cat, r.rep||'', r.naf||'', (r.ids||[]).join(' | '), r.address||'', r.contact||'']
-      .map(v => `"${{(v||'').toString().replace(/"/g,'""')}}"`);
-    lines.push(row.join(sep));
-  }});
-  const csv = '\\uFEFF' + lines.join('\\n');
-  const blob = new Blob([csv], {{ type: 'text/csv;charset=utf-8;' }});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `paea_entreprises_${{new Date().toISOString().slice(0,10)}}.csv`;
-  a.click();
-  URL.revokeObjectURL(url);
 }});
 
 // ==========================================================================
@@ -2721,9 +3149,8 @@ $('bTabSearch').addEventListener('click', () => {{
   $('searchInput').focus();
   window.scrollTo({{ top: $('searchInput').offsetTop - 60, behavior: 'smooth' }});
 }});
-$('bTabContact').addEventListener('click', () => {{
-  $('filterContact').value = 'with';
-  applyFilters();
+$('bTabFilters').addEventListener('click', () => {{
+  openFilterDrawer();
 }});
 $('bTabPk').addEventListener('click', () => {{
   $('pkRibbon').scrollIntoView({{ behavior: 'smooth' }});
@@ -2735,6 +3162,7 @@ $('bTabStats').addEventListener('click', () => {{
 // DÉMARRAGE INITIAL
 sortData();
 render(false);
+updateFilterActiveIndicators();
 </script>
 </body>
 </html>

@@ -1393,9 +1393,12 @@ td.td-addr {
   background: var(--border-subtle);
   border-radius: 4px;
   margin: 12px auto 4px;
+  cursor: grab;
+  touch-action: none;
 }
 @media (max-width: 640px) {
   .drawer-handle { display: block; }
+  .drawer-head { touch-action: none; }
 }
 .drawer-head {
   padding: 20px 24px;
@@ -1417,6 +1420,7 @@ td.td-addr {
   border: none;
   width: 36px;
   height: 36px;
+  min-width: 36px;
   border-radius: var(--radius-md);
   color: var(--text-muted);
   cursor: pointer;
@@ -1424,6 +1428,10 @@ td.td-addr {
   align-items: center;
   justify-content: center;
   transition: var(--transition);
+  flex-shrink: 0;
+  pointer-events: auto;
+  z-index: 2;
+  touch-action: manipulation;
 }
 .drawer-close:hover {
   color: var(--text-main);
@@ -1704,7 +1712,7 @@ td.td-addr {
 }
 
 /* ==========================================================================
-   BOTTOM NAVIGATION BAR FIXE (MOBILE ONLY)
+   BOTTOM NAVIGATION BAR FIXE (MOBILE ONLY : RECHERCHER & FILTRES)
    ========================================================================== */
 .bottom-bar {
   display: none;
@@ -1712,34 +1720,45 @@ td.td-addr {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 64px;
+  height: 60px;
   background: var(--bg-card-solid);
   border-top: 1px solid var(--border);
   box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
   z-index: 100;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 16px;
+  padding: 0 16px;
 }
 @media (max-width: 768px) {
   .bottom-bar { display: flex; }
 }
 .b-tab {
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  max-width: 180px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 3px;
+  gap: 8px;
   color: var(--text-muted);
-  font-size: 0.68rem;
-  font-weight: 600;
-  border: none;
-  background: transparent;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  background: var(--bg-hover);
   cursor: pointer;
   transition: var(--transition);
-  padding: 6px 12px;
+  padding: 0 14px;
 }
-.b-tab.active {
+.b-tab:hover {
+  color: var(--text-main);
+}
+.b-tab.active, .b-tab:active {
   color: var(--lagoon-600);
+  background: var(--lagoon-50);
+  border-color: var(--lagoon-100);
 }
 
 /* ==========================================================================
@@ -2028,8 +2047,6 @@ td.td-addr {
   #bTabSearch,
   #bTabContact,
   #bTabFilters,
-  #bTabPk,
-  #bTabStats,
   .view-switch,
   .toolbar-actions {
     display: none !important;
@@ -2610,7 +2627,7 @@ td.td-addr {
 
 </main>
 
-<!-- BOTTOM NAVIGATION BAR (MOBILE ONLY) -->
+<!-- BOTTOM NAVIGATION BAR (MOBILE ONLY - RECHERCHER & FILTRES UNIQUEMENT) -->
 <nav class="bottom-bar">
   <button class="b-tab active" id="bTabSearch">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -2619,14 +2636,6 @@ td.td-addr {
   <button class="b-tab" id="bTabFilters">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
     <span>Filtres</span>
-  </button>
-  <button class="b-tab" id="bTabPk">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-    <span>Par PK</span>
-  </button>
-  <button class="b-tab" id="bTabStats">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M12 8v8M8 12v4M16 10v6"/></svg>
-    <span>Chiffres</span>
   </button>
 </nav>
 
@@ -3238,20 +3247,134 @@ function openDetails(target) {
     }
   }
 
+  resetDrawerTransform();
+  const dBody = $('drawerSheet').querySelector('.drawer-body');
+  if(dBody) dBody.scrollTop = 0;
+
   $('drawerBackdrop').classList.add('open');
   $('drawerSheet').classList.add('open');
   $('drawerSheet').setAttribute('aria-hidden', 'false');
 }
 
+function resetDrawerTransform() {
+  const sheet = $('drawerSheet');
+  const backdrop = $('drawerBackdrop');
+  if(sheet) {
+    sheet.style.transform = '';
+    sheet.style.transition = '';
+  }
+  if(backdrop) {
+    backdrop.style.opacity = '';
+    backdrop.style.transition = '';
+  }
+}
+
 function closeDetails() {
+  resetDrawerTransform();
   $('drawerBackdrop').classList.remove('open');
   $('drawerSheet').classList.remove('open');
   $('drawerSheet').setAttribute('aria-hidden', 'true');
   activeItem = null;
 }
 
+// Bouton fermer (croix) toujours visible et actif
 $('drawerClose').addEventListener('click', closeDetails);
 $('drawerBackdrop').addEventListener('click', closeDetails);
+
+// ==========================================================================
+// FERMETURE PAR GLISSEMENT / SLIDE VERS LE BAS SUR MOBILE (SWIPE TO DISMISS)
+// ==========================================================================
+const drawerSheetEl = $('drawerSheet');
+const drawerBackdropEl = $('drawerBackdrop');
+let dTouchStartY = 0;
+let dTouchStartX = 0;
+let dTouchCurrentY = 0;
+let isDraggingDrawerSheet = false;
+let canDragDrawerSheet = false;
+
+drawerSheetEl.addEventListener('touchstart', (e) => {
+  if (window.innerWidth > 640) return; // Uniquement en affichage mobile
+  if (e.touches.length !== 1) return;
+
+  const target = e.target;
+  const bodyEl = drawerSheetEl.querySelector('.drawer-body');
+  
+  // Autoriser le slide si on touche la poignée, l'en-tête, ou si le scroll interne est tout en haut
+  const isTopArea = target.closest('.drawer-handle, .drawer-head') !== null;
+  const isBodyAtTop = bodyEl ? bodyEl.scrollTop <= 2 : true;
+
+  if (isTopArea || isBodyAtTop) {
+    canDragDrawerSheet = true;
+    isDraggingDrawerSheet = false;
+    dTouchStartY = e.touches[0].clientY;
+    dTouchStartX = e.touches[0].clientX;
+    dTouchCurrentY = dTouchStartY;
+  } else {
+    canDragDrawerSheet = false;
+  }
+}, { passive: true });
+
+drawerSheetEl.addEventListener('touchmove', (e) => {
+  if (!canDragDrawerSheet || window.innerWidth > 640) return;
+  if (e.touches.length !== 1) return;
+
+  const curY = e.touches[0].clientY;
+  const curX = e.touches[0].clientX;
+  const diffY = curY - dTouchStartY;
+  const diffX = curX - dTouchStartX;
+
+  // Si l'utilisateur glisse vers le bas et que le mouvement est vertical
+  if (diffY > 8 && Math.abs(diffY) > Math.abs(diffX) * 1.1) {
+    isDraggingDrawerSheet = true;
+    dTouchCurrentY = curY;
+
+    // Déplacement immédiat du modal vers le bas au doigt
+    drawerSheetEl.style.transition = 'none';
+    drawerSheetEl.style.transform = `translateY(${diffY}px)`;
+
+    // Atténuation fluide de l'arrière-plan
+    const progress = Math.min(diffY / 280, 1);
+    drawerBackdropEl.style.transition = 'none';
+    drawerBackdropEl.style.opacity = (1 - progress * 0.75).toString();
+
+    // Empêcher le défilement parasite de la page
+    if (e.cancelable) e.preventDefault();
+  }
+}, { passive: false });
+
+function finishDrawerDrag() {
+  if (!canDragDrawerSheet) return;
+  canDragDrawerSheet = false;
+
+  if (isDraggingDrawerSheet) {
+    isDraggingDrawerSheet = false;
+    const totalDiffY = dTouchCurrentY - dTouchStartY;
+
+    // Seuil de fermeture : si glissé vers le bas de plus de 80px
+    if (totalDiffY > 80) {
+      drawerSheetEl.style.transition = 'transform 0.22s cubic-bezier(0.16, 1, 0.3, 1)';
+      drawerBackdropEl.style.transition = 'opacity 0.22s ease';
+      drawerSheetEl.style.transform = 'translateY(100%)';
+      drawerBackdropEl.style.opacity = '0';
+      setTimeout(() => {
+        closeDetails();
+        resetDrawerTransform();
+      }, 220);
+    } else {
+      // Rebond doux vers la position ouverte si le glissement est insuffisant
+      drawerSheetEl.style.transition = 'transform 0.22s cubic-bezier(0.16, 1, 0.3, 1)';
+      drawerBackdropEl.style.transition = 'opacity 0.22s ease';
+      drawerSheetEl.style.transform = 'translateY(0)';
+      drawerBackdropEl.style.opacity = '1';
+      setTimeout(() => {
+        resetDrawerTransform();
+      }, 220);
+    }
+  }
+}
+
+drawerSheetEl.addEventListener('touchend', finishDrawerDrag, { passive: true });
+drawerSheetEl.addEventListener('touchcancel', finishDrawerDrag, { passive: true });
 
 // GÉNÉRATION VCARD DIRECTE
 $('btnDownloadVcard').addEventListener('click', () => {
@@ -3738,24 +3861,18 @@ window.addEventListener('afterprint', () => {
   restoreAfterPrint();
 });
 
-// BOTTOM NAVIGATION BAR MOBILE
-$('bTabSearch').addEventListener('click', () => {
-  $('searchInput').focus();
-  window.scrollTo({ top: $('searchInput').offsetTop - 60, behavior: 'smooth' });
-});
-$('bTabFilters').addEventListener('click', () => {
-  openFilterDrawer();
-});
-$('bTabPk').addEventListener('click', () => {
-  openFilterDrawer();
-  setTimeout(() => {
-    const pkEl = $('pkRibbon');
-    if(pkEl) pkEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }, 150);
-});
-$('bTabStats').addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+// BOTTOM NAVIGATION BAR MOBILE (RECHERCHER ET FILTRES)
+if($('bTabSearch')) {
+  $('bTabSearch').addEventListener('click', () => {
+    $('searchInput').focus();
+    window.scrollTo({ top: $('searchInput').offsetTop - 60, behavior: 'smooth' });
+  });
+}
+if($('bTabFilters')) {
+  $('bTabFilters').addEventListener('click', () => {
+    openFilterDrawer();
+  });
+}
 
 // DÉMARRAGE INITIAL
 sortData();

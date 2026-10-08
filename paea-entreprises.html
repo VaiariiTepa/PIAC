@@ -424,12 +424,15 @@ body {
   background: var(--bg-hover);
   color: var(--coral-600);
 }
-.csv-btn {
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+.csv-btn, .print-btn {
   height: 40px;
-  padding: 0 16px;
-  background: var(--lagoon-50);
-  border: 1px solid var(--lagoon-100);
-  color: var(--lagoon-700);
+  padding: 0 14px;
   border-radius: var(--radius-md);
   font-size: 0.85rem;
   font-weight: 600;
@@ -437,12 +440,38 @@ body {
   align-items: center;
   gap: 6px;
   cursor: pointer;
-  margin-left: auto;
   transition: var(--transition);
+  white-space: nowrap;
+}
+.csv-btn {
+  background: var(--lagoon-50);
+  border: 1px solid var(--lagoon-100);
+  color: var(--lagoon-700);
 }
 .csv-btn:hover {
   background: var(--lagoon-600);
   color: #fff;
+  border-color: var(--lagoon-600);
+}
+.print-btn {
+  background: var(--emerald-50);
+  border: 1px solid var(--emerald-100);
+  color: var(--emerald-700);
+}
+.print-btn:hover {
+  background: var(--emerald-600);
+  color: #fff;
+  border-color: var(--emerald-600);
+}
+@media (max-width: 768px) {
+  .toolbar-actions {
+    width: 100%;
+    margin-left: 0;
+  }
+  .csv-btn, .print-btn {
+    flex: 1;
+    justify-content: center;
+  }
 }
 
 /* Ruban Kilométrique RT1 (Paea PK 18 -> PK 28.3) */
@@ -902,92 +931,559 @@ td.td-addr {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.anim-fade {
-  animation: fadeIn 0.3s ease-out forwards;
-}
-
-/* Bouton Filtres mobile (caché sur desktop) */
-.mobile-filter-btn {
+/* Print-only / Screen-only helpers */
+.print-only-header,
+.print-only-footer,
+.biz-print-contact,
+.biz-row-label,
+.print-contact-line {
   display: none;
-  height: 40px;
-  padding: 0 14px;
-  background: var(--lagoon-600);
-  border: 1px solid var(--lagoon-600);
-  color: #fff;
-  border-radius: var(--radius-md);
-  font-size: 0.85rem;
-  font-weight: 700;
-  align-items: center;
-  gap: 6px;
-  cursor: pointer;
-  transition: var(--transition);
-  white-space: nowrap;
-}
-.mobile-filter-btn.active {
-  background: var(--lagoon-700);
 }
 
 /* ==========================================================================
-   OPTIMISATION MOBILE ≤768px : LA LISTE PREND LA MAJORITÉ DE L'ÉCRAN
-   Option A compacte : hero réduit, stats 2x2, recherche sticky seule,
-   filtres/PK repliés par défaut, vue cartes par défaut.
+   MODALE D'IMPRESSION PRO
    ========================================================================== */
-@media (max-width: 768px) {
-  .hero { padding: 14px 14px 18px; }
-  .hero h1 { font-size: 1.25rem; line-height: 1.25; }
-  .hero-badge { font-size: 0.72rem; padding: 4px 10px; }
-  .hero-top { margin-bottom: 4px; }
-
-  .main-wrapper { padding: 0 12px; margin: -14px auto 0; }
-
-  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 10px; }
-  .stat-pill { padding: 6px 8px; gap: 8px; }
-  .stat-icon { width: 28px; height: 28px; font-size: 0.85rem; }
-  .stat-num { font-size: 1rem; }
-  .stat-txt { font-size: 0.66rem; white-space: normal; line-height: 1.2; }
-
-  .control-panel {
-    position: sticky;
-    top: 8px;
-    padding: 10px 12px;
-    gap: 8px;
-    margin-bottom: 12px;
-    border-radius: 16px;
-  }
-  .search-row { gap: 8px; }
-  .search-box { flex: 1 1 100%; min-width: 0; }
-  .search-input { height: 42px; font-size: 0.9rem; }
-  .kbd-hint { display: none; }
-
-  .view-switch { flex: 1 1 auto; }
-  .view-btn { flex: 1; justify-content: center; padding: 7px 8px; font-size: 0.8rem; white-space: nowrap; }
-  .csv-btn { margin-left: 0; height: 38px; padding: 0 12px; font-size: 0.8rem; white-space: nowrap; }
-  .mobile-filter-btn { display: inline-flex; flex: 1 1 auto; justify-content: center; height: 38px; }
-
-  /* Filtres et ruban PK repliés par défaut sur mobile */
-  .control-panel .pk-ribbon,
-  .control-panel .filters-row { display: none; }
-  .control-panel.expanded .pk-ribbon { display: flex; }
-  .control-panel.expanded .filters-row { display: flex; }
-
-  .filters-row { gap: 8px; }
-  .custom-select { flex: 1 1 calc(50% - 4px); min-width: 0; height: 38px; font-size: 0.8rem; }
-  .reset-btn { flex: 1 1 auto; height: 38px; justify-content: center; }
-  #activeCountBadge { margin-left: 0; width: 100%; text-align: left; }
-
-  .cards-grid { grid-template-columns: 1fr; gap: 10px; }
-  .biz-card { padding: 14px; }
-  .biz-title { font-size: 1rem; }
-
-  /* Évite le chevauchement du thead sticky avec le panneau réduit */
-  thead { position: static; }
-  .table-scroll { overflow-x: auto; }
-  td.td-name, td.td-rep, td.td-addr { max-width: none; }
+.print-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(6px);
+  z-index: 1100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
-/* Garde 2 colonnes stats même sur très petits écrans (évite 4 lignes empilées) */
-@media (max-width: 480px) {
-  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; }
-  .stat-num { font-size: 0.95rem; }
+.print-modal-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.print-modal {
+  width: min(580px, 100%);
+  background: var(--bg-card-solid);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.print-modal-backdrop.open .print-modal {
+  transform: translateY(0) scale(1);
+}
+.print-modal-header {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.print-modal-icon {
+  font-size: 1.5rem;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  background: var(--emerald-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.print-modal-title {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+.print-modal-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.print-modal-body {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: calc(85vh - 140px);
+  overflow-y: auto;
+}
+.print-summary-box {
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.print-summary-count {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.count-number {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--lagoon-600);
+}
+.count-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+.print-summary-detail {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+.print-format-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.print-section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-muted);
+}
+.print-options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 520px) {
+  .print-options-grid { grid-template-columns: 1fr; }
+}
+.print-option-card {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  cursor: pointer;
+  background: var(--bg-card-solid);
+  transition: var(--transition);
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.print-option-card:hover {
+  border-color: var(--lagoon-500);
+  background: var(--bg-hover);
+}
+.print-option-card.selected {
+  border-color: var(--lagoon-600);
+  background: var(--lagoon-50);
+}
+.print-option-card input[type="radio"] {
+  margin-top: 3px;
+  accent-color: var(--lagoon-600);
+}
+.option-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.option-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.option-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.option-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--lagoon-600);
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.option-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+.print-tip-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--amber-50);
+  border: 1px solid var(--amber-100);
+  border-radius: var(--radius-md);
+  color: var(--amber-600);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.print-tip-box svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.print-modal-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 10px;
+  background: var(--bg-hover);
+}
+.btn-cancel {
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.88rem;
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn-cancel:hover {
+  color: var(--text-main);
+  border-color: var(--border-subtle);
+}
+
+/* ==========================================================================
+   STYLES D'IMPRESSION PROFESSIONNELS (MISE EN PAGE PAPIER & EXPORT PDF)
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 8mm 10mm 8mm;
+  }
+
+  /* Forcer la préservation des couleurs et contrastes */
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Masquer tous les éléments visuels de l'interface web */
+  header.hero,
+  .hero,
+  .stats-strip,
+  .control-panel,
+  .search-row,
+  .pk-ribbon,
+  .filters-row,
+  .bottom-bar,
+  .drawer-backdrop,
+  .drawer,
+  .print-modal-backdrop,
+  .loading-more,
+  .empty-feedback,
+  #themeToggle,
+  .kbd-hint,
+  .biz-actions,
+  #bTabSearch,
+  #bTabContact,
+  #bTabPk,
+  #bTabStats,
+  .view-switch,
+  .toolbar-actions {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Assurer que le conteneur masqué reste masqué */
+  #tableContainer[style*="display: none"],
+  #cardsContainer[style*="display: none"] {
+    display: none !important;
+  }
+
+  /* Reset document pour papier */
+  html, body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 8pt !important;
+    line-height: 1.3 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .main-wrapper {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+  /* En-tête officiel imprimé */
+  .print-only-header {
+    display: block !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 2px solid #0f172a !important;
+  }
+  .print-header-top {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    margin-bottom: 4px !important;
+  }
+  .print-logo-emblem {
+    font-family: var(--font-title) !important;
+    font-size: 11pt !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    letter-spacing: 0.5px !important;
+  }
+  .print-logo-sub {
+    font-size: 7.2pt !important;
+    color: #475569 !important;
+    font-weight: 500 !important;
+  }
+  .print-meta-right {
+    text-align: right !important;
+    font-size: 7.2pt !important;
+    color: #475569 !important;
+  }
+  .print-count-badge {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 8pt !important;
+    margin-top: 2px !important;
+  }
+  .print-header-title {
+    font-family: var(--font-title) !important;
+    font-size: 12pt !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    margin: 4px 0 3px !important;
+  }
+  .print-filter-line {
+    font-size: 7.5pt !important;
+    color: #1e293b !important;
+    background: #f1f5f9 !important;
+    padding: 3px 8px !important;
+    border-radius: 4px !important;
+    display: inline-block !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+  .print-filter-label {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    margin-right: 4px !important;
+  }
+
+  /* Pied de page officiel imprimé */
+  .print-only-footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 14px !important;
+    padding-top: 6px !important;
+    border-top: 1px solid #cbd5e1 !important;
+    font-size: 6.8pt !important;
+    color: #64748b !important;
+  }
+
+  /* -------------------------------------------------------------------------
+     MISE EN PAGE 1 : TABLEAU PRO IMPRIMÉ
+     ------------------------------------------------------------------------- */
+  .table-panel {
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+  }
+  .table-scroll {
+    overflow: visible !important;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 7.5pt !important;
+  }
+  thead {
+    position: static !important;
+    display: table-header-group !important;
+    background: #f1f5f9 !important;
+  }
+  th {
+    border: 1px solid #cbd5e1 !important;
+    background: #f8fafc !important;
+    color: #0f172a !important;
+    padding: 5px 6px !important;
+    font-size: 7pt !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3px !important;
+  }
+  th.sorted::after, th.sorted.desc::after {
+    display: none !important;
+  }
+  tbody tr {
+    border: 1px solid #cbd5e1 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f8fafc !important;
+  }
+  td {
+    border: 1px solid #cbd5e1 !important;
+    padding: 5px 6px !important;
+    vertical-align: top !important;
+    font-size: 7.2pt !important;
+    color: #1e293b !important;
+  }
+  td.td-name {
+    font-weight: 700 !important;
+    color: #000000 !important;
+    max-width: none !important;
+    font-size: 7.8pt !important;
+  }
+  td.td-rep {
+    max-width: none !important;
+    color: #334155 !important;
+  }
+  td.td-addr {
+    max-width: none !important;
+    color: #334155 !important;
+    font-size: 7pt !important;
+  }
+
+  /* Badges dans le tableau imprimé */
+  .pill-form, .pill-cat {
+    border: 1px solid #94a3b8 !important;
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    padding: 1px 4px !important;
+    font-size: 6.5pt !important;
+    font-weight: 700 !important;
+    border-radius: 3px !important;
+    display: inline-block !important;
+  }
+  .id-badge {
+    display: inline-block !important;
+    border: 1px solid #cbd5e1 !important;
+    background: transparent !important;
+    color: #334155 !important;
+    font-size: 6.5pt !important;
+    padding: 1px 3px !important;
+    margin-right: 2px !important;
+    font-family: monospace !important;
+  }
+  .contact-cell {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    font-size: 7pt !important;
+  }
+  .contact-tag-direct, .contact-tag-alert {
+    display: none !important;
+  }
+  .print-contact-line {
+    display: block !important;
+    line-height: 1.25 !important;
+    color: #0f172a !important;
+  }
+  .action-chip {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    font-size: 7pt !important;
+    color: #0f172a !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+  }
+
+  /* -------------------------------------------------------------------------
+     MISE EN PAGE 2 : CARTES PRO IMPRIMÉES (GRILLE 2 COLONNES PAPIER)
+     ------------------------------------------------------------------------- */
+  .cards-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+  .biz-card {
+    background: #ffffff !important;
+    border: 1px solid #94a3b8 !important;
+    border-radius: 6px !important;
+    padding: 8px 10px !important;
+    box-shadow: none !important;
+    transform: none !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    gap: 6px !important;
+  }
+  .biz-card:hover {
+    transform: none !important;
+    border-color: #94a3b8 !important;
+  }
+  .biz-top {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+  .biz-title {
+    font-size: 8.8pt !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
+    line-height: 1.2 !important;
+  }
+  .biz-badges {
+    display: flex !important;
+    gap: 4px !important;
+    flex-shrink: 0 !important;
+  }
+  .biz-info {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 3px !important;
+    font-size: 7.2pt !important;
+    margin-top: 4px !important;
+  }
+  .biz-row {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+    color: #334155 !important;
+  }
+  .biz-row svg {
+    display: none !important;
+  }
+  .biz-row-label {
+    display: inline !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+  }
+  .biz-ids-row {
+    margin-top: 2px !important;
+  }
+  .biz-actions {
+    display: none !important;
+  }
+  .biz-print-contact {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    margin-top: 5px !important;
+    padding-top: 4px !important;
+    border-top: 1px dashed #cbd5e1 !important;
+    font-size: 7pt !important;
+    color: #0f172a !important;
+  }
+  .bpc-row {
+    line-height: 1.25 !important;
+  }
 }
 </style>
 </head>
@@ -1067,15 +1563,16 @@ td.td-addr {
         </button>
       </div>
 
-      <button class="csv-btn" id="btnExportCsv" title="Exporter la sélection courante en CSV (Excel)">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-        <span>Export CSV</span>
-      </button>
-
-      <button class="mobile-filter-btn" id="btnMobileFilters" aria-expanded="false" title="Afficher / masquer les filtres">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 3H2l8 9.5V19l4 2v-8.5L22 3z"/></svg>
-        <span class="lbl">Filtres</span>
-      </button>
+      <div class="toolbar-actions">
+        <button class="csv-btn" id="btnExportCsv" title="Exporter la sélection courante en CSV (Excel)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Export CSV</span>
+        </button>
+        <button class="print-btn" id="btnPrintList" title="Imprimer la sélection filtrée (Tableau ou Cartes)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+          <span>Imprimer</span>
+        </button>
+      </div>
     </div>
 
     <!-- RUBAN PK INTERACTIF (AXE RT1) -->
@@ -1129,6 +1626,29 @@ td.td-addr {
     </div>
   </section>
 
+  <!-- EN-TÊTE OFFICIEL DE DOCUMENT POUR IMPRESSION (VISIBLE UNIQUEMENT À L'IMPRESSION) -->
+  <header class="print-only-header" id="printDocumentHeader">
+    <div class="print-header-top">
+      <div class="print-brand">
+        <div class="print-logo-emblem">COMMUNE DE PAEA – OBSERVATOIRE ÉCONOMIQUE</div>
+        <div class="print-logo-sub">Mission PIAC 2026 • Répertoire consolidé officiel des Entreprises et Patentés</div>
+      </div>
+      <div class="print-meta-right">
+        <div class="print-date" id="printHeaderDate">Date d'édition</div>
+        <div class="print-count-badge" id="printHeaderCount">0 entités répertoriées</div>
+      </div>
+    </div>
+    <div class="print-header-banner">
+      <h1 class="print-header-title" id="printHeaderTitle">Répertoire officiel des Entreprises &amp; Patentés</h1>
+      <div class="print-filter-line">
+        <span class="print-filter-label">Sélection / Filtres :</span>
+        <span class="print-filter-value" id="printHeaderFilters">Toutes les entités</span>
+        <span style="margin: 0 4px; opacity: 0.6;">•</span>
+        <span class="print-header-mode" id="printHeaderMode">Format Tableau</span>
+      </div>
+    </div>
+  </header>
+
   <!-- VUE 1 : TABLEAU PRO (DESKTOP) -->
   <section class="table-panel" id="tableContainer">
     <div class="table-scroll">
@@ -1161,6 +1681,12 @@ td.td-addr {
   </div>
 
   <div class="loading-more" id="loadingMore" style="display:none;">Chargement de résultats supplémentaires…</div>
+
+  <!-- PIED DE PAGE OFFICIEL POUR IMPRESSION (VISIBLE UNIQUEMENT À L'IMPRESSION) -->
+  <footer class="print-only-footer" id="printDocumentFooter">
+    <span>Observatoire Économique de Paea — Répertoire consolidé (Données publiques CCISM • DICP • Lexpol)</span>
+    <span>Document d'information économique — Paea, Tahiti</span>
+  </footer>
 
 </main>
 
@@ -1234,6 +1760,80 @@ td.td-addr {
   </div>
 </aside>
 
+<!-- MODALE D'IMPRESSION PROFESSIONNELLE -->
+<div class="print-modal-backdrop" id="printModalBackdrop">
+  <div class="print-modal" id="printModal" role="dialog" aria-modal="true" aria-labelledby="printModalTitle">
+    <div class="print-modal-header">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div class="print-modal-icon">🖨️</div>
+        <div>
+          <h2 class="print-modal-title" id="printModalTitle">Imprimer la sélection</h2>
+          <p class="print-modal-sub">Mise en page papier et export PDF haute fidélité</p>
+        </div>
+      </div>
+      <button class="drawer-close" id="btnPrintModalClose" title="Fermer" type="button">✕</button>
+    </div>
+
+    <div class="print-modal-body">
+      <!-- Synthèse des filtres et volumétrie -->
+      <div class="print-summary-box">
+        <div class="print-summary-count">
+          <span class="count-number" id="printModalCount">0</span>
+          <span class="count-label">entités correspondent à vos filtres</span>
+        </div>
+        <div class="print-summary-detail">
+          <strong>Critères actuels :</strong> <span id="printModalFilters">Toutes les entités</span>
+        </div>
+      </div>
+
+      <!-- Choix de la présentation -->
+      <div class="print-format-section">
+        <label class="print-section-label">Format de mise en page</label>
+        <div class="print-options-grid">
+          <label class="print-option-card selected" id="optCardTable">
+            <input type="radio" name="printFormat" value="table" id="radioPrintTable" checked>
+            <div class="option-content">
+              <div class="option-header">
+                <span class="option-title">📋 Tableau de synthèse</span>
+                <span class="option-badge">Officiel</span>
+              </div>
+              <p class="option-desc">Listing compact structuré avec en-têtes récurrents sur chaque page. Idéal pour dossiers administratifs et économie de papier.</p>
+            </div>
+          </label>
+
+          <label class="print-option-card" id="optCardCards">
+            <input type="radio" name="printFormat" value="cards" id="radioPrintCards">
+            <div class="option-content">
+              <div class="option-header">
+                <span class="option-title">🗂️ Fiches / Cartes</span>
+                <span class="option-badge" style="background:var(--emerald-600);">Détaillé</span>
+              </div>
+              <p class="option-desc">Grille 2 colonnes avec encadrés individuels et coordonnées de contact en texte clair. Idéal pour prospection et tournées de terrain.</p>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Conseils d'impression -->
+      <div class="print-tip-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        <div>
+          <strong>Rendu propre et sans éléments web :</strong>
+          <div style="margin-top:2px;">Les barres de recherche, boutons, filtres et menus sont automatiquement masqués. Pour préserver les nuances de couleurs des badges, activez <em>« Graphiques d'arrière-plan »</em> dans la fenêtre d'impression.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="print-modal-footer">
+      <button type="button" class="btn-cancel" id="btnPrintModalCancel">Annuler</button>
+      <button type="button" class="btn-action-big call" id="btnPrintModalConfirm" style="flex:1;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+        <span id="btnPrintConfirmLabel">Lancer l'impression</span>
+      </button>
+    </div>
+  </div>
+</div>
+
 <!-- ==========================================================================
    DONNÉES ENRICHIES ET SCRIPT INTERACTIF
    ========================================================================== -->
@@ -1305,11 +1905,25 @@ function parseContactData(raw) {
 }
 
 // RENDU CELLULE TABLE
-function renderContactCell(r) {
+function renderContactCell(r, forPrint = false) {
   const c = parseContactData(r.contact);
   if(!c.hasContact && !c.isAlert) return '<span style="color:var(--text-dim)">—</span>';
   if(c.isAlert) {
     return `<div class="contact-cell"><span class="contact-tag-alert">⚠️ Statut</span><span style="font-size:0.75rem;color:var(--text-muted);">${escapeHtml(c.text)}</span></div>`;
+  }
+  if(forPrint) {
+    let items = [];
+    c.phones.forEach(num => {
+      items.push(`<div class="print-contact-line">📞 <strong>${escapeHtml(num)}</strong></div>`);
+    });
+    c.mails.forEach(em => {
+      items.push(`<div class="print-contact-line">✉ ${escapeHtml(em)}</div>`);
+    });
+    c.urls.forEach(url => {
+      const clean = url.replace(/^https?:\/\//, '');
+      items.push(`<div class="print-contact-line">🌐 ${escapeHtml(clean)}</div>`);
+    });
+    return `<div class="contact-cell">${items.join('')}</div>`;
   }
   let links = [];
   c.phones.forEach(num => {
@@ -1351,13 +1965,34 @@ function renderBizCard(r) {
     }
     if(c.urls.length > 0) {
       const u = c.urls[0];
-      const href = u.startsWith('http') ? url : 'https://' + u;
+      const href = u.startsWith('http') ? u : 'https://' + u;
       chips.push(`<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer" class="action-chip web">${u.includes('facebook')?'📘 Facebook':'🌐 Web'}</a>`);
     }
     if(r.address && r.address !== 'Commune de Paea') {
       chips.push(`<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.address + ', Paea, Tahiti')}" target="_blank" rel="noopener noreferrer" class="action-chip web">📍 Itinéraire</a>`);
     }
     actionsHtml = chips.join('');
+  }
+
+  const idsHtml = (r.ids && r.ids.length > 0) 
+    ? `<div class="biz-ids-row">${r.ids.map(id => `<span class="id-badge">${escapeHtml(id)}</span>`).join('')}</div>`
+    : '';
+
+  const printContactRows = [];
+  if(c.phones.length > 0) {
+    printContactRows.push(`<div class="bpc-row"><strong>📞 Tél :</strong> ${c.phones.map(p => escapeHtml(p)).join(' / ')}</div>`);
+  }
+  if(c.mails.length > 0) {
+    printContactRows.push(`<div class="bpc-row"><strong>✉ Email :</strong> ${c.mails.map(m => escapeHtml(m)).join(' / ')}</div>`);
+  }
+  if(c.urls.length > 0) {
+    printContactRows.push(`<div class="bpc-row"><strong>🌐 Web/FB :</strong> ${c.urls.map(u => escapeHtml(u.replace(/^https?:\/\//,''))).join(' / ')}</div>`);
+  }
+  if(c.isAlert) {
+    printContactRows.push(`<div class="bpc-row" style="color:#b91c1c;"><strong>⚠️ Statut :</strong> ${escapeHtml(c.text)}</div>`);
+  }
+  if(!c.hasContact && !c.isAlert) {
+    printContactRows.push(`<div class="bpc-row" style="color:#64748b;"><em>Aucun contact direct enregistré</em></div>`);
   }
 
   return `
@@ -1370,19 +2005,25 @@ function renderBizCard(r) {
           <span class="pill-cat ${escapeHtml(r.cat)}">${escapeHtml(r.cat)}</span>
         </div>
       </div>
-      <div class="biz-info" style="margin-top:10px;">
+      <div class="biz-info" style="margin-top:8px;">
         <div class="biz-row">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          <span class="biz-row-label">Dirigeant : </span>
           <span>${escapeHtml(r.rep||'—')}</span>
         </div>
         <div class="biz-row">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="biz-row-label">Adresse : </span>
           <span>${escapeHtml(r.address||'Commune de Paea')}</span>
         </div>
-        ${r.naf ? `<div class="biz-row"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><span style="font-size:0.78rem;">${escapeHtml(r.naf)}</span></div>` : ''}
+        ${r.naf ? `<div class="biz-row"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><span class="biz-row-label">Activité : </span><span style="font-size:0.78rem;">${escapeHtml(r.naf)}</span></div>` : ''}
+        ${idsHtml}
       </div>
     </div>
     ${actionsHtml ? `<div class="biz-actions">${actionsHtml}</div>` : ''}
+    <div class="biz-print-contact">
+      ${printContactRows.join('')}
+    </div>
   </article>`;
 }
 
@@ -1692,6 +2333,7 @@ window.addEventListener('keydown', e => {
   }
   if(e.key === 'Escape') {
     closeDetails();
+    closePrintModal();
   }
 });
 
@@ -1727,6 +2369,170 @@ $('btnExportCsv').addEventListener('click', () => {
   URL.revokeObjectURL(url);
 });
 
+// ==========================================================================
+// GESTION DE L'IMPRESSION PRO (FILTRES, TABLEAU / CARTES, MASQUAGE WEB)
+// ==========================================================================
+
+function getFilterSummary() {
+  const parts = [];
+  const q = $('searchInput').value.trim();
+  const cat = $('filterCat').value;
+  const form = $('filterForm').value;
+  const contact = $('filterContact').value;
+  const pkPill = document.querySelector('.pk-pill.active');
+  const pk = pkPill ? pkPill.dataset.pk : '';
+
+  if(form) {
+    if(form === 'PPHY') parts.push('Patentés (PPHY)');
+    else parts.push('Forme ' + form);
+  }
+  if(cat) {
+    parts.push('Collège ' + cat.charAt(0) + cat.slice(1).toLowerCase());
+  }
+  if(pk) {
+    parts.push(pkPill.textContent.trim());
+  }
+  if(contact) {
+    if(contact === 'with') parts.push('Avec contact direct vérifié');
+    else if(contact === 'tel') parts.push('Avec ligne téléphonique');
+    else if(contact === 'web_mail') parts.push('Avec e-mail / web');
+    else if(contact === 'alert') parts.push('Statut particulier');
+    else if(contact === 'without') parts.push('Sans contact');
+  }
+  if(q) {
+    parts.push('Recherche : « ' + q + ' »');
+  }
+
+  if(parts.length === 0) {
+    return 'Répertoire complet (Toutes formes, Tous collèges, Tout Paea)';
+  }
+  return parts.join(' • ');
+}
+
+function updatePrintHeader(formatToPrint) {
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+  const timeStr = now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+  
+  $('printHeaderDate').textContent = `Édité le ${dateStr} à ${timeStr}`;
+  $('printHeaderCount').textContent = `${filtered.length.toLocaleString('fr-FR')} entité${filtered.length > 1 ? 's' : ''} répertoriée${filtered.length > 1 ? 's' : ''}`;
+  $('printHeaderFilters').textContent = getFilterSummary();
+  $('printHeaderMode').textContent = formatToPrint === 'cards' ? 'Présentation : Fiches / Cartes' : 'Présentation : Tableau officiel';
+}
+
+let isPrinting = false;
+let prePrintViewState = null;
+
+function preparePrint(formatToPrint) {
+  isPrinting = true;
+  prePrintViewState = {
+    view: currentView,
+    pageIndex: pageIndex
+  };
+
+  updatePrintHeader(formatToPrint);
+
+  if(formatToPrint === 'table') {
+    $('tableContainer').style.display = 'block';
+    $('cardsContainer').style.display = 'none';
+    const allRowsHtml = filtered.map(r => `
+      <tr data-idx="${r.idx}">
+        <td class="td-name">${escapeHtml(r.name)}</td>
+        <td><span class="pill-form ${['sarl','sas','sci','pphy'].includes((r.form||'').toLowerCase())?(r.form||'').toLowerCase():'inst'}">${escapeHtml(r.form)}</span></td>
+        <td><span class="pill-cat ${escapeHtml(r.cat)}">${escapeHtml(r.cat)}</span></td>
+        <td class="td-rep">${escapeHtml(r.rep||'—')}</td>
+        <td>${r.naf ? `<span style="font-size:0.75rem;">${escapeHtml(r.naf)}</span>` : '—'}</td>
+        <td>${(r.ids||[]).map(id => `<span class="id-badge">${escapeHtml(id)}</span>`).join('')}</td>
+        <td class="td-addr">${escapeHtml(r.address||'—')}</td>
+        <td>${renderContactCell(r, true)}</td>
+      </tr>
+    `).join('');
+    $('tableBody').innerHTML = allRowsHtml;
+  } else {
+    $('tableContainer').style.display = 'none';
+    $('cardsContainer').style.display = 'grid';
+    const allCardsHtml = filtered.map(r => renderBizCard(r)).join('');
+    $('cardsContainer').innerHTML = allCardsHtml;
+  }
+}
+
+function restoreAfterPrint() {
+  if(!isPrinting) return;
+  isPrinting = false;
+  if(prePrintViewState) {
+    currentView = prePrintViewState.view;
+    pageIndex = prePrintViewState.pageIndex;
+    prePrintViewState = null;
+  }
+  $('btnViewTable').classList.toggle('active', currentView === 'table');
+  $('btnViewCards').classList.toggle('active', currentView === 'cards');
+  render(true);
+}
+
+function openPrintModal() {
+  if(filtered.length === 0) {
+    alert("Aucune entreprise ou patenté ne correspond à votre sélection actuelle pour l'impression.");
+    return;
+  }
+  closeDetails();
+  $('printModalCount').textContent = filtered.length.toLocaleString('fr-FR');
+  $('printModalFilters').textContent = getFilterSummary();
+  $('btnPrintConfirmLabel').textContent = `Lancer l'impression (${filtered.length.toLocaleString('fr-FR')} entités)`;
+
+  if(currentView === 'cards') {
+    $('radioPrintCards').checked = true;
+    $('optCardCards').classList.add('selected');
+    $('optCardTable').classList.remove('selected');
+  } else {
+    $('radioPrintTable').checked = true;
+    $('optCardTable').classList.add('selected');
+    $('optCardCards').classList.remove('selected');
+  }
+
+  $('printModalBackdrop').classList.add('open');
+}
+
+function closePrintModal() {
+  $('printModalBackdrop').classList.remove('open');
+}
+
+$('optCardTable').addEventListener('click', () => {
+  $('radioPrintTable').checked = true;
+  $('optCardTable').classList.add('selected');
+  $('optCardCards').classList.remove('selected');
+});
+$('optCardCards').addEventListener('click', () => {
+  $('radioPrintCards').checked = true;
+  $('optCardCards').classList.add('selected');
+  $('optCardTable').classList.remove('selected');
+});
+
+$('btnPrintList').addEventListener('click', openPrintModal);
+$('btnPrintModalClose').addEventListener('click', closePrintModal);
+$('btnPrintModalCancel').addEventListener('click', closePrintModal);
+$('printModalBackdrop').addEventListener('click', e => {
+  if(e.target === $('printModalBackdrop')) closePrintModal();
+});
+
+$('btnPrintModalConfirm').addEventListener('click', () => {
+  const chosenFormat = $('radioPrintCards').checked ? 'cards' : 'table';
+  closePrintModal();
+  preparePrint(chosenFormat);
+  setTimeout(() => {
+    window.print();
+  }, 80);
+});
+
+window.addEventListener('beforeprint', () => {
+  if(!isPrinting) {
+    preparePrint(currentView);
+  }
+});
+
+window.addEventListener('afterprint', () => {
+  restoreAfterPrint();
+});
+
 // BOTTOM NAVIGATION BAR MOBILE
 $('bTabSearch').addEventListener('click', () => {
   $('searchInput').focus();
@@ -1742,37 +2548,6 @@ $('bTabPk').addEventListener('click', () => {
 $('bTabStats').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
-// OPTIMISATION MOBILE : vue cartes par défaut + panneau filtres repliable
-(function initMobileLayout(){
-  const mq = window.matchMedia('(max-width: 768px)');
-  const panel = document.querySelector('.control-panel');
-  const btnF = document.getElementById('btnMobileFilters');
-  function applyMobileDefault(){
-    if(mq.matches && typeof currentView !== 'undefined' && currentView !== 'cards'){
-      switchView('cards');
-    }
-  }
-  if(btnF && panel){
-    btnF.addEventListener('click', () => {
-      const exp = panel.classList.toggle('expanded');
-      btnF.classList.toggle('active', exp);
-      btnF.setAttribute('aria-expanded', exp ? 'true' : 'false');
-      const lbl = btnF.querySelector('.lbl');
-      if(lbl) lbl.textContent = exp ? 'Masquer' : 'Filtres';
-    });
-  }
-  // Quand on tape "Par PK" en bas, déplie le panneau pour montrer le ruban
-  const bPk = document.getElementById('bTabPk');
-  if(bPk && panel){
-    bPk.addEventListener('click', () => {
-      if(mq.matches && !panel.classList.contains('expanded') && btnF){
-        btnF.click();
-      }
-    }, { capture: false });
-  }
-  applyMobileDefault();
-})();
 
 // DÉMARRAGE INITIAL
 sortData();

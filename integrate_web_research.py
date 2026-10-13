@@ -244,6 +244,10 @@ def main(journal_path, assoc_path=RNA_FILE):
     data = json.load(open(DATA_FILE, encoding='utf-8'))
     journal = load_journal(journal_path)
     provenance = {'contacts': [], 'associations': [], 'associations_hors_rna': []}
+    try:  # conserve la provenance des passes précédentes
+        provenance.update(json.load(open(SOURCES_FILE, encoding='utf-8')))
+    except FileNotFoundError:
+        pass
 
     # Normalisation : « SERVICES » est une variante orthographique du collège « SERVICE »
     for item in data:

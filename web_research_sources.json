@@ -485,6 +485,136 @@
           "reason": "I fetched the Facebook page 'Pacific Nomad' (vanity URL PacificNomadTahiti, category Produit/service) directly. Its contact block contains '87 74 43 78', 'pacificnomadtahiti@gmail.com' and 'pacificnomadtahiti.com'; 87 is a valid PF mobile prefix. JuriPacific/JOPF lists a single 'PACIFIC NOMAD' SARL in French Polynesia, created 22/12/2017, with its registered office at Paea PK 24,200 côté mer. Its purpose covers leisure activities, lagoon excursions and sport and leisure rentals; the manager is Olivier NOINAIN. The exact name, the 'Tahiti' branding, the +689 number and the nature and outdoor theme are consistent with it. Caveat: the page is small and inactive, with 60 followers and only a few posts, one of them an album tagged 'HI, USA' / Big Island. It states no address, activity or manager name, so the Paea link rests on the name being unique in the PF registry. I found no source confirming a cessation."
         }
       ]
+    },
+    {
+      "idx": 71,
+      "name": "PLACOTECH",
+      "form": "SARL",
+      "avant": "🌐 facebook.com/placotech987",
+      "apres": "☎ 87 24 26 17 · ✉ placotech987@gmail.com · 🌐 facebook.com/placotech987",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 24 26 17"
+          ],
+          "emails": [
+            "placotech987@gmail.com"
+          ],
+          "urls": [
+            "https://www.facebook.com/placotech987"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://www.facebook.com/placotech987"
+          ],
+          "reason": "I re-opened the Facebook page in the built-in browser. It is titled 'Placotech | Paea' and categorised 'Entreprise de construction', located in Paea. Its description is 'Réalisations de faux-plafonds et cloison en plaque de platre ou en béton cellulaire'. That matches the entity: SARL PLACOTECH, NAF 4331Z (plâtrerie), PK 22.900 Paea, and the directory already listed facebook.com/placotech987. The Intro block shows '87 24 26 17', '+689 87 24 26 17' and 'placotech987@gmail.com'. The number is a valid 8-digit PF mobile number and the email slug matches the page slug. The page is the business's own, not a homonym or a switchboard. I could not run an independent search for the number because the web search budget was exhausted, and the fetch tool was unavailable. The single Facebook page is therefore the only source."
+        }
+      ]
+    },
+    {
+      "idx": 422,
+      "name": "HOLGUIN Teva Nui Calito",
+      "form": "PPHY",
+      "avant": "",
+      "apres": "☎ 89 78 59 02 · 🌐 facebook.com/people/Holguin-Elagage-Services/100057511965288",
+      "enseigne": "HOLGUIN ÉLAGAGE SERVICE",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "89 78 59 02"
+          ],
+          "emails": [],
+          "urls": [
+            "https://www.facebook.com/people/Holguin-Elagage-Services/100057511965288/"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://polynesiepratique.com/fr/mon-fare/jardinage/entretien-des-jardins/1432-holguin-elagage-service-a-paea"
+          ],
+          "reason": "I reopened the Polynésie Pratique listing in the browser. It reads 'HOLGUIN ÉLAGAGE SERVICE', an abattage, élagage, décocotage, évacuation de déchets and nacelle-rental business at Quartier Gournac, PK 22, 98711 Paea, with postal address BP 10015 Paea. The listing gives 'Tél : 89.78.59.02 (Teva-Nui HOLGUIN)'. This matches the entity on every point: same person (Teva Nui Holguin), same address (PK 22 C/Mer-Gournac, Paea), and an activity that fits NAF 8130Z. The number is a valid 8-digit PF number that begins with 89. The listing links a Facebook page, 'Holguin Elagage Services', which exists and redirects to /people/Holguin-Elagage-Services/100057511965288/. Its content is not readable without logging in, so it adds no independent corroboration of the number. I could not run the exact-number web search because the search budget was used up. The single source is a directory listing from 2023 or earlier, so the number could be out of date, but I found nothing contradicting it."
+        }
+      ]
+    },
+    {
+      "idx": 563,
+      "name": "RIEGEL Roland",
+      "form": "PPHY",
+      "avant": "",
+      "apres": "☎ 40 53 31 29 · ✉ roland.riegel@outlook.fr · 🌐 tahititourisme.com/accommodation/au-fare-moenau",
+      "enseigne": "Au Fare Moenau",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "40 53 31 29"
+          ],
+          "emails": [
+            "roland.riegel@outlook.fr"
+          ],
+          "urls": [
+            "https://www.tahititourisme.com/accommodation/au-fare-moenau/"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.tahititourisme.com/accommodation/au-fare-moenau/"
+          ],
+          "reason": "I re-opened the Tahiti Tourisme page in the browser. Its structured data (JSON-LD) and the tel: link both show telephone +689 40 53 31 29, which is a valid 8-digit PF number. The listing is 'Au Fare Moenau', a beachfront fare (lodging) in Paea 98711, coordinates -17.6885,-149.5857, so it fits NAF 5520Z. The listing's email is roland.riegel@outlook.fr, which matches the entity RIEGEL Roland. That email was not in the original claim; I added it because it comes from the same listing and matches the owner's name. Two limits: the street address on the page is only 'Paea', so I could not re-verify the 'N°236C Vaiapane PK20.8' detail from the claim. The Booking.com page did not load, so I did not use it. The match rests on the owner-name email plus the lodging type and the Paea location. WebSearch quota was exhausted, so I could not run the quoted-number searches."
+        }
+      ]
+    },
+    {
+      "idx": 830,
+      "name": "GOUBREY Taianui",
+      "form": "PPHY",
+      "avant": "",
+      "apres": "☎ 87 72 23 65 · ✉ thtautospa@gmail.com · 🌐 tahitiautospa.com",
+      "enseigne": "Tahiti AutoSpa",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 72 23 65"
+          ],
+          "emails": [
+            "thtautospa@gmail.com"
+          ],
+          "urls": [
+            "tahitiautospa.com"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://tahitiautospa.com/mentions-legales/",
+            "https://tahitiautospa.com/nous-contacter/"
+          ],
+          "reason": "I re-opened both pages in the browser. The mentions légales say Tahiti Autospa is registered as Tahiti 904086, postal address BP 330133 - 98711 Paea, publisher Taianui Goubrey, phone (+689) 87.722.365, email thtautospa [at] gmail.com. The contact page lists phone 87.722.365 and email thtautospa@gmail.com, plus Facebook ThtAutoSpa and Instagram Tahitiautospa. The person (GOUBREY Taianui), the Paea location and the activity (car detailing, NAF 4520A) all match. The number is a valid 8-digit PF mobile number and is not a generic switchboard. I did not open the Facebook or Instagram pages, so I kept only the website in urls. My web search budget was used up, so I did not run the quoted-number search."
+        }
+      ]
+    },
+    {
+      "idx": 1256,
+      "name": "ARGANCE II (FARE MITI)",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 76 39 99",
+      "enseigne": "Résidence Fare Miti",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 76 39 99"
+          ],
+          "emails": [],
+          "urls": [],
+          "status_alert": null,
+          "sources": [
+            "https://www.google.com/maps/place/R%C3%A9sidence+Fare+Miti/@-17.6790669,-149.5885554,17z/data=!3m1!4b1!4m6!3m5!1s0x769a33c0ca64903d:0x41778068e4c8e638!8m2!3d-17.6790669!4d-149.5885554!16s%2Fg%2F11hzpmjyx3"
+          ],
+          "reason": "I re-opened the Google Maps card in my own tab. It is titled \"Résidence Fare Miti\", categorised Lodge, located in Paea, and lists +689 87 76 39 99 (valid 8-digit PF number). Plus code 8CC6+9H Paea. The map pin sits on the Paea coast, lagoon side, and reviews mention a pool and lagoon view. The distinctive trade name \"Fare Miti\", the commune and the lodging activity all match the entity (ARGANCE II (FARE MITI), NAF 5520Z, PK 20,400 Paea). It is not a generic switchboard. Limits: no website is listed. The card shows only \"Paea\", with no street address or PK to compare against PK 20,400. The web search budget was exhausted, so I could not find a second independent source for the number. I accept it on the strength of the name, commune and activity match."
+        }
+      ]
     }
   ],
   "associations": [

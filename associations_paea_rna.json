@@ -1,0 +1,3540 @@
+{
+ "meta": {
+  "description": "Associations loi 1901 actives dont le siège déclaré au RNA est à Paea (98711), relevé du 12/10/2026",
+  "sources": [
+   "https://assoce.fr/departement/987/POLYNESIE%20FRANCAISE/commune/98733/Paea (liste RNA, statut, objet, catégorie)",
+   "https://www.annuaire-mairie.fr/association-paea.html (adresse de siège RNA)"
+  ],
+  "note": "Les adresses sont anonymisées à l'intégration (noms de particuliers retirés). 17 associations dissoutes et 5 dont le siège a quitté Paea sont exclues."
+ },
+ "associations": [
+  {
+   "aid": 0,
+   "rna": "W9P1010053",
+   "name": "ASSOCIATION AGRICOLE BIOLOGIQUE DE RAIPAI",
+   "date": "2022-05-18",
+   "objet": "à saisir...",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 1,
+   "rna": "W9P1000793",
+   "name": "ASSOCIATION POUR LA PROTECTION DE LA VALLEE DE FAA-RAHI OROFERO",
+   "date": "2008-04-11",
+   "objet": "De regrouper les habitants et les propriétaires fonciers de la commune de Paea, dans l' intérêt de la sauvegarde et de la mise en valeur de l' environnement de la vallée d' Orofero--",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": "Orofero Servitude TIXIER"
+  },
+  {
+   "aid": 2,
+   "rna": "W9P1008952",
+   "name": "IA RUPERUPE NOA TOU FENUA",
+   "date": "2020-07-10",
+   "objet": "Des nettoyages des rivières et son aménagement----",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 3,
+   "rna": "W9P1002024",
+   "name": "MATA TOHORA",
+   "date": "2013-10-22",
+   "objet": "A saisir",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 4,
+   "rna": "W9P1009994",
+   "name": "NA HONU O TE OROPA'A",
+   "date": "2022-04-13",
+   "objet": "réhabiliter un rapport sain et durable entre l'Homme et la mer protéger le patrimoine environnemental polynésien protéger le patrimoine culturel matériel et immatériel polynésien rechercher, promouvoir et diffuser les savoirs liés à la navigation traditionnelle construire et naviguer une pirogue à voile polynésienne",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 5,
+   "rna": "W9P1004394",
+   "name": "TE MAITAI NO TERUAMATI",
+   "date": "2018-08-13",
+   "objet": "A saisir",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": "Pk 19,800 c/mont"
+  },
+  {
+   "aid": 6,
+   "rna": "W9P1003522",
+   "name": "TIAI'MOANA - CAPTAIN PAUL WATSON FOUNDATION TAHITI - ANCIENNEMENT TIAIMOANA - SEA SHEPHERD TAHITI",
+   "date": "2013-11-23",
+   "objet": "Protéger l' environnement marin - ( Faune et Flore ) en Polynésie Française et veiller au respect du code de l' Environnement concernant la partie marine en Polynésie française Soutenir l' ONG Captain Paul Watson Foundation et représenter l' ONG Captain Paul Watson Foundation en Polynésie française",
+   "categorie_rna": "Environnement, cadre de vie",
+   "adresse_rna": "Pk 19.100 côté mer - Servitude SARCIAUX, chez M. RIVAGE Vincent."
+  },
+  {
+   "aid": 7,
+   "rna": "W9P1000542",
+   "name": "GREEN WARRIORS - LES VERTS DE TAHITI BEACH SOCCER",
+   "date": "2014-02-21",
+   "objet": "Voir dossier n°L 1947",
+   "categorie_rna": "Football (football, futsal)",
+   "adresse_rna": "PK 20 Côté montagne"
+  },
+  {
+   "aid": 8,
+   "rna": "W9P1009191",
+   "name": "TE ARO MMA",
+   "date": "2020-10-22",
+   "objet": "De faciliter l'insertion ds jeunes au moyen d'animations sportives, de formation, d'encadrement et d'aides diverses...",
+   "categorie_rna": "Sports de combat (boxe, kick box, boxe thaï, lutte)",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 9,
+   "rna": "W9P1000794",
+   "name": "AH-MIN BOXING CLUB",
+   "date": "2000-11-09",
+   "objet": "A saisir",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Quartier Tefaatau"
+  },
+  {
+   "aid": 10,
+   "rna": "W9P1007662",
+   "name": "AREMOANA HOE",
+   "date": "2018-11-05",
+   "objet": "Promouvoir la Pratique de la Pirogue-----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 21.1 côté montagne, servitude LEHARTEL."
+  },
+  {
+   "aid": 11,
+   "rna": "W9P1004239",
+   "name": "AS JEUNESSE VAITERUPE",
+   "date": "2018-06-13",
+   "objet": "De regrouper les différentes disciples sportives----sportives pratiquées par nos adhérents tel que: Le futsal - Volley -Ball---------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "au Lotissement Vaiterupe."
+  },
+  {
+   "aid": 12,
+   "rna": "W9P1000370",
+   "name": "ASSOCIATION ARTISANALE ET SPORTIVE MANU-RUA BOXING DE PAEA",
+   "date": "2016-02-15",
+   "objet": "organiser , promouvoir et développer, des activités physiques et sportives adaptées au profit des jeunes et adultes en situation d'handicap mental ou psychique accueillis. proposer un programme régulier, d'entraînement sportif dans la (ou les ) disciplines (s) de leur choix, afin de les préparer aux rencontres sportives officielles (compétitives ou de loisirs= organisées par la Fédération Polynésieene de boxe, à tous les degrés de programmation (départemental, régional, national, internationsl) permettre à ses membres, grâce au sport pratiqué dans un cadre officiel et reconnu, une mise en mouvement de leurs aptitudes physique, mentales et sociales et donc de leur ouvrir de plus larges perspectives d'intégration sociale favoriser l'expérience de l'initiative et de la responsabilité, de la citoyenneté en invitant ses membres à prendre une part active au fonctionnement de l'association sportive réprésenter et défendre les intérêts généraux de ses membres",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "c/o le président Eugène Adams pk 19,100"
+  },
+  {
+   "aid": 13,
+   "rna": "W9P1003074",
+   "name": "ASSOCIATION DES PARENTS D' ELEVES EN ARTS MARTIAUX DE PAEA",
+   "date": "2017-09-04",
+   "objet": "D' aider à financer les déplacements de nos compétiteurs à l' étranger ou dans nos îles en Taekwondo------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Vallée Orofero Pk 21.900 côté montagne, servitude Tehoromaire"
+  },
+  {
+   "aid": 14,
+   "rna": "W9P1002580",
+   "name": "ASSOCIATION MANAVA TAEKWONDO",
+   "date": "2005-02-08",
+   "objet": "ASS /Taekwondo",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "N°9 Résidence Manava"
+  },
+  {
+   "aid": 15,
+   "rna": "W9P1004447",
+   "name": "ASSOCIATION MANU URA BOXE",
+   "date": "2015-01-11",
+   "objet": "Favorise la mise en place d'actions pour les jeunes et les habitants de la commune de Paea, la pratique des sports, des activités culturelles et éducatives. Favoriser l'insertion sociale et professionnelle des jeunes de la commune et des membres de lassociation par la mise en place d'ateliers d'apprentissage des métiers du secteur primaire (agriculture, pêche , artisanat, apiculture, aquaculture,etc...) D'organiser diverses manifestations Elle pourra étendre son action dans d'autres domaines sur simple décision de son bureau exécutif (environnement-culturel)...",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 20,800 côté montagne."
+  },
+  {
+   "aid": 16,
+   "rna": "W9P1007811",
+   "name": "ASSOCIATION SPORTIVE DU COLLEGE TERIITUA A TERIIEROOITERAI DE PAEA",
+   "date": "1985-11-25",
+   "objet": "Sport --------------Scolaire---------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 20 côté montagne"
+  },
+  {
+   "aid": 17,
+   "rna": "W9P1002305",
+   "name": "ASSOCIATION SPORTIVE MANU URA",
+   "date": "1967-12-12",
+   "objet": "ASS/ Sportive - Manu Ura",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "à la mairie"
+  },
+  {
+   "aid": 18,
+   "rna": "W9P1002475",
+   "name": "ASSOCIATION SPORTIVE PAEA VA'A",
+   "date": "2000-02-08",
+   "objet": "Pratique de la pirogue----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Fare Va'a de Maraa Pk 27.500 côté mer"
+  },
+  {
+   "aid": 19,
+   "rna": "W9P1012310",
+   "name": "ASSOCIATION SPORTIVE REY VAA HOE",
+   "date": "2025-11-04",
+   "objet": "- La pratique du sport dans toutes ses formes et caractéristiques, le développement personnel et collectifs dans un effet de cohésion...",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 20,
+   "rna": "W9P1003137",
+   "name": "ASSOCIATION SPORTIVE SCOLAIRE VAIATU",
+   "date": "1982-11-22",
+   "objet": "ASS / SPORTIVE Vaiatu-------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Paea"
+  },
+  {
+   "aid": 21,
+   "rna": "W9P1001348",
+   "name": "ASSOCIATION SPORTIVE TEVAIROA",
+   "date": "1990-08-01",
+   "objet": "A saisir",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "pk 22"
+  },
+  {
+   "aid": 22,
+   "rna": "W9P1003685",
+   "name": "ASSOCIATION TAEKWONDO TEAM PAEA - AS TKD TEAM PAEA.",
+   "date": "2017-12-15",
+   "objet": "D ' organiser de se développer et de promouvoir la pratique des activités physiques et en particulier du Taekwondo et des disciplines associées.",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "à vallée Orofero."
+  },
+  {
+   "aid": 23,
+   "rna": "W9P1007671",
+   "name": "ASSOCIATION TE PUA O TE HAU.",
+   "date": "2012-03-03",
+   "objet": "A/ Sportive---------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 21,500 côté montagne, situé près de la mairie, Quartier Vaiata."
+  },
+  {
+   "aid": 24,
+   "rna": "W9P1004432",
+   "name": "ASSOCIATION TOA ENANA NO PAEA.",
+   "date": "2014-09-23",
+   "objet": "La pratique de la boxe anglaise--------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 19,100 côté montagne, quartier Taputuarai lot n°18."
+  },
+  {
+   "aid": 25,
+   "rna": "W9P1008748",
+   "name": "ASSOCIATION TSR (TAHITI STREET RACING)",
+   "date": "2020-02-20",
+   "objet": "réunir les passionnés de voitures sportives, apprendre la mécanique aux jeunes générations, promouvoir le sport automobile, faire connaître les voitures de sport, diriger les futurs acquéreurs de voitures sportives vers les services réglementés pour les courses, , être en partenariat avec la sécurité routière, être en relation avec d'autres associations concernant la jeunesse ;",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 26,
+   "rna": "W9P1000519",
+   "name": "COMITE FUTSAL DE PAEA",
+   "date": "2016-04-11",
+   "objet": "défendre les interets du sport établir une collaboration entre les joueurs et joueuses de la commune de Paea etablir des liens de solidarité représenter le comité de fusal de paea auprès des pouvoirs publics lutter contre toutes activités illégales et contribuer à la prévention et à la sécurité elle s'interdit toutes discussions étrangères à son but (politique ou religieuse)",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Vallée de Tiapa"
+  },
+  {
+   "aid": 27,
+   "rna": "W9P1008936",
+   "name": "FOYER SOCIO-EDUCATIF DU COLLEGE DE PAEA",
+   "date": "2003-04-22",
+   "objet": "Promouvoir le sens des responsabilités et de la vie civique--",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 28,
+   "rna": "W9P1008898",
+   "name": "HAUMAUURU BOXING CLUB",
+   "date": "2020-06-16",
+   "objet": "A saisir",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 29,
+   "rna": "W9P1009608",
+   "name": "HEITEANI BOXE",
+   "date": "2021-07-09",
+   "objet": "D' enseigner le défense dans sa bonne utilité-----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 30,
+   "rna": "W9P1008270",
+   "name": "HI'ORAA API",
+   "date": "2019-07-28",
+   "objet": "promotion et développement du sport sous toutes ses formes et mise en place de projets liés à l'environnement, la culture et l'agriculture ;",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 31,
+   "rna": "W9P1002779",
+   "name": "HIVA TAU NO MANORUA",
+   "date": "2017-06-14",
+   "objet": "Recherche d'emplois et formation---",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 22,900 c/mont servitude Teiri"
+  },
+  {
+   "aid": 32,
+   "rna": "W9P1010388",
+   "name": "IRIHONU VA'A",
+   "date": "2022-11-14",
+   "objet": "La pratique de la pirogue polynésienne----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 33,
+   "rna": "W9P1002862",
+   "name": "LIGUE DE TAEKWONDO ET DISCIPLINES ASSOCIEES DE POLYNESIE FRANÇAISE - ANCIENNEMENT FEDERATION TAEKWONDO ET DISCIPLINES ASSOCIEES DE POLYNESIE FRANÇAISE",
+   "date": "2012-04-16",
+   "objet": "Est un organe déconcentré de la Fédération Française de Taekwondo et Disciplines Associées (FFTDA)",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 21 côté montagne, derrière la Mairie."
+  },
+  {
+   "aid": 34,
+   "rna": "W9P1008460",
+   "name": "MAERE / MARAMA",
+   "date": "2019-10-09",
+   "objet": "Journée corporatve-",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 35,
+   "rna": "W9P1004420",
+   "name": "MATA API",
+   "date": "2018-08-20",
+   "objet": "promotion et développement du sport et mise en place de projets liés à la préservation de l'environnement et de la culture polynésienne ;",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 21 Cote Mer"
+  },
+  {
+   "aid": 36,
+   "rna": "W9P1004263",
+   "name": "MONKEY FIGHT MIXED MARTIAL ART",
+   "date": "2018-06-21",
+   "objet": "De faciliter l' insertion des jeunes au moyen d' animations sportives, de formation, d' encadrement et d' aides diverses.",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 18,700 c/mont Route de Papehue N° 65"
+  },
+  {
+   "aid": 37,
+   "rna": "W9P1007963",
+   "name": "O'HANA BOXING NO PAEA",
+   "date": "2019-03-13",
+   "objet": "A saisir",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 24,500 c/mer"
+  },
+  {
+   "aid": 38,
+   "rna": "W9P1010913",
+   "name": "OCTO FIGHTING LEAGUE",
+   "date": "2023-09-19",
+   "objet": "à saisir....",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 39,
+   "rna": "W9P1008728",
+   "name": "PAEA 5KR",
+   "date": "2020-02-11",
+   "objet": "Organiser des courses et des activités nautiques-----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 40,
+   "rna": "W9P1004569",
+   "name": "PAEA MANU URA RUGBY CLUB",
+   "date": "2018-10-02",
+   "objet": "Promouvoir L' activité Sportive, Principalement le Rugby------------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 25,500 côté montagne."
+  },
+  {
+   "aid": 41,
+   "rna": "W9P1002289",
+   "name": "PAEA NUI FUTSAL",
+   "date": "2017-03-07",
+   "objet": "A saisir",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 19,800 c/mont Route du cimetière"
+  },
+  {
+   "aid": 42,
+   "rna": "W9P1001415",
+   "name": "PAEA POWERLIFTING",
+   "date": "2016-09-22",
+   "objet": "De développer toutes les activités physiques sportives de jeunesses et de loisirs, la musculatin, la boxe, la pétanque etc----",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 26.800 côté montagne, Servitude Pahaero"
+  },
+  {
+   "aid": 43,
+   "rna": "W9P1003883",
+   "name": "POLINESIAN WELLNESS ATTITUDE",
+   "date": "2014-06-18",
+   "objet": "Participer ou organiser des activités physiques et sportives----------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 18.600 côté montagne, Quartier Papehue.."
+  },
+  {
+   "aid": 44,
+   "rna": "W9P1002574",
+   "name": "PUNARUU ITI TAEKWONDO",
+   "date": "2017-04-28",
+   "objet": "De promouvoir l' art martial originaire de Corée : le Taekwondo, adhérer des pratiquants de tout âge de 4 à 77 ans à ce dernier, de leur attribuer des moyens d' action pour être des futurs champions ou tout simplement participer à une hygiène de vie;",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Vallée d' Orofero - Résidence Tarevareva"
+  },
+  {
+   "aid": 45,
+   "rna": "W9P1003516",
+   "name": "TAHITIAN BLESSING - TB",
+   "date": "2010-02-01",
+   "objet": "Est de toucher les jeunes, moins jeunes, toutes personnes au travers de la musique, danses, chants, sports, échanges culturels, cultuels, amicaux, sportifs avec des associations, étrangère, locales, partageant les mêmes objectifs....",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 19.800 côté montagne, Servitude Pito"
+  },
+  {
+   "aid": 46,
+   "rna": "W9P1003379",
+   "name": "TAMARII BOXING CLUB NO PAEA",
+   "date": "2014-12-02",
+   "objet": "Pratique Boxing En Club-------------",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 24.400 côté mer"
+  },
+  {
+   "aid": 47,
+   "rna": "W9P1001241",
+   "name": "TE U'I NO MARAA",
+   "date": "2016-09-01",
+   "objet": "De promouvoir l'activité sportive dans le secteur MARAA da la Commune de Paea. Organiser diverses manifestations.",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "Pk 25.500 côté montagne"
+  },
+  {
+   "aid": 48,
+   "rna": "W9P1000360",
+   "name": "TEAVAITI FUTSAL",
+   "date": "2016-02-10",
+   "objet": "Réunir les jeunes de quartier à la pratique du futsal, au développement de l'esprit d'équipe et d'entraide en toutes circonstances",
+   "categorie_rna": "Sports, activités de plein air",
+   "adresse_rna": "QUARTIER Robson pk 23,800 c/mont"
+  },
+  {
+   "aid": 49,
+   "rna": "W9P1012322",
+   "name": "PAEA SHOOTING CLUB",
+   "date": "2001-12-19",
+   "objet": "- La pratique et l'organisation de compétitions des différentes disciplines que propose le ball-trap ( Fosse américaine, skeet olympique, compak sporting, parcours de chasse etc...)",
+   "categorie_rna": "Tir (tir à l'arc, tir à balle, ball trap), javelot",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 50,
+   "rna": "W9P1000914",
+   "name": "A ORA MAITAI",
+   "date": "2016-06-22",
+   "objet": "De réunir tous les membres de l'associatin a fin de consolider les lies et de s'unir dans un même but VIVRE BIEN.",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Pk 25.500 côté mer"
+  },
+  {
+   "aid": 51,
+   "rna": "W9P1002626",
+   "name": "A POIHERE I TE TAMA NO ANANAHI",
+   "date": "2002-06-20",
+   "objet": "Education des jeunes---------------",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Pk 21.200 côté montagne"
+  },
+  {
+   "aid": 52,
+   "rna": "W9P1002411",
+   "name": "A TAUTURU IA NA NO PAEA",
+   "date": "2001-02-14",
+   "objet": "A saisir",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Mairie de Paea"
+  },
+  {
+   "aid": 53,
+   "rna": "W9P1009983",
+   "name": "ASSOCIATION 'ORORE'A",
+   "date": "2008-04-25",
+   "objet": "Défense & Promotion ( Intérêts Communs)",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 54,
+   "rna": "W9P1008001",
+   "name": "ASSOCIATION MANORUA NUI",
+   "date": "2019-03-26",
+   "objet": "Action les jeunes et les membres de la Paroisse----",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "à Pk 24.500 côté montage, Résidence Manava"
+  },
+  {
+   "aid": 55,
+   "rna": "W9P1004459",
+   "name": "ASSOCIATION MINI TEAM",
+   "date": "2005-09-16",
+   "objet": "De faciliter l'insertion des jeunes au moyen d'animation, de formation, d'encadrement et d'aides diverses.",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Pk 21.500 côté montagne, Quartier Vaiatu."
+  },
+  {
+   "aid": 56,
+   "rna": "W9P1000267",
+   "name": "ASSOCIATION RÉGIONALE SOCIO-CULTURELLE (ARSC987) DES PERSONNELS DU MINISTÈRE DE LA JUSTICE POUR LE RESSORT DE LA COUR D'APPEL DE PAPEETE",
+   "date": "2015-12-21",
+   "objet": "mettre en oeuvre l'action sociale et sportive dans le cadre de la politique définie par le conseil national de l'action sociale (CNAS) au bénéfice des personnels dépendant de la mission justice, actifs et retraités, résidants dans le ressort de la cour d'appel ou siège le CRAS.",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Lotissement BOURNE, Pk 23.700 côté montagne. N.14 A"
+  },
+  {
+   "aid": 57,
+   "rna": "W9P1009204",
+   "name": "ASSOCIATION TE MAU TAMA NO PEREAITU",
+   "date": "2008-06-13",
+   "objet": "------------Social----------------",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 58,
+   "rna": "W9P1008286",
+   "name": "ASSOCIATION TERE AHOA",
+   "date": "2019-08-05",
+   "objet": "A saisir",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 59,
+   "rna": "W9P1003778",
+   "name": "ASSOCIATION VEVAI",
+   "date": "2018-01-19",
+   "objet": "démonstration d'art culinaire traditionnel, proposition de vente de mets préparés dans un four de cuisson traditionnel, démonstration d'artisanat traditionnel, proposition de vente d'articles artisanaux, proposition de vente de produits issu de l'agriculture maraichère et florale, participation à des fêtes folkloriques et culturelles, démonstration de disciplines sportives traditionnelles",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Lotissement Pk 23,700 C/mont Lot Chapman"
+  },
+  {
+   "aid": 60,
+   "rna": "W9P1000153",
+   "name": "HIRO'A MANA DJEUNES",
+   "date": "2015-11-25",
+   "objet": "faciliter l'iinsertion sociale des jeunes au moyen de formation, d'encadrement et d'aides diverses organiser les sorties et manifestations ayant pour but de resserrer les liens amicaux entre ses membres rechercher des fonds pour la bonne marche de l'association (organisation de centres de vacances et de loisirs, manifestations, ventes en tous genres, etc...) permettre à ses adhérents de s'ouvrir sur le monde par des échanges culturels, voyages linguistiques, séminaires, expositions...",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "TEPUHAPA Lot N°27 Paea Pk 20,500 c/mont"
+  },
+  {
+   "aid": 61,
+   "rna": "W9P1000598",
+   "name": "LAMICALE LOCALE DE PAEA",
+   "date": "2009-12-28",
+   "objet": "aider la population de la polynésie française dans un but social, culturel, sportif et éducatif aider les jeunes à trouver du travail et les responsabiliser création d'atelier de travaux (couture, pépinière, soudure et artisanat)",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "PK 21,900 C/Mont Orofero, Servitude TAMATERAI"
+  },
+  {
+   "aid": 62,
+   "rna": "W9P1008361",
+   "name": "MAD",
+   "date": "2019-08-12",
+   "objet": "Développer et participer à des actions de sensibilisation sanitaire et social---",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 63,
+   "rna": "W9P1000858",
+   "name": "MANAHOTU",
+   "date": "2016-06-15",
+   "objet": "Concevoir mettre en oeuvre, organiser des projets et participer à des manifestations culturelles et artistiques: Heiva des écoles de danse, hura tapairu; Produire et se produire à l'échelle terrotoriale, nationale,et internationale; Préserver protéger transmettre et partager les valeurs de la culture polynésienne au treavers de la danse, du chant et d'autres us et coutumes; Construire développer perfectionner l'identité artistique de tous ses membres; Développer la solidarité la collaboration et la coopération entre ses membres.",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Pk 21.800 côté montagne, dans le quartier Orofero"
+  },
+  {
+   "aid": 64,
+   "rna": "W9P1000881",
+   "name": "PAERAI",
+   "date": "2016-06-17",
+   "objet": "Etablir une généalogie exacte et précise de la succession; Recherche les biens immobiliers et mobiliers appartenat aux ancêtes; Sortir un bien successoral de l'indivision à l'amiable ou judiciaire; Organiser des activités telles que la vente de produits ou de services en vue de financer divers frais. (notaire, aocat etc)",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Pk 21.900 côté montagne,Vallée Orofero,Servitude Raipai"
+  },
+  {
+   "aid": 65,
+   "rna": "W9P1008451",
+   "name": "ROSSIGNOL DE L'ESPOIR",
+   "date": "2003-04-25",
+   "objet": "Assistance - Aide Aux Jeunes--",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 66,
+   "rna": "W9P1000293",
+   "name": "TAATIRAA TANAANA-VAITIARE NO PAEA",
+   "date": "2015-02-27",
+   "objet": "organiser représenter et défendre les intérêts de l'association organiser des activités physiques et sportives pour la santé faciliter la transmission des valeurs culturelles polynésiennes aussi bien localement qu'à l'étranger apporter un soutien social et éducatif aux jeunes et aux familles en difficultés et de faciliter l'insertion social aux moyens d'animation culturelle, de formation, d'encadrements, et d'aides diverses répondre à toutes demandes dans le cadre des activités socio culturelles, socio-éducatives pour un développement social harmonieux organiser des sorties et des manifestations entre les membres actifs et adhérents",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "pk 24.600 côté montagne"
+  },
+  {
+   "aid": 67,
+   "rna": "W9P1009348",
+   "name": "TAMARII PEREAITU",
+   "date": "2009-01-15",
+   "objet": "Développement et l épanouissement de la personnalité des jeunes gens et des moins jeunes en paroisse.",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 68,
+   "rna": "W9P1003509",
+   "name": "TE HIA KATAHI (THK)",
+   "date": "2015-09-07",
+   "objet": "A saisir",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Lositssement Vaitupa N°3, pk 24 c/mont"
+  },
+  {
+   "aid": 69,
+   "rna": "W9P1008199",
+   "name": "TE ONEHENEHE",
+   "date": "2019-06-20",
+   "objet": "En valeur de la commune: Solidarité, Culture, Environnement, Jeunesse, Sport ... Etc --",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 70,
+   "rna": "W9P1002242",
+   "name": "VETEA I AUROA",
+   "date": "2017-02-28",
+   "objet": "A saisir",
+   "categorie_rna": "action socio-culturelle",
+   "adresse_rna": "Servitude Taputuarai Pk 20c/mont"
+  },
+  {
+   "aid": 71,
+   "rna": "W9P1012178",
+   "name": "TE ORA MA",
+   "date": "2025-08-29",
+   "objet": "- De sensibiliser à l'écologie, à la prévention environnementale et à la gestion des déchets....",
+   "categorie_rna": "actions de sensibilisation et d'éducation à l'environnement et au développement durable",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 72,
+   "rna": "W9P1011612",
+   "name": "ASSOCIATION FAMILIALE TEMATAFAARERE",
+   "date": "2013-04-22",
+   "objet": "de regrouper et de resserrer les liens familiaux existants entre ses membres...",
+   "categorie_rna": "activités civiques, information civique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 73,
+   "rna": "W9P1011378",
+   "name": "ASSOCIATION TE VAI NEI AU",
+   "date": "2024-05-24",
+   "objet": "de soutenir, et défendre les droits des résidents de la résidence de Maa'ipa",
+   "categorie_rna": "activités civiques, information civique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 74,
+   "rna": "W9P1010986",
+   "name": "LP X E-SPORT",
+   "date": "2023-10-12",
+   "objet": "à saisir....",
+   "categorie_rna": "activités civiques, information civique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 75,
+   "rna": "W9P1011471",
+   "name": "MATAIHO NUI DE PAEA",
+   "date": "2005-11-24",
+   "objet": "La participation à toutes manifestations à caractère. Sportif, culturel, religieux et social....",
+   "categorie_rna": "activités de plein air (dont saut à l'élastique)",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 76,
+   "rna": "W9P1001148",
+   "name": "PARTI DU VOTE BLANC",
+   "date": "2016-08-18",
+   "objet": "Préserver un cade de vie agréable et lutter contre l'injustice; De soutenir les enfants et les jeunes adolescents dans les projets colloectifs; De créer, ls foyers, ou centres. Assurer la sécurité de tous. De défendre et protéger les droits des citoyens. De mettre en place une structure pour les jeunes et des personnes âgées. Que les actions indi viduelles et collectives, même si elles n'aboutissent pas se doivent êr soutenues. D'organiser, et collaborer ou de participer à l'organisation des fêtes, concours et d'autres manifestations à caractère folklorique, culturel, artisanal, et corpioratif; D'organiser sipossible des déplacements dans les îles pour rencontrer d'autres parti politiques",
+   "categorie_rna": "activités politiques",
+   "adresse_rna": "chez TEFANA Gianni au Pk 24.500 ct montagne, Servitude TETUTU"
+  },
+  {
+   "aid": 77,
+   "rna": "W9P1003792",
+   "name": "AMUIRAA PETEREHEMA - TAMARII TUHAA - PAE PAEA",
+   "date": "1999-07-29",
+   "objet": "Amuira'a Peterehema - tamarii tuhaa -pae paea.",
+   "categorie_rna": "activités religieuses, spirituelles ou philosophiques",
+   "adresse_rna": "Pk 21.200 côté montagne."
+  },
+  {
+   "aid": 78,
+   "rna": "W9P1002522",
+   "name": "ASSOCIATION TAMARII PEREAITU",
+   "date": "2009-01-15",
+   "objet": "A saisir",
+   "categorie_rna": "activités religieuses, spirituelles ou philosophiques",
+   "adresse_rna": "Pk 21,300 côté montagne, Derrière Le Temple Protestant"
+  },
+  {
+   "aid": 79,
+   "rna": "W9P1012609",
+   "name": "COLLECTIF DE PAEA DE L'EGLISE IETU METIA TE EVANERIA",
+   "date": "2026-04-20",
+   "objet": "Mettre en place un cadre pour l'organisation (administratif, financier etc...) de l'église IETU METIA TE EVANERIA. Récolter des fonds pour la communauté, pour son développement et son bien-être. Offrir à chacun le moyen de s'intégrer en mettent en place des activités extra-communautaires. Sensibiliser, former et mobiliser la communauté de l'évangélisation. Organiser des actions visant à partager l'évangile...",
+   "categorie_rna": "activités religieuses, spirituelles ou philosophiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 80,
+   "rna": "W9P1003690",
+   "name": "EGLISE APOSTOLIQUE ONENESS \" IESU MESIA TE EVANELIA \"",
+   "date": "2017-12-18",
+   "objet": "Evangéliser et de rassembler les polynésiens pour une harmonie dans l' Amour et la vérité du Christ.",
+   "categorie_rna": "activités religieuses, spirituelles ou philosophiques",
+   "adresse_rna": "Maraa Pk 26.900 côté montagne."
+  },
+  {
+   "aid": 81,
+   "rna": "W9P1009904",
+   "name": "MARAETEUA",
+   "date": "2022-02-24",
+   "objet": "Accession à la propriété, d'organiser des sorties et des rencontres, d'aider les personnes du 3ème age ainsi que les handicapés ...",
+   "categorie_rna": "aide et conseils aux familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 82,
+   "rna": "W9P1001104",
+   "name": "ASSOCIATION MANOARII",
+   "date": "2011-04-11",
+   "objet": "Economie",
+   "categorie_rna": "aide à l'emploi, développement local, promotion de solidarités économiques, vie locale",
+   "adresse_rna": "Pk 21.900 côté montagne, vallée Orofero"
+  },
+  {
+   "aid": 83,
+   "rna": "W9P1001454",
+   "name": "FORAINS DE POLYNESIE FRANÇAISE",
+   "date": "1993-06-03",
+   "objet": "Loisirs - Economie--------------",
+   "categorie_rna": "aide à l'emploi, développement local, promotion de solidarités économiques, vie locale",
+   "adresse_rna": "Pk 18.8 côté montagne, Quartier Papehue"
+  },
+  {
+   "aid": 84,
+   "rna": "W9P1000096",
+   "name": "LES FERMIERS DE LA POLYNESIE FRANCAISE.",
+   "date": "2015-11-05",
+   "objet": "regrouper plusieurs corps de métier (filière bovine, chevaux, équins, filière caprine, ovins, porcins, volailles, abeilles, filière agriculture agrumes, fruits, bois, horticulture, ..) améliorer des races d'animaux existantes et acheter des races inexistant sur le territoire de la Polynésie Française acheter des produits nécessaires aux sociétaires transformer, conditionner, commercialiser la valorisation des produits des sociétaires à condition qu'ils fassent la demande au Bureau directeur organiser et participer aux foires agricoles ou commerciales",
+   "categorie_rna": "aide à l'emploi, développement local, promotion de solidarités économiques, vie locale",
+   "adresse_rna": "Pk 22 Orofero."
+  },
+  {
+   "aid": 85,
+   "rna": "W9P1001933",
+   "name": "TE FAA NO NIUA À MOERAI NO PAEA",
+   "date": "2013-06-01",
+   "objet": "De regrouper tous ceux qui a trait à l' éducation des jeunes, Apprendre d' entretien à travailoler la terre:",
+   "categorie_rna": "aide à l'emploi, développement local, promotion de solidarités économiques, vie locale",
+   "adresse_rna": "Pk 19.800 côté montagne"
+  },
+  {
+   "aid": 86,
+   "rna": "W9P1010694",
+   "name": "LA TEAM",
+   "date": "2023-05-30",
+   "objet": "Association à but non lucratif. Améliorer le cadre de vie des jeunes de l'association en leur permettant de participer à des activités...",
+   "categorie_rna": "aide à l'insertion des jeunes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 87,
+   "rna": "W9P1010623",
+   "name": "TE UI HAU NO A HOTU TOA NO OROFERO",
+   "date": "2023-03-31",
+   "objet": "La lutte conte l'oisiveté et la délinquance juvénile, inculquer des principes de civisme...",
+   "categorie_rna": "aide à l'insertion des jeunes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 88,
+   "rna": "W9P1012695",
+   "name": "PAEA EVEN'TS",
+   "date": "2026-06-15",
+   "objet": "L'organisation de marchés, vide-greniers et marchés au puces.",
+   "categorie_rna": "aide à la création d'activités économiques individuelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 89,
+   "rna": "W9P1012591",
+   "name": "AMICALE DES SAPEURS-POMPIERS DE PAEA",
+   "date": "2026-04-10",
+   "objet": "de resserrer les liens d'amitié et de confraternité qui unissent les sapeurs-pompiers, afin d'organiser des concours, réunions, banquets, voyages collectifs, manifestations sportive, et d'assurer la transmission des vœux des sapeurs-pompiers",
+   "categorie_rna": "amicale de sapeurs pompiers",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 90,
+   "rna": "W9P1000307",
+   "name": "AMICALE SAPEURS POMPIERS PAEA",
+   "date": "2016-01-21",
+   "objet": "tisser des liens extra-professionnels entre ses membres organiser des rencontres amicales et sportives, des manifestations dont les bénéfices serviront aux besoins financiers de l'Amicale",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": "Centre de Secours de Paea"
+  },
+  {
+   "aid": 91,
+   "rna": "W9P1002876",
+   "name": "ASSOCIATION \"FALASOLA\"",
+   "date": "2017-07-12",
+   "objet": "A saisir",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": "Quartier Toussieux Pk 20,900 c/mont"
+  },
+  {
+   "aid": 92,
+   "rna": "W9P1010301",
+   "name": "ASSOCIATION ROVAIHEI",
+   "date": "2013-07-22",
+   "objet": "Aider les familles touchées par les décès------",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 93,
+   "rna": "W9P1008591",
+   "name": "ASSOCIATION TAUA NO PUNAREA",
+   "date": "2003-02-13",
+   "objet": "Aide à la Fraternité des Surs-----------------------",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 94,
+   "rna": "W9P1003171",
+   "name": "ASSOCIATION TAURE'A TEAM",
+   "date": "2017-09-14",
+   "objet": "A l' aide et le soutien des personnes et des familles touchées par la maladie et ou / les difficultés de la vie quotidienne----------------",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": "Pk 21.700 - Côté mer"
+  },
+  {
+   "aid": 95,
+   "rna": "W9P1008256",
+   "name": "IA VAI MA PAEA",
+   "date": "2019-07-22",
+   "objet": "Resserrer le lien d' amitiés-------",
+   "categorie_rna": "amicales, groupements affinitaires, groupements d'entraide (hors défense de droits fondamentaux",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 96,
+   "rna": "W9P1012470",
+   "name": "FAARAI",
+   "date": "2026-01-27",
+   "objet": "Promouvoir le bien-être du personnel, afin d'améliorer la qualité des soins prodiges aux familles..",
+   "categorie_rna": "artisanat, travaux manuels, bricolage, expositions",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 97,
+   "rna": "W9P1011871",
+   "name": "LILOMA",
+   "date": "2025-04-02",
+   "objet": "pratique de la sculpture sur tous supports...",
+   "categorie_rna": "artisanat, travaux manuels, bricolage, expositions",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 98,
+   "rna": "W9P1011964",
+   "name": "ORAHEUNUI CREATION",
+   "date": "2025-05-15",
+   "objet": "promouvoir et partager le savoir-faire de l'artisanat...",
+   "categorie_rna": "artisanat, travaux manuels, bricolage, expositions",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 99,
+   "rna": "W9P1009365",
+   "name": "ASSOCIATION AVAE TERE",
+   "date": "2021-02-23",
+   "objet": "D'aider financièrement les membres de l'association à organiser des rassemblements familiaux...",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 100,
+   "rna": "W9P1012227",
+   "name": "ASSOCIATION FAMILIALE MANU PATIA",
+   "date": "2025-09-19",
+   "objet": "récolte de fonds, vente de Plats...",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 101,
+   "rna": "W9P1009293",
+   "name": "ASSOCIATION FAMILY'S UNAUNA",
+   "date": "2021-01-12",
+   "objet": "Récolter des fonds et organiser des voyages en famille dans nos îles du pacifique et dans les pays étrangers: ...",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 102,
+   "rna": "W9P1011974",
+   "name": "AVEARII URA A TARANO",
+   "date": "2025-05-19",
+   "objet": "Rassembler les membres de la famille pour créer des évènements..",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 103,
+   "rna": "W9P1011853",
+   "name": "INNER DEVELOPMENT GOALS POLYNÉSIE FRANÇAISE - IDG PF",
+   "date": "2025-03-19",
+   "objet": "contribuer à atteindre les objectifs de développement durable des nations unies",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 104,
+   "rna": "W9P1010477",
+   "name": "PÊCHE LAGONAIRE DE MARAA",
+   "date": "2023-01-16",
+   "objet": "Loisir, culture, environnement, nuisance, sociale, formation, artisanat, pêche, agriculture, cuisine, vente, couture....",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 105,
+   "rna": "W9P1011899",
+   "name": "TAMARII TINA",
+   "date": "2025-04-16",
+   "objet": "réalisation de projets sociaux et humanitaires c'est-à-dire la vente de mets (repas) préparés ;",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 106,
+   "rna": "W9P1012082",
+   "name": "TEANUANUA NO PAEA",
+   "date": "2025-07-16",
+   "objet": "...",
+   "categorie_rna": "association à but commercial, développement économique",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 107,
+   "rna": "W9P1012303",
+   "name": "CANI STREET 987",
+   "date": "2025-10-29",
+   "objet": "- Améliorer, par tous les moyens qui en son pouvoir, le sort de tous les animaux, de lutter contre leur trafic, de veiller a ce que soient respectées les dispositions législatives et réglementaires qui les protègent et de leur accorder assistance, et de participer en ce sens à la sensibilisation de l'opinion publique.",
+   "categorie_rna": "associations caritatives, humanitaires, aide au développement, développement du bénévolat",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 108,
+   "rna": "W9P1009144",
+   "name": "NATIHERE",
+   "date": "2020-09-29",
+   "objet": "Apporter une assistance et aide humanitaire et de réaliser ds actions de solidarités et de bienfaisance auprès des personnes vulnérables...",
+   "categorie_rna": "associations caritatives, humanitaires, aide au développement, développement du bénévolat",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 109,
+   "rna": "W9P1011624",
+   "name": "ASSOCIATION TEFAUTEA ROPU",
+   "date": "2024-10-18",
+   "objet": "Développement du secteur primaire ( Agriculture et Elevage )",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 110,
+   "rna": "W9P1010776",
+   "name": "HEREHEI NO TE HAU",
+   "date": "2023-07-12",
+   "objet": "Développer le secteur agricole, horticole, l'élevage ....",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 111,
+   "rna": "W9P1010719",
+   "name": "MATAIREA NO PAEA",
+   "date": "2023-06-14",
+   "objet": "à saisir.....",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 112,
+   "rna": "W9P1010809",
+   "name": "ORIVAI",
+   "date": "2023-08-02",
+   "objet": "à saisir....",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 113,
+   "rna": "W9P1011231",
+   "name": "TE AHO HOTU",
+   "date": "2007-12-26",
+   "objet": "de participe à l'évolution des jeunes dans la domaine de l'agriculture.....",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 114,
+   "rna": "W9P1011555",
+   "name": "TEMANANUIARII",
+   "date": "2024-09-24",
+   "objet": "D'organiser des voyages sportifs, culturel, ayant pour but de resserrer et nouer les liens avec d' autres communautés dans d'autres îles et pays.....",
+   "categorie_rna": "associations d'exploitants agricoles, élevage, horticulture, aviculture, apiculture, viticulture, viniculture",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 115,
+   "rna": "W9P1009378",
+   "name": "AHUURA A TEOTAHI",
+   "date": "2021-02-25",
+   "objet": "De défendre les intérêts des biens familiaux...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 116,
+   "rna": "W9P1009460",
+   "name": "ASSOCIATION DES HERITIERS DE TEUMERE TAMAITITAHIO ET DE TAUNIUA TAPEA",
+   "date": "2009-03-31",
+   "objet": "De regrouper tous les membres de l'association afin de consolider et de retrouver les liens et degrés de parenté....",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 117,
+   "rna": "W9P1012408",
+   "name": "ASSOCIATION FAMILIALE AMARU EDMOND ET AMO THÉRÈSE (A.F.A.A.)",
+   "date": "2002-12-19",
+   "objet": "de regrouper les propriétaires-terriens, afin de consolider et de retrouver des liens qui les unissent en vue de se faire connaître...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 118,
+   "rna": "W9P1012354",
+   "name": "ASSOCIATION FAMILIALE CONSORTS TAATA ET FAATUARAI",
+   "date": "2025-12-01",
+   "objet": "De regrouper les descendants et allies de M. Hinatea Aumai a TAATA et de Mlle Vahine Orofaata FAATUARAI. - De defendre les interets de ses membres et des adherents vis-a-vis des tiers, - D'effectuer toutes recherches et demarches relatives au patrimoine de ses membres, - D'effectuer le partage du patrimoine vacant des heritiers, - D'organiser la structure, les moyens, les outils, les conventions de la gestion du patrimoine familial indivis, - D'organiser des evenements tels que repas familiaux, rencontres et deplacements.",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 119,
+   "rna": "W9P1009164",
+   "name": "ASSOCIATION FAMILIALE TAURAA - MAIHOTA - TAHUTINI",
+   "date": "2020-10-09",
+   "objet": "fondée en vue de la régularisation de l'occupation de la terre TERURUAMOA dite TEOOA...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 120,
+   "rna": "W9P1009189",
+   "name": "ASSOCIATION FAMILIALE TE HUA'AI A GUSTAVE A TIAINA A ATEO E MARAEAHOTU A HITOTI",
+   "date": "2014-11-19",
+   "objet": "...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 121,
+   "rna": "W9P1012212",
+   "name": "ASSOCIATION HAKIEINUI",
+   "date": "2011-04-13",
+   "objet": "intervient dans toutes les démarches concernant le domaine foncier et surtout ce qui est au niveau frais documentaire...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 122,
+   "rna": "W9P1012383",
+   "name": "ASSOCIATION MATAURA",
+   "date": "2009-09-15",
+   "objet": "resserrer les liens familiaux..",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 123,
+   "rna": "W9P1010681",
+   "name": "HERE T20",
+   "date": "2023-05-24",
+   "objet": "Entreprendre...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 124,
+   "rna": "W9P1009469",
+   "name": "HUAAI À TAAREU",
+   "date": "2021-04-20",
+   "objet": "Représenter les intérêts et défendre les droits des personnes concernées...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 125,
+   "rna": "W9P1011909",
+   "name": "LAU KY SANG",
+   "date": "2025-04-23",
+   "objet": "établir une généalogie ...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 126,
+   "rna": "W9P1009177",
+   "name": "LES HÉRITIERS DE PUATEHAU, TEINAURI TAUMIHAU",
+   "date": "2020-10-13",
+   "objet": "Regrouper ses membres autour du lien de parenté et de famille qui les unit à travers leur aïeule, Pautehau, Teinauru TAUMIHAU, descendante reconnue de l'ancêtre d'origine TERIITAUMIHAU A TETAHIO...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 127,
+   "rna": "W9P1012128",
+   "name": "TE HUA'AI TERIITUA A TERIIMAPUHIA",
+   "date": "2025-07-31",
+   "objet": "De conserver et transmettre la généalogie des familles liées à Teriitua a Teriimapuhia...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 128,
+   "rna": "W9P1012607",
+   "name": "TE MANA O TE UTUAFARE",
+   "date": "2026-04-17",
+   "objet": "représenter et défendre les intérêts de la famille, information, prévention, éducation et organiser et gérer des activités et des services ;",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 129,
+   "rna": "W9P1011827",
+   "name": "TETAI O TUIEINUI EHUEINANA",
+   "date": "2025-03-04",
+   "objet": "...",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 130,
+   "rna": "W9P1000632",
+   "name": "THE HAPPINESS FARE",
+   "date": "2016-04-28",
+   "objet": "De défendre les intérêts de la famille: affaires foncières, recherches généalogiques, patrimoine, de réaliser divers communautaires; D'entretenir les liens familiaux et le partage des con -naissanses; De préserver le bien patrimonial pour les enfants et les généalogies futures; De mener un soutien moral et matériel si nécessaire aux membres de la famille; De promouvoir la solidarité sous toutes ses formes natam-ment en développant les activités de prévention et de formation.",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": "Pk 22.700 côté mer"
+  },
+  {
+   "aid": 131,
+   "rna": "W9P1011047",
+   "name": "VAHINEROO",
+   "date": "2023-11-13",
+   "objet": "D'établir une généalogie exacte et précis d'une succession....",
+   "categorie_rna": "associations familiales, services sociaux pour les familles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 132,
+   "rna": "W9P1011928",
+   "name": "FADC TAHITI",
+   "date": "2025-05-05",
+   "objet": "De s'occuper de la jeunesse, en leur proposant des activités éducatives, sportives et culturelles...",
+   "categorie_rna": "associations multisports locales",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 133,
+   "rna": "W9P1011576",
+   "name": "TEAM MATA ARE",
+   "date": "2007-01-03",
+   "objet": "de développer , promouvoir et organiser la pratique du va'a, en équipe ou en individuel, pour l'ensemble des adeptes de la PF...",
+   "categorie_rna": "associations multisports locales",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 134,
+   "rna": "W9P1011842",
+   "name": "'ARIOI FIT",
+   "date": "2025-03-12",
+   "objet": "...",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 135,
+   "rna": "W9P1011803",
+   "name": "ASSOCIATION FAATARAMAI",
+   "date": "2025-02-20",
+   "objet": "à saisir...",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 136,
+   "rna": "W9P1011135",
+   "name": "ASSOCIATION SPORTIVE PAEA OROPA'A - ANCIENNEMENT ASSOCIATION SPORTIVE DES PIROGUIERS PAEA - OROPA'A",
+   "date": "1975-07-04",
+   "objet": "à saisir.....",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 137,
+   "rna": "W9P1012517",
+   "name": "ASSOCIATION TE ANUANUA HERE",
+   "date": "2026-02-23",
+   "objet": "Organiser des activités pluridisciplinaires: Jeunesse, Sports, Culture Insertion professionnelle...",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 138,
+   "rna": "W9P1010412",
+   "name": "L' ASSOCIATION SPORTIVE TEAM PAEA POWERLIFTING",
+   "date": "2022-11-25",
+   "objet": "Faire de sport en salle (Musculation et crossfit) et la recherche de fonds par la vente de plats 3 fois dans l' année pour l'achat de matériels et appareils sportifs)",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 139,
+   "rna": "W9P1011354",
+   "name": "TEAM RAPA FUTSAL",
+   "date": "2024-05-10",
+   "objet": "De développer les relations amicales, sportives (futsal) et culturelle des jeunes de Rapa résident sur Tahiti",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 140,
+   "rna": "W9P1012906",
+   "name": "TOA PAEA ESCRIME",
+   "date": "2026-09-25",
+   "objet": "Pratiquer de l'escrime, développement et Formation.",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 141,
+   "rna": "W9P1012050",
+   "name": "VAIETE STRENGTH",
+   "date": "2025-06-30",
+   "objet": "la pratique, la promotion et de développement du powerlifting...",
+   "categorie_rna": "associations pour la promotion du sport, médailles, mérite sportif",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 142,
+   "rna": "W9P1011567",
+   "name": "PACIFIC COSMETIC VALLEY",
+   "date": "2024-09-27",
+   "objet": "la mise en place et la dynamisation d'un réseau régional dédié à la Cosmétopée du Pacifique Sud",
+   "categorie_rna": "associations pour la représentation d'artisans, de commerçants",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 143,
+   "rna": "W9P1009878",
+   "name": "TAREVAREVA RIMA'I ET HORTICOLE",
+   "date": "2012-03-22",
+   "objet": "D'organiser, de représenter, de défendre et de regrouper les intérêts des artisans et tous les membres de l'association de la commune de PAEA...",
+   "categorie_rna": "associations pour la représentation d'artisans, de commerçants",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 144,
+   "rna": "W9P1009747",
+   "name": "ASSOCIATION SPORTIVE DU GROUPE SCOLAIRE DE MARAA-VAIPUARII",
+   "date": "2011-10-07",
+   "objet": "de former à la responsabilité, au civisme, à l'autonomie par la pratique d'activités physiques, sportives et de pleine nature....",
+   "categorie_rna": "associations périscolaires, coopération, aide à l'enseignement",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 145,
+   "rna": "W9P1010994",
+   "name": "ASSOCIATION TAMA ARII O TE AO MAOHI",
+   "date": "2023-10-17",
+   "objet": "développement du bilinguisme précoce en reo tahiti Augmenter le nombre de locuteurs en reo tahiti",
+   "categorie_rna": "centre d'enseignement et de formation",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 146,
+   "rna": "W9P1011070",
+   "name": "TAMAHERE",
+   "date": "2006-01-24",
+   "objet": "De participer à l'évolution des jeunes sue le plan éducatif; La mise en place de formation en collaboration éventuellement avec d'autres associations et les pouvoirs publics; de prendre toutes initiatives en faveur des jeunes, des élèves, voir des parents afin de participer à leur évolution...",
+   "categorie_rna": "centre d'enseignement et de formation",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 147,
+   "rna": "W9P1009292",
+   "name": "JEUNESSE DE VAIOHI",
+   "date": "2006-05-24",
+   "objet": "Bénéficier les subventions de l' Etat, du Territoire, et la commune--",
+   "categorie_rna": "chasse pêche",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 148,
+   "rna": "W9P1004398",
+   "name": "AHUTIA 2.",
+   "date": "2018-08-13",
+   "objet": "Loisir, Culture, Environnement, Nuisance, Social et Formation------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 27,700 côté montagne, chez Philippe TEIHOTUA."
+  },
+  {
+   "aid": 149,
+   "rna": "W9P1002406",
+   "name": "AITO PAEA",
+   "date": "2014-05-21",
+   "objet": "De développer toutes les activités à l' encadrement de la jeunesse dans le domaine de la prévention et de délinquance comme: La musculation, la Force Athlétique, les Disciplines Associées, Cross fit, Aviron indoor, la culture, l' artisanat, les activités physiques, de loisirs et d' autres------------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 20,500 c/mont"
+  },
+  {
+   "aid": 150,
+   "rna": "W9P1001473",
+   "name": "ASSOCIATION A ROHI NO TE TAMA",
+   "date": "2011-10-26",
+   "objet": "D' offrir des périodes de vacances éducatives et ludiques au travers de centre de loisirs----",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 20.600 côté montagne, Lot CPS 42, Quartier Tehauparu"
+  },
+  {
+   "aid": 151,
+   "rna": "W9P1003834",
+   "name": "ASSOCIATION HI'IHI'I TE TAMA.",
+   "date": "2010-06-14",
+   "objet": "Loisirs----------------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 24.600 côté mer, résidence Pofatu Lot n°1."
+  },
+  {
+   "aid": 152,
+   "rna": "W9P1001884",
+   "name": "ASSOCIATION LOCAL VOICES",
+   "date": "2016-12-08",
+   "objet": "A saisir",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Tipia Résidence les jardin de Paea lot 301"
+  },
+  {
+   "aid": 153,
+   "rna": "W9P1002428",
+   "name": "ASSOCIATION POLYNESIENNE DAERO-MODELISME (A.P.A.M)",
+   "date": "2005-12-05",
+   "objet": "A saisir",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 19,800 servitude cadousteau"
+  },
+  {
+   "aid": 154,
+   "rna": "W9P1000683",
+   "name": "COULEURS CARAÏBES TAHITI",
+   "date": "2010-03-09",
+   "objet": "Arts et loisirs : à compléter",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 19.100 côté montagne, Résidence Papehue n°5"
+  },
+  {
+   "aid": 155,
+   "rna": "W9P1002864",
+   "name": "E VAI PUNA NO PAEA",
+   "date": "2017-07-06",
+   "objet": "L' association a été mise en place, par un groupe d' amis----",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 22 vallée Orofero, côté montagne"
+  },
+  {
+   "aid": 156,
+   "rna": "W9P1002717",
+   "name": "HAUTEA",
+   "date": "2017-05-30",
+   "objet": "De subventionner les projets de voyage, régler les situations difficiles que la famille pourrait engendrer en coup dur, financé les fêtes de fin d' année, rencontre avec d'autres associations(Noël, jour de l' an) ainsi que les affaires de terre. Pour cela des ventes de plats seront à prévoir, les cotisations d' adhérents ect....",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 22.900 coté montagne, Quartier TEIRI"
+  },
+  {
+   "aid": 157,
+   "rna": "W9P1008343",
+   "name": "HOG TAHITI - ANCIENNEMENT HOG CHAPITRE TAHITI",
+   "date": "2019-08-30",
+   "objet": "Le but du chapitre local consiste à promouvoir des activités de motocyclisme Harley-Davison---------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 158,
+   "rna": "W9P1008184",
+   "name": "KAHIO FIT .",
+   "date": "2019-06-17",
+   "objet": "A saisir",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 159,
+   "rna": "W9P1004020",
+   "name": "L'AMICALE LOCAL DE PAEA",
+   "date": "2009-12-26",
+   "objet": "A saisir",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "PK 21,900 C/Mont Orofero, Servitude TAMATERAI"
+  },
+  {
+   "aid": 160,
+   "rna": "W9P1004433",
+   "name": "PAEA IA ORA",
+   "date": "2018-08-23",
+   "objet": "Promouvoir la cuisine en alliant plaisir et passion----------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "au Pk 21.500 côté montagne."
+  },
+  {
+   "aid": 161,
+   "rna": "W9P1004193",
+   "name": "TAHITIAN RANGER #987.",
+   "date": "2018-05-31",
+   "objet": "Regrouper les amateurs, utilisateur et passionnés de Ford Ranger----------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "Pk 23.400 côté montagne, Lotissement Heitiare - Chez OPUU Alexandra."
+  },
+  {
+   "aid": 162,
+   "rna": "W9P1008941",
+   "name": "TE U'I RAU NO A'OU'A",
+   "date": "2020-07-07",
+   "objet": "Faciliter l' insertion des Jeunes-----",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 163,
+   "rna": "W9P1008632",
+   "name": "TEA'A NUI",
+   "date": "2013-04-16",
+   "objet": "A saisir",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 164,
+   "rna": "W9P1008734",
+   "name": "TEAM MAHANA",
+   "date": "2020-02-12",
+   "objet": "Organiser des déplacements et voyages----------------",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 165,
+   "rna": "W9P1001400",
+   "name": "TERE NATI",
+   "date": "2016-11-02",
+   "objet": "De rassembler les personnes animées du même désir d'enrichir leurs connaissances et de découvrir de nouveaux horizons dans un milieu convivial et amical",
+   "categorie_rna": "clubs de loisirs, relations",
+   "adresse_rna": "au domicile du Président, Pk 20.600 derrière la Gendarmerie"
+  },
+  {
+   "aid": 166,
+   "rna": "W9P1009003",
+   "name": "TWIN'S DAY",
+   "date": "2020-07-30",
+   "objet": "De faire un rassemblement annuel de Jumeaux & Jumelles et à Tahiti, La Fête des Jumeaux-",
+   "categorie_rna": "clubs, cercles de réflexion",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 167,
+   "rna": "W9P1010518",
+   "name": "'OIHANU 'URA - ANCIENNEMENT VA'A 'ORA NÔ PAEA",
+   "date": "2023-02-03",
+   "objet": "De promouvoir la culture et le patrimoine culturel---",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 168,
+   "rna": "W9P1000753",
+   "name": "ASSOCIATION FAMILIALE HANIVAITERA'I",
+   "date": "2016-05-23",
+   "objet": "Organiser des déjeuners dansants ou diner dansant; Encourager nos enfants à découvrir de nouvelles choses; Aider les parents à financer les déplacements de chaque familles; Adopter des méthodes radicales a fin qu'ils puissent avancés dans leurs recherches et surtout sur leurs projets avenir quelque soit personnel et professionnel de ses membres; Aider à la bonne gestion du parimoine familiale (affaires de terre, démarches administratives, judiciaires, etc... )",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": "Pk 22.200 côté mer servitude APUARII"
+  },
+  {
+   "aid": 169,
+   "rna": "W9P1012585",
+   "name": "ASSOCIATION FAMILIALE T.A.H ( TAMARII ARIIOTIMA HEIMANU )",
+   "date": "2010-05-31",
+   "objet": "De regrouper tous les membres de l'association, afin de consolider et de retrouver les liens et degrés de parenté qui les unissent et ainsi se connaître...",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 170,
+   "rna": "W9P1010429",
+   "name": "ASSOCIATION FAMILIALE TAUPUA TERIITAPARAHITUA & HIRO TEURU",
+   "date": "2022-12-07",
+   "objet": "De regrouper tous les descendants de Madame TAUPUA Teriitaparahitua et de M. Hiro TEURU----",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 171,
+   "rna": "W9P1010568",
+   "name": "ASSOCIATION FAMILIALE TEAMOARII",
+   "date": "2023-02-28",
+   "objet": "D' avoir son identité familiale juritique; De regrouper tous les membres de l' association, afin de consolider les liens lors d' activités famliales; D' agir en vue de récupérer les terres familiales et d' en assurer leur préservation et leur gestion; De récolter des fods pour les besoins de l' association5 fRAIS DE TRIBUNAL? ACHAT DE MAT2RIELS DIVERS.....",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 172,
+   "rna": "W9P1010492",
+   "name": "ASSOCIATION FAMILIALE TEAROHA ET TEHAURAI MARITERAGI",
+   "date": "2023-01-20",
+   "objet": "Regrouper les descendants et les héritiers, afin de de resserrer les liens familiaux et ancestraux entre les membres de la famille MARITERAGI",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 173,
+   "rna": "W9P1010793",
+   "name": "ASSOCIATION FAMILIALE TEUIRA TERAITORIIRIIIEREMIA ET TIPAE TAVAITUA - ANCIENNEMENT ASSOCIATION FAMILIALE TEUIRA INE TAVAITUA",
+   "date": "2023-07-13",
+   "objet": "De resserrer les liens familiaux......",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 174,
+   "rna": "W9P1000748",
+   "name": "ASSOCIATION FAMILIALE VAHINETUA FAREURA",
+   "date": "2016-05-20",
+   "objet": "L'unification, la gestion de tous ls biens fonciers, mobiliers et immobiliers de la succession Vahinetua FAREURA",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": "Pk 22.800 c/mont, Lot 40 Baldwin"
+  },
+  {
+   "aid": 175,
+   "rna": "W9P1011151",
+   "name": "ASSOCIATION KEMOHEITI",
+   "date": "2024-01-19",
+   "objet": "De maintenir et consolider les liens familiaux qui les unissent---------",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 176,
+   "rna": "W9P1011701",
+   "name": "ASSOCIATION TERIITUA TERIITEMOE ET FLORENCE",
+   "date": "2024-12-16",
+   "objet": "la gestion des affaires foncières e tout ce qui s'y rapporte, et diverses projets familiales.",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 177,
+   "rna": "W9P1010520",
+   "name": "HERITIERS DE PUNUAURA À TEMEA LEMAIRE ET AHUTIARE À MARUARAI À MATO",
+   "date": "2006-10-20",
+   "objet": "d' élaborer à la constitution de la généalogie et du Patrimoine Ancestral de ses adhérents----",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 178,
+   "rna": "W9P1010502",
+   "name": "HUA'AI A UTIA VAEA E AHUURA VAIVERA A TANIERA",
+   "date": "2023-01-24",
+   "objet": "Réunir les descendants issus de Utia VAEA e Ahuura VAIREA taniera-----",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 179,
+   "rna": "W9P1009162",
+   "name": "PEREAITU",
+   "date": "2003-06-17",
+   "objet": "Inventorier préserver et revaloriser le patrimoine culturel de la commune...",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 180,
+   "rna": "W9P1011615",
+   "name": "PURAHUI TEMATAFAARERE ET TITIVAHINE PIRITUA",
+   "date": "2009-12-07",
+   "objet": "De protéger et de préserver le patrimoine des héritiers....",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 181,
+   "rna": "W9P1011509",
+   "name": "TAATA FENUA",
+   "date": "2024-08-21",
+   "objet": "Aider à la régularisation des situations fonciers complices en les orientant vers le cadastre de la DAF, PPT....",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 182,
+   "rna": "W9P1011705",
+   "name": "TAMIHAU A POURU",
+   "date": "2024-12-18",
+   "objet": "La gestion, la protection et la préservation du foncier familial..",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 183,
+   "rna": "W9P1012726",
+   "name": "VARUAMANA PIHA",
+   "date": "2026-06-30",
+   "objet": "établir une généalogie exacte et précise de la succession",
+   "categorie_rna": "comités de défense du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 184,
+   "rna": "W9P1012722",
+   "name": "ASSOCIATION T.K.S",
+   "date": "2026-06-29",
+   "objet": "De contribuer à l'insertion social, professionnelle et à l'épanouissement des jeunes et des habitants des quartiers, notamment par des actions dans les domaines culturel, environnemental, sportif, éducatif et de l'emploi",
+   "categorie_rna": "comités de défense et d'animation de quartier, association locale ou municipale",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 185,
+   "rna": "W9P1009439",
+   "name": "ASSOCIATION JEUNESSE DE TEANAMAIRE",
+   "date": "2011-05-05",
+   "objet": "Favoriser a) la mise en place d'actions pour les jeunes et les membres du amuiraa Teanamaire b) la pratique des sports (journées corporatives etc...)",
+   "categorie_rna": "comités des fêtes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 186,
+   "rna": "W9P1000692",
+   "name": "TAMARII TE VAI URA",
+   "date": "2016-05-10",
+   "objet": "De promouvoir toute action qui contribue au bien des individus et la famille; Le maintien de l'esorit et des traditions de la famile; L'entraide familiale sous toutes ses formes et entre toutes les générations; La défense des intérêts moraux de la famille; D'organiser des activités, multi-culturelles, ayant pour but de resserer les liens familiaux; L'association peut utiliser tous les moyens autorisés par la loi et les règlements applicables sur le territoires, pour contribuer la réalisation de ses objectifs.",
+   "categorie_rna": "comités des fêtes",
+   "adresse_rna": "Pk 20.500 côté montagne"
+  },
+  {
+   "aid": 187,
+   "rna": "W9P1000646",
+   "name": "THD EVENTS",
+   "date": "2016-05-02",
+   "objet": "Créer, développer et gérer des évênements ponctuels et festifs ( stage, soirée, sorties ) en Polynésie Française pour tous publics; Permettre le déplacement et logement des membres de lassociation à l'étranger et sur les îles de la Polynésie Française, dans le but de développer les projets liés à las-sociation; Reunir tous les Polynésiens dans une ambiance chaleurese et conviviale; Participer dans le cadre du possible à des oeuvres caritatives concernant les enfants de la Polynésie Française",
+   "categorie_rna": "comités des fêtes",
+   "adresse_rna": "Pk 19.100 C/MONT, Résidence Papehue n°5"
+  },
+  {
+   "aid": 188,
+   "rna": "W9P1004212",
+   "name": "AHURAU",
+   "date": "2018-06-06",
+   "objet": "A saisir",
+   "categorie_rna": "conduite d'activités économiques",
+   "adresse_rna": "Pk 22 c/mer servitude Charles"
+  },
+  {
+   "aid": 189,
+   "rna": "W9P1004396",
+   "name": "ASSOCIATION ARTISANALE ET HORTICOLE KEVA'I",
+   "date": "2018-08-13",
+   "objet": "A saisir",
+   "categorie_rna": "conduite d'activités économiques",
+   "adresse_rna": "Pk 19,500 c/mer"
+  },
+  {
+   "aid": 190,
+   "rna": "W9P1001567",
+   "name": "ASSOCIATION HOATAHI",
+   "date": "2016-10-13",
+   "objet": "Regroupement des fonds- Regroupement Familial",
+   "categorie_rna": "conduite d'activités économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 191,
+   "rna": "W9P1010712",
+   "name": "\" ALL B'ENJOY \"",
+   "date": "2023-06-12",
+   "objet": "à saisir.....",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 192,
+   "rna": "W9P1010854",
+   "name": "\" TRIO 219 \"",
+   "date": "2023-08-22",
+   "objet": "à saisir.....",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 193,
+   "rna": "W9P1003603",
+   "name": "AMICALE DE LA MAIRIE DE PAEA.",
+   "date": "2003-08-01",
+   "objet": "Défense Intérêts Communs------------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Mairie de Paea."
+  },
+  {
+   "aid": 194,
+   "rna": "W9P1003788",
+   "name": "ASSOCIATION ARTISANALE ET HORTICOLE HE'E MAI.",
+   "date": "2018-01-25",
+   "objet": "Organiser, de participer, de promouvoir, de représenter, de défendre et de regrouper les intérêts des artisans et tous les membres de l'association de la commune de Paea------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 23.500 côté montagne."
+  },
+  {
+   "aid": 195,
+   "rna": "W9P1009117",
+   "name": "ASSOCIATION ARTISANALE ET HORTICOLE PU O TE HAA MAOHI IRI HONU",
+   "date": "1980-11-10",
+   "objet": "D' organiser, de participer, de promouvoir, de représenter, de défendre et de regrouper les intérêts des artisans---",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 196,
+   "rna": "W9P1004022",
+   "name": "ASSOCIATION ARTISANALE MEREHAU NUI",
+   "date": "2008-07-23",
+   "objet": "A saisir",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "PK 21,900 Vallée OROFERO"
+  },
+  {
+   "aid": 197,
+   "rna": "W9P1009322",
+   "name": "ASSOCIATION ARTISANALE RIMA HERE HERE",
+   "date": "1995-04-04",
+   "objet": "L' organisation, la représentation et la défense des intérêts des artisans de la commune de : Paea",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 198,
+   "rna": "W9P1001833",
+   "name": "ASSOCIATION CONSORTS TOOFA / TERIIMATAE",
+   "date": "2010-01-22",
+   "objet": "Asociation Familiale---------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 20.700 côté montagne"
+  },
+  {
+   "aid": 199,
+   "rna": "W9P1008824",
+   "name": "ASSOCIATION FAMILIAL MOANANUI",
+   "date": "2020-03-20",
+   "objet": "Maintenir et développer les secteurs ancestraux----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 200,
+   "rna": "W9P1003088",
+   "name": "ASSOCIATION FAMILIALE TAMATERAI MARCEL PAHEROO",
+   "date": "2017-09-05",
+   "objet": "Se faire valoir en tant que membre de la famille TAMATERAI MARCEL PAHEROO aux yeux de la société----------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 21.900 côté montagne, vallée Orofero, servitude TAMATERAI"
+  },
+  {
+   "aid": 201,
+   "rna": "W9P1004638",
+   "name": "ASSOCIATION JEUNESSE HAU FARA - ANCIENNEMENT ASSOCIATION FAMILIALE VAAHARA",
+   "date": "2018-10-25",
+   "objet": "Caractère Sportif-----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Servitude AHNNE n°4 Bis, Pk 24,500 côté mer."
+  },
+  {
+   "aid": 202,
+   "rna": "W9P1009910",
+   "name": "ASSOCIATION OAOA RAHI TE TAMA",
+   "date": "2005-01-19",
+   "objet": "De mener une action de solidarité d' entraide entre les adhérents------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 203,
+   "rna": "W9P1004033",
+   "name": "ASSOCIATION PARAU URA NO PAEA",
+   "date": "2005-04-26",
+   "objet": "Promotion de l'artisanat---------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 21.00 côté montagne.."
+  },
+  {
+   "aid": 204,
+   "rna": "W9P1011059",
+   "name": "ASSOCIATION PLAN DM",
+   "date": "2023-11-20",
+   "objet": "à saisir.....",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 205,
+   "rna": "W9P1004038",
+   "name": "ASSOCIATION RIMA'I OCEANIENNE DE PAEA.",
+   "date": "2018-04-04",
+   "objet": "L' organisation, la représentation et la défense des intérêts des fédérations et association affiliées----------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "au domicile de la Présidente, Pk 22 C/M, vallée Orofero quartier Sage."
+  },
+  {
+   "aid": 206,
+   "rna": "W9P1008904",
+   "name": "ASSOCIATION TAMA HAU NUI - THN .",
+   "date": "2011-11-04",
+   "objet": "Faciliter l' insertion des Jeunes au moyen d' animations----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 207,
+   "rna": "W9P1011473",
+   "name": "ASSOCIATION TE MAU HUAAI A TIGOU",
+   "date": "2024-07-23",
+   "objet": "Resserrer les liens familiaux en préservant, renforçant et et encouragent les liens fraternel..",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 208,
+   "rna": "W9P1009980",
+   "name": "ASSOCIATION TEAM TOUT DOUX LE LOUP",
+   "date": "2022-03-30",
+   "objet": "D' agir de toutes manières possibles en faveur du développement et protection des biens de l' association----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 209,
+   "rna": "W9P1001040",
+   "name": "ASSOCIATION TOMITE TAURUA RAU NO PAEA",
+   "date": "2011-02-01",
+   "objet": "Comité des fêtes",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 24.500 côté mointagne, Résidence Manava"
+  },
+  {
+   "aid": 210,
+   "rna": "W9P1004336",
+   "name": "DREAM TRAVEL",
+   "date": "2018-07-18",
+   "objet": "Découvrir d'autres pays--------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 19.100 côté montagne, Lot 23 Servitude Amatahiapo."
+  },
+  {
+   "aid": 211,
+   "rna": "W9P1008316",
+   "name": "HAKATEPEIU CREATION",
+   "date": "2014-06-07",
+   "objet": "Atisanat-------------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 212,
+   "rna": "W9P1009669",
+   "name": "HINE RAU O PAEA - ANCIENNEMENT REO MANAHUNE O PAEA",
+   "date": "2021-08-09",
+   "objet": "1/ Favoriser. a) La mise en place d'actions pour les jeunes et les habitants de la Commune de Paea. b) la pratique des sports, des activités culturelles et éducatives----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 213,
+   "rna": "W9P1003397",
+   "name": "HIROA NANAO",
+   "date": "2015-05-18",
+   "objet": "A saisir",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 21.100 côté mer"
+  },
+  {
+   "aid": 214,
+   "rna": "W9P1008578",
+   "name": "ITIHANI",
+   "date": "2019-11-26",
+   "objet": "rassembler les personnes animées du même désir d'enrichir leurs connaissances et de découvrir de nouveaux horizons dans un milieu convivial et amical ; De façon générale, exploiter toutes les activités liées à la création, la production, l'organisation, la gestion, le développement et la promotion de tous spectacles et événements, notamment musicaux, artistiques, culturels, en Polynésie française, pour tous publics ; créer, gérer, développer, exploiter des salles, scènes, événements ponctuels créés à son initiative ou confiés à son expertise ; apporter ponctuellement un savoir-faire, une expertise particulière sur un ou des événements autres que ceux dont elle a la responsabilité ; créer, acquérir, louer, prendre à bail, installer, exploiter tous établissements ou immeubles se rapportant à ces activités et, plus généralement, toutes opérations quelconques pouvant contribuer à la réalisation de cet objet ;",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 215,
+   "rna": "W9P1009883",
+   "name": "JEUNESSE VAIATU",
+   "date": "2022-02-14",
+   "objet": "L'association à pour objet de réaliser et soutenir tout projets dans le domaine de la culture...",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 216,
+   "rna": "W9P1011224",
+   "name": "L'ASSOCIATION HAU IHI ARII",
+   "date": "2013-05-31",
+   "objet": "De proposer te d'organiser des manifestations de toute nature et des programmes à caractères sociale, éducatif et de protection de l'environnement...",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 217,
+   "rna": "W9P1011232",
+   "name": "L'ASSOCIATION HAU IHI ARII",
+   "date": "2013-05-31",
+   "objet": "à saisir.....",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 218,
+   "rna": "W9P1002515",
+   "name": "LES AMIS DE PAEA",
+   "date": "2017-04-18",
+   "objet": "De promouvoir la solidarité sous toutes ses formes notamment en développant des activités de prévention, de formation et d' animation à caractère culturel, sportif, et social en direction des jeunes et de la famille dans la commune de Paea",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "chez M. Lucien BRILLANT, Pk 22 côté montagne - Servitude BRILLANT"
+  },
+  {
+   "aid": 219,
+   "rna": "W9P1007829",
+   "name": "LIBERTANGO TAHITI",
+   "date": "2019-01-29",
+   "objet": "Manifestations autour du Tango Argentin----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "à Vallée de Papehue"
+  },
+  {
+   "aid": 220,
+   "rna": "W9P1009316",
+   "name": "MANUIA-O'HANIKEA",
+   "date": "2021-01-27",
+   "objet": "De développer des activités et ateliers pédagogiques ludiques au travers des Centres de vacances et de loisirs pour des enfants, ados et familles ( colonie/camp)---",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 221,
+   "rna": "W9P1007721",
+   "name": "MOEA.",
+   "date": "2018-11-29",
+   "objet": "Promouvoir et défendre la musique locale----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "au domicile de M. BARFF Manuarii Pk 26,400 côté montagne."
+  },
+  {
+   "aid": 222,
+   "rna": "W9P1003248",
+   "name": "ORI TAHITI NUI",
+   "date": "2012-06-06",
+   "objet": "A saisir",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 25,100 c/mer"
+  },
+  {
+   "aid": 223,
+   "rna": "W9P1009309",
+   "name": "OROFERO",
+   "date": "2021-01-25",
+   "objet": "La promotion et le développement du sport sous toutes ses formes, ainsi que la mise en place de projets, liés à la santé, l' environnement, la culture et l' agriculture.",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 224,
+   "rna": "W9P1008978",
+   "name": "PACIFIC SOUND",
+   "date": "2020-07-21",
+   "objet": "De regrouper tous les membres de l' association et les jeunes de Paea----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 225,
+   "rna": "W9P1004384",
+   "name": "REREAO NUI.",
+   "date": "2018-08-07",
+   "objet": "Accompagner et soutenir les projets familiaux----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 20.500 côté montagne, Lotissement Tepuhapa n°23."
+  },
+  {
+   "aid": 226,
+   "rna": "W9P1008096",
+   "name": "TAMA HOPA .",
+   "date": "2019-05-06",
+   "objet": "Insertion Des Jeunes---------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 227,
+   "rna": "W9P1002098",
+   "name": "TAMA NO PAEA PROJET NZ",
+   "date": "2017-02-03",
+   "objet": "D' amener un groupe de 22 enfants du collège Teriitua A Terierooiterai de Paea, pour un séjouir Culturel et linguistique, pendant la période des vacances Scolaire du 22 mars en Avril 2017",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 21.9 côté montagne lot n°24, vallée Orofero"
+  },
+  {
+   "aid": 228,
+   "rna": "W9P1001759",
+   "name": "TAMARII ARTISANAT NO PAEA",
+   "date": "2016-12-22",
+   "objet": "Apprendre à travailler dans l' artisanat----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "domicile du Président au Pk 19.800 c/mont, Route du cimetière"
+  },
+  {
+   "aid": 229,
+   "rna": "W9P1008486",
+   "name": "TAMARII RA'IVAI DE PAEA",
+   "date": "2009-05-14",
+   "objet": "Social & Culturelle --",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 230,
+   "rna": "W9P1003172",
+   "name": "TAMARII RAVA ' AI NO PAEA",
+   "date": "2014-07-15",
+   "objet": "Défense & Promotion Intérêts Communs----------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "à La mairie"
+  },
+  {
+   "aid": 231,
+   "rna": "W9P1010147",
+   "name": "TE A'A NUI",
+   "date": "2013-04-11",
+   "objet": "Mettre en place des activités de loisirs et de vacances et artistiques pour le développement et l ' épanouissement des jeunes-----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 232,
+   "rna": "W9P1004588",
+   "name": "TE HUAAI AGNIE-ENA",
+   "date": "2018-10-09",
+   "objet": "La préparation et la mise en place de différentes activités à caractère folklorique, culturel--",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 20,800 côté montagne, servitude Vaiapane."
+  },
+  {
+   "aid": 233,
+   "rna": "W9P1004037",
+   "name": "TE MERAHI A ROHOTU",
+   "date": "2015-07-21",
+   "objet": "De regrouper tous les membres de l' association, afin de consolider les liens qui les unissent et ainsi se connaître--------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 19.1 Route Marae Taata."
+  },
+  {
+   "aid": 234,
+   "rna": "W9P1011200",
+   "name": "TE NATI HIVA",
+   "date": "2024-02-19",
+   "objet": "favoriser la préservation, le développement, la promotion et le rayonnement de la culture polynésienne sous toutes ses formes, notamment la danse, la musique et l'artisanat en Polynésie et à travers le monde ; organiser, collaborer ou participer à l'organisation de conférences, fêtes, concours, festivals et autres manifestations à caractère chorégraphique, musical, artisanal ou folklorique et d'intérêt touristique et/ou culturel, ainsi qu'à toute autre activité permettant directement ou indirectement la réalisation de l'objet social ; faciliter - au travers de la connaissance de la culture polynésienne, de la danse, de la musique, de l'artisanat - l'insertion des jeunes aux moyens de formations, d'entraînements, de répétitions, de spectacles hebdomadaires, mensuels ou annuels en Polynésie ou de tournées internationales",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 235,
+   "rna": "W9P1009074",
+   "name": "TE U'I RAU URA NO PAEA.",
+   "date": "2020-09-07",
+   "objet": "De faciliter l' insertion des jeunes aux moyens d' animation----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 236,
+   "rna": "W9P1004378",
+   "name": "TE VAI TOTOE",
+   "date": "2012-09-19",
+   "objet": "A saisir",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 23,800 c/mont Servitude Totoe"
+  },
+  {
+   "aid": 237,
+   "rna": "W9P1003413",
+   "name": "TEAHINUI",
+   "date": "2017-10-11",
+   "objet": "La promotion de la danse de la culture et de la jeunesse Polynésienne----------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 20.200 côté montagne lot 422"
+  },
+  {
+   "aid": 238,
+   "rna": "W9P1004431",
+   "name": "TEAM WOLF BOXING.",
+   "date": "2018-08-23",
+   "objet": "Promouvoir la boxe en Polynésie Française-----------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 21.500 côté montagne."
+  },
+  {
+   "aid": 239,
+   "rna": "W9P1002563",
+   "name": "TEONEHUAHUA",
+   "date": "2014-10-24",
+   "objet": "Cultures --- Sciences--------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Orofero Pk 21.500 côté montagne, servitude Teonehuahua"
+  },
+  {
+   "aid": 240,
+   "rna": "W9P1001975",
+   "name": "TERRAURA",
+   "date": "2012-12-29",
+   "objet": "Artisanat -------------Economie-----------------",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": "Pk 20.100 côté montagne, servitude TAPUTUARAI"
+  },
+  {
+   "aid": 241,
+   "rna": "W9P1009427",
+   "name": "TOA HINE NO PAEA .",
+   "date": "2021-03-26",
+   "objet": "L' organisation de sorties et manifestations diverses afin de resserrer amicaux et la population de Paea ( Culturelles, Sportives, Artistiques,",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 242,
+   "rna": "W9P1009422",
+   "name": "TOMITE HEIVA RAU NO PAEA .",
+   "date": "2021-03-24",
+   "objet": "1/ Favoriser . a) la mise en place d' actions pour les jeunes et les habitants de la commune de Paea. b) la pratique des sports, des activités culturelles et éducatives 2/ Organiser diverses manifestations 3/ Elle pourra étendre son action dans d'autres domaines sur simple décisions de son bureau exécutif (environnement-culturelle) 4/ Elle peut aider à l' insertion sociale et professionnelle des jeunes.",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 243,
+   "rna": "W9P1008065",
+   "name": "TORO MEHO",
+   "date": "2019-04-17",
+   "objet": "Massage-----",
+   "categorie_rna": "culture, pratiques d'activités artistiques, culturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 244,
+   "rna": "W9P1012142",
+   "name": "ASSOCIATION RUARAGI",
+   "date": "2025-08-12",
+   "objet": "Promouvoir, développer, préserver et diffuser la danse tahitienne et les danses du Pacifique, par le biais de la création artistique, de l'éducation, de la formation, de la recherche, d'échanges culturels régionaux et internationaux, et de la recherche de financement pour soutenir ces missions",
+   "categorie_rna": "danse",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 245,
+   "rna": "W9P1004250",
+   "name": "ACTION POUR TOUS",
+   "date": "2014-05-27",
+   "objet": "Défense Promotion----&---Intérêts Communs------------",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Pk 22.700 côté montagne, Servitude Haumauuru.."
+  },
+  {
+   "aid": 246,
+   "rna": "W9P1009240",
+   "name": "AROA 219",
+   "date": "2020-11-23",
+   "objet": "Entreprendre toute action permettent de faciliter l' insertion professionnelle e tsocial",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 247,
+   "rna": "W9P1007704",
+   "name": "ASSOCIATION HOPUE TAMA'I.",
+   "date": "2009-11-23",
+   "objet": "Défense & Promotion Intérêts Communs----",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Pk 20 côté montagne."
+  },
+  {
+   "aid": 248,
+   "rna": "W9P1009584",
+   "name": "ASSOCIATION POFATU .",
+   "date": "2021-06-21",
+   "objet": "Resserrer les liens entre toutes les familles de la résidence ( Association Pofatu )",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 249,
+   "rna": "W9P1009011",
+   "name": "COLLECTIF HI'O AROHA",
+   "date": "2020-07-31",
+   "objet": "De Soutenir la population de la commune de Paea:",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 250,
+   "rna": "W9P1000941",
+   "name": "CONSORTS RICHMOND GEORGES FAATAHU NO PAEA",
+   "date": "2007-03-29",
+   "objet": "familale richmond",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Pk 23.800 côté montagne"
+  },
+  {
+   "aid": 251,
+   "rna": "W9P1000909",
+   "name": "COOPÉRATIVE SCOLAIRE DU CJA DE A'OU'A PAEA",
+   "date": "1982-10-18",
+   "objet": "La préparation des coopérateurs à leur insertion dans la vie active par la pratique de la vie communautaire et la prise de responsabilités dans la vie du Centre au plus l'organisation et de la gestion des activités et da la vie dui Centre.",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Pk 19.900 côté montagne quartier Aou'a"
+  },
+  {
+   "aid": 252,
+   "rna": "W9P1010529",
+   "name": "HINE HV22",
+   "date": "2023-02-07",
+   "objet": "Organiser des activités d'intérêts général en faveur de la jeunesse dans le domaine culturel, environnemental, sportif et dans le secteur primaire. Organiser des manifestations destinées à financier les actions relatives à son objet. Organiser des journées ou soirées récréatives pour resserrer dans les liens entre les membres. Organiser des déplacements en Polynésie ou hors territoire. Dans le cadre de ces activités, l'association peut également: Organiser des évènements, notamment musicaux. Mettre en place des buvettes ou espaces de restauration. Effectuer la vente de boissons et de produits alimentaires à titre occasionnel et accessoire...",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 253,
+   "rna": "W9P1001257",
+   "name": "HUA'AI PUNUA MOOROA",
+   "date": "2014-06-07",
+   "objet": "AFFAIRES FAMILIALES",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Pk 18.5 côté montagne"
+  },
+  {
+   "aid": 254,
+   "rna": "W9P1009132",
+   "name": "L' ASSOCIATION TAMARII HOPA VALLEE",
+   "date": "2020-09-24",
+   "objet": "Améliorer le cadre de vie des habitants de la vallée Hopa---",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 255,
+   "rna": "W9P1009270",
+   "name": "LOTISSEMENT PAPEHUE",
+   "date": "2020-12-10",
+   "objet": "D' organiser, de participer, de promouvoir, de re présenter, de défendre et de regrouper les intérêts des habitants du lotissement Papehue, qu'ils soient locataires ou propriétaires. Particulièrement de permettre de retrouver des conditions de circulation acceptable suite aux inondations récurrentes.",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 256,
+   "rna": "W9P1008399",
+   "name": "MATA ATEA",
+   "date": "2019-09-16",
+   "objet": "De regrouper, coordonner, organiser des opérations d' opposition, soutenir les personnes morales ou physiques---",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 257,
+   "rna": "W9P1009512",
+   "name": "SOS ANIMARA NO PAEA .",
+   "date": "2021-05-18",
+   "objet": "Nourrir, soigner et faire stériliser les animaux errants et/ ou abandonnés.",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 258,
+   "rna": "W9P1001350",
+   "name": "TE ORA O VAITERUPE",
+   "date": "2001-06-20",
+   "objet": "Déhfense et promotion---",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "Lotissement Vaiterupe"
+  },
+  {
+   "aid": 259,
+   "rna": "W9P1001356",
+   "name": "TEIKIPEPEUOHO",
+   "date": "2013-08-09",
+   "objet": "Défense et Promotion------",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "29 Route du Bassin, Pk 18.5"
+  },
+  {
+   "aid": 260,
+   "rna": "W9P1007784",
+   "name": "VAITUPA I MA'A IPA.",
+   "date": "2019-01-07",
+   "objet": "Le bien - être des résidents------",
+   "categorie_rna": "défense de droits fondamentaux, activités civiques",
+   "adresse_rna": "à la Maison du Quartier, Résidence MA'A IPA Pk 23,800 côté montagne."
+  },
+  {
+   "aid": 261,
+   "rna": "W9P1010432",
+   "name": "E NAKI",
+   "date": "2022-12-08",
+   "objet": "améliorer la mobilité sur l'île de Tahiti ; fluidifier la circulation routière ; augmenter la sécurité de toutes les personnes se déplaçant ; faciliter l'accès pour tous aux modes de transport à moindre impact sur l'environnement ;",
+   "categorie_rna": "défense et amélioration du cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 262,
+   "rna": "W9P1012709",
+   "name": "PAEA SURF CLUB",
+   "date": "2026-06-22",
+   "objet": "Respecter l'environnement tout en préservant le littoral Respecter les membres de l'association lors de différents manifestations",
+   "categorie_rna": "défense et amélioration du cadre de vie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 263,
+   "rna": "W9P1000689",
+   "name": "MANATOA",
+   "date": "2016-05-10",
+   "objet": "But principal de reegrouper tous les membres de l'association afinde consolider et de retrouver les liens et degrés d parenté qui unissent et ainsi se connaitre; Il se fixe aussi comme objectifs; 1)- D'établir une généalogie exacte et précise d'une succession; 2)De faire des recherches en bien immobiliers appartenet aux ancêtres; 3)- De recueillir tous les documents dans les services concernés( trinunal, cadastre, notaire, mairie ) 4)-D'organiser si possible des déplacements pour faire aboutir les recherches sus-citées et rencontrer d'autres parents 5)-D'organiser, de colaboerer ou de participer à l'organisatin de fêts, concours et autres manifestations à caractère folklorique, culturel; artisanal et corporatif;6)-L'organisation la repésentatin et la défense des intérêts des membres de l'association",
+   "categorie_rna": "folklore",
+   "adresse_rna": "Pk 22.700 côté montagne"
+  },
+  {
+   "aid": 264,
+   "rna": "W9P1000807",
+   "name": "POEMITI CLARK",
+   "date": "2013-03-02",
+   "objet": "L'organisation, la gestion et l'animation de centres de vacances, de séjours éducatifs et d'accueils...",
+   "categorie_rna": "folklore",
+   "adresse_rna": "Pk 20.500 c/mont Lotissement Tepuhapa n°36"
+  },
+  {
+   "aid": 265,
+   "rna": "W9P1011389",
+   "name": "ASSOCIATION DES RETRAITES DE LA POLICE NATIONALE DE POLYNESIE FRANÇAISE",
+   "date": "2012-01-04",
+   "objet": "de rapprocher, en priorité, tous les retraités et veuves de retraités de la Police Nationale de Polynésie Française",
+   "categorie_rna": "groupements d'entraide et de solidarité",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 266,
+   "rna": "W9P1011437",
+   "name": "ASSOCIATION TE UI TAMA NO PAEA",
+   "date": "2024-06-27",
+   "objet": "La promotion de la jeunesse: Mieux accompagner les jeunes adolescents et les jeunes adultes en préservant, renforçant et en encouragent les liens fraternels",
+   "categorie_rna": "groupements d'entraide et de solidarité",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 267,
+   "rna": "W9P1009141",
+   "name": "PAEA DJEUN'S",
+   "date": "2020-09-28",
+   "objet": "Soutenir la jeunesse, les administrés de PAEA, acompagnement à l'échec scolaire, à la recherche d'emploi...",
+   "categorie_rna": "groupements d'entraide et de solidarité",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 268,
+   "rna": "W9P1012839",
+   "name": "TOU TAUARO NO PAEA",
+   "date": "2026-08-26",
+   "objet": "Offrir un accompagnement bienveillant aux Ta'ata Tumu et à leurs familles avant leur évacuation sanitaire (EVAZAN), en les rassurant, en les informant et en les orientant tout au long des préparatifs de leur départ vers la Métropole ou toute autre structure de soins, afin de favoriser une prise en charge sereine et adaptée. D'organiser, de participer à des évènements à caractère culturel, cultuel, artisanal et sportif etc... D'apporter son concours lors des opérations de solidarité visant à soutenir la communauté polynésienne présente en Métropole ou en Nouvelle Zélande ou autres pays sous le patronage de la Fédération To'u Tauaro.",
+   "categorie_rna": "groupements d'entraide et de solidarité",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 269,
+   "rna": "W9P1000639",
+   "name": "COOPERATIVE SCOLAIRE DU CENTRE DES JEUNES ADOLESCENTS DE AOUA - PAEA",
+   "date": "1982-10-18",
+   "objet": "A saisir",
+   "categorie_rna": "interventions sociales",
+   "adresse_rna": "Pk 19.900 côté montagne Quartier Aoua"
+  },
+  {
+   "aid": 270,
+   "rna": "W9P1008279",
+   "name": "TAAHIAPAPA",
+   "date": "2019-08-02",
+   "objet": "A saisir",
+   "categorie_rna": "interventions sociales",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 271,
+   "rna": "W9P1009271",
+   "name": "TIAI NUI HERE",
+   "date": "1993-12-14",
+   "objet": "Mouvement des Jeunes------",
+   "categorie_rna": "interventions sociales",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 272,
+   "rna": "W9P1009173",
+   "name": "TE TIARE RAU NO PAEA",
+   "date": "2009-11-26",
+   "objet": "La mise en oeuvre de tous les moyens visant à défendre les intérêts des membres, de contribuer au développement des activités agricoles et horticoles...",
+   "categorie_rna": "jardins ouvriers, floralies",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 273,
+   "rna": "W9P1011693",
+   "name": "ASSOCIATION DES PARENTS D'ELEVES DU TAEKWONDO PAEA (APE)",
+   "date": "2024-12-03",
+   "objet": "de créer ou de développer des activités culturelles ainsi que des actions sociales au profit des athlètes membres de l'association, De récolter des fonds, afin de soutenir les membres de l'association; De promouvoir des actions de toutes natures faveur des membres de l'association; De favoriser la cohésion entre les membres de l'association par la mise en place de divers activités",
+   "categorie_rna": "mouvements éducatifs de jeunesse et d'éducation populaire",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 274,
+   "rna": "W9P1010487",
+   "name": "TERII TAPU URA",
+   "date": "2006-03-09",
+   "objet": "1) de participer à l' évolution des jeunes 2) la mise en place de la formation 3) de prendre toutes initiatives en faveur des jeunes",
+   "categorie_rna": "mouvements éducatifs de jeunesse et d'éducation populaire",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 275,
+   "rna": "W9P1012291",
+   "name": "ASSOCIATION DES PARENTS D'ÉLÈVES DE L'ÉCOLE TI'APA ÉLÉMENTAIRE",
+   "date": "2025-10-21",
+   "objet": "-De favoriser les relations entre les parents, les enseignants et les partenaires éducatifs..",
+   "categorie_rna": "parents d'élèves",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 276,
+   "rna": "W9P1011748",
+   "name": "ASSOCIATION LES CHICCA'S",
+   "date": "2025-01-24",
+   "objet": "Organiser des activités d'intérêts général en faveur des quartiers et de la jeunesse dans la domaine culturel....",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 277,
+   "rna": "W9P1012477",
+   "name": "ASSOCIATION TAKU HEIARIKI",
+   "date": "2026-02-02",
+   "objet": "La transmission Culturelle et identitaire:Préserver et Transmettre les savoirs....",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 278,
+   "rna": "W9P1011253",
+   "name": "HEIRAU CREATIONS",
+   "date": "2024-03-18",
+   "objet": "Dans la domaine de la couture de la broderie.....",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 279,
+   "rna": "W9P1011280",
+   "name": "HEREVAIRAIORA",
+   "date": "2024-04-04",
+   "objet": "De réaliser et soutenir tout projets dans le domaine de la culture---",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 280,
+   "rna": "W9P1012853",
+   "name": "MISS PLANET FRENCH POLYNESIA",
+   "date": "2026-09-01",
+   "objet": "De soutenir la participation et la représentation de la Polynésie française à l'élection Miss Planet internationnal...",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 281,
+   "rna": "W9P1011252",
+   "name": "TAMARII AMUIRAA VAITERUPE",
+   "date": "2011-09-20",
+   "objet": "De lutter contre l'exclusion social des jeunes et de la population en générale...",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 282,
+   "rna": "W9P1010377",
+   "name": "TE HIVAROA",
+   "date": "2022-11-04",
+   "objet": "De rassembler plusieurs personnes, afin de promouvoir leurs idées et oeuvres artisanat----",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 283,
+   "rna": "W9P1012100",
+   "name": "TE PU RIMAI A TE VAHINE API",
+   "date": "2025-07-24",
+   "objet": "promouvoir la culture, les savoir-faire et les expressions artistiques polynésiennes, soutenir la création, la transmission et la valorisation des pratiques artisanales comme la couture, le tressage, la sculpture, et d'autres encore, organiser des événements, des expositions, des marchés artisanaux, des ateliers et des formations ; ; ;",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 284,
+   "rna": "W9P1011351",
+   "name": "TIFAI NOA",
+   "date": "2024-05-07",
+   "objet": "de produire des produits artisanaux tels que:",
+   "categorie_rna": "promotion de l'art et des artistes",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 285,
+   "rna": "W9P1009793",
+   "name": "ASSOCIATION CONSORT TOOFA STEVEN & AIAMU TOÏ",
+   "date": "2021-12-02",
+   "objet": "Se faire valoir en tant que membre de la famille TOOFA, TEPEA, AIAMU, TAURAATUA.....",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 286,
+   "rna": "W9P1004474",
+   "name": "ASSOCIATION DES HERITIERS DE TETUAURA A MAERE ET DE TEPEHU A TEKOROUA.",
+   "date": "2007-09-04",
+   "objet": "ASSO ----------Familles-------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 21.600, Lot Seigneur."
+  },
+  {
+   "aid": 287,
+   "rna": "W9P1008847",
+   "name": "ASSOCIATION FAMILIALE HITI MARAMA TOOFA",
+   "date": "2020-05-19",
+   "objet": "De regrouper et resserrer les liens Familiaux------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 288,
+   "rna": "W9P1001491",
+   "name": "ASSOCIATION FAMILIALE MAEHOROTINI",
+   "date": "1997-10-06",
+   "objet": "Association Familiale -------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 21.5 côté montagne"
+  },
+  {
+   "aid": 289,
+   "rna": "W9P1003005",
+   "name": "ASSOCIATION FAMILIALE TAUMIHAU TAMATERAI MAHUTATUA .",
+   "date": "2017-08-21",
+   "objet": "Se faire valoir en tant que membre de la famille TAUMIHAU TAMATERAI MAHUTATUA aux yeux de la socété---------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 21.900 côté montagne, vallée Orofero, servitude TAMATERAI"
+  },
+  {
+   "aid": 290,
+   "rna": "W9P1004137",
+   "name": "ASSOCIATION FAMILIALE TEHEIMIHIURA.",
+   "date": "2014-03-29",
+   "objet": "Patrimoine Familial-----------------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 22 côté montagne, servitude Atoetemimi, chez Mme MAITERAI Hinano."
+  },
+  {
+   "aid": 291,
+   "rna": "W9P1002863",
+   "name": "ASSOCIATION FAMILIALE TEMATAFAARERE",
+   "date": "2013-04-22",
+   "objet": "ASS / Familiale----------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 20 côté montagne, servitude TAPUTUARAI, au domicile du Président"
+  },
+  {
+   "aid": 292,
+   "rna": "W9P1002641",
+   "name": "ASSOCIATION FAMILIALE TOUATUPAHEIAU",
+   "date": "2011-11-15",
+   "objet": "ASS / Famille------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 20.300 côté montagne"
+  },
+  {
+   "aid": 293,
+   "rna": "W9P1007745",
+   "name": "ASSOCIATION FANAUTAHI TEUPOONATITANE A TERAAITEPO NO VAVAU DE POLYNESIE FRANÇAISE - ANCIENNEMENT ASSOCIATION CONSORTS AAOA VAHINE, EN POLYNÉSIE FRANÇAISE .",
+   "date": "2018-12-10",
+   "objet": "D' établir une généalogie exacte--------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "à Pk 20,500 côté montagne, Lotissement Tehauparu Voie 2 N°44."
+  },
+  {
+   "aid": 294,
+   "rna": "W9P1008301",
+   "name": "ASSOCIATION KAUPEANI",
+   "date": "2019-08-13",
+   "objet": "Généalogie-------Exacte et Précise ---",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 295,
+   "rna": "W9P1004223",
+   "name": "ASSOCIATION ORIZON ARIIRAU.",
+   "date": "2018-06-11",
+   "objet": "Le regroupement de la famille et le partage des terres appartenant à M. MANEA Marcel Enoha Orizon et de Mme TARUOURA épouse MANEA Ariirau----------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 22 côté montagne."
+  },
+  {
+   "aid": 296,
+   "rna": "W9P1008932",
+   "name": "ASSOCIATION PUNUAPAOAA A MARE ET VAHIO MATIMO ET CONSORTS",
+   "date": "2010-08-27",
+   "objet": "ASS / Familiale et Consorts ----------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 297,
+   "rna": "W9P1008756",
+   "name": "ASSOCIATION RUITA",
+   "date": "2020-02-21",
+   "objet": "Organiser des rencontres familiales-----",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 298,
+   "rna": "W9P1009072",
+   "name": "ASSOCIATION TAHIANUI",
+   "date": "2020-09-03",
+   "objet": "D' établir une Généalogie Exacte-----------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 299,
+   "rna": "W9P1011510",
+   "name": "ASSOCIATION TEMONAVAI",
+   "date": "2024-08-22",
+   "objet": "* Affaires de terre *Frais notaire *Huissier *Huissier *Géomètre *Recherche Généalogie",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 300,
+   "rna": "W9P1002202",
+   "name": "ASSOCIATION TETUANUI ET MEAMEA",
+   "date": "2017-02-20",
+   "objet": "Rassembler tous les descendants et ascendants afin de renouer familiaux;",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 27.500 côté mer, quartier Ahutia 1 chez Mme MATA née JENNINGS Elisabeth."
+  },
+  {
+   "aid": 301,
+   "rna": "W9P1008680",
+   "name": "ASSOCIATION TETUHEITAUARIITUA",
+   "date": "2020-01-22",
+   "objet": "Consolider Les Liens Familiaux---------------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 302,
+   "rna": "W9P1010981",
+   "name": "ASSOCIATION THUNOT IDA",
+   "date": "2015-03-17",
+   "objet": "à saisir.....",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 303,
+   "rna": "W9P1002942",
+   "name": "ASSOCIATION VAIMOORA",
+   "date": "1994-06-09",
+   "objet": "Famille - Foncier------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 22.700 côté montagne"
+  },
+  {
+   "aid": 304,
+   "rna": "W9P1004291",
+   "name": "CONSORTS POROI / ROBSON NO PAEA",
+   "date": "2007-02-15",
+   "objet": "Consorts familiaux-------------------POROI - ROBSON-------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 23.800 côté montagne."
+  },
+  {
+   "aid": 305,
+   "rna": "W9P1009145",
+   "name": "FAAHERE",
+   "date": "2020-09-29",
+   "objet": "Obtenir des fonds pour les affaires familiales de la famille...",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 306,
+   "rna": "W9P1008916",
+   "name": "FAMILLE TEMOIRUA ET TAKAMOE.",
+   "date": "2020-06-25",
+   "objet": "De Consolider et Retrouver les liens et degrés parenté----",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 307,
+   "rna": "W9P1009499",
+   "name": "HUA'AI A SOROMONA",
+   "date": "2021-05-11",
+   "objet": "De regrouper tous les membres de l' association, afin de consolider et de retrouver les liens et degrés de parenté qui les unissent et ainsi se connaître.",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 308,
+   "rna": "W9P1008238",
+   "name": "HUAAI NAORE HIHI ET MANEA TEAHA",
+   "date": "2019-07-15",
+   "objet": "Etablir une généalogie Exacte-----",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 309,
+   "rna": "W9P1010824",
+   "name": "IA TIA TE HUAAI A FAAPU A NOHO",
+   "date": "2023-08-08",
+   "objet": "à saisir.....",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 310,
+   "rna": "W9P1010336",
+   "name": "MARAE TETUAITERURU ET CONSORT",
+   "date": "2012-01-16",
+   "objet": "De protéger et de préserver le patrimoine des héritiers----",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 311,
+   "rna": "W9P1003662",
+   "name": "METUTERA",
+   "date": "2017-12-07",
+   "objet": "Consolider et de retrouver les liens degrés de parenté--------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 19.200 côté montagne, Servitude AMATAHIAPO."
+  },
+  {
+   "aid": 312,
+   "rna": "W9P1000856",
+   "name": "TAMARII OHANA HAERE MUA",
+   "date": "2012-04-15",
+   "objet": "Sauvegarder le patrimoine familial de la famille, De resserrer les liens entre les familles lors des réunions et des fêtes; Apporter un soutien utile aux familles lors des évênements imprévus tels que décès; Défendre et protéger les biens familiaux; D'organiser des sorties et des manifestations ayant pour but de resserrer les liens entre les membres et de renouer les liens entre les générations; D'organiser des voyages culturels ayant pour but de creer ds liens avec d'autres communautés d'autres pays; De faciliter l'insertion social des jeunes aux moyens d'animations culturelle, de formation, d'encadrement et d'aides diverses; D'apporter un soutien social et éducatif aux jeunes et aux familles en diffuculté; De lutter contre l'exclusion sociale",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 21.900 C/Mont Vallée de Orofero"
+  },
+  {
+   "aid": 313,
+   "rna": "W9P1008836",
+   "name": "TAMARII ONOHA A HAERE MUA",
+   "date": "2012-04-20",
+   "objet": "Ass / Familiale---",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 314,
+   "rna": "W9P1009352",
+   "name": "TCHING-TARAUFAU",
+   "date": "2021-02-16",
+   "objet": "But Principalement la défense des droits et des intérêts de la famille à travers le partage des terres et des frais occasionnés, l' entretien des terres et le maintien des liens familiaux ( collaboration, entraide, repas, levée de fonds, diffusion de l' information, faciliter les démarches juridiques et administratives...)",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 315,
+   "rna": "W9P1009809",
+   "name": "TE HUA'AI A MEHAO MA",
+   "date": "2021-12-07",
+   "objet": "D' établir la généalogie familiale et faire le lien avec toute famille a ayant une attache,",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 316,
+   "rna": "W9P1003711",
+   "name": "TE HUA'AI TERAITUA MARAETEFAU.",
+   "date": "2014-06-28",
+   "objet": "De regrouper tous les membres de l'association, afin de consolider et de trouver les liens et degrés de parenté, qui unissent et ainsi de se reconnaître.",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 19.800 côté montagne, vallée Tiapa."
+  },
+  {
+   "aid": 317,
+   "rna": "W9P1009020",
+   "name": "TE HUÂÀI A HAGOTA JOSEPH A TAHAURI",
+   "date": "2020-08-05",
+   "objet": "Afin de consolider et de retrouver les liens et degrés de parenté-----",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 318,
+   "rna": "W9P1003775",
+   "name": "TEUA MAITIORI A POFATU.",
+   "date": "2009-12-28",
+   "objet": "Famille-----------------------------",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 23.600 côté montagne, servitude CHAPMAN."
+  },
+  {
+   "aid": 319,
+   "rna": "W9P1001164",
+   "name": "VAIOTAHA TEORE-FAURA",
+   "date": "2016-08-16",
+   "objet": "Le regroupement de ses membres; les ayants droits d'un ascendant afin d'étalir les liens et degrés de parenté qui les unissent et ainsi se connaître",
+   "categorie_rna": "préservation du patrimoine",
+   "adresse_rna": "Pk 21.900 côté montagne"
+  },
+  {
+   "aid": 320,
+   "rna": "W9P1001152",
+   "name": "\"CONSORTS M.T.R\"",
+   "date": "2010-01-08",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 19 côté montagne, Quartier Papehue"
+  },
+  {
+   "aid": 321,
+   "rna": "W9P1002277",
+   "name": "AMICALE DES PERSONNELS DU COLLEGE DE PAEA",
+   "date": "2001-10-09",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "College de Paea"
+  },
+  {
+   "aid": 322,
+   "rna": "W9P1008080",
+   "name": "ARAIURA",
+   "date": "2019-04-26",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 323,
+   "rna": "W9P1001526",
+   "name": "ASSOCIATION ARTISANALE ET HORTICOLE PU O TE HAA MAOHI IRI HONU",
+   "date": "1980-11-10",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 21,500 côté mer"
+  },
+  {
+   "aid": 324,
+   "rna": "W9P1008737",
+   "name": "ASSOCIATION ARTISANALE ET HORTICOLE TE FAUFAA RAU O TO RIMA NO PAEA",
+   "date": "2008-09-04",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 325,
+   "rna": "W9P1002878",
+   "name": "ASSOCIATION FAMILIALE MAHUTATUA",
+   "date": "2004-04-28",
+   "objet": "Se faire valoir en tant que membre de la famille MAHUTATUA, aux yeux de la société: Resserrer les liens familiaux: Pouvoir bénéficier de l'aide sociale......",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 21 côté mer - Terre Parau Ura"
+  },
+  {
+   "aid": 326,
+   "rna": "W9P1004620",
+   "name": "ASSOCIATION FAMILIALE MARAMA TOA AYANTS DROIT DE ALVA INDÈS JOHNSTON ET DE ANTONINA TETUANUI VERO",
+   "date": "2008-09-09",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Lotissement Vaipuarii Pk 27,700 c/mont"
+  },
+  {
+   "aid": 327,
+   "rna": "W9P1012569",
+   "name": "ASSOCIATION FAMILIALE PATEA TAKOTUA",
+   "date": "2026-03-31",
+   "objet": "de renforcer les liens entre les membres de solidifier et valoriser les patrimoines familiaux, tant matériels que cultures et pour finir au parage et ç l'indivision......",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 328,
+   "rna": "W9P1003190",
+   "name": "ASSOCIATION FAMILIALE TANETEFARAU MAUEAU",
+   "date": "2017-09-19",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 20,800 c/mont Quartier Toussieux"
+  },
+  {
+   "aid": 329,
+   "rna": "W9P1001962",
+   "name": "ASSOCIATION FAMILIALE TARANO À TEHAAMARU",
+   "date": "2006-08-08",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "vallée Orofero PK 21,900"
+  },
+  {
+   "aid": 330,
+   "rna": "W9P1008204",
+   "name": "ASSOCIATION FAMILIALE TENARI SOUND",
+   "date": "2019-06-28",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 331,
+   "rna": "W9P1000625",
+   "name": "ASSOCIATION FAMILIALE TEONETERE",
+   "date": "1994-10-08",
+   "objet": "association familiale : objet à compléter",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 332,
+   "rna": "W9P1000578",
+   "name": "ASSOCIATION FAMILIALE TEONETERE",
+   "date": "1994-10-06",
+   "objet": "association familiale : objet à compléter",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 333,
+   "rna": "W9P1008573",
+   "name": "ASSOCIATION HAOARAI",
+   "date": "2006-11-03",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 334,
+   "rna": "W9P1000940",
+   "name": "ASSOCIATION HEIDOULEE.",
+   "date": "2011-10-18",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 19.800 côté montagne - Servitude Teriitua."
+  },
+  {
+   "aid": 335,
+   "rna": "W9P1009057",
+   "name": "ASSOCIATION IA VAI URA TEA",
+   "date": "2020-08-21",
+   "objet": "défendre et revendiquer les biens et successions appartenant à TETURU Enoha (père) et leurs ancêtres Mener actions de solidarité et d'entraide dans l'intérêt de tous ses membres Faire connaïtre chacun de ses adhérents avec sa famille afin de consolider leurs liens familiaux par la création d'une association familiale",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 336,
+   "rna": "W9P1004295",
+   "name": "ASSOCIATION ROO",
+   "date": "2018-07-03",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 24,500 c/mer"
+  },
+  {
+   "aid": 337,
+   "rna": "W9P1000641",
+   "name": "ASSOCIATION TAHITI ORA",
+   "date": "2008-04-18",
+   "objet": "a compléter",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 25.1 C/MER"
+  },
+  {
+   "aid": 338,
+   "rna": "W9P1000755",
+   "name": "ASSOCIATION TEIHOTUA MA",
+   "date": "2004-05-12",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 19.100 C/MONT"
+  },
+  {
+   "aid": 339,
+   "rna": "W9P1000623",
+   "name": "ASSOCIATION TEMATA PARAU ET TAAROURU MOOTUA - ANCIENNEMENT ASSOCIATION TEMATAOTEAHU, TEMATA, TEROO, ROO A PARAU ET TAAROURU A MOOTUA",
+   "date": "2016-04-26",
+   "objet": "défendre les intérêts en tous genres des branches familiales issues de la lignée de temataoteahu, temata, teroo, roo a parau et taarouru a mootua ; représenter la lignée et assurer la défense de ses intérêts dans l'établissement des actes de notoriété et dans toutes démarches relatives à la succession des ascendants de temataoteahu temata teroo roo a parau et taarouru a mootua, à savoir : *paora parau, son père ; *et tout autre ascendant de la lignée ; entretenir le liens familiaux et le partage des connaissances ; déléguer un ou deux membres de l'association en vue d'une fédération familiale ;",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 340,
+   "rna": "W9P1001070",
+   "name": "ASSOCIATION TOMITE TAURUA RAU NO PAEA",
+   "date": "2011-02-01",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 24.500 côté montagne, Résidence Manava"
+  },
+  {
+   "aid": 341,
+   "rna": "W9P1002917",
+   "name": "CONSORTS LILIAN NAUMI TEATA ROBSON",
+   "date": "2014-03-11",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 23.800 C/MONT,Quartier ROBSON"
+  },
+  {
+   "aid": 342,
+   "rna": "W9P1002028",
+   "name": "JEUNESSE DE TEPUHAPA",
+   "date": "2017-01-25",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 20,500 lot Tepuhana N°36"
+  },
+  {
+   "aid": 343,
+   "rna": "W9P1008122",
+   "name": "MANU URA RIMA I NO PAEA",
+   "date": "2006-02-08",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 344,
+   "rna": "W9P1000846",
+   "name": "MANU URA RIMA'I NO PAEA",
+   "date": "2006-02-08",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 345,
+   "rna": "W9P1000210",
+   "name": "MANU-RUA",
+   "date": "2015-12-09",
+   "objet": "participer aux manifestations artisanales en Polynésie française et à l'étranger participer à divers événements à caractère folklorique, culturel, horticole, sportif, touristique et autres tels que salons nautiques, festivals, foire, journées de la jeunesse, journée de pêche lutter contre la concurrence des produits d'importation aider les autorités responsables à prendre des mesures de protection et de sauvegarde de l'artisanat local adopter les productions aux exigences du marché faciliter l'achat et l'utilisation en commun de matériels et produits nécessaires à l'exercice de la profession aider à la poursuite des progrès moraux et professionnels des ses membres",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 19,100 c/mont Quartier Taputuarai Lot N°18"
+  },
+  {
+   "aid": 346,
+   "rna": "W9P1000295",
+   "name": "MORINDA WHITE AND CO",
+   "date": "2016-01-14",
+   "objet": "veiller au bon fonctionnement des projets au sein du groupe défini dans le réglement intérieur toute discussion politique , religieuse ou étrangère aux buts de l'association est interdite dans les réunions du bureau exécutif, des assemblées et autres instances de l'association",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Servitude Taputuarai Pk 20,100 c/mont"
+  },
+  {
+   "aid": 347,
+   "rna": "W9P1002961",
+   "name": "MOUA MANAVA",
+   "date": "2005-03-18",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 21,900 Vallée de Orofero"
+  },
+  {
+   "aid": 348,
+   "rna": "W9P1007897",
+   "name": "O' MYLANY",
+   "date": "2019-02-21",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "à Pk 20,800 côté montagne, Servitude Tuaraa"
+  },
+  {
+   "aid": 349,
+   "rna": "W9P1000345",
+   "name": "RAIARII CREATION",
+   "date": "2016-02-03",
+   "objet": "organiser, participer, promouvoir, représenter, défendre et regrouper les intérêts des artisans et tous les membres de l'association de la commune de Paea Participer aux manifestations artisanales en PF et à l'étranger participer à divers évènements à caractère folklorique, culturel, horticole, sportif, touristique et autres tels que salons nautique, festivals, foires, journées de la jeunesse, journée de la pêche, en Polynésie française et à l'étranger lutter contre la concurrence des produits d'importation encourager la production et la vente d'objets d'artisanat local aider les autorités responsables à prendre des mesures de protection et de sauvegarde de l'artisanat local adopter les productions aux exigences du marché faciliter l'achat et l'utilisation en commun de matériels et produits nécessaires à l'exercice de la profession aider à la poursuite des progrès moraux et professionnels de ses membres",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 20,800 c/mont"
+  },
+  {
+   "aid": 350,
+   "rna": "W9P1002890",
+   "name": "TA'ATIRA'A TE TIARE RAU NO ONOA",
+   "date": "2017-07-18",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Vallée de Orofero"
+  },
+  {
+   "aid": 351,
+   "rna": "W9P1002989",
+   "name": "TAATIRAA HUAA'I A TAMA",
+   "date": "2017-08-14",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 18,500 Voie N°2 Quartier Papehue"
+  },
+  {
+   "aid": 352,
+   "rna": "W9P1004063",
+   "name": "TAMARII NO MOUA OVINE",
+   "date": "2007-03-30",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 19.8 route du cimetière"
+  },
+  {
+   "aid": 353,
+   "rna": "W9P1007647",
+   "name": "TE ANAORIVAI",
+   "date": "2015-08-12",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 24.600 côté mer"
+  },
+  {
+   "aid": 354,
+   "rna": "W9P1000076",
+   "name": "TE HUA'AI A VAHINE TAPUTUARAI",
+   "date": "2015-10-28",
+   "objet": "regrouper tous les membres afin de consolider et de retrouver les liens et degrès de parenté qui les unissent et ainsi se connaître. Sans que cette énumération soit limitative, il se fixe comme objectifs etablir une généalogie exacte et précise d'une succession défendre et revendiquer les biens mobiliers et immobiliers appartenant a vahine a tuputuarai et leur eancetres mener dans l'interet de tous ses membres, une action de solidarité et d'entraide faire reconnaitre chacun de ses adhérents avec sa famille afin de consolider leurs liens familiaux par la création d'une association familiale interdire toute vente de ses biens fonciers organiser différentes manifestations afin de subvenir aux besoins de l'association organiser collaborer ou de particulier à l'organisation des fetes, concours et autres manifestations a caractère folklorique, culture, artisanal et corporatif.",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PAEA Pk 23,400 c/mont"
+  },
+  {
+   "aid": 355,
+   "rna": "W9P1003851",
+   "name": "TE HUAAI A TEHOIRI - HAUATA EDWIN MAURINUI ET AHUROA MATHILDE TETUA (THEMAM)",
+   "date": "2018-02-07",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 20,600 c/mont Servitude Tiaiti"
+  },
+  {
+   "aid": 356,
+   "rna": "W9P1003879",
+   "name": "TE HUAAI A ROBSON KANAHERE ALGERNON E ROBSON TIVINI STEPHEN",
+   "date": "2009-10-28",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 20.800 côté montagne, Quartier ROBSON"
+  },
+  {
+   "aid": 357,
+   "rna": "W9P1008547",
+   "name": "TE HUAAI A TERIITUA REVI - LEVY (I) - ANCIENNEMENT TE HUA'AI A TERIITUA REVI-LEVY",
+   "date": "2009-06-25",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 358,
+   "rna": "W9P1002233",
+   "name": "TE TAMA ARII NO PAEA",
+   "date": "2009-09-08",
+   "objet": "L'administration, l'organisation,le représentation, de mettre en place une structure pour la jeunesse...",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "PK 24,500 C/MONT"
+  },
+  {
+   "aid": 359,
+   "rna": "W9P1003955",
+   "name": "TERIINOHO SEWING",
+   "date": "2018-03-07",
+   "objet": "A saisir",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Vallée d'Orofero Pk 21,900"
+  },
+  {
+   "aid": 360,
+   "rna": "W9P1000264",
+   "name": "U'I MANA PROJECT",
+   "date": "2015-02-24",
+   "objet": "mener des activités culturelles dans la commune de paea et les communes environnantes aider les jeunes artistes à ci=oncrétiser leurs arts, passions artistiques au travers d'évènements culturels partager avec les autres la culture artistique traditionnelle et moderne mettre en place des campements/séjours artistiques dans les îles ou à l'étrangers créer, monter, échanger les projets artistiques avec les pays du Pacifique exporter les projets artistiques folkloriques de l'association dans les îles du Pacifique ainsi qu'au national, qu'à l'international afin de promouvoir l'identité culturelle et artistique des artistes polynésiens mettre en place des formations artistiques dans tous les domaines",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 361,
+   "rna": "W9P1010271",
+   "name": "URA'VAIMEA",
+   "date": "2022-09-09",
+   "objet": "A travers diverses activités économiques, financières et commerciales---",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 362,
+   "rna": "W9P1000695",
+   "name": "VAITEATUA",
+   "date": "2005-08-03",
+   "objet": "A compléter",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "Pk 22.5 côté mer"
+  },
+  {
+   "aid": 363,
+   "rna": "W9P1001129",
+   "name": "YOLINA",
+   "date": "2016-08-17",
+   "objet": "renouer les liens familiaux /organiser différents voyages",
+   "categorie_rna": "représentation, promotion et défense d'intérêts économiques",
+   "adresse_rna": "quartier lanteires Pk 20 c/mont"
+  },
+  {
+   "aid": 364,
+   "rna": "W9P1009733",
+   "name": "VAITAVERE ET ATIMAONO",
+   "date": "2021-10-14",
+   "objet": "De développer l'agriculture...;",
+   "categorie_rna": "ressources naturelles",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 365,
+   "rna": "W9P1001751",
+   "name": "APAIR APURAD",
+   "date": "1997-09-08",
+   "objet": "De prendre en charge l'activité de traitement de l'insuffisance rénal chronique par la pratique de l'épuration extrarénale selon les modalités réglementaires ----",
+   "categorie_rna": "santé",
+   "adresse_rna": "Pk 20,5."
+  },
+  {
+   "aid": 366,
+   "rna": "W9P1008587",
+   "name": "HUAAI A FANAUMARAMA TEINAORE",
+   "date": "2019-11-28",
+   "objet": "Regrouper tous les membres de la famille----",
+   "categorie_rna": "santé",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 367,
+   "rna": "W9P1000218",
+   "name": "LIGUE VIE ET SANTE",
+   "date": "2015-12-10",
+   "objet": "promouvoir les principes de santé et d'aider les personnes à vaincre et prévenir les conduites addictives",
+   "categorie_rna": "santé",
+   "adresse_rna": "436 Résidence les jardins de Paea"
+  },
+  {
+   "aid": 368,
+   "rna": "W9P1011661",
+   "name": "NO TE MAU MATAHIAPO TE EA I TE NATURA NO PAEA MANU URA",
+   "date": "2011-04-14",
+   "objet": "Organiser des rassemblements ou des regroupements au profit des personnes agées de Paea",
+   "categorie_rna": "services familiaux, services aux personnes âgées",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 369,
+   "rna": "W9P1010760",
+   "name": "ALPHONSE ALBERT FROGIER ET MINNIE URAORE ROBSON",
+   "date": "2023-07-04",
+   "objet": "à saisir......",
+   "categorie_rna": "sociétés, clubs de généalogie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 370,
+   "rna": "W9P1010863",
+   "name": "ASSOCIATION FAMILIALE LEAU KANG MUI",
+   "date": "2012-11-16",
+   "objet": "à saisir......",
+   "categorie_rna": "sociétés, clubs de généalogie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 371,
+   "rna": "W9P1011740",
+   "name": "ASSOCIATION FAMILIALE PUMATA",
+   "date": "2025-01-21",
+   "objet": "à de resserrer les liens familiaux....",
+   "categorie_rna": "sociétés, clubs de généalogie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 372,
+   "rna": "W9P1010339",
+   "name": "HUA'AI A JOSEPHINE TIATIA TEHEIURA",
+   "date": "2022-10-14",
+   "objet": "Réunir les descendants issus de Joséphine TIATIA TEHEIURA, vivant en ou hors de Polynésie Française-----",
+   "categorie_rna": "sociétés, clubs de généalogie",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 373,
+   "rna": "W9P1001310",
+   "name": "APE DE L'ECOLE MATERNELLE COMMUNALE DE VAITERUPE",
+   "date": "1984-12-11",
+   "objet": "D' apporter toute aide nécessaire à l'enfant en dehors de toute question relevant des autorités académiques---",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Paea"
+  },
+  {
+   "aid": 374,
+   "rna": "W9P1001585",
+   "name": "APEL DE L' ECOLE MATERNELLE COMMUNALE DE TIAPA PAEA",
+   "date": "1978-01-09",
+   "objet": "Association des parents d 'élèves----------Tiapa ---Paea",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "à l' Ecole Maternelle"
+  },
+  {
+   "aid": 375,
+   "rna": "W9P1003565",
+   "name": "ASSOCIATION DES PARENTS D' ELEVES DU GROUPE SCOLAIRE DE PAPEHUE A PAEA",
+   "date": "2010-09-22",
+   "objet": "APE ----------Groupe ------- Scolaire-----Ecole Papehue de Paea",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Pk 18.500 côté montagne"
+  },
+  {
+   "aid": 376,
+   "rna": "W9P1001468",
+   "name": "ASSOCIATION DES PARENTS D'ELEVES DE L'ECOLE PUBLIQUE PRIMAIRE DE VAIATU - PAEA - A.P.E. ECOLE VAIATU PAEA - ANCIENNEMENT APEL DE L' ECOLE PUBLIQUE PRIMAIRE DE VAIATU - PAEA",
+   "date": "1977-04-22",
+   "objet": "APEL DE L' Ecole de Vaiatu",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "à l' Ecole Vaiatu"
+  },
+  {
+   "aid": 377,
+   "rna": "W9P1001194",
+   "name": "ASSOCIATION DES PARENTS D'ELEVES DU COLLEGE DE PAEA",
+   "date": "1985-11-05",
+   "objet": "De défendre par tous les moyens qu'elle tient de la loi et des règlements, les intérêts des élèves du collège de Paea.",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "au Collège de Paea Pk 22.500 côté montagne"
+  },
+  {
+   "aid": 378,
+   "rna": "W9P1001247",
+   "name": "ASSOCIATION DES PARENTS DELEVES DU GROUPE SCOLAIRE MARA'A VAIPUARI'I",
+   "date": "1991-11-21",
+   "objet": "de permettre aux parents d'élèves du groupe scolaire Mara'a et Vaipuarii: de promouvoir au sein du groupe scolaire, au sein de chaque classe, entre les élèves, entre les enseignants, entre parents, l'esprit de coopération...",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "école primaire de Maraa"
+  },
+  {
+   "aid": 379,
+   "rna": "W9P1001232",
+   "name": "ASSOCIATION DES PARENTS TAMARII DE L' ECOLE ELEMENTAIRE DE TIAPA .",
+   "date": "1979-10-25",
+   "objet": "De représenter et de défendre les intérêts matériels, moraux, éducatifs et familiaux des parents d'élèves de l' école primaire de APEL Ecole Tiapa----",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Ecole Tiapa"
+  },
+  {
+   "aid": 380,
+   "rna": "W9P1009199",
+   "name": "ASSOCIATION PARENTS D'ELEVES DE L' ECOLE TIAPA MATERNELLE",
+   "date": "2020-10-27",
+   "objet": "La défense des intérêts moreaux et matériels communs aux parents d' élèves-----",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 381,
+   "rna": "W9P1001687",
+   "name": "ASSOCIATION SCOLAIRE TIAPA MATERNELLE - ANCIENNEMENT COOPERATIVE SCOLAIRE DE L'ECOLE MATERNELLE DE TIAPA PAEA",
+   "date": "1977-11-16",
+   "objet": "Coopérative -- Scolaire ----------- Ecole Maternelle",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Ecole Tiapa"
+  },
+  {
+   "aid": 382,
+   "rna": "W9P1003396",
+   "name": "ASSOCIATION SPORTIVE DU COLLEGE DE PAEA",
+   "date": "1985-11-06",
+   "objet": "A saisir",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Pk 20 côté montagne"
+  },
+  {
+   "aid": 383,
+   "rna": "W9P1004529",
+   "name": "COOPERATIVE SCOLAIRE DE L' ECOLE MATERNELLE DE VAITERUPE",
+   "date": "1984-12-13",
+   "objet": "Coopératives Scolaires------------",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Pk 22,700."
+  },
+  {
+   "aid": 384,
+   "rna": "W9P1001449",
+   "name": "COOPERATIVE SCOLAIRE DE L'ECOLE DE VAIATU",
+   "date": "1978-12-04",
+   "objet": "Coopérative Scolaire-----------------",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Paea"
+  },
+  {
+   "aid": 385,
+   "rna": "W9P1001422",
+   "name": "COOPERATIVE SCOLAIRE DE LECOLE ELEMENTAIRE DE TIAPA",
+   "date": "1981-02-10",
+   "objet": "A saisir",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "ECOLE TIAPA"
+  },
+  {
+   "aid": 386,
+   "rna": "W9P1003112",
+   "name": "COOPERATIVE SCOLAIRE DU GROUPE SCOLAIRE DE MARAA - VAIPUARII",
+   "date": "1977-10-21",
+   "objet": "Coopératives ---------------Scolaires---------",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Ecole élémentaire Pk 26.900 côté montagne"
+  },
+  {
+   "aid": 387,
+   "rna": "W9P1001562",
+   "name": "COOPERATIVE SCOLAIRE DU GROUPE SCOLAIRE DE PAPEHUE",
+   "date": "2010-09-27",
+   "objet": "Coopérative Groupe Scolaire Papehue----",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Groupe Scolaire Papehue"
+  },
+  {
+   "aid": 388,
+   "rna": "W9P1011073",
+   "name": "TAMAHERE",
+   "date": "2006-01-24",
+   "objet": "à saisir.....",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 389,
+   "rna": "W9P1009205",
+   "name": "U'I TAMA",
+   "date": "1994-01-11",
+   "objet": "Gestion Cuisine Centrale---------------",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": ""
+  },
+  {
+   "aid": 390,
+   "rna": "W9P1004579",
+   "name": "USEP TIAPA ELEMENTAIRE",
+   "date": "2018-10-05",
+   "objet": "former à la responsabilité, au civisme, à l'autonomie par la pratique d'activités physiques, sportives et de pleine nature, d'activités socioculturelles, dans le cadre d'un fonctionnement démocratique ;",
+   "categorie_rna": "éducation formation",
+   "adresse_rna": "Paea Pk 20 C Mont 10401"
+  },
+  {
+   "aid": 391,
+   "rna": "W9P1011904",
+   "name": "ASSOCIATION TI'A 'AURO NUI",
+   "date": "2025-04-17",
+   "objet": "de contribuer au développement durable du territoire en valorisant le patrimoine culturel polynésien, en renforçant la cohésion sociale et falorant l'autonomie alimentaire, notamment par la promotion de l'agriculture biologique, dans le respect de l'environnement et des savoirs traditionnels.",
+   "categorie_rna": "éducation sanitaire, prévention générale",
+   "adresse_rna": ""
+  }
+ ]
+}

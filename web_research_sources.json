@@ -1,0 +1,3618 @@
+{
+  "contacts": [
+    {
+      "idx": 20,
+      "name": "LA GRANITIERE DU FENUA",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 76 67 80 · ✉ lagraniteriedufenua@gmail.com · 🌐 facebook.com/lagraniteriedufenua",
+      "enseigne": "La Graniterie du Fenua",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 76 67 80"
+          ],
+          "emails": [
+            "lagraniteriedufenua@gmail.com"
+          ],
+          "urls": [
+            "facebook.com/lagraniteriedufenua"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.facebook.com/lagraniteriedufenua/",
+            "https://www.pappers.fr/entreprise/la-graniterie-du-fenua-A93762",
+            "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=30406",
+            "https://yellow.place/en/la-graniterie-du-fenua-paea-frenchpolynesia"
+          ],
+          "reason": "Two separate searches (the trade name, and the exact e-mail address) both show the official Facebook page 'La graniterie du fenua' (granite supply and installation, Paea) with +689 87 76 67 80 and lagraniteriedufenua@gmail.com. The phone is a valid FP mobile number. Pappers and Lexpol match the entity (SARL, n° TAHITI A93762, gérante Stéphanie Barrière, PK 19 servitude Cadousteau, Paea), and Pappers shows it as active. The batch spelling 'GRANITIERE' is a typo; A93762 matches. The Facebook, yellow.place and vymaps pages could not be fetched directly (login wall, connection refused, 403), so this relies on search snippets that agree."
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "name": "MANA ITI",
+      "form": "SARL",
+      "avant": "🌐 instagram.com/mana_iti_tahiti",
+      "apres": "✉ manaiti.tahiti@gmail.com · 🌐 instagram.com/mana_iti_tahiti · 🌐 manaiti.com",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [],
+          "emails": [],
+          "urls": [
+            "manaiti.com",
+            "instagram.com/mana_iti_tahiti"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.manaiti.com/a-propos",
+            "https://www.instagram.com/mana_iti_tahiti/",
+            "https://www.boutique-monoi-tahiti.com/supplier/886-mana-iti"
+          ],
+          "reason": "Only URLs are claimed. Search confirms that manaiti.com (MANA ITI, monoï de Tahiti) names Isabelle Trébucq, who matches the gérante of SARL MANA ITI B23734, as director of Mana Iti. The brand dates from 2014, which matches RCS 14 243 B. Instagram @mana_iti_tahiti is the brand account. I did not add the phone 87 76 58 70 and the tahiti-massage.com e-mail: they belong to the École Tahiti Massage in Punaauia, a different entity, not the SARL in Paea. manaiti.com itself could not be fetched (tool error)."
+        },
+        {
+          "verdict": "partial",
+          "phones": [],
+          "emails": [
+            "manaiti.tahiti@gmail.com"
+          ],
+          "urls": [
+            "manaiti.com"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://tahiti-massage.com",
+            "https://manaiti.com"
+          ],
+          "reason": "I re-fetched tahiti-massage.com with curl because WebFetch was failing. The page shows Isabelle TREBUCQ (the gérante) and also lists manaiti.tahiti@gmail.com, which ties the Mana Iti brand to her. That email sits under the 'Coordonnées France métropolitaine' block, but it is still the brand's own address, so I kept it. manaiti.com is titled 'Mana Iti® Tahiti' and sells monoï, so I kept the URL. I could not re-read the a-propos and contact text, because those Shopify pages render without static text. I rejected the phone 87 76 58 70. It is listed for Isabelle Trebucq as director of the École Tahiti Massage, under a postal address 'BP 381 769 Tamanu, 98718 Punaauia'. Nothing ties it to the SARL MANA ITI. 89 76 58 70 is also the school's number. The web search budget ran out, so I could not run more checks."
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "name": "SAFE TAHITI",
+      "form": "SARL",
+      "avant": "🌐 facebook.com/SafeTahiti",
+      "apres": "☎ 87 77 56 23 · ✉ safetahiti@gmail.com · 🌐 facebook.com/SafeTahiti",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 77 56 23"
+          ],
+          "emails": [
+            "safetahiti@gmail.com"
+          ],
+          "urls": [],
+          "status_alert": "",
+          "sources": [
+            "https://risk-formation.org/a-propos-3"
+          ],
+          "reason": "I re-fetched risk-formation.org/a-propos-3 with curl. The partner block reads 'SAFE TAHITI vous propose également une large gamme de matériels de sécurité...', with 'Email : safetahiti@gmail.com' and 'Gsm : 87.77.56.23' right below. That is a valid Polynesian 87 number. The trade name is distinctive and the page is about Tahiti, so it is the same entity. Caveat: the activity is safety equipment and PPE rather than guarding as the NAF says, but it is in the same safety field. I could not re-check the LinkedIn profile because the search budget ran out."
+        }
+      ]
+    },
+    {
+      "idx": 71,
+      "name": "PLACOTECH",
+      "form": "SARL",
+      "avant": "🌐 facebook.com/placotech987",
+      "apres": "🌐 facebook.com/placotech987",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [],
+          "emails": [],
+          "urls": [
+            "facebook.com/placotech987"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://www.facebook.com/placotech987/"
+          ],
+          "reason": "I fetched the page myself. og:title is 'Placotech | Paea' and og:description says 'Réalisations de faux-plafonds et cloison en plaque de platre ou en béton cellulaire'. That matches the name, Paea and NAF 4331Z (plâtrerie). The page's public HTML has no phone or e-mail, so only the URL is confirmed."
+        }
+      ]
+    },
+    {
+      "idx": 91,
+      "name": "DIGITAL EXPERTS TAHITI (OCEAN4CLIMATE)",
+      "form": "SARL",
+      "avant": "🌐 linkedin.com/in/muriel-pontarollo",
+      "apres": "☎ 87 78 70 87 · 🌐 linkedin.com/in/muriel-pontarollo · 🌐 annuaire-polynesie.com/activite/digital-experts-tahiti",
+      "enseigne": "Digital Experts Tahiti / Ocean4Climate",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 78 70 87"
+          ],
+          "emails": [],
+          "urls": [
+            "annuaire-polynesie.com/activite/digital-experts-tahiti"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://annuaire-polynesie.com/activite/digital-experts-tahiti/",
+            "https://dokument.pub/dl/digital-experts-tahiti-nous-connatre-flipbook-pdf"
+          ],
+          "reason": "Re-fetched annuaire-polynesie.com: 'Téléphone 87 78 70 87', Paea (schema telephone +68987787087). The company's own brochure, mirrored on dokument.pub, also gives '+689 87 78 70 87 BP 10599 - 98711 Paea' and names Muriel Pontarollo, who is the registered gérante. Two independent sources tie the number to this entity. Caveat: the brochure dates from about 2019 and the company has since become Ocean4Climate; the number looks like the gérante's mobile."
+        }
+      ]
+    },
+    {
+      "idx": 94,
+      "name": "ESPACE NATURA",
+      "form": "SARL",
+      "avant": "🌐 facebook.com/EspaceNATURA.pf (PK 19.500 c/mer)",
+      "apres": "☎ 87 29 54 53 · 🌐 facebook.com/EspaceNATURA.pf",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 29 54 53"
+          ],
+          "emails": [],
+          "urls": [
+            "facebook.com/EspaceNATURA.pf"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://www.facebook.com/EspaceNATURA.pf/",
+            "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=146854"
+          ],
+          "reason": "Re-fetched the Facebook page with a crawler user agent. Title 'Espace Natura'; the description lists pruning, felling and garden upkeep with 'Vini : 87 295 453', which is 87 29 54 53. The activity matches NAF 8130Z, and this is the .pf page the directory already lists (PK 19.500 c/mer, Paea). The French homonym L'Espace Natura in Coulombiers is a different business and was excluded."
+        }
+      ]
+    },
+    {
+      "idx": 103,
+      "name": "JEMA CONSULTING",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 74 04 05 · ✉ bonjour@manaventura-tahiti.com · ✉ bonjour@manaventura.com · 🌐 manaventura-tahiti.com",
+      "enseigne": "Manaventura Tahiti",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 74 04 05"
+          ],
+          "emails": [
+            "bonjour@manaventura-tahiti.com",
+            "bonjour@manaventura.com"
+          ],
+          "urls": [
+            "manaventura-tahiti.com"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://manaventura-tahiti.com/mentions-legales/"
+          ],
+          "reason": "Re-fetched the mentions légales. The site belongs to JEMA CONSULTING, RCS Papeete TPI 21 398 B, siège in Paea, Numéro Tahiti E53866-001; both the RCS and TAHITI numbers match the register. Contact block: '+689 87 74 04 05 – bonjour@manaventura-tahiti.com'. The page footer gives '+689 87 74 04 05' and 'bonjour@manaventura.com'. The +33 number was left out because it is not a French Polynesia number. Note that the operating address on the site is in Faa'a (PK 2,8)."
+        }
+      ]
+    },
+    {
+      "idx": 104,
+      "name": "K'L SOL C' EDITION",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 40 82 84 02",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "40 82 84 02"
+          ],
+          "emails": [],
+          "urls": [],
+          "status_alert": "",
+          "sources": [
+            "http://www.in-tahiti.com/k-l-sol-c-edition"
+          ],
+          "reason": "Re-fetched in-tahiti.com: \"k'l sol c'edition Work 40828402 Pk 22 c/mont Vallée Orofero Résidence Tarevar - Paea, B.P. 330448 Paea\". The name and the specific address (PK 22 c/mont, Résidence Tarevare) match the register exactly, so the number belongs to this entity and is a valid 40 landline. Caveats: this is the only source, it was last updated 10/01/2013, and no current source confirms the number is still in use. Searches on the number only returned unrelated homonym IDs (PubMed, Norway). Treat as low-recency."
+        }
+      ]
+    },
+    {
+      "idx": 123,
+      "name": "TALARIS COURSIER",
+      "form": "SARL",
+      "avant": "✉ talaris.coursier@gmail.com · 🌐 facebook.com/talariscoursier",
+      "apres": "☎ 89 40 11 51 · ✉ talaris.coursier@gmail.com · 🌐 facebook.com/talariscoursier",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "89 40 11 51"
+          ],
+          "emails": [
+            "talaris.coursier@gmail.com"
+          ],
+          "urls": [
+            "facebook.com/talariscoursier"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.facebook.com/talariscoursier/"
+          ],
+          "reason": "A WebSearch for the exact number \"89 40 11 51\" returns the Facebook page 'Talaris coursier Tahiti'. The page offers parcel delivery on Tahiti and the islands and lists +689 89 40 11 51 and Talaris.coursier@gmail.com. That e-mail matches the one already on file. The name is unique and the activity is courier/fret. Facebook gives Faaa as the operating location, while the registered seat is in Paea."
+        }
+      ]
+    },
+    {
+      "idx": 132,
+      "name": "PAWER RANGERS",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 24 63 46 · ✉ hello@pawerrangers.com · 🌐 pawerrangers.com · 🌐 facebook.com/uridogshop · 🌐 instagram.com/uridogshop",
+      "enseigne": "'Ūrī Dog Shop",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 24 63 46"
+          ],
+          "emails": [
+            "hello@pawerrangers.com"
+          ],
+          "urls": [
+            "pawerrangers.com",
+            "facebook.com/uridogshop",
+            "instagram.com/uridogshop"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.ruffwear.com/pages/distributors",
+            "https://pawerrangers.com/",
+            "https://www.ccism.pf/sites/default/files/docs/paea_2026.pdf"
+          ],
+          "reason": "The Ruffwear distributors page (fetched) lists 'French Polynesia (Tahiti): Pawer Rangers Tel: (689) 87-246-346 ... Email: hello@pawerrangers.com'. pawerrangers.com (fetched) has the title ''Ūrī Dog Shop by Pawer Rangers' and links to facebook.com/uridogshop and instagram.com/uridogshop. The CCISM Paea list confirms SARL PAWER RANGERS at AL 499 Terre Haehaea-Tepeti I Uta 1, 98711 Paea. The name is unique."
+        }
+      ]
+    },
+    {
+      "idx": 1055,
+      "name": "SIMON Anne",
+      "form": "PPHY",
+      "avant": "🌐 instagram.com/simonanne_com",
+      "apres": "☎ 87 22 41 27 · ✉ annsimontahiti@gmail.com · 🌐 instagram.com/simonanne_com · 🌐 annsimontahiti.com · 🌐 facebook.com/annsimonblackpearl · 🌐 instagram.com/annsimontahiti",
+      "enseigne": "Ann Simon Tahiti",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 22 41 27"
+          ],
+          "emails": [
+            "annsimontahiti@gmail.com"
+          ],
+          "urls": [
+            "annsimontahiti.com",
+            "facebook.com/annsimonblackpearl",
+            "instagram.com/annsimontahiti"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://annsimontahiti.com/policies/contact-information",
+            "https://annsimontahiti.com/"
+          ],
+          "reason": "I re-fetched the official shop contact page. It lists the trade name Ann Simon Tahiti, phone +68987224127, email annsimontahiti@gmail.com, address Vallée Orofero Paea and trade number NT 713404. That trade number exactly matches this entity's TAHITI 713404, and the pearl jewellery activity matches NAF 3212Z. The phone is a valid 87 mobile number. The homepage links to facebook.com/annsimonblackpearl and instagram.com/annsimontahiti. No status alert was claimed. This is the same business as idx 1249."
+        }
+      ]
+    },
+    {
+      "idx": 1237,
+      "name": "OAOA WEB",
+      "form": "EURL",
+      "avant": "",
+      "apres": "☎ 89 78 27 12 · 🌐 oaoaweb.com · 🌐 facebook.com/oaoawebtahiti · 🌐 instagram.com/oaoawebtahiti",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "89 78 27 12"
+          ],
+          "emails": null,
+          "urls": [
+            "oaoaweb.com",
+            "facebook.com/oaoawebtahiti",
+            "instagram.com/oaoawebtahiti",
+            "linkedin.com/in/nathalie-cinquin-tahiti"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://oaoaweb.com/en/",
+            "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=171036"
+          ],
+          "reason": "oaoaweb.com/en/ (fetched) contains '89 78 27 12' and tel:+68989782712. It links to facebook.com/oaoawebtahiti, instagram.com/oaoawebtahiti and linkedin.com/in/nathalie-cinquin-tahiti. The LinkedIn name matches the gérante Nathalie Cinquin of EURL OaOa Web (Paea), and the web agency activity matches NAF 6201Z."
+        }
+      ]
+    },
+    {
+      "idx": 1239,
+      "name": "FILMIN’ TAHITI",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 79 00 00 / 40 85 42 95 · ✉ denis.pinson@filmin-tahiti.com · 🌐 filmin-tahiti.com · 🌐 facebook.com/FilminTahiti-973048306113780 · 🌐 instagram.com/filmintahiti · 🌐 linkedin.com/company/filmin-tahiti",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 79 00 00",
+            "40 85 42 95"
+          ],
+          "emails": [
+            "denis.pinson@filmin-tahiti.com"
+          ],
+          "urls": [
+            "filmin-tahiti.com",
+            "facebook.com/FilminTahiti-973048306113780",
+            "instagram.com/filmintahiti",
+            "linkedin.com/company/filmin-tahiti"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.service-public.pf/dgen/societes-de-production/",
+            "https://filmin-tahiti.com/contact-3/",
+            "https://filmin-tahiti.com/en/about-us-2/"
+          ],
+          "reason": "The DGEN list on service-public.pf (fetched) gives 'FILMIN' TAHITI ... Téléphone : +689 40 85 42 95 / 87 79 00 00' and the Facebook URL. The contact page (fetched) shows +689 87 79 00 00 and the Facebook, Instagram and LinkedIn links. The About page (fetched) has mailto:denis.pinson@filmin-tahiti.com, and Denis Pinson is the gérant. The operating address is in Mamao, Papeete, while the registered seat is PK 29 Paea."
+        }
+      ]
+    },
+    {
+      "idx": 1244,
+      "name": "HOHONU",
+      "form": "SARL",
+      "avant": "🌐 hohonuworld.store · 🌐 facebook.com/HohonuTahiti",
+      "apres": "☎ 89 73 83 89 · 🌐 hohonuworld.store · 🌐 facebook.com/HohonuTahiti · 🌐 facebook.com/hohonu987 · 🌐 instagram.com/hohonutahiti",
+      "enseigne": "Hohonu Tahiti",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "89 73 83 89"
+          ],
+          "emails": null,
+          "urls": [
+            "facebook.com/hohonu987",
+            "instagram.com/hohonutahiti"
+          ],
+          "status_alert": null,
+          "sources": [
+            "https://www.facebook.com/hohonu987/",
+            "https://www.instagram.com/hohonutahiti/",
+            "https://hohonuworld.store/"
+          ],
+          "reason": "A WebSearch for the exact number \"89 73 83 89\" returns the Facebook page 'Hohonu Tahiti': an ocean apparel brand, men's clothing store, Paea, +689 89 73 83 89. The Instagram account @hohonutahiti says it is the official page of Hohonu Tahiti. The name, the Paea location and the textile/clothing activity all match SARL HOHONU. The founder 'Todd' on hohonuworld.store fits gérant Todd Fagneaux. Facebook could not be fetched directly (login wall), so the phone rests on the search snippet."
+        }
+      ]
+    },
+    {
+      "idx": 1249,
+      "name": "ANN SIMON TAHITI",
+      "form": "PPHY",
+      "avant": "🌐 annsimontahiti.com · 🌐 facebook.com/annsimontahiti",
+      "apres": "☎ 87 22 41 27 · ✉ annsimontahiti@gmail.com · 🌐 annsimontahiti.com · 🌐 facebook.com/annsimontahiti · 🌐 facebook.com/annsimonblackpearl · 🌐 instagram.com/annsimontahiti",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 22 41 27"
+          ],
+          "emails": [
+            "annsimontahiti@gmail.com"
+          ],
+          "urls": [
+            "annsimontahiti.com",
+            "facebook.com/annsimonblackpearl",
+            "instagram.com/annsimontahiti"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://annsimontahiti.com/policies/contact-information",
+            "https://annsimontahiti.com/"
+          ],
+          "reason": "The same official contact page confirms the phone +68987224127, the email annsimontahiti@gmail.com, the address Vallée Orofero Paea and trade number NT 713404. The trade name matches, the representative Anne Simon matches, and the activity (pearl jewellery, 3212Z) matches. The homepage links only to facebook.com/annsimonblackpearl, not to the existing lead facebook.com/annsimontahiti. This entry duplicates idx 1055 (TAHITI 713404)."
+        }
+      ]
+    },
+    {
+      "idx": 1272,
+      "name": "KAHIWAI CREATION",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 89 65 40 40 · ✉ teotahitehoiri@gmail.com",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "89 65 40 40"
+          ],
+          "emails": [
+            "teotahitehoiri@gmail.com"
+          ],
+          "urls": [],
+          "status_alert": "",
+          "sources": [
+            "https://www.service-public.pf/art/portfolio-items/kahiwai-creation/",
+            "https://juripacific.com/entreprises/83494"
+          ],
+          "reason": "I re-fetched the official artisan directory page (Service de l'Artisanat Traditionnel, service-public.pf). It reads verbatim: 'KAHIWAI CREATION Juliette TEHOIRI Agréé Rima'ī Mā'ohi 89 65 40 40 teotahitehoiri@gmail.com Paea (Tahiti)', with activities Tīfaifai and Bijouterie traditionnelle. JuriPacific shows the matching registration of 12/03/2024: N° 23 2866 A, Mme TEHOIRI Juliette Purea, Artisanat - Création de bijoux, Propriété Cadousteau, Parcelle AC-348, 98711 Paea. The name, activity (NAF 3213Z jewellery) and Paea location all match. 89 is a valid PF mobile prefix. Data note: the registry shows an individual registration (patentée) trading as KAHIWAI CREATION, not a SARL as in our data. This is a form error in the dataset, not a status alert."
+        }
+      ]
+    },
+    {
+      "idx": 1273,
+      "name": "PACIFIC NOMAD",
+      "form": "SARL",
+      "avant": "",
+      "apres": "☎ 87 74 43 78 · ✉ pacificnomadtahiti@gmail.com · 🌐 facebook.com/PacificNomadTahiti",
+      "enseigne": "",
+      "verifications": [
+        {
+          "verdict": "confirmed",
+          "phones": [
+            "87 74 43 78"
+          ],
+          "emails": [
+            "pacificnomadtahiti@gmail.com"
+          ],
+          "urls": [
+            "facebook.com/PacificNomadTahiti"
+          ],
+          "status_alert": "",
+          "sources": [
+            "https://www.facebook.com/PacificNomadTahiti/",
+            "https://juripacific.com/entreprises/21223",
+            "https://juripacific.com/annonces/47972"
+          ],
+          "reason": "I fetched the Facebook page 'Pacific Nomad' (vanity URL PacificNomadTahiti, category Produit/service) directly. Its contact block contains '87 74 43 78', 'pacificnomadtahiti@gmail.com' and 'pacificnomadtahiti.com'; 87 is a valid PF mobile prefix. JuriPacific/JOPF lists a single 'PACIFIC NOMAD' SARL in French Polynesia, created 22/12/2017, with its registered office at Paea PK 24,200 côté mer. Its purpose covers leisure activities, lagoon excursions and sport and leisure rentals; the manager is Olivier NOINAIN. The exact name, the 'Tahiti' branding, the +689 number and the nature and outdoor theme are consistent with it. Caveat: the page is small and inactive, with 60 followers and only a few posts, one of them an album tagged 'HI, USA' / Big Island. It states no address, activity or manager name, so the Paea link rests on the name being unique in the PF registry. I found no source confirming a cessation."
+        }
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "rna": "W9P1010053",
+      "name": "ASSOCIATION AGRICOLE BIOLOGIQUE DE RAIPAI",
+      "verdict": "confirmed",
+      "address": "PK 19,600 côté montagne, servitude Cadousteau, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=106520",
+        "assoce.fr/waldec/W9P1010053/x"
+      ],
+      "reason": "I re-fetched JOPF annonce n° 58177 (JO n° 44 du 03/06/2022 p. 11909). It reads 'Siège social : à PAEA P.K. 19,600 côté montagne, servitude Cadousteau - Déclaration du 18 mai 2022 - Récépissé n° W9P1010053' and the association name matches. Assoce gives the RNA seat as Paea (98711), with a later declaration dated 09/05/2023. I could not see what that 2023 declaration changed, so the seat may have been updated since 2022. No contact or president is published."
+    },
+    {
+      "rna": "W9P1002024",
+      "name": "MATA TOHORA",
+      "verdict": "confirmed",
+      "address": "",
+      "rep": "",
+      "phones": [
+        "87 70 22 77"
+      ],
+      "emails": [
+        "matatohora@gmail.com"
+      ],
+      "urls": [
+        "matatohora.com",
+        "facebook.com/matatohora"
+      ],
+      "inactive_evidence": null,
+      "sources": [
+        "matatohora.com/?page_id=74",
+        "tahiti.green/fiche/mata-tohora/",
+        "facebook.com/matatohora",
+        "assoce.fr/waldec/W9P1002024/x"
+      ],
+      "reason": "I re-fetched the association's own contact page (matatohora.com/?page_id=74). It gives '(+689) 87 70 22 77', 'Mail : matatohora@gmail.com' and links to facebook.com/matatohora. The tahiti.green fiche also shows 87 70 22 77. The Facebook page 'Mata Tohora' (founded 2013, protection of marine mammals) exists. Assoce gives the RNA seat as Paea (98711), with the last declaration dated 24/02/2026. No street address or president is published, so both are left empty."
+    },
+    {
+      "rna": "W9P1009994",
+      "name": "NA HONU O TE OROPA'A",
+      "verdict": "confirmed",
+      "address": "13 Servitude Charles, BP 10488, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=97464",
+        "assoce.fr/waldec/W9P1009994/x"
+      ],
+      "reason": "I re-fetched JOPF annonce n° 30613 (JO n° 32 du 22/04/2022 p. 8965). It reads 'Siège social : 13 Servitude Charles - BP 10488 PAEA - Déclaration du 13 avril 2022 - Récépissé n° W9P1009994' and the association name matches. According to the RNA there has been no declaration since its creation. No contact or president is published."
+    },
+    {
+      "rna": "W9P1003522",
+      "name": "TIAI'MOANA - CAPTAIN PAUL WATSON FOUNDATION TAHITI - ANCIENNEMENT TIAIMOANA - SEA SHEPHERD TAHITI",
+      "verdict": "partial",
+      "address": "",
+      "rep": "",
+      "phones": [
+        "87 29 82 07",
+        "87 77 15 07"
+      ],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "teoranaho-fape.org/associations/tia'i-moana---captain-paul-watson-foundation-tahiti",
+        "assoce.fr/waldec/W9P1003522/x",
+        "asso-info.fr/tiai-moana-captain-paul-watson-foundation-tahiti-anciennement-tiaimoana-sea-shepherd-tahiti"
+      ],
+      "reason": "I re-fetched the FAPE Te Ora Naho page for this association, listed under its new name 'Tīa'i Moana - Captain Paul Watson Foundation Tahiti'. Its contact block lists the phones '(+689) 87 29 82 07 / 87 77 15 07', so I kept them. The e-mail tahiti@seashepherd.org is dropped: the block still describes the association as representing Sea Shepherd Conservation Society, and the association has since broken with Sea Shepherd and renamed itself (2023), so that address is probably no longer its own. The HelloAsso URL is dropped because the page returned HTTP 403 and could not be checked. The web search quota was used up, so I could not cross-check the phones by searching the exact numbers. No address is given because the RNA seat is a private person's home ('chez M. RIVAGE Vincent, 98711 Paea'). No president is confirmed."
+    },
+    {
+      "rna": "W9P1000794",
+      "name": "AH-MIN BOXING CLUB",
+      "verdict": "partial",
+      "address": "",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [
+        "facebook.com/ahminboxing"
+      ],
+      "inactive_evidence": null,
+      "sources": [
+        "facebook.com/ahminboxing",
+        "assoce.fr/waldec/W9P1000794/x"
+      ],
+      "reason": "I fetched facebook.com/ahminboxing. It is the page 'Ah-Min Boxing CLUB' (Équipe de sport amateur, about 2,764 followers), so I kept the URL. The phone 87 32 09 08 is dropped: it is not in the page HTML I could retrieve, and the web search quota was used up, so I could not check the exact number. It rests only on an unverified search-engine snippet. Assoce gives the RNA seat as Paea (98711), with the last declaration dated 16/07/2020."
+    },
+    {
+      "rna": "W9P1002580",
+      "name": "ASSOCIATION MANAVA TAEKWONDO",
+      "verdict": "confirmed",
+      "address": "N°9 Résidence Manava, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1002580/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. It shows 'Association Manava Taekwondo ... N°9 Résidence Manava Numéro RNA W9P1002580', so the RNA siège matches. assoce.fr confirms the dates: created 08/02/2005, last declaration 28/04/2017, siège Paea (98711). No contacts were claimed. The report of the founder's death is not proof of dissolution, so no inactive evidence is recorded."
+    },
+    {
+      "rna": "W9P1004447",
+      "name": "ASSOCIATION MANU URA BOXE",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1004447/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Manu Ura Boxe. ... Pk 20,800 côté montagne. Numéro RNA W9P1004447'. assoce.fr gives the creation date as 11/01/2015 and the last declaration as 26/11/2025. The old JOPF details (TUA, HOPARA, PK 24,500) could not be verified, so they stay out."
+    },
+    {
+      "rna": "W9P1007811",
+      "name": "ASSOCIATION SPORTIVE DU COLLEGE TERIITUA A TERIIEROOITERAI DE PAEA",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1007811/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Sportive du Collège Teriitua A Teriierooiterai de Paea ... Pk 20 côté montagne Numéro RNA W9P1007811'. assoce.fr gives the creation date as 25/11/1985 and the last declaration as 23/09/2025. The '(collège de Paea)' note is an inference, so I removed it from the address. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1002305",
+      "name": "ASSOCIATION SPORTIVE MANU URA",
+      "verdict": "partial",
+      "address": "À la mairie de Paea, 98711 Paea (terrain : Stade Manu Ura)",
+      "rep": "Alfred MARAETEFAU (président du club AS Manu Ura, annuaire des clubs FTF)",
+      "phones": [],
+      "emails": [
+        "jacob.tutavae5@gmail.com",
+        "moana.tehiva@gmail.com"
+      ],
+      "urls": [
+        "facebook.com/p/As-MANU-URA-Football-100089788532463"
+      ],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "ftf.pf/clubs/les-clubs-de-tahiti/",
+        "facebook.com/p/As-MANU-URA-Football-100089788532463",
+        "assoce.fr/waldec/W9P1002305/x"
+      ],
+      "reason": "The address is confirmed: annuaire-mairie.fr shows 'Association Sportive Manu Ura ... à la mairie Numéro RNA W9P1002305', and assoce.fr gives the last declaration as 07/03/2023. I re-fetched the FTF club directory. It shows 'AS MANU URA Stade Manu Ura, 98 711 Paea Président Alfred MARAETEFAU', with Vice-Président Jacob TUTAVAE (jacob.tutavae5@gmail.com) and Secrétaire Heimoana TEHIVA (moana.tehiva@gmail.com), so the president and both e-mails are kept. The president may be the head of the football section rather than of the whole omnisports association. The 'As MANU URA Football' Facebook page (Équipe sportive, 1,346 followers) is the page web search returns for the Paea club, so I kept it. Dropped: 87 32 16 70. It appeared only once, in a November 2021 FTF article, as the personal contact of 'HEILANI' for one event. An exact-number search found nothing else, so it is a stale event contact and not a confirmed club line. Also dropped: facebook.com/manuura.as. It is a personal-style profile named 'AS Manu Ura' with no location or link to Paea that I could verify."
+    },
+    {
+      "rna": "W9P1002475",
+      "name": "ASSOCIATION SPORTIVE PAEA VA'A",
+      "verdict": "confirmed",
+      "address": "Fare Va'a de Maraa, PK 27,500 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1002475/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Sportive Paea Va'a ... Fare Va'a de Maraa Pk 27.500 côté mer Numéro RNA W9P1002475'. assoce.fr gives the creation date as 08/02/2000 and the last declaration as 17/12/2025. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001348",
+      "name": "ASSOCIATION SPORTIVE TEVAIROA",
+      "verdict": "confirmed",
+      "address": "PK 22, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1001348/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Sportive Tevairoa ... pk 22 Numéro RNA W9P1001348'. assoce.fr gives the creation date as 01/08/1990 and the last declaration as 17/11/2020. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003685",
+      "name": "ASSOCIATION TAEKWONDO TEAM PAEA - AS TKD TEAM PAEA.",
+      "verdict": "confirmed",
+      "address": "Vallée Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1003685/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Taekwondo Team Paea - As Tkd Team Paea. ... à vallée Orofero. Numéro RNA W9P1003685'. assoce.fr gives the creation date as 15/12/2017, with an update on 16/06/2018. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1007671",
+      "name": "ASSOCIATION TE PUA O TE HAU.",
+      "verdict": "confirmed",
+      "address": "PK 21,500 côté montagne, près de la mairie, quartier Vaiata, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1007671/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Te Pua O Te Hau. ... Pk 21,500 côté montagne, situé près de la mairie, Quartier Vaiata. Numéro RNA W9P1007671'. assoce.fr gives the creation date as 03/03/2012 and the last declaration as 09/02/2021. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1004432",
+      "name": "ASSOCIATION TOA ENANA NO PAEA.",
+      "verdict": "confirmed",
+      "address": "PK 19,100 côté montagne, quartier Taputuarai, lot n°18, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [
+        "facebook.com/toaenananopaea"
+      ],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "facebook.com/toaenananopaea",
+        "assoce.fr/waldec/W9P1004432/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Association Toa Enana No Paea. ... Pk 19,100 côté montagne, quartier Taputuarai lot n°18. Numéro RNA W9P1004432'. assoce.fr gives the last declaration as 18/01/2023. I re-fetched the Facebook og metadata: 'Association TOA ENANA NO PAEA | Paea ... 1 763 followers. L'association TOA ENANA NO PAEA est une association de boxe à but non lucratif'. That matches the association's name, commune and purpose (boxe anglaise). No representative is given because there is no official source for one."
+    },
+    {
+      "rna": "W9P1000519",
+      "name": "COMITE FUTSAL DE PAEA",
+      "verdict": "confirmed",
+      "address": "Vallée de Tiapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "annuaire-mairie.fr/association-paea.html",
+        "assoce.fr/waldec/W9P1000519/x"
+      ],
+      "reason": "annuaire-mairie.fr shows 'Comite Futsal de Paea ... Vallée de Tiapa Numéro RNA W9P1000519'. assoce.fr gives the creation date as 11/04/2016 and the last declaration as 12/08/2020. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1008898",
+      "name": "HAUMAUURU BOXING CLUB",
+      "verdict": "confirmed",
+      "address": "PK 22,800 côté montagne, Servitude Haumauuru, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008898"
+      ],
+      "reason": "I re-fetched the RNA record through the data-asso API. Name: HAUMAUURU BOXING CLUB (sigle HAUMAUURU CLUB). Siège: 'à Pk 22 800 côté montagne - Servitude Haumauuru', 98711 Paea. Active, date_modif_rna 2023-02-16. No contact was claimed, and none is present in the RNA."
+    },
+    {
+      "rna": "W9P1009608",
+      "name": "HEITEANI BOXE",
+      "verdict": "confirmed",
+      "address": "Résidence Pofatu, lot n°5, côté mer, PK 24,4, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009608"
+      ],
+      "reason": "The RNA siège reads 'à Pofatu Résidence Lot N 5 côté mer Pk 24.4', 98711 Paea. The management address spells it 'Potifau', which looks like a typo. The record is active, with its last change on 2021-07-09. No contacts."
+    },
+    {
+      "rna": "W9P1008270",
+      "name": "HI'ORAA API",
+      "verdict": "confirmed",
+      "address": "PK 21 côté mer, BP 10806, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [
+        "hioraa.api@gmail.com"
+      ],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008270"
+      ],
+      "reason": "The RNA siège reads 'à Pk 21 côté mer BP 10 806 98711 Paea'. The RNA courriel field is hioraa.api@gmail.com, which is named after the association, so the e-mail is confirmed. The management address is a private address in Aix-en-Provence and was correctly left out. Active, last change 2021-03-10."
+    },
+    {
+      "rna": "W9P1002779",
+      "name": "HIVA TAU NO MANORUA",
+      "verdict": "confirmed",
+      "address": "PK 22,900 côté montagne, servitude Teiri, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1002779"
+      ],
+      "reason": "The RNA siège reads 'à Pk 22 900 côté montagne servitude Teiri', 98711 Paea. Active, last change 2020-05-25. No contacts."
+    },
+    {
+      "rna": "W9P1010388",
+      "name": "IRIHONU VA'A",
+      "verdict": "confirmed",
+      "address": "PK 21,500 côté mer, quartier Vaiatu, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1010388"
+      ],
+      "reason": "The RNA siège reads 'à Pk 21 500 côté mer quartier Vaiatu', 98711 Paea. Active, created and last changed 2022-11-14. No contacts."
+    },
+    {
+      "rna": "W9P1002862",
+      "name": "LIGUE DE TAEKWONDO ET DISCIPLINES ASSOCIEES DE POLYNESIE FRANÇAISE - ANCIENNEMENT FEDERATION TAEKWONDO ET DISCIPLINES ASSOCIEES DE POLYNESIE FRANÇAISE",
+      "verdict": "confirmed",
+      "address": "PK 22, vallée Orofero, 98711 Paea (courrier : BP 10033, 98711 Paea)",
+      "rep": "Gabriel LARGETEAU (président)",
+      "phones": [
+        "89 71 11 40"
+      ],
+      "emails": [],
+      "urls": [
+        "https://www.fftda.fr/fr/48-ligues.html"
+      ],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1002862",
+        "https://www.fftda.fr/fr/48-ligues.html"
+      ],
+      "reason": "The RNA siège reads 'à Pk 22 vallée Orofero', 98711 Paea, sigle LIGUE DE TAEKWONDO, last change 2024-10-09. I re-fetched the FFTDA official page of leagues. Its row reads 'Polynésie française LARGETEAU GABRIEL BP 10033 98711 Paea -TAHITI +689 89711140'. That confirms the president, the BP and the phone. 89 is a valid 8-digit Polynesian mobile prefix. The FFTDA page itself is undated."
+    },
+    {
+      "rna": "W9P1008460",
+      "name": "MAERE / MARAMA",
+      "verdict": "confirmed",
+      "address": "PK 25,700 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008460"
+      ],
+      "reason": "The RNA siège reads 'à Pk 25 700 côté montagne', 98711 Paea. Active, no change since it was created on 2019-10-09. No contacts."
+    },
+    {
+      "rna": "W9P1004420",
+      "name": "MATA API",
+      "verdict": "confirmed",
+      "address": "PK 21 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004420"
+      ],
+      "reason": "The RNA siège reads 'Pk 21 Cote Mer 98711 Paea'. The RNA also holds a private person's e-mail, a metropolitan 06 number and a management address in Aix-en-Provence. These were rightly excluded as personal and non-Polynesian. Active, last change 2018-08-20."
+    },
+    {
+      "rna": "W9P1004263",
+      "name": "MONKEY FIGHT MIXED MARTIAL ART",
+      "verdict": "confirmed",
+      "address": "PK 18,7 côté montagne, n°65 A route de Papehue, BP 10533, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004263"
+      ],
+      "reason": "The RNA name is 'MONKEY FIGHT MIXED MARTIAL ART'. The siège reads 'Pk 18.7 côté montagne au n 65 A Route de Papehue BP 10 533 98711 Paea'. Last change 2024-02-17. No contacts."
+    },
+    {
+      "rna": "W9P1007963",
+      "name": "O'HANA BOXING NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 24,500 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1007963"
+      ],
+      "reason": "The RNA siège reads 'Pk 24 500 c/mer', 98711 Paea. Active, last change 2019-03-13. No contacts."
+    },
+    {
+      "rna": "W9P1010913",
+      "name": "OCTO FIGHTING LEAGUE",
+      "verdict": "confirmed",
+      "address": "PK 23,7 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1010913"
+      ],
+      "reason": "The RNA siège reads 'à Paea Pk 23 7 côté mer', 98711 Paea, and the management address reads 'Pk 23,7 côté mer'. Active, created 2023-09-19. No contacts."
+    },
+    {
+      "rna": "W9P1008728",
+      "name": "PAEA 5KR",
+      "verdict": "confirmed",
+      "address": "PK 28,500 côté montagne, BP 330735, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008728"
+      ],
+      "reason": "The RNA siège reads 'au Pk 28.500 côté montagne BP 330735 98711 Paea'. The BP number is reproduced exactly as it appears in the RNA. Sigle PAEA 5 KR, active, last change 2020-02-11. No contacts."
+    },
+    {
+      "rna": "W9P1004569",
+      "name": "PAEA MANU URA RUGBY CLUB",
+      "verdict": "confirmed",
+      "address": "Lot n°9, PK 23 côté montagne, quartier Vaiterupe 2, BP 10107, 98711 Paea",
+      "rep": "Taputua TEINAURI (président)",
+      "phones": [
+        "87 76 11 31",
+        "87 74 73 93"
+      ],
+      "emails": [
+        "tapu.teina0210@gmail.com",
+        "veteawongsung@gmail.com"
+      ],
+      "urls": [
+        "https://www.facebook.com/paeamanuurarugbyclub/",
+        "https://www.federugbypolynesie.com/clubs-adherents"
+      ],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004569",
+        "https://www.federugbypolynesie.com/clubs-adherents",
+        "https://www.facebook.com/paeamanuurarugbyclub/"
+      ],
+      "reason": "The RNA siège reads 'Lot n°9 à Paea Pk 23 côté montagne Quartier Vaiterupe 2 BP 10107 98711 Paea', last change 2026-02-10. I re-fetched the rugby federation's list of member clubs. It lists 'Paea Manu Ura Rugby Club ... Président Taputua Teinauri tapu.teina0210@gmail.com 87 76 11 31 Responsable des jeunes Vetea Wong Sung veteawongsung@gmail.com 87 74 73 93'. A WebSearch confirms that facebook.com/paeamanuurarugbyclub shows +689 87 76 11 31 and tapu.teina0210@gmail.com. The 2026 RNA declaration may have changed the officers, so the president's name should be re-checked later."
+    },
+    {
+      "rna": "W9P1002289",
+      "name": "PAEA NUI FUTSAL",
+      "verdict": "confirmed",
+      "address": "Route du cimetière, PK 19,800 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1002289"
+      ],
+      "reason": "The RNA siège reads 'Route du cimetière Pk 19 800 c/mont', 98711 Paea. Active, no change since it was created on 2017-03-07, and no dissolution date. No contacts."
+    },
+    {
+      "rna": "W9P1001415",
+      "name": "PAEA POWERLIFTING",
+      "verdict": "partial",
+      "address": "Pk 26.800 côté montagne, Servitude Pahaero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1001415",
+        "data-asso.fr/gw/api-server/asso?id=W9P1010412",
+        "lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=126389",
+        "facebook.com/Paeapowerlifting"
+      ],
+      "reason": "I re-fetched the RNA record (Data-Asso). It confirms the seat of PAEA POWERLIFTING W9P1001415: 'à Pk 26.800 côté montagne Servitude Pahaero', 98711 Paea, last changed 17/02/2023. I dropped all the contact details because they match a different association better. The Facebook page facebook.com/Paeapowerlifting is called 'Team Paea Powerlifting (Gym Kamehatza)', a weight-training club and gym at 'Face Park Rohotu PK 23.700', with e-mail teamppl987@gmail.com. The Lexpol/JOPF notice no. 68420 (JOPF no. 98, 09/12/2022) and the RNA record W9P1010412 describe 'Association sportive Team Paea Powerlifting': gym weight-training and crossfit, seat 'Paea PK 23.500 c/montagne en bord de route', declared 25/11/2022. That name, seat and activity fit the page much better than W9P1001415, whose seat is at PK 26.800. A web search for \"89 59 82 45\" found no other source. Nothing ties the phone, e-mail or page specifically to W9P1001415. W9P1010412 should probably be added to the catalogue as a separate association."
+    },
+    {
+      "rna": "W9P1003883",
+      "name": "POLINESIAN WELLNESS ATTITUDE",
+      "verdict": "confirmed",
+      "address": "Pk 18.600 côté montagne, Quartier Papehue, BP 10 309, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1003883"
+      ],
+      "reason": "I re-fetched the RNA record (Data-Asso). Its name is 'POLINESIAN WELLNESS ATTITUDE.' and its seat is 'Pk 18.600 côté montagne Quartier Papehue..', 'BP 10 309', 98711 Paea, last changed 15/02/2018. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1002574",
+      "name": "PUNARUU ITI TAEKWONDO",
+      "verdict": "confirmed",
+      "address": "Vallée d'Orofero - Résidence Tarevareva, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1002574"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of PUNARUU ITI TAEKWONDO as \"Vallée d' Orofero - Résidence Tarevareva\", 98711 Paea, last changed 28/04/2017. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1003516",
+      "name": "TAHITIAN BLESSING - TB",
+      "verdict": "partial",
+      "address": "Pk 19 800 côté montagne, Servitude Pito, BP 330145, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [
+        "tbless2015@gmail.com"
+      ],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1003516",
+        "tahiti-infos.com/agenda/Tahitian-Worship-Voice-1ere-edition_ae338524.html"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of TAHITIAN BLESSING - TB as 'à Pk 19 800 côté montagne Servitude Pito', BP 330145, 98711 Paea, last changed 23/06/2026, and marks its contact details as non-public. I re-fetched the Tahiti Infos agenda page and decoded its obfuscated e-mail addresses. The page says 'L'association Tahitian Blessing' organised the event at Salle Manu-Iti in Paea on 28/02/2015, and its contacts are 87 74 14 54 (Thierry), 87 25 51 05 (Joël), tbless2015@gmail.com and t71@mail.pf. The name and the Paea location match this association. I kept tbless2015@gmail.com because it is clearly the association's own address. I dropped both phone numbers: they are the personal mobiles of two first-named individuals, published only for a 2015 event, and a web search for \"87 74 14 54\" found no other or more recent use."
+    },
+    {
+      "rna": "W9P1003379",
+      "name": "TAMARII BOXING CLUB NO PAEA",
+      "verdict": "confirmed",
+      "address": "Pk 24.400 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1003379",
+        "net1901.org/association/TAMARII-BOXING-CLUB-NO-PAEA,2134733.html"
+      ],
+      "reason": "I re-fetched the RNA record (Data-Asso). It gives the seat of TAMARII BOXING CLUB NO PAEA as 'Pk 24.400 côté mer', 98711 Paea, last changed 08/09/2022. This matches the net1901 address cited in the claim. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1001241",
+      "name": "TE U'I NO MARAA",
+      "verdict": "confirmed",
+      "address": "Pk 25 500 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1001241"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of TE U'I NO MARAA as 'à Pk 25 500 côté montagne', 98711 Paea, last changed 18/09/2020, and marks its contact details as non-public. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1000360",
+      "name": "TEAVAITI FUTSAL",
+      "verdict": "confirmed",
+      "address": "Quartier Robson, PK 23 800 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1000360"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of TEAVAITI FUTSAL as 'QUARTIER Robson pk 23 800 c/mont', 98711 Paea, last changed 26/02/2019. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1012322",
+      "name": "PAEA SHOOTING CLUB",
+      "verdict": "confirmed",
+      "address": "PK 24 600 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1012322"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of PAEA SHOOTING CLUB as 'Paea PK 24 600 C/MONT', 98711 Paea, last changed 15/05/2008. Only the address was claimed, and it is confirmed. The last filing was in 2008 and the club may be dormant, but the record shows no dissolution."
+    },
+    {
+      "rna": "W9P1000914",
+      "name": "A ORA MAITAI",
+      "verdict": "confirmed",
+      "address": "Pk 25.500 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1000914"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of A ORA MAITAI as 'Pk 25.500 côté mer', 98711 Paea, last changed 24/05/2018. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1002626",
+      "name": "A POIHERE I TE TAMA NO ANANAHI",
+      "verdict": "confirmed",
+      "address": "Pk 21.200 côté montagne, 98711 Paea (BP 13 187 - 98718 Punaauia)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1002626"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of A POIHERE I TE TAMA NO ANANAHI as 'Pk 21.200 côté montagne', with the extra line 'BP 13 187 - 98718 Punaauia', 98711 Paea, last changed 25/05/2023. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1002411",
+      "name": "A TAUTURU IA NA NO PAEA",
+      "verdict": "confirmed",
+      "address": "à la mairie de Paea, BP 10524, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1002411"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of A TAUTURU IA NA NO PAEA as 'à la mairie de Paea', BP 10524, 98711 Paea, last changed 02/04/2026, and marks its contact details as non-public. Only the address was claimed, and it is confirmed. The Mairie switchboard was correctly left out as a contact."
+    },
+    {
+      "rna": "W9P1009983",
+      "name": "ASSOCIATION 'ORORE'A",
+      "verdict": "confirmed",
+      "address": "Pk 21 400 côté montagne, servitude Terurua, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1009983"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of ASSOCIATION 'ORORE'A as 'à Pk 21 400 côté montagne servitude Terurua', 98711 Paea, last changed 04/05/2022. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1008001",
+      "name": "ASSOCIATION MANORUA NUI",
+      "verdict": "confirmed",
+      "address": "Pk 24.500 côté montagne, Résidence Manava, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1008001"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of ASSOCIATION MANORUA NUI as 'à Pk 24.500 côté montage Résidence Manava', 98711 Paea, last changed 26/03/2019. 'montage' is a typo in the source for montagne. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1004459",
+      "name": "ASSOCIATION MINI TEAM",
+      "verdict": "confirmed",
+      "address": "Pk 21 500 côté montagne, Quartier Vaiatu, BP 10197, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1004459"
+      ],
+      "reason": "I re-fetched the RNA record. It gives the seat of ASSOCIATION MINI TEAM as 'à Paea Pk 21 500 côté montagne Quartier VAIATU', BP 10197, 98711 Paea, last changed 24/02/2026, and marks its contact details as non-public. Only the address was claimed, and it is confirmed."
+    },
+    {
+      "rna": "W9P1000267",
+      "name": "ASSOCIATION RÉGIONALE SOCIO-CULTURELLE (ARSC987) DES PERSONNELS DU MINISTÈRE DE LA JUSTICE POUR LE RESSORT DE LA COUR D'APPEL DE PAPEETE",
+      "verdict": "confirmed",
+      "address": "Lotissement BOURNE, Pk 23.700 côté montagne, N.14 A, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for ARSC987 with RNA W9P1000267 gives 'Lotissement BOURNE, Pk 23.700 côté montagne. N.14 A', which matches the claim. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003778",
+      "name": "ASSOCIATION VEVAI",
+      "verdict": "confirmed",
+      "address": "Lotissement Pk 23,700 côté montagne, Lot Chapman, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Association Vevai with RNA W9P1003778 gives 'Lotissement Pk 23,700 C/mont Lot Chapman', which matches the claim. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1000153",
+      "name": "HIRO'A MANA DJEUNES",
+      "verdict": "confirmed",
+      "address": "TEPUHAPA Lot N°27, Pk 20,500 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Hiro'a Mana Djeunes with RNA W9P1000153 gives 'TEPUHAPA Lot N°27 Paea Pk 20,500 c/mont', which matches the claim. Nothing has been filed with the RNA since 2015, but I found no proof that the association is inactive."
+    },
+    {
+      "rna": "W9P1000598",
+      "name": "LAMICALE LOCALE DE PAEA",
+      "verdict": "confirmed",
+      "address": "PK 21,900 côté montagne, Orofero, Servitude TAMATERAI, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1000598/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Lamicale Locale de Paea with RNA W9P1000598 gives 'PK 21,900 C/Mont Orofero, Servitude TAMATERAI', which matches the claim. The same directory lists \"L'amicale Local de Paea\" at the same address under RNA W9P1004020, so the duplicate the agent noted is real. assoce.fr gives the siège as Paea, with a last declaration on 11/09/2024."
+    },
+    {
+      "rna": "W9P1000858",
+      "name": "MANAHOTU",
+      "verdict": "partial",
+      "address": "Pk 21.800 côté montagne, quartier Orofero, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1000858/x"
+      ],
+      "reason": "The address is confirmed: annuaire-mairie.fr's entry for Manahotu with RNA W9P1000858 gives 'Pk 21.800 côté montagne, dans le quartier Orofero'. I dropped the phone 87 29 69 16. It appears only on the chickytahiti listing for the dance school Manahotu, which gives Papara as the location and Raina Tairi-Tehuiotoa as the contact. No source ties that number to the RNA association based in Paea, and an exact-number web search found nothing. The link between the two is a guess, so the number should not be kept."
+    },
+    {
+      "rna": "W9P1000881",
+      "name": "PAERAI",
+      "verdict": "confirmed",
+      "address": "Pk 21.900 côté montagne, Vallée Orofero, Servitude Raipai, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Paerai with RNA W9P1000881 gives 'Pk 21.900 côté montagne,Vallée Orofero,Servitude Raipai', which matches the claim. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1000293",
+      "name": "TAATIRAA TANAANA-VAITIARE NO PAEA",
+      "verdict": "confirmed",
+      "address": "Pk 24.600 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Taatiraa Tanaana-vaitiare No Paea with RNA W9P1000293 gives 'pk 24.600 côté montagne', which matches the claim. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003509",
+      "name": "TE HIA KATAHI (THK)",
+      "verdict": "confirmed",
+      "address": "Lotissement Vaitupa N°3, Pk 24 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. Its entry for Te Hia Katahi with RNA W9P1003509 gives 'Lositssement Vaitupa N°3, pk 24 c/mont' (sic), which matches the claim. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1002242",
+      "name": "VETEA I AUROA",
+      "verdict": "confirmed",
+      "address": "Servitude Taputuarai, PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1002242/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. It has 'Vetea I Auroa, Action socioculturelle, Servitude Taputuarai Pk 20c/mont, Numéro RNA W9P1002242', so the address matches by RNA number. assoce.fr shows it was created 28/02/2017 with the last declaration the same day, and lists no contact. I found no contacts and no rep."
+    },
+    {
+      "rna": "W9P1011612",
+      "name": "ASSOCIATION FAMILIALE TEMATAFAARERE",
+      "verdict": "partial",
+      "address": "PK 20 côté montagne, servitude Taputuarai, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1011612/x",
+        "https://www.assoce.fr/waldec/W9P1002863/x"
+      ],
+      "reason": "On annuaire-mairie.fr this address is attached to RNA W9P1002863, not to W9P1011612. I re-fetched assoce.fr: both records have the identical name, were created 22/04/2013 and have their siège in Paea 98711. W9P1002863 was last declared 06/07/2017 and W9P1011612 on 22/04/2013. It is very likely the same family association recorded twice in the RNA, but the address is not matched by this RNA number, so the verdict is partial. Consider merging it with W9P1002863. No contacts and no rep."
+    },
+    {
+      "rna": "W9P1001148",
+      "name": "PARTI DU VOTE BLANC",
+      "verdict": "confirmed",
+      "address": "PK 24,500 côté montagne, servitude Tetutu, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://assoce.fr/waldec/W9P1001148/x"
+      ],
+      "reason": "annuaire-mairie.fr has 'Parti du Vote Blanc, Activités politiques, chez [private individual] au Pk 24.500 ct montagne, Servitude TETUTU, Numéro RNA W9P1001148', so the address matches by RNA. The c/o individual's role is not stated, so I leave the rep empty. No contacts."
+    },
+    {
+      "rna": "W9P1003792",
+      "name": "AMUIRAA PETEREHEMA - TAMARII TUHAA - PAE PAEA",
+      "verdict": "confirmed",
+      "address": "PK 21,200 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://98.lavieduvillage.fr/Association.php?NumAssociation=W9P1003792",
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched lavieduvillage.fr. It gives 'N° W9P1003792 - AMUIRAA PETEREHEMA - TAMARII TUHAA ... Adresse : Pk 21.200 côté montagne 98711 Paea', created 1999-07-29, status Active. annuaire-mairie.fr gives the same address for the same RNA. No contacts."
+    },
+    {
+      "rna": "W9P1002522",
+      "name": "ASSOCIATION TAMARII PEREAITU",
+      "verdict": "confirmed",
+      "address": "PK 21,300 côté montagne, derrière le temple protestant, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://assoce.fr/waldec/W9P1002522/x"
+      ],
+      "reason": "annuaire-mairie.fr has 'Association Tamarii Pereaitu, Activités religieuses, spirituelles, Pk 21,300 côté montagne, Derrière Le Temple Protestant, Numéro RNA W9P1002522', so the address matches by RNA. No contacts."
+    },
+    {
+      "rna": "W9P1003690",
+      "name": "EGLISE APOSTOLIQUE ONENESS \" IESU MESIA TE EVANELIA \"",
+      "verdict": "confirmed",
+      "address": "Maraa, PK 26,900 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://98.lavieduvillage.fr/Association.php?NumAssociation=W9P1003690",
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "lavieduvillage.fr gives 'N° W9P1003690 - EGLISE APOSTOLIQUE ONENESS, Adresse : Maraa Pk 26.900 côté montagne 98711 Paea', created 2017-12-18, status Active. annuaire-mairie.fr gives the same address for the same RNA. No contacts."
+    },
+    {
+      "rna": "W9P1001104",
+      "name": "ASSOCIATION MANOARII",
+      "verdict": "confirmed",
+      "address": "PK 21,900 côté montagne, vallée d'Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://98.lavieduvillage.fr/Association.php?NumAssociation=W9P1001104",
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "lavieduvillage.fr gives 'N° W9P1001104 - ASSOCIATION MANOARII, Adresse : Pk 21.900 côté montagne, vallée Orofero 98711 Paea', created 2011-04-11, declaration 2016-08-05, status Active. annuaire-mairie.fr gives the same address for the same RNA. No contacts."
+    },
+    {
+      "rna": "W9P1001454",
+      "name": "FORAINS DE POLYNESIE FRANÇAISE",
+      "verdict": "confirmed",
+      "address": "PK 18,8 côté montagne, quartier Papehue, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001454/x"
+      ],
+      "reason": "annuaire-mairie.fr has 'Forains de Polynesie Française, Aide à l'emploi, Pk 18.8 côté montagne, Quartier Papehue, Numéro RNA W9P1001454', so the address matches by RNA. I re-fetched assoce.fr: created 03/06/1993, last declaration 16/10/2025 (active), no contact published. A WebSearch turned up no contact belonging to this association. The TNTV article names the president of a different fairground association in Faa'a, which I did not use."
+    },
+    {
+      "rna": "W9P1000096",
+      "name": "LES FERMIERS DE LA POLYNESIE FRANCAISE.",
+      "verdict": "confirmed",
+      "address": "Pk 22 Orofero, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Les Fermiers de la Polynesie Francaise. | Aide à l'emploi | Pk 22 Orofero. | Numéro RNA W9P1000096' matches the name and RNA. This is a secondary source based on RNA data. No contacts or president were claimed. The web-search budget was used up, so I could not search further."
+    },
+    {
+      "rna": "W9P1001933",
+      "name": "TE FAA NO NIUA À MOERAI NO PAEA",
+      "verdict": "confirmed",
+      "address": "Pk 19.800 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=25081"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Te Faa No Niua à Moerai No Paea | Pk 19.800 côté montagne | RNA W9P1001933' matches. The Lexpol page t=25081 exists with the title 'ASSOCIATION TE FAA NO NIUA A MOERAI NO PAEA', but its content is not publicly readable. No contacts or president were claimed."
+    },
+    {
+      "rna": "W9P1010694",
+      "name": "LA TEAM",
+      "verdict": "confirmed",
+      "address": "Paea, Pk 19,500 c/mtg, servitude Cadousteau",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=144701",
+        "https://www.assoce.fr/waldec/W9P1010694/x"
+      ],
+      "reason": "I re-fetched Lexpol t=144701: Annonce n°18970 'LA TEAM', siège 'Paea, Pk 19,500 c/mtg, servitude Cadousteau', Récépissé W9P1010694, JOPF n°47 of 13/06/2023 p.12856. assoce.fr confirms the siège is in Paea (98711) and says 'Aucun moyen de contact publié'."
+    },
+    {
+      "rna": "W9P1010623",
+      "name": "TE UI HAU NO A HOTU TOA NO OROFERO",
+      "verdict": "confirmed",
+      "address": "Orofero - PAEA, PK 21.900 côté montagne",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=138278"
+      ],
+      "reason": "I re-fetched Lexpol t=138278: Annonce n°27353 'TE UI HAU NO A HOTU TOA NO OROFERO', siège 'Orofero - PAEA, PK 21.900 côté montagne', Récépissé W9P1010623, JOPF n°29 of 11/04/2023 p.8389."
+    },
+    {
+      "rna": "W9P1012591",
+      "name": "AMICALE DES SAPEURS-POMPIERS DE PAEA",
+      "verdict": "confirmed",
+      "address": "Caserne de Paea (centre de secours des sapeurs-pompiers), Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://lexpol.cloud.pf/LexpolJoam.php (JOAM n°92 du 08 mai 2026, texte 9/15, Annonce n° 50070884)",
+        "https://www.assoce.fr/waldec/W9P1012591/x"
+      ],
+      "reason": "I re-read the JOAM n°92 of 08/05/2026 notice through Lexpol's JOAM viewer: Annonce n°50070884 'AMICALE DES SAPEURS-POMPIERS DE PAEA', siège 'CASERNE DE PAEA', declared 10 April 2026, Récépissé W9P1012591. assoce.fr confirms the siège is in Paea (98711) and that no contact is published. The fire station's Facebook page was correctly left out."
+    },
+    {
+      "rna": "W9P1000307",
+      "name": "AMICALE SAPEURS POMPIERS PAEA",
+      "verdict": "confirmed",
+      "address": "Centre de Secours de Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Amicale Sapeurs Pompiers Paea. | Amicales | Centre de Secours de Paea | RNA W9P1000307' matches. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1002876",
+      "name": "ASSOCIATION \"FALASOLA\"",
+      "verdict": "confirmed",
+      "address": "Quartier Toussieux Pk 20,900 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Association \"falasola\" | Amicales | Quartier Toussieux Pk 20,900 c/mont | RNA W9P1002876' matches. This is a secondary source only. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003171",
+      "name": "ASSOCIATION TAURE'A TEAM",
+      "verdict": "confirmed",
+      "address": "Pk 21.700 - Côté mer, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://lexpol.cloud.pf/LexpolAfficheAnnonceDetail.php?t=47632"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Association Taure'a Team | Amicales | Pk 21.700 - Côté mer | RNA W9P1003171' matches. The Lexpol page t=47632 exists with the title 'ASSOCIATION TAURE'A TEAM', but its content is not publicly readable."
+    },
+    {
+      "rna": "W9P1012470",
+      "name": "FAARAI",
+      "verdict": "confirmed",
+      "address": "Paea PK 20 côté mer, servitude TE MAKE - BP 330149 - 98711 PAEA",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://lexpol.cloud.pf/LexpolJoam.php (JOAM n°31 de 2026, Constitution d'association, Annonce n° 31188096)",
+        "https://www.assoce.fr/waldec/W9P1012470/x"
+      ],
+      "reason": "I re-read Annonce n°31188096 'FAARAI' in JOAM n°31/2026 through Lexpol's JOAM viewer. The siège is 'Paea PK 20 côté mer, servitude TE MAKE - BP 330149 - 98711 PAEA', declared 27 January 2026, Récépissé W9P1012470. The purpose is the well-being of staff at the Centre de PMI. assoce.fr confirms Paea (98711) and that no contact is published."
+    },
+    {
+      "rna": "W9P1011871",
+      "name": "LILOMA",
+      "verdict": "confirmed",
+      "address": "PK 23,5 côté mer, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "https://lexpol.cloud.pf/LexpolJoam.php (JOAM n°59 de 2025, Constitution d'association, Annonce n° 2835047)",
+        "https://www.assoce.fr/waldec/W9P1011871/x"
+      ],
+      "reason": "I re-read Annonce n°2835047 'LILOMA' in JOAM n°59/2025 through Lexpol's JOAM viewer. The purpose is sculpture and related activities. The siège is 'PK23,5 coté mer PAEA', declared 2 April 2025, Récépissé W9P1011871. assoce.fr confirms Paea (98711) and that no contact is published. The web-search budget was used up, so I could not search for contacts."
+    },
+    {
+      "rna": "W9P1011964",
+      "name": "ORAHEUNUI CREATION",
+      "verdict": "confirmed",
+      "address": "PK 22,800 côté montagne, lotissement Vaiterupe n° 38, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1011964"
+      ],
+      "reason": "I re-fetched the data-asso RNA record. The name ORAHEUNUI CREATION and the RNA number match. The siège raw is 'Paea PK 22 800 c/mont lotissement Vaiterupe n 38 98711 Paea' and the management address is the same. Active, last modified 2025-05-15. No contact data was claimed."
+    },
+    {
+      "rna": "W9P1009365",
+      "name": "ASSOCIATION AVAE TERE",
+      "verdict": "confirmed",
+      "address": "PK 19,5 côté montagne, lotissement Seigneur lot n° 56, 98711 Paea (BP 3505 – 98713 Papeete)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1009365"
+      ],
+      "reason": "The RNA record matches. Siège cplt_1 is 'PAEA PK 19 5 c/Mont lot Seigneur lot n 56', cplt_3 is 'BP 3505 - 98713 PAPEETE', cp 98711 Paea. The management address (Papeete, Fariipiti résidence Vairaatoa) was correctly left out. Active."
+    },
+    {
+      "rna": "W9P1012227",
+      "name": "ASSOCIATION FAMILIALE MANU PATIA",
+      "verdict": "confirmed",
+      "address": "PK 27 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1012227"
+      ],
+      "reason": "The RNA record matches: siège raw 'à Paea Pk 27 côté montagne 98711 Paea'. Phone, e-mail and website are 'donnée non publique'. Active, date_modif_rna 2026-02-26."
+    },
+    {
+      "rna": "W9P1009293",
+      "name": "ASSOCIATION FAMILY'S UNAUNA",
+      "verdict": "confirmed",
+      "address": "PK 24 côté montagne, Servitude Chapman 1, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1009293"
+      ],
+      "reason": "The RNA record matches: siège voie 'Servitude CHAPMAN 1', cplt_1 'PAEA PK24 c/mont', cp 98711 Paea. The management address in Faa'a (Heiri) was correctly left out. Active."
+    },
+    {
+      "rna": "W9P1011974",
+      "name": "AVEARII URA A TARANO",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, servitude Vaiapane, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1011974"
+      ],
+      "reason": "The RNA record matches: siège raw 'à Paea PK 20 800 servitude VAIAPANE côté montagne 98711 Paea', and the management address is the same. Active."
+    },
+    {
+      "rna": "W9P1011853",
+      "name": "INNER DEVELOPMENT GOALS POLYNÉSIE FRANÇAISE - IDG PF",
+      "verdict": "confirmed",
+      "address": "PK 18,2 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1011853"
+      ],
+      "reason": "The RNA record matches: siège raw 'à Pk 18 2 côté mer 98711 Paea'. Reading it as PK 18,2 is reasonable because the RNA drops commas. Contacts are 'donnée non publique'. Active, date_modif_rna 2026-04-17."
+    },
+    {
+      "rna": "W9P1010477",
+      "name": "PÊCHE LAGONAIRE DE MARAA",
+      "verdict": "confirmed",
+      "address": "PK 27,700 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1010477"
+      ],
+      "reason": "The RNA record matches: siège cplt_1 'PAEA PK 27 700 c/mer' and management address 'PAEA PK 27,700 c/mer', 98711 Paea. Active."
+    },
+    {
+      "rna": "W9P1012082",
+      "name": "TEANUANUA NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 19,500 côté montagne, servitude Teurua, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1012082"
+      ],
+      "reason": "The RNA record matches: siège raw 'Paea PK 19 500 c/mont serv Teurua 98711 Paea' and management address 'Paea PK 19,500 c/mont serv. Teurua'. Active."
+    },
+    {
+      "rna": "W9P1012303",
+      "name": "CANI STREET 987",
+      "verdict": "confirmed",
+      "address": "Servitude Teriitua 1, quartier Bessert n° 2, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1012303"
+      ],
+      "reason": "The RNA record matches: siège raw 'à Paea Servitude Teriitua 1 Quartier Bessert n 2 98711 Paea'. Active true, date_modif_rna 2026-08-26. date_dissolution is 0001-01-03, a placeholder rather than a real date. The website is 'donnée non publique'."
+    },
+    {
+      "rna": "W9P1009144",
+      "name": "NATIHERE",
+      "verdict": "confirmed",
+      "address": "PK 20,500 côté montagne, lotissement Tepuhapa lot 21, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1009144"
+      ],
+      "reason": "The RNA record matches: siège voie 'lotissement TEPUHAPA lot 21', cplt_1 'à Pk 20.500 côté montagne', 98711 Paea. Active, date_modif_rna 2023-03-03."
+    },
+    {
+      "rna": "W9P1011624",
+      "name": "ASSOCIATION TEFAUTEA ROPU",
+      "verdict": "confirmed",
+      "address": "PK 25,5 côté mer, lot 700, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1011624"
+      ],
+      "reason": "The RNA record matches: siège cplt_1 'à Paea Pk 25 5 côté mer Lot 700' and management address 'à Paea Pk 25,5 côté mer, Lot 700'. Active."
+    },
+    {
+      "rna": "W9P1010776",
+      "name": "HEREHEI NO TE HAU",
+      "verdict": "confirmed",
+      "address": "Maraa, PK 24,600 côté montagne, n° 34A, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1010776"
+      ],
+      "reason": "The RNA record matches: siège cplt_1 'Maraa PK 24 600 c/mont n 34A' and management address 'Maraa PK 24,600 c/mont n°34A', 98711 Paea. Active."
+    },
+    {
+      "rna": "W9P1010719",
+      "name": "MATAIREA NO PAEA",
+      "verdict": "confirmed",
+      "address": "Aou'a, PK 19,500 côté montagne, servitude Cadousteau, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": null,
+      "sources": [
+        "data-asso.fr/gw/api-server/asso?id=W9P1010719"
+      ],
+      "reason": "The RNA record matches: siège raw 'à AOU'A Pk 19 500 côté montagne servitude Cadousteau 98711 Paea'. Active, date_modif_rna 2025-01-28."
+    },
+    {
+      "rna": "W9P1004398",
+      "name": "AHUTIA 2.",
+      "verdict": "confirmed",
+      "address": "Pk 27,700 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. It lists 'Ahutia 2.' with RNA W9P1004398 at 'Pk 27,700 côté montagne, chez [private individual]'. The address matches, and the private person's name stays left out. No contact or president was claimed."
+    },
+    {
+      "rna": "W9P1002406",
+      "name": "AITO PAEA",
+      "verdict": "confirmed",
+      "address": "Pk 20,500 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.sportstahiti.com/force-athletique-nahiti-et-tahiti-iti-au-coude-a-coude/"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Aito Paea' with RNA W9P1002406 at 'Pk 20,500 c/mont', so the address is confirmed. The Sports Tahiti article I re-fetched names the club 'Aito Paea' among the force athlétique medal winners, which supports that it is active. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001473",
+      "name": "ASSOCIATION A ROHI NO TE TAMA",
+      "verdict": "confirmed",
+      "address": "Pk 20.600 côté montagne, Lot CPS 42, Quartier Tehauparu, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association A Rohi No Te Tama' with RNA W9P1001473 at 'Pk 20.600 côté montagne, Lot CPS 42, Quartier Tehauparu', exactly as claimed. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003834",
+      "name": "ASSOCIATION HI'IHI'I TE TAMA.",
+      "verdict": "confirmed",
+      "address": "Pk 24.600 côté mer, résidence Pofatu Lot n°1, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association Hi'ihi'i Te Tama.' with RNA W9P1003834 at 'Pk 24.600 côté mer, résidence Pofatu Lot n°1.', so the address is confirmed. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001884",
+      "name": "ASSOCIATION LOCAL VOICES",
+      "verdict": "confirmed",
+      "address": "Tipia, Résidence les Jardins de Paea, lot 301, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association Local Voices' with RNA W9P1001884 at 'Tipia Résidence les jardin de Paea lot 301', so the address is confirmed. No contacts were claimed, and correctly none were taken from the possibly unrelated vocal group 'The Local Voices'."
+    },
+    {
+      "rna": "W9P1002428",
+      "name": "ASSOCIATION POLYNESIENNE DAERO-MODELISME (A.P.A.M)",
+      "verdict": "partial",
+      "address": "Pk 19,800 servitude Cadousteau, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html"
+      ],
+      "reason": "The address is confirmed: annuaire-mairie.fr lists 'Association Polynesienne D'aero-modelisme (a.p.a.m)' with RNA W9P1002428 at 'Pk 19,800 servitude cadousteau'. I dropped the president. The lexpol notice (t=44382) is a protected civil notice behind a CAPTCHA, so I could not read it, and the claimed name comes only from a search-result summary. The only page I could read is a third-party hobby blog, aero-modelisme.com, which names 'Jean-Louis Grangeon' as president. That spelling differs from the claimed 'Granjon', the blog is neither official nor the association's own source, and the information dates from around 2017-2019. A further confirming web search was not possible because this turn's search limit was used up."
+    },
+    {
+      "rna": "W9P1012726",
+      "name": "VARUAMANA PIHA",
+      "verdict": "confirmed",
+      "address": "à Paea au Pk 20 côté mer servitude TEMAKE, BP 10 099, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1012726",
+        "data-asso.fr/annuaire/association/W9P1012726"
+      ],
+      "reason": "Official RNA record (data-asso API) for W9P1012726 / VARUAMANA PIHA: siège cplt_1 'à Paea au Pk 20 côté mer servitude TEMAKE', cplt_3 'BP 10 099', cp 98711 Paea; active; created and modified 2026-06-30. No contact was claimed, and the RNA website field is non-public."
+    },
+    {
+      "rna": "W9P1012722",
+      "name": "ASSOCIATION T.K.S",
+      "verdict": "confirmed",
+      "address": "à Paea Pk 22 800 côté montagne Quartier BRILLANT PITO, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1012722",
+        "data-asso.fr/annuaire/association/W9P1012722"
+      ],
+      "reason": "Official RNA record for W9P1012722 / ASSOCIATION T.K.S matches: siège 'à Paea Pk 22 800 côté montagne Quartier BRILLANT PITO 98711 Paea'; active; modified 2026-06-29. No contact was claimed."
+    },
+    {
+      "rna": "W9P1009439",
+      "name": "ASSOCIATION JEUNESSE DE TEANAMAIRE",
+      "verdict": "confirmed",
+      "address": "Résidence Manava Paea PK24.300 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009439",
+        "data-asso.fr/annuaire/association/W9P1009439"
+      ],
+      "reason": "Official RNA record for W9P1009439 / ASSOCIATION JEUNESSE DE TEANAMAIRE: siège cplt_1 'Résidence Manava Paea PK24.300 c/Mont', cp 98711 Paea; active; modified 2024-09-12. The phone, email and website fields are empty."
+    },
+    {
+      "rna": "W9P1000692",
+      "name": "TAMARII TE VAI URA",
+      "verdict": "confirmed",
+      "address": "Pk 20.500 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1000692",
+        "data-asso.fr/annuaire/association/W9P1000692"
+      ],
+      "reason": "Official RNA record for W9P1000692 / TAMARII TE VAI URA: siège cplt_1 'Pk 20.500 côté montagne', cp 98711 Paea; active; created and last modified 2016-05-10. There is no dissolution record. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1000646",
+      "name": "THD EVENTS",
+      "verdict": "confirmed",
+      "address": "Pk 19.100 côté montagne, Résidence Papehue n 5, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1000646",
+        "data-asso.fr/annuaire/association/W9P1000646"
+      ],
+      "reason": "Official RNA record for W9P1000646 / THD EVENTS: siège cplt_1 'Pk 19.100 C/MONT Résidence Papehue n 5', cp 98711 Paea; active; last modified 2016-05-02. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1004212",
+      "name": "AHURAU",
+      "verdict": "confirmed",
+      "address": "à Pk 22 côté mer servitude Charles, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004212",
+        "data-asso.fr/annuaire/association/W9P1004212"
+      ],
+      "reason": "Official RNA record for W9P1004212 / AHURAU: siège 'à Pk 22 côté mer servitude Charles 98711 Paea'; active; modified 2026-03-11. The phone, email and website fields are marked 'donnée non publique', so no contact can be published."
+    },
+    {
+      "rna": "W9P1004396",
+      "name": "ASSOCIATION ARTISANALE ET HORTICOLE KEVA'I",
+      "verdict": "confirmed",
+      "address": "Pk 19 500 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004396",
+        "data-asso.fr/annuaire/association/W9P1004396"
+      ],
+      "reason": "Official RNA record for W9P1004396 / ASSOCIATION ARTISANALE ET HORTICOLE KEVA'I: siège cplt_1 'Pk 19 500 c/mer', cp 98711 Paea; active; modified 2018-08-13. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1001567",
+      "name": "ASSOCIATION HOATAHI",
+      "verdict": "confirmed",
+      "address": "à Pk 19.200 côté montagne Quartier Amatahiapo Lot 16, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1001567",
+        "data-asso.fr/annuaire/association/W9P1001567"
+      ],
+      "reason": "Official RNA record for W9P1001567 / ASSOCIATION HOATAHI: siège cplt_1 'à Pk 19.200 côté montagne Quartier Amatahiapo Lot 16', cp 98711, commune Paea (INSEE 98733); active; modified 2023-02-08. The management address is miscoded as 98709 MAHINA, but the siège is Paea. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1010712",
+      "name": "\" ALL B'ENJOY \"",
+      "verdict": "confirmed",
+      "address": "servitude TAMATERAI, à Paea Pk 21 900 côté montagne à Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1010712",
+        "data-asso.fr/annuaire/association/W9P1010712"
+      ],
+      "reason": "Official RNA record for W9P1010712 / ALL B'ENJOY: siège voie 'servitude TAMATERAI', cplt_1 'à Paea Pk 21 900 côté motagne à Orofero' (the typo is in the source), cp 98711 Paea; active; modified 2024-11-06. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1010854",
+      "name": "\" TRIO 219 \"",
+      "verdict": "confirmed",
+      "address": "servitude RAIPAI lot n 56, à Paea Pk 21 900 côté montagne à Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1010854",
+        "data-asso.fr/annuaire/association/W9P1010854"
+      ],
+      "reason": "Official RNA record for W9P1010854 / TRIO 219: siège voie 'servitude RAIPAI lot n 56', cplt_1 'à Paea Pk 21 900 côté montagne à Orofero', cp 98711 Paea; active; modified 2023-08-22. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1003603",
+      "name": "AMICALE DE LA MAIRIE DE PAEA.",
+      "verdict": "confirmed",
+      "address": "à la Mairie de Paea, BP 10 397, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1003603",
+        "data-asso.fr/annuaire/association/W9P1003603"
+      ],
+      "reason": "Official RNA record for W9P1003603 / AMICALE DE LA MAIRIE DE PAEA.: siège cplt_1 'à la Mairie de Paea.', cplt_3 'BP 10 397', cp 98711 Paea; active; modified 2019-04-16. The contact fields are empty, and the Mairie switchboard is correctly not used as its contact."
+    },
+    {
+      "rna": "W9P1003788",
+      "name": "ASSOCIATION ARTISANALE ET HORTICOLE HE'E MAI.",
+      "verdict": "confirmed",
+      "address": "Pk 23.500 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1003788",
+        "data-asso.fr/annuaire/association/W9P1003788"
+      ],
+      "reason": "Official RNA record for W9P1003788 / ASSOCIATION ARTISANALE ET HORTICOLE HE'E MAI.: siège cplt_1 'Pk 23.500 côté montagne.', cp 98711 Paea; active; modified 2018-01-25. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1009117",
+      "name": "ASSOCIATION ARTISANALE ET HORTICOLE PU O TE HAA MAOHI IRI HONU",
+      "verdict": "confirmed",
+      "address": "à Pk 21 300 côté montagne Servitude Purautea, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009117",
+        "data-asso.fr/annuaire/association/W9P1009117"
+      ],
+      "reason": "Official RNA record for W9P1009117 / ASSOCIATION ARTISANALE ET HORTICOLE PU O TE HAA MAOHI IRI HONU: siège cplt_1 'à Pk 21 300 côté montagne Servitude Purautea', cp 98711 Paea; active; modified 2023-01-12. The contact fields are empty."
+    },
+    {
+      "rna": "W9P1004022",
+      "name": "ASSOCIATION ARTISANALE MEREHAU NUI",
+      "verdict": "confirmed",
+      "address": "PK 21,900, vallée Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1004022/ASSOCIATION-ARTISANALE-MEREHAU-NUI"
+      ],
+      "reason": "Re-fetched the RNA JSON for W9P1004022; the title matches. AdrsComplement is 'à Pk 21,900, Vallée OROFERO,' with postcode 98711 Paea. Position A, DateDecla 2026-09-03, no dissolution date. No contact details or representative were claimed."
+    },
+    {
+      "rna": "W9P1009322",
+      "name": "ASSOCIATION ARTISANALE RIMA HERE HERE",
+      "verdict": "confirmed",
+      "address": "Orofero, PK 22, quartier MAI Tetua, terrain de la mairie, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1009322/ASSOCIATION-ARTISANALE-RIMA-HERE-HERE"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Orofero Pk 22 - Quartier MAI Tetua - Terrain de la mairie .' Position A. Created and last declared on 1995-04-04, with no later filings, so it may be dormant, but there is no proof of dissolution. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001833",
+      "name": "ASSOCIATION CONSORTS TOOFA / TERIIMATAE",
+      "verdict": "confirmed",
+      "address": "PK 20,700 côté montagne, BP 10 322, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1001833/ASSOCIATION-CONSORTS-TOOFA-TERIIMATAE"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'Pk 20.700 côté montagne', AdrsDistrib 'BP_10 322', Paea 98711. Position A, DateDecla 2025-03-31. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1008824",
+      "name": "ASSOCIATION FAMILIAL MOANANUI",
+      "verdict": "confirmed",
+      "address": "PK 22 côté montagne, vallée Orofero, servitude Tixier, lot 10, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1008824/ASSOCIATION-FAMILIAL-MOANANUI"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Pk 22 côté montagne Vallée Orofero Servitude TIXIER Lot 10'. Position A, DateDecla 2020-03-20. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003088",
+      "name": "ASSOCIATION FAMILIALE TAMATERAI MARCEL PAHEROO",
+      "verdict": "confirmed",
+      "address": "PK 21,900 côté montagne, vallée Orofero, servitude Tamaterai, BP 10 357, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1003088/ASSOCIATION-FAMILIALE-TAMATERAI-MARCEL-PAHEROO"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'Pk 21.900 côté montagne, vallée Orofero, servitude TAMATERAI', AdrsDistrib 'BP_10 357'. Position A, DateDecla 2017-09-05. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1004638",
+      "name": "ASSOCIATION JEUNESSE HAU FARA - ANCIENNEMENT ASSOCIATION FAMILIALE VAAHARA",
+      "verdict": "confirmed",
+      "address": "Servitude Ahnne n°4 bis, PK 24,5 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1004638/ASSOCIATION-JEUNESSE-HAU-FARA-ANCIENNEMENT-ASSOCIATION-FAMILIALE-VAAHARA"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à PAEA Pk 24,500 côté mer Servitude AHNNE' and AdrgComplemid 'SERVITUDE AHNNE N°4 BIS, PK 24,5 C/ME'. Position A, DateDecla 2025-07-01. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1009910",
+      "name": "ASSOCIATION OAOA RAHI TE TAMA",
+      "verdict": "confirmed",
+      "address": "PK 20,6 côté montagne, BP 10893, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1009910/ASSOCIATION-OAOA-RAHI-TE-TAMA"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Pk 20,6 côté montagne, n°37', AdrsDistrib 'BP_10893'. The seat is at the president's home, so leaving out the house number is reasonable. Position A, DateDecla 2026-02-13. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1004033",
+      "name": "ASSOCIATION PARAU URA NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 21 côté montagne, 98711 Paea (courrier : BP 380 268, 98718 Tamanu Punaauia)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1004033/ASSOCIATION-PARAU-URA-NO-PAEA"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Pk 21,00 côté montagne,', AdrsDistrib 'BP_380 268 - 98718 Tamanu Punaauia.' Position A, DateDecla 2022-10-18. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1011059",
+      "name": "ASSOCIATION PLAN DM",
+      "verdict": "confirmed",
+      "address": "PK 20,500 côté montagne, lot Tepuhapa n°1, BP 10381, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1011059/ASSOCIATION-PLAN-DM"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Paea, Pk 20,500 côté montagne,', AdrsLibvoie 'Lot Tepuhapa n°1,', AdrsDistrib 'BP_10381'. Position A, DateDecla 2024-12-09. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1004038",
+      "name": "ASSOCIATION RIMA'I OCEANIENNE DE PAEA.",
+      "verdict": "confirmed",
+      "address": "PK 22 côté montagne, vallée Orofero, quartier Sage, BP 10937, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1004038/ASSOCIATION-RIMA-I-OCEANIENNE-DE-PAEA-"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'au domicile de la Présidente, Pk 22 C/M, vallée Orofero quartier Sage.', AdrsDistrib 'BP_10937'. Position A, DateDecla 2018-04-04. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1008904",
+      "name": "ASSOCIATION TAMA HAU NUI - THN .",
+      "verdict": "confirmed",
+      "address": "PK 22,800 côté montagne, servitude Haumauuru, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1008904/ASSOCIATION-TAMA-HAU-NUI-THN-"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Pk 22,800 côté montagne, Servitude Haumauuru'. Position A, DateDecla 2020-06-16. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1011473",
+      "name": "ASSOCIATION TE MAU HUAAI A TIGOU",
+      "verdict": "confirmed",
+      "address": "PK 19,500 côté montagne, servitude Seigneur, lot n°56B, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1011473/ASSOCIATION-TE-MAU-HUAAI-A-TIGOU"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Paea Pk 19,500 côté montagne, lot n° 56B, Servitude Seigneur,'. Position A, DateDecla 2024-07-23. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1009980",
+      "name": "ASSOCIATION TEAM TOUT DOUX LE LOUP",
+      "verdict": "confirmed",
+      "address": "PK 19,900, servitude CJA, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1009980/ASSOCIATION-TEAM-TOUT-DOUX-LE-LOUP"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'à Pk 19,900 servitude CJA, chez M. ...', which names a private individual (correctly left out and not used as rep). Position A, DateDecla 2022-03-30. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001040",
+      "name": "ASSOCIATION TOMITE TAURUA RAU NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 24,500 côté montagne, Résidence Manava, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.assoce.fr/waldec/W9P1001040/ASSOCIATION-TOMITE-TAURUA-RAU-NO-PAEA"
+      ],
+      "reason": "The RNA JSON matches: AdrsComplement 'Pk 24.500 côté mointagne, Résidence Manava' ('mointagne' is a typo in the RNA record). Objet is 'Comité des fêtes'. Position A, DateDecla 2017-09-26. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1008978",
+      "name": "PACIFIC SOUND",
+      "verdict": "confirmed",
+      "address": "PK 20,8 côté montagne, quartier Robson, BP 330751, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1008978"
+      ],
+      "reason": "Re-fetched RNA API: nom PACIFIC SOUND, active true, adresse_rna 'à Pk 20 8 côté montagne quartier ROBSON BP 330751 98711 Paea'. No contacts claimed."
+    },
+    {
+      "rna": "W9P1004384",
+      "name": "REREAO NUI.",
+      "verdict": "confirmed",
+      "address": "PK 20,500 côté montagne, lotissement Tepuhapa n° 23, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004384"
+      ],
+      "reason": "RNA API: nom REREAO NUI., active, complement 'à Pk 20.500 côté montagne Lotissement Tepuhapa n 23.', 98711 Paea. Last RNA change 2019-10-09."
+    },
+    {
+      "rna": "W9P1008096",
+      "name": "TAMA HOPA .",
+      "verdict": "confirmed",
+      "address": "PK 19,5 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1008096"
+      ],
+      "reason": "RNA API: nom TAMA HOPA ., active, complement 'à Pk 19.5 côté montagne', 98711 Paea."
+    },
+    {
+      "rna": "W9P1002098",
+      "name": "TAMA NO PAEA PROJET NZ",
+      "verdict": "confirmed",
+      "address": "PK 21,9 côté montagne, lot n° 24, vallée Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1002098"
+      ],
+      "reason": "RNA API: nom TAMA NO PAEA PROJET NZ, active, complement 'à Pk 21.9 côté montagne lot n 24 vallée Orofero', 98711 Paea. Its purpose was a one-off 2017 trip, so it may be dormant, but nothing shows it was dissolved."
+    },
+    {
+      "rna": "W9P1001759",
+      "name": "TAMARII ARTISANAT NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 19,800 côté montagne, route du cimetière, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001759"
+      ],
+      "reason": "RNA API: nom TAMARII ARTISANAT NO PAEA, active, complement 'domicile du Président au Pk 19.800 c/mont Route du cimetière', 98711 Paea. The siège is the president's private home, so consider showing it at PK level only."
+    },
+    {
+      "rna": "W9P1008486",
+      "name": "TAMARII RA'IVAI DE PAEA",
+      "verdict": "confirmed",
+      "address": "PK 21,300 côté montagne, servitude Purautea, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1008486"
+      ],
+      "reason": "RNA API: nom TAMARII RA'IVAI DE PAEA, active, complement 'à Pk 21 300 côté montagne Servitude Purautea', 98711 Paea."
+    },
+    {
+      "rna": "W9P1003172",
+      "name": "TAMARII RAVA ' AI NO PAEA",
+      "verdict": "confirmed",
+      "address": "Mairie de Paea, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1003172"
+      ],
+      "reason": "RNA API: nom TAMARII RAVA ' AI NO PAEA, active, complement 'à la mairie', 98711 Paea."
+    },
+    {
+      "rna": "W9P1010147",
+      "name": "TE A'A NUI",
+      "verdict": "confirmed",
+      "address": "PK 19,500 côté montagne, quartier Taputuarai, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1010147"
+      ],
+      "reason": "RNA API: nom TE A'A NUI, active, complement 'à Pk 19 500 côté montagne quartier TAPUTUARAI chez M. ... Mme', 98711 Paea. The siège is at private individuals' home; their names are correctly left out and no function is given, so no president is kept."
+    },
+    {
+      "rna": "W9P1004588",
+      "name": "TE HUAAI AGNIE-ENA",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, servitude Vaiapane, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004588"
+      ],
+      "reason": "RNA API: nom TE HUAAI AGNIE-ENA, active, complement 'à Paea Pk 20 800 côté montagne servitude Vaiapane', 98711."
+    },
+    {
+      "rna": "W9P1004037",
+      "name": "TE MERAHI A ROHOTU",
+      "verdict": "confirmed",
+      "address": "PK 19,1, route du Marae Taata, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004037"
+      ],
+      "reason": "RNA API: nom TE MERAHI A ROHOTU., active, complement 'Pk 19.1 Route Marae Taata.', 98711 Paea."
+    },
+    {
+      "rna": "W9P1011200",
+      "name": "TE NATI HIVA",
+      "verdict": "confirmed",
+      "address": "PK 25,100 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1011200"
+      ],
+      "reason": "RNA API: nom TE NATI HIVA, active, adresse_siege voie '25 100 Côté Mer', adresse_gestion 'PK 25 100 CÔTÉ MER', 98711 Paea."
+    },
+    {
+      "rna": "W9P1009074",
+      "name": "TE U'I RAU URA NO PAEA.",
+      "verdict": "confirmed",
+      "address": "PK 21,900 côté montagne, vallée de Orofero, servitude Charles Tafai, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1009074"
+      ],
+      "reason": "RNA API: nom TE U'I RAU URA NO PAEA., active, complement 'à Vallée de Orofero servitude Charles Tafai Pk 21 900 côté montagne.', 98711 Paea."
+    },
+    {
+      "rna": "W9P1004378",
+      "name": "TE VAI TOTOE",
+      "verdict": "confirmed",
+      "address": "PK 23,800 côté montagne, servitude Totoe, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004378"
+      ],
+      "reason": "RNA API: nom TE VAI TOTOE, active, complement 'Pk 23 800 c/mont Servitude Totoe', 98711 Paea."
+    },
+    {
+      "rna": "W9P1003413",
+      "name": "TEAHINUI",
+      "verdict": "confirmed",
+      "address": "PK 20,200 côté montagne, lot 422, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1003413"
+      ],
+      "reason": "RNA API: nom TEAHINUI, active, complement 'Pk 20.200 côté montagne lot 422', 98711 Paea."
+    },
+    {
+      "rna": "W9P1004431",
+      "name": "TEAM WOLF BOXING.",
+      "verdict": "confirmed",
+      "address": "PK 21,500 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004431"
+      ],
+      "reason": "Re-fetched the Data-Asso RNA record. The name TEAM WOLF BOXING. and the RNA number match. Seat cplt_1 'Pk 21.500 côté montagne.', cp 98711, commune Paea. active=true, no dissolution, last change 2018-08-23. The record has no phone, e-mail or URL, and none was claimed."
+    },
+    {
+      "rna": "W9P1002563",
+      "name": "TEONEHUAHUA",
+      "verdict": "confirmed",
+      "address": "Orofero, PK 21,500 côté montagne, servitude Teonehuahua, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1002563"
+      ],
+      "reason": "The RNA record matches: name TEONEHUAHUA, seat 'à Orofero Pk 21.500 côté montagne servitude Teonehuahua', 98711 Paea, active, last change 2019-11-29. No contacts in the record."
+    },
+    {
+      "rna": "W9P1001975",
+      "name": "TERRAURA",
+      "verdict": "confirmed",
+      "address": "PK 20,100 côté montagne, servitude Taputuarai, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1001975"
+      ],
+      "reason": "The RNA record matches: name TERRAURA, seat 'Pk 20.100 côté montagne servitude TAPUTUARAI', 98711 Paea, active, last change 2017-01-11. The management address has a private person's name in cplt_3. Nothing says this person is the president, so no rep was added. No contacts in the record."
+    },
+    {
+      "rna": "W9P1009427",
+      "name": "TOA HINE NO PAEA .",
+      "verdict": "confirmed",
+      "address": "PK 26,500 côté montagne, quartier Maraa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009427"
+      ],
+      "reason": "The RNA record matches: name TOA HINE NO PAEA ., seat 'à Pk 26 500 côté montagne - Quartier Maraa', 98711 Paea, active, created 2021-03-26. The geocode of the management address is wrong (it points to Corpeau, Côte-d'Or), but the declared address itself is Paea. No contacts in the record."
+    },
+    {
+      "rna": "W9P1009422",
+      "name": "TOMITE HEIVA RAU NO PAEA .",
+      "verdict": "confirmed",
+      "address": "Aou'a, PK 19,900 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009422"
+      ],
+      "reason": "The RNA record matches: name TOMITE HEIVA RAU NO PAEA ., seat 'à Aou'a au Pk 19 900 côté montagne', 98711 Paea, active, created 2021-03-24. No contacts in the record."
+    },
+    {
+      "rna": "W9P1008065",
+      "name": "TORO MEHO",
+      "verdict": "confirmed",
+      "address": "PK 29,500 Maraa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008065"
+      ],
+      "reason": "The RNA record matches: name TORO MEHO, seat 'à Pk 29 500 Maraa' (management address 'Pk 29,500 Maraa'), 98711 Paea, active, last change 2024-03-27. Note: PK 29.5 lies just beyond Paea's usual PK range, so the declared PK may be a typo, but it is copied exactly as declared. No contacts in the record."
+    },
+    {
+      "rna": "W9P1004250",
+      "name": "ACTION POUR TOUS",
+      "verdict": "confirmed",
+      "address": "PK 22,700 côté montagne, servitude Haumauuru, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1004250"
+      ],
+      "reason": "The RNA record matches: name ACTION POUR TOUS., seat 'à Pk 22.700 côté montagne Servitude Haumauuru..', 98711 Paea, active. Data-Asso gives date_modif_rna 2022-03-18. The claimed assoce.fr date (10/12/2024) was not checked; it does not affect the address. No contacts."
+    },
+    {
+      "rna": "W9P1009240",
+      "name": "AROA 219",
+      "verdict": "confirmed",
+      "address": "PK 21,900, vallée Orofero, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009240"
+      ],
+      "reason": "The RNA record matches: name AROA 219, seat 'à Pk 21 900 vallée Orofero', 98711 Paea, active, created 2020-11-23. No contacts."
+    },
+    {
+      "rna": "W9P1007704",
+      "name": "ASSOCIATION HOPUE TAMA'I.",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1007704"
+      ],
+      "reason": "The RNA record matches: name ASSOCIATION HOPUE TAMA'I., seat 'Pk 20 côté montagne.', 98711 Paea, active, last change 2018-11-21. No contacts."
+    },
+    {
+      "rna": "W9P1009584",
+      "name": "ASSOCIATION POFATU .",
+      "verdict": "confirmed",
+      "address": "Petit fare pote'e au centre du terrain, Résidence Pofatu, PK 24,400 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009584"
+      ],
+      "reason": "The RNA record matches: name ASSOCIATION POFATU ., seat 'au centre du terrain au petit Fare Pote'e Pk 24 400 C/mer - Rés/Pofatu', 98711 Paea, active, created 2021-06-21. No contacts."
+    },
+    {
+      "rna": "W9P1009011",
+      "name": "COLLECTIF HI'O AROHA",
+      "verdict": "confirmed",
+      "address": "PK 25,300 côté montagne, BP 330322, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009011"
+      ],
+      "reason": "The RNA record matches: name COLLECTIF HI'O AROHA, seat cplt_1 'à Pk 25.300 côté montagne', cplt_3 'BP 330322', 98711 Paea, active, last change 2021-04-01. No contacts."
+    },
+    {
+      "rna": "W9P1000941",
+      "name": "CONSORTS RICHMOND GEORGES FAATAHU NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 23,800 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1000941"
+      ],
+      "reason": "The RNA record matches: name CONSORTS RICHMOND GEORGES FAATAHU NO PAEA, seat 'à Pk 23.800 côté montagne', 98711 Paea, active, last change 2020-07-09. This is a family association and the address is probably a private home, so consider publishing only 'Paea'. No contacts."
+    },
+    {
+      "rna": "W9P1000909",
+      "name": "COOPÉRATIVE SCOLAIRE DU CJA DE A'OU'A PAEA",
+      "verdict": "confirmed",
+      "address": "PK 19,900 côté montagne, quartier Aou'a (route du CJA), 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1000909"
+      ],
+      "reason": "The RNA record matches: name COOPÉRATIVE SCOLAIRE DU CJA DE A'OU'A PAEA, seat 'à Pk 19 900 côté montagne Quartier Aou'a', management address 'PK 19,900 c/mont, route du CJA à Paea', 98711, active. Data-Asso gives date_modif_rna 2025-04-06; the claimed assoce.fr date (18/12/2025) was not checked. No contacts."
+    },
+    {
+      "rna": "W9P1010529",
+      "name": "HINE HV22",
+      "verdict": "confirmed",
+      "address": "PK 22,800 côté montagne, Servitude Haumauuru, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip",
+        "https://assoce.fr/waldec/W9P1010529/x"
+      ],
+      "reason": "Re-extracted rna_waldec_20261001_dpt_98.csv straight from the official zip with HTTP range requests. id W9P1010529, titre HINE HV22, adrs_complement 'À Pk 22.800 côté montagne, Servitude HAUMAUURU', libvoie N°19 (left out), Paea 98711, position A, date_decla 2026-05-11. assoce.fr also shows active, Paea, 'Aucun moyen de contact publié'. No contacts were claimed. The WebSearch budget was used up, so no further contact search was possible."
+    },
+    {
+      "rna": "W9P1001257",
+      "name": "HUA'AI PUNUA MOOROA",
+      "verdict": "confirmed",
+      "address": "PK 18,5 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1001257 HUA'AI PUNUA MOOROA: adrs_complement 'Pk 18.5 côté montagne', Paea 98711, position A, date_decla 2021-06-17, publiweb 0. Matches the claim."
+    },
+    {
+      "rna": "W9P1009132",
+      "name": "L' ASSOCIATION TAMARII HOPA VALLEE",
+      "verdict": "confirmed",
+      "address": "PK 20,500 côté montagne, Tamarii Hopa Vallée, 98711 Paea (BP 330273)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1009132: adrs_complement 'À Pk 20,500 côté montagne, Tamarii Hopa Vallée', adrs_distrib BP_330273, Paea 98711, position A, declared 2020-09-24. Matches the claim."
+    },
+    {
+      "rna": "W9P1009270",
+      "name": "LOTISSEMENT PAPEHUE",
+      "verdict": "confirmed",
+      "address": "Servitude Papehue voie 1, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1009270 LOTISSEMENT PAPEHUE: adrs_complement 'À Fare noanoa, boite aux lettres n°12, servitude Papehue voie 1.', Paea 98711, position A. The claim correctly keeps the street and leaves out the private-house details."
+    },
+    {
+      "rna": "W9P1008399",
+      "name": "MATA ATEA",
+      "verdict": "confirmed",
+      "address": "PK 27,1, Quartier IORSS, 98711 Paea (courrier : BP 43138 Fare Tony, 98713 Papeete)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1008399 MATA ATEA (titre_court 'MATA A TEA'): adrs_complement 'À Pk 27,1 Quartier IORSS', adrs_distrib 'BP_43138 Fare - Tony 98713 Papeete', Paea 98711, position A, date_decla 2020-02-26. Matches the claim."
+    },
+    {
+      "rna": "W9P1009512",
+      "name": "SOS ANIMARA NO PAEA .",
+      "verdict": "confirmed",
+      "address": "PK 19,800 côté montagne, Servitude Teriitua, 98711 Paea (BP 10365)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1009512 SOS ANIMARA NO PAEA: adrs_complement 'À Pk 19.800 côté montagne. Servitude Teriitua n°5.Tahiti', BP_10365, Paea 98711, position A. Matches the claim. No contacts were claimed. The Facebook search could not be done because the WebSearch budget was used up."
+    },
+    {
+      "rna": "W9P1001350",
+      "name": "TE ORA O VAITERUPE",
+      "verdict": "confirmed",
+      "address": "Lotissement Vaiterupe, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1001350 TE ORA O VAITERUPE: adrs_typevoie LOT, libvoie Vaiterupe, Paea 98711; adrg_complemid 'PK 22.800 CÔTÉ MONTAGNE, CHEZ LA PRÉSI'; dir_civilite PF; position A; date_decla 2018-10-19. The siège is confirmed. The management address is the president's home, so it is better left out of the public directory."
+    },
+    {
+      "rna": "W9P1001356",
+      "name": "TEIKIPEPEUOHO",
+      "verdict": "confirmed",
+      "address": "Route du Bassin, PK 18,5, 98711 Paea (BP 10 436)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1001356 TEIKIPEPEUOHO: adrs_complement 'À 29 Route du Bassin, Pk 18.5', adrs_distrib 'BP_10 436', Paea 98711, position A, date_decla 2020-01-17. Matches the claim."
+    },
+    {
+      "rna": "W9P1007784",
+      "name": "VAITUPA I MA'A IPA.",
+      "verdict": "confirmed",
+      "address": "Maison du Quartier, Résidence Ma'a Ipa, PK 23,800 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1007784 VAITUPA I MA'A IPA.: adrs_complement 'À la Maison du Quartier, Résidence MA'A IPA Pk 23,800 côté montagne.', Paea 98711, position A, date_decla 2020-02-10. Matches the claim."
+    },
+    {
+      "rna": "W9P1010432",
+      "name": "E NAKI",
+      "verdict": "confirmed",
+      "address": "23100 Vaiterupe, 98711 Paea (libellé tel qu'au RNA)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1010432 E NAKI: adrs_numvoie 23100, adrs_libvoie Vaiterupe, adrs_complement 98728, Paea 98711; adrg_libvoie '23100 VAITERUPE'; position A; declared 2022-12-08. This is the raw RNA wording. '23100' probably means PK 23,100, but nothing confirms it."
+    },
+    {
+      "rna": "W9P1012709",
+      "name": "PAEA SURF CLUB",
+      "verdict": "confirmed",
+      "address": "c/o Pharmacie de Tiapa, PK 20,100 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1012709 PAEA SURF CLUB: adrs_complement 'À la Pharmacie de Tiapa, Paea Pk 20,100 côté montagne', Paea 98711; adrg_declarant 'POROI Jhon' with no role given; created 2026-06-22, declared 2026-07-06, position A. The address is confirmed. Leaving rep empty is correct because the declarant's role is not stated. The WebSearch budget was used up, so no social-media search was possible."
+    },
+    {
+      "rna": "W9P1000689",
+      "name": "MANATOA",
+      "verdict": "confirmed",
+      "address": "PK 22,700 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1000689 MANATOA: adrs_complement 'Pk 22.700 côté montagne', Paea 98711, position A, created and only declaration 2016-05-10, publiweb 0. Matches the claim. There is no dissolution, so inactive_evidence correctly stays empty."
+    },
+    {
+      "rna": "W9P1000807",
+      "name": "POEMITI CLARK",
+      "verdict": "confirmed",
+      "address": "PK 20,500 côté montagne, Lotissement Tepuhapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1000807 POEMITI CLARK: adrs_complement 'À Pk 20.500 côté montagne, Lotissement Tepuhapa n°36', Paea 98711, position A, date_decla 2026-01-06. Matches the claim."
+    },
+    {
+      "rna": "W9P1011389",
+      "name": "ASSOCIATION DES RETRAITES DE LA POLICE NATIONALE DE POLYNESIE FRANÇAISE",
+      "verdict": "confirmed",
+      "address": "PK 19,5 côté montagne, Lotissement Seigneur, 98711 Paea (BP 10 662 ; gestion : BP 10662, 98701 Arue)",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://media.interieur.gouv.fr/rna/rna_waldec_20261001.zip"
+      ],
+      "reason": "RNA row W9P1011389: adrs_complement 'À Paea Pk 19,5 côté montagne - Lot Seigneur n° 49', adrs_distrib 'BP_10 662', Paea 98711; adrg_distrib 'BP 10662' 98701 ARUE; created 2012-01-04, date_decla 2025-01-07, position A. Matches the claim."
+    },
+    {
+      "rna": "W9P1011437",
+      "name": "ASSOCIATION TE UI TAMA NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 19,100 côté montagne, lot n°10, servitude Taputuarai 1, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1011437",
+        "data-asso.fr/annuaire/association/W9P1011437"
+      ],
+      "reason": "I re-fetched the Data-Asso RNA record. The name is ASSOCIATION TE UI TAMA NO PAEA and the record is active. The seat fields read 'à Paea Pk 19 100 côté montagne lot n 10 Servitude' / 'TAPUTUARAI 1', 98711 Paea, which matches the claim. The record lists no contacts, and none were claimed."
+    },
+    {
+      "rna": "W9P1009141",
+      "name": "PAEA DJEUN'S",
+      "verdict": "confirmed",
+      "address": "PK 20.500 côté montagne, Tehauparu lot n°10, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009141"
+      ],
+      "reason": "The re-fetched RNA record is for PAEA DJEUN'S and is active. It was created on 2020-09-28, and that is also its last modification. The seat reads voie 'TEHAUPARU lot n 10' and cplt_1 'PAEA PK 20.500 c/mont', 98711, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1000639",
+      "name": "COOPERATIVE SCOLAIRE DU CENTRE DES JEUNES ADOLESCENTS DE AOUA - PAEA",
+      "verdict": "confirmed",
+      "address": "PK 19.900 côté montagne, quartier Aou'a, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1000639"
+      ],
+      "reason": "The RNA record name is COOPERATIVE SCOLAIRE DU CENTRE DES JEUNES ADOLESCENTS DE AOU'A - PAEA. It is active, with last modification on 2022-10-24. The seat reads 'à Pk 19.900 côté montagne Quartier Aou a', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1008279",
+      "name": "TAAHIAPAPA",
+      "verdict": "confirmed",
+      "address": "PK 22,200 côté mer, quartier Brillant, lot 366 B, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1008279"
+      ],
+      "reason": "The RNA record is for TAAHIAPAPA and is active. It was created on 2019-08-02 and has not been modified since. The seat reads 'quartier Brillant Lot 366 B' and 'pk 22,200 c/mer', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1009271",
+      "name": "TIAI NUI HERE",
+      "verdict": "confirmed",
+      "address": "PK 20.600 côté mer, en face de la gendarmerie, BP 10695, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009271"
+      ],
+      "reason": "The RNA record is for TIAI NUI HERE and is active, with last modification on 2024-11-06. The seat reads cplt_1 'à Pk 20.600 côté mer en face de la gendarmerie' and cplt_3 'BP 10695', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1009173",
+      "name": "TE TIARE RAU NO PAEA",
+      "verdict": "confirmed",
+      "address": "PK 22 côté montagne, Orofero, 98711 Paea",
+      "rep": "M. CHARLES Grandil (président, as written in the RNA seat address)",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1009173"
+      ],
+      "reason": "The RNA record is for TE TIARE RAU NO PAEA and is active, with last modification on 2023-05-11. The seat reads voie 'Pk. 22 côté montagne - Orofero' and cplt_1 'au domicile du Président M. CHARLES Grandil à Paea', 98711, which matches the claim. The president's name is stated in this official RNA text, so I kept it as written. It may be out of date: the RNA data was last modified in 2023."
+    },
+    {
+      "rna": "W9P1011693",
+      "name": "ASSOCIATION DES PARENTS D'ELEVES DU TAEKWONDO PAEA (APE)",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1011693"
+      ],
+      "reason": "The RNA record name is ASSOCIATION DES PARENTS D'ELEVES DU TAEKWONDO PAEA (APE). It is active, with last modification on 2026-04-21. The seat reads 'au Pk 20 côté montagne', 98711 Paea, which matches the claim. The phone, e-mail and website are marked 'donnée non publique', so there are no contacts to confirm."
+    },
+    {
+      "rna": "W9P1010487",
+      "name": "TERII TAPU URA",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, servitude Taputuarai 2 n°30, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1010487"
+      ],
+      "reason": "The RNA record is for TERII TAPU URA and is active, with last modification on 2023-01-19. The seat reads 'à Pk 20 côté montagne servitude TAPUTUARAI 2 N 30', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1011748",
+      "name": "ASSOCIATION LES CHICCA'S",
+      "verdict": "confirmed",
+      "address": "PK 22.800 côté montagne, quartier Haumauuru, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1011748"
+      ],
+      "reason": "The RNA record is for ASSOCIATION LES CHICCA'S and is active. It was created on 2025-01-24. The seat reads 'à Paea Pk 22 800 côté montagne Quartier Haumauuru' and the management address gives 'Pk 22.800', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1012477",
+      "name": "ASSOCIATION TAKU HEIARIKI",
+      "verdict": "confirmed",
+      "address": "Quartier Cadousteau, PK 19 5 (as written in the RNA), 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1012477"
+      ],
+      "reason": "The RNA record is for ASSOCIATION TAKU HEIARIKI and is active. It was created on 2026-02-02. The seat reads 'à Tahiti - Paea quartier Cadousteau Pk 19 5', 98711 Paea, which matches the claim. The PK is probably 19,5, but the record does not confirm it, so I kept it as written. The contacts are marked 'donnée non publique'."
+    },
+    {
+      "rna": "W9P1011253",
+      "name": "HEIRAU CREATIONS",
+      "verdict": "confirmed",
+      "address": "Résidence Ma'aipa, PK 24 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1011253"
+      ],
+      "reason": "The RNA record is for HEIRAU CREATIONS and is active. It was created on 2024-03-18. The seat reads 'à Paea Résidence Ma'aipa Pk 24 côté montagne', 98711, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1011280",
+      "name": "HEREVAIRAIORA",
+      "verdict": "confirmed",
+      "address": "Maraa, PK 24.600 côté montagne, lot 34 B, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/asso?id=W9P1011280"
+      ],
+      "reason": "The RNA record is for HEREVAIRAIORA and is active, with last modification on 2025-04-25. The seat reads 'à Maraa Pk 24 600 côté montagne lot 34 B' and the management address gives 'Pk 24.600', 98711 Paea, which matches the claim. No contacts are listed."
+    },
+    {
+      "rna": "W9P1003662",
+      "name": "METUTERA",
+      "verdict": "confirmed",
+      "address": "Pk 19.200 côté montagne, Servitude AMATAHIAPO, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1003662/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Metutera.' has RNA W9P1003662 and the address 'Pk 19.200 côté montagne, Servitude AMATAHIAPO.' assoce.fr shows it as Active, in Paea 98711. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1000856",
+      "name": "TAMARII OHANA HAERE MUA",
+      "verdict": "confirmed",
+      "address": "Pk 21.900 côté montagne, Vallée de Orofero, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1000856/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Tamarii Ohana Haere Mua' has RNA W9P1000856 and the address 'Pk 21.900 C/Mont Vallée de Orofero'. Expanding 'C/Mont' to 'côté montagne' is reasonable. assoce.fr shows it as Active. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003711",
+      "name": "TE HUA'AI TERAITUA MARAETEFAU.",
+      "verdict": "confirmed",
+      "address": "Pk 19.800 côté montagne, vallée Tiapa, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1003711/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Te Hua'ai Teraitua Maraetefau.' has RNA W9P1003711 and the address 'Pk 19.800 côté montagne, vallée Tiapa.' assoce.fr shows it as Active. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1003775",
+      "name": "TEUA MAITIORI A POFATU.",
+      "verdict": "confirmed",
+      "address": "Pk 23.600 côté montagne, servitude CHAPMAN, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1003775/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Teua Maitiori A Pofatu.' has RNA W9P1003775 and the address 'Pk 23.600 côté montagne, servitude CHAPMAN.' assoce.fr shows it as Active. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001164",
+      "name": "VAIOTAHA TEORE-FAURA",
+      "verdict": "confirmed",
+      "address": "Pk 21.900 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001164/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Vaiotaha Teore-faura' has RNA W9P1001164 and the address 'Pk 21.900 côté montagne'. assoce.fr shows it as Active. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1001152",
+      "name": "\"CONSORTS M.T.R\"",
+      "verdict": "confirmed",
+      "address": "Pk 19 côté montagne, Quartier Papehue, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001152/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry '\"consorts M.t.r\"' has RNA W9P1001152 and the address 'Pk 19 côté montagne, Quartier Papehue'. assoce.fr shows it as Active, in Paea 98711. No contacts were claimed."
+    },
+    {
+      "rna": "W9P1002277",
+      "name": "AMICALE DES PERSONNELS DU COLLEGE DE PAEA",
+      "verdict": "confirmed",
+      "address": "Collège de Paea, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1002277/x"
+      ],
+      "reason": "I re-fetched annuaire-mairie.fr. The entry 'Amicale des Personnels du College de Paea' has RNA W9P1002277 and the address 'College de Paea'. assoce.fr shows it as Active, founded 2001-10-09, in Paea 98711. No contacts were claimed, and the collège's switchboard is correctly left out."
+    },
+    {
+      "rna": "W9P1001526",
+      "name": "ASSOCIATION ARTISANALE ET HORTICOLE PU O TE HAA MAOHI IRI HONU",
+      "verdict": "confirmed",
+      "address": "PK 21,500 côté mer, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001526/x"
+      ],
+      "reason": "Re-fetched annuaire-mairie.fr: the entry 'Association Artisanale Et Horticole Pu O Te Haa Maohi Iri Honu, PK 21,500 côté mer' carries RNA W9P1001526. assoce.fr confirms it was created 10/11/1980 with last declaration 10/10/2016. No contact or president was claimed, and none was found."
+    },
+    {
+      "rna": "W9P1002878",
+      "name": "ASSOCIATION FAMILIALE MAHUTATUA",
+      "verdict": "confirmed",
+      "address": "PK 21 côté mer - Terre Parau Ura, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1002878/x"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association Familiale Mahutatua, Pk 21 côté mer - Terre Parau Ura' under RNA W9P1002878. assoce.fr shows it was created 28/04/2004 with last declaration 02/02/2026."
+    },
+    {
+      "rna": "W9P1004620",
+      "name": "ASSOCIATION FAMILIALE MARAMA TOA AYANTS DROIT DE ALVA INDÈS JOHNSTON ET DE ANTONINA TETUANUI VERO",
+      "verdict": "confirmed",
+      "address": "Lotissement Vaipuarii, PK 27,700 côté montagne, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1004620/x"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Lotissement Vaipuarii Pk 27,700 c/mont' under RNA W9P1004620 with the matching name. assoce.fr shows it was created 09/09/2008 with last declaration 26/06/2023."
+    },
+    {
+      "rna": "W9P1003190",
+      "name": "ASSOCIATION FAMILIALE TANETEFARAU MAUEAU",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, Quartier Toussieux, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1003190/x"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Pk 20,800 c/mont Quartier Toussieux' under RNA W9P1003190 with the matching name. assoce.fr shows it was created 19/09/2017 with last declaration 21/02/2020."
+    },
+    {
+      "rna": "W9P1001962",
+      "name": "ASSOCIATION FAMILIALE TARANO À TEHAAMARU",
+      "verdict": "confirmed",
+      "address": "Vallée Orofero, PK 21,900, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001962/x"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association Familiale Tarano à Tehaamaru, vallée Orofero PK 21,900' under RNA W9P1001962. assoce.fr shows it was created 08/08/2006 with last declaration 05/01/2017."
+    },
+    {
+      "rna": "W9P1000940",
+      "name": "ASSOCIATION HEIDOULEE.",
+      "verdict": "confirmed",
+      "address": "PK 19,800 côté montagne - Servitude Teriitua, Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1000940/x"
+      ],
+      "reason": "annuaire-mairie.fr lists 'Association Heidoulee., Pk 19.800 côté montagne - Servitude Teriitua.' under RNA W9P1000940. assoce.fr shows it was created 18/10/2011 with last declaration 04/05/2018."
+    },
+    {
+      "rna": "W9P1001751",
+      "name": "APAIR APURAD",
+      "verdict": "partial",
+      "address": "PK 20,5 côté montagne, BP 330 004, 98711 Paea",
+      "rep": "",
+      "phones": [
+        "40 54 57 40"
+      ],
+      "emails": [
+        "contact@apairapurad.pf"
+      ],
+      "urls": [
+        "https://apairapurad.pf"
+      ],
+      "inactive_evidence": "",
+      "sources": [
+        "https://apairapurad.pf/index.php/association/notre-histoire/",
+        "https://apairapurad.pf/index.php/mentions-legales/",
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001751/APAIR-APURAD"
+      ],
+      "reason": "Re-fetched apairapurad.pf notre-histoire: 'Le siège social est à Paea au PK 20,5 C/ montagne – B.P. 330 004 -98711 Paea'. Mentions légales: 'ASSOCIATION APAIR APURAD', 'PK 20,5 BP 330 004', 'Tél. : (+689) 40 54 57 40', 'contact@apairapurad.pf'. annuaire-mairie.fr lists W9P1001751 (APURAD) at Pk 20,5. assoce.fr: Active, last declaration 13/01/2026. Address, phone, e-mail and URL are confirmed by the association's own site. Rep DROPPED: the same page says both that the association is 'représentée par son Président, Monsieur le Docteur Grégory DETRUN' and that its board lists 'Président Monsieur le Professeur Philippe-Emmanuel DUPIRE' with DETRUN as Secrétaire. The president is contradictory, so it is unconfirmed."
+    },
+    {
+      "rna": "W9P1000218",
+      "name": "LIGUE VIE ET SANTE",
+      "verdict": "partial",
+      "address": "436 Résidence les jardins de Paea, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1000218/LIGUE-VIE-ET-SANTE"
+      ],
+      "reason": "annuaire-mairie.fr re-fetched: 'Ligue Vie Et Sante / Santé / 436 Résidence les jardins de Paea / Numéro RNA W9P1000218'. This matches the claimed address. assoce.fr: Active, last declaration 04/08/2017 (record 08/08/2017). No contact was claimed and none is confirmed. The address may be a private home."
+    },
+    {
+      "rna": "W9P1001585",
+      "name": "APEL DE L' ECOLE MATERNELLE COMMUNALE DE TIAPA PAEA",
+      "verdict": "partial",
+      "address": "À l'école maternelle communale de Tiapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001585/APEL-DE-L-ECOLE-MATERNELLE-COMMUNALE-DE-TIAPA-PAEA"
+      ],
+      "reason": "annuaire-mairie.fr re-fetched: 'Apel de L' Ecole Maternelle Communale de Tiapa Paea / Éducation formation / à l' Ecole Maternelle / Numéro RNA W9P1001585'. The declared seat is only 'à l'Ecole Maternelle'. The name Tiapa comes from the association's own name, which is a reasonable inference. assoce.fr: Active, last declaration 11/09/2017 (record 28/02/2018). No contact found."
+    },
+    {
+      "rna": "W9P1003565",
+      "name": "ASSOCIATION DES PARENTS D' ELEVES DU GROUPE SCOLAIRE DE PAPEHUE A PAEA",
+      "verdict": "partial",
+      "address": "PK 18,500 côté montagne (groupe scolaire de Papehue), 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1003565/ASSOCIATION-DES-PARENTS-D-ELEVES-DU-GROUPE-SCOLAIRE-DE-PAPEHUE-A-PAEA"
+      ],
+      "reason": "annuaire-mairie.fr re-fetched: 'Association des Parents D' Eleves du Groupe Scolaire de Papehue A Paea / Éducation formation / Pk 18.500 côté montagne / Numéro RNA W9P1003565'. 'Papehue' comes from the association's name. assoce.fr: Active, last declaration 02/09/2025. No contact found."
+    },
+    {
+      "rna": "W9P1001468",
+      "name": "ASSOCIATION DES PARENTS D'ELEVES DE L'ECOLE PUBLIQUE PRIMAIRE DE VAIATU - PAEA - A.P.E. ECOLE VAIATU PAEA - ANCIENNEMENT APEL DE L' ECOLE PUBLIQUE PRIMAIRE DE VAIATU - PAEA",
+      "verdict": "partial",
+      "address": "À l'école Vaiatu, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001468/x"
+      ],
+      "reason": "annuaire-mairie.fr re-fetched: 'Apel de L' Ecole Publique Primaire de Vaiatu - Paea / Éducation formation / à l' Ecole Vaiatu / Numéro RNA W9P1001468'. assoce.fr: Active, last declaration 10/12/2024 (record 11/06/2025). No contact found."
+    },
+    {
+      "rna": "W9P1001194",
+      "name": "ASSOCIATION DES PARENTS D'ELEVES DU COLLEGE DE PAEA",
+      "verdict": "partial",
+      "address": "Au Collège de Paea, PK 22,500 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.annuaire-mairie.fr/association-paea.html",
+        "https://www.assoce.fr/waldec/W9P1001194/ASSOCIATION-DES-PARENTS-D-ELEVES-DU-COLLEGE-DE-PAEA"
+      ],
+      "reason": "annuaire-mairie.fr re-fetched: 'Association des Parents d'Eleves du College de Paea / Éducation formation / au Collège de Paea Pk 22.500 côté montagne / Numéro RNA W9P1001194'. assoce.fr: Active, last declaration 01/09/2025. No contact found. The collège switchboard is correctly not used."
+    },
+    {
+      "rna": "W9P1001247",
+      "name": "ASSOCIATION DES PARENTS DELEVES DU GROUPE SCOLAIRE MARA'A VAIPUARI'I",
+      "verdict": "confirmed",
+      "address": "École élémentaire de Mara'a, PK 26,9, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001247"
+      ],
+      "reason": "I re-fetched the RNA record from the data-asso API. The RNA number and name match. The siège adresse_rna reads \"à l'école élémentaire de Mara'a Pk 26 9 98711 Paea\". The record is active and was last modified on 2026-05-20. The API publishes no contact or director, so nothing was added."
+    },
+    {
+      "rna": "W9P1001232",
+      "name": "ASSOCIATION DES PARENTS TAMARII DE L' ECOLE ELEMENTAIRE DE TIAPA .",
+      "verdict": "confirmed",
+      "address": "École élémentaire et primaire de Tiapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001232"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à l' école élémentaire et primaire de Tiapa\", CP 98711, Paea. The record is active and was last modified on 2022-05-19. No contacts were published."
+    },
+    {
+      "rna": "W9P1009199",
+      "name": "ASSOCIATION PARENTS D'ELEVES DE L' ECOLE TIAPA MATERNELLE",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, servitude Fuller, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1009199"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à Pk 20 800 côté montagne servitude FULLER\", 98711 Paea. The record is active and was last modified on 2020-10-27. Privacy note: a servitude address may be a member's private home. No contacts were published."
+    },
+    {
+      "rna": "W9P1001687",
+      "name": "ASSOCIATION SCOLAIRE TIAPA MATERNELLE - ANCIENNEMENT COOPERATIVE SCOLAIRE DE L'ECOLE MATERNELLE DE TIAPA PAEA",
+      "verdict": "confirmed",
+      "address": "École maternelle de Tiapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001687"
+      ],
+      "reason": "The RNA number matches. The RNA name is \"COOPERATIVE SCOLAIRE DE L' ECOLE MATERNELLE DE TIAPA PAEA\", which is the former name given in the batch. The siège complement reads \"à Ecole Tiapa\", 98711 Paea. The record is active and was last modified on 2024-09-10. No contacts were published."
+    },
+    {
+      "rna": "W9P1003396",
+      "name": "ASSOCIATION SPORTIVE DU COLLEGE DE PAEA",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1003396"
+      ],
+      "reason": "The RNA number and name match. Both the siège and the adresse de gestion complement read \"Pk 20 côté montagne\", 98711 Paea. The record is active and was last modified on 2017-10-06. No contacts were published."
+    },
+    {
+      "rna": "W9P1004529",
+      "name": "COOPERATIVE SCOLAIRE DE L' ECOLE MATERNELLE DE VAITERUPE",
+      "verdict": "confirmed",
+      "address": "École de Vaiterupe, PK 22,700, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004529"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à l'école Vaiterupe au Pk 22 700\", 98711 Paea. The record is active and was last modified on 2024-10-22. No contacts were published."
+    },
+    {
+      "rna": "W9P1001422",
+      "name": "COOPERATIVE SCOLAIRE DE LECOLE ELEMENTAIRE DE TIAPA",
+      "verdict": "confirmed",
+      "address": "École de Tiapa, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001422"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à l'école de Tiapa\", 98711 Paea. The record is active and was last modified on 2024-11-26. No contacts were published."
+    },
+    {
+      "rna": "W9P1003112",
+      "name": "COOPERATIVE SCOLAIRE DU GROUPE SCOLAIRE DE MARAA - VAIPUARII",
+      "verdict": "confirmed",
+      "address": "École élémentaire, PK 26,900 côté montagne, BP 10395, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1003112"
+      ],
+      "reason": "The RNA number and name match. The siège adresse_rna reads \"à l'école élémentaire Pk 26 900 côté montagne BP 10395 98711 Paea\". The record is active and was last modified on 2023-10-18. No contacts were published."
+    },
+    {
+      "rna": "W9P1001562",
+      "name": "COOPERATIVE SCOLAIRE DU GROUPE SCOLAIRE DE PAPEHUE",
+      "verdict": "confirmed",
+      "address": "Groupe scolaire de Papehue, BP 10406, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1001562"
+      ],
+      "reason": "The RNA number and name match. The siège adresse_rna reads \"au Groupe Scolaire de PAPEHUE BP 10 406 98711 Paea\". The record is active and was last modified on 2026-09-16. No contacts were published."
+    },
+    {
+      "rna": "W9P1011073",
+      "name": "TAMAHERE",
+      "verdict": "confirmed",
+      "address": "PK 27,6 côté mer, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1011073"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à Paea/ Pk 27.6 Cté Mer\", 98711 Paea. The record is active. It has not been modified since its creation on 2006-01-24, so the association may be dormant, but there is no official evidence that it was dissolved. No contacts were published."
+    },
+    {
+      "rna": "W9P1009205",
+      "name": "U'I TAMA",
+      "verdict": "confirmed",
+      "address": "PK 20,800 côté montagne, servitude Robson, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1009205"
+      ],
+      "reason": "The RNA number and name match. The siège complement reads \"à Pk 20.800 côté montagne Servitude Robson - Président.\", 98711 Paea. The record is active and was last modified on 2020-10-29. Privacy note: the RNA says this is the president's address, so it is likely a private home. The president is not named. No contacts were published."
+    },
+    {
+      "rna": "W9P1004579",
+      "name": "USEP TIAPA ELEMENTAIRE",
+      "verdict": "confirmed",
+      "address": "PK 20 côté montagne, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1004579"
+      ],
+      "reason": "The RNA number and name match. The raw siège voie is \"Paea Pk 20 C Mont 10401\", 98711, and the adresse de gestion gives the same text. Reading \"C Mont\" as côté montagne is the standard abbreviation. The number 10401 is left out because its meaning is unconfirmed, possibly a BP. The record is active and was last modified on 2018-10-05. No contacts were published."
+    },
+    {
+      "rna": "W9P1011904",
+      "name": "ASSOCIATION TI'A 'AURO NUI",
+      "verdict": "confirmed",
+      "address": "Orofero côté montagne, servitude Tarevareva, allée 1, chemin 3, lot 1, 98711 Paea",
+      "rep": "",
+      "phones": [],
+      "emails": [],
+      "urls": [],
+      "inactive_evidence": "",
+      "sources": [
+        "https://www.data-asso.fr/gw/api-server/associations/W9P1011904"
+      ],
+      "reason": "The RNA number and name match. The siège adresse_rna reads \"à Paea - Orofero côté montagne Servitude TAREVAREVA Allée1 chemin 3 lot1 98711 Paea\". The record is active, was created on 2025-04-17 and was last modified on 2026-03-03. Privacy note: a residential lot is likely a member's home. No contacts were published."
+    }
+  ],
+  "associations_hors_rna": []
+}

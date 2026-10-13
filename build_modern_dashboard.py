@@ -8,20 +8,53 @@ sys.stdout.reconfigure(encoding='utf-8')
 with open('data_enriched.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
+from collections import Counter
+from html import escape as html_escape
+
 total_entries = len(data)
 with_contact = sum(1 for d in data if d.get('contact') and d['contact'].strip() and not d['contact'].strip().startswith('⚠️'))
 alert_status = sum(1 for d in data if d.get('contact') and d['contact'].strip().startswith('⚠️'))
-societes_count = sum(1 for d in data if d.get('form') not in ('PPHY', 'Institution'))
+with_phone = sum(1 for d in data if '☎' in (d.get('contact') or ''))
+societes_count = sum(1 for d in data if d.get('form') not in ('PPHY', 'Institution', 'Association'))
 pphy_count = sum(1 for d in data if d.get('form') == 'PPHY')
+asso_count = sum(1 for d in data if d.get('form') == 'Association')
+inst_count = sum(1 for d in data if d.get('form') == 'Institution')
 for idx, d in enumerate(data):
     d['idx'] = idx
 
 data_json_str = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 
-print(f"Compilation de paea-entreprises.html avec {total_entries} entités...")
+# Options de filtres générées depuis les données (aucune valeur orpheline ou inaccessible)
+CAT_LABELS = {
+    'COMMERCE': 'Commerce', 'INDUSTRIE': 'Industrie', 'MÉTIER': 'Métier', 'SERVICE': 'Service',
+    'RESTAURATION': 'Restauration', 'INSTITUTION': 'Institutions', 'ASSOCIATION': 'Associations',
+}
+FORM_ORDER = ['PPHY', 'SARL', 'SAS', 'SASU', 'EURL', 'SCI', 'SNC', 'SELARL', 'SCP', 'COOP', 'SA', 'Association', 'Institution']
+FORM_LABELS = {'PPHY': 'Patentés (PPHY)', 'SAS': 'SAS / SASU', 'Association': 'Associations (loi 1901)', 'Institution': 'Institutions'}
+
+cat_counts = Counter(d.get('cat') for d in data if d.get('cat'))
+form_counts = Counter('SAS' if d.get('form') == 'SASU' else d.get('form') for d in data if d.get('form'))
+domaine_counts = Counter(d.get('domaine') for d in data if d.get('form') == 'Association' and d.get('domaine'))
+
+cat_options_html = '\n'.join(
+    f'        <option value="{html_escape(c)}">{html_escape(CAT_LABELS.get(c, c.capitalize()))} ({n})</option>'
+    for c, n in sorted(cat_counts.items(), key=lambda kv: (kv[0] in ('INSTITUTION', 'ASSOCIATION'), kv[0]))
+)
+form_options_html = '\n'.join(
+    f'        <option value="{html_escape(f)}">{html_escape(FORM_LABELS.get(f, f))} ({form_counts[f]})</option>'
+    for f in sorted(form_counts, key=lambda f: FORM_ORDER.index(f) if f in FORM_ORDER else len(FORM_ORDER))
+)
+domaine_options_html = '\n'.join(
+    f'        <option value="{html_escape(dom)}">{html_escape(dom)} ({n})</option>'
+    for dom, n in sorted(domaine_counts.items())
+)
+
+print(f"Compilation de index.html avec {total_entries} entités...")
 print(f"- Sociétés : {societes_count}")
 print(f"- Patentés (PPHY) : {pphy_count}")
-print(f"- Contacts directs vérifiés : {with_contact}")
+print(f"- Associations : {asso_count}")
+print(f"- Institutions : {inst_count}")
+print(f"- Contacts directs vérifiés : {with_contact} (dont {with_phone} avec téléphone)")
 print(f"- Statuts légaux spécifiques : {alert_status}")
 
 html_content = f'''<!DOCTYPE html>
@@ -29,8 +62,8 @@ html_content = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Observatoire Économique de Paea – Répertoire consolidé des Entreprises &amp; Patentés</title>
-<meta name="description" content="Annuaire officiel et observatoire économique consolidé des entreprises et patentés de la commune de Paea (Tahiti, Polynésie française). Mission PIAC 2026.">
+<title>Observatoire Économique de Paea – Répertoire consolidé des Entreprises, Patentés &amp; Associations</title>
+<meta name="description" content="Annuaire officiel et observatoire économique consolidé des entreprises, patentés et associations de la commune de Paea (Tahiti, Polynésie française). Mission PIAC 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -602,7 +635,7 @@ body {{
    ========================================================================== */
 .stats-strip {{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 12px;
   margin-bottom: 16px;
 }}
@@ -613,13 +646,15 @@ body {{
   .stats-strip {{ gap: 8px; }}
   .stat-pill {{ padding: 7px 9px; gap: 8px; }}
   .stat-num {{ font-size: 1.05rem; }}
+  .stat-label-long {{ display: none; }}
+  .stat-label-short {{ display: inline; }}
 }}
 
-/* Forcer l'alignement strict des 4 statistiques sur la même ligne horizontale sur mobile */
+/* Forcer l'alignement strict des 5 statistiques sur la même ligne horizontale sur mobile */
 @media (max-width: 680px) {{
   .stats-strip {{
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 5px !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 4px !important;
   }}
   .stat-pill {{
     flex-direction: column !important;
@@ -1148,6 +1183,7 @@ td.td-addr {{
 .pill-form.sci {{ background: #fef3c7; color: #b45309; }}
 .pill-form.pphy {{ background: #f1f5f9; color: #475569; }}
 .pill-form.inst {{ background: #ecfdf5; color: #047857; }}
+.pill-form.asso {{ background: #fce7f3; color: #be185d; }}
 
 .pill-cat {{
   display: inline-block;
@@ -1161,6 +1197,19 @@ td.td-addr {{
 .pill-cat.MÉTIER {{ background: #fef3c7; color: #d97706; }}
 .pill-cat.SERVICE {{ background: #dcfce7; color: #15803d; }}
 .pill-cat.INSTITUTION {{ background: #f1f5f9; color: #475569; }}
+.pill-cat.RESTAURATION {{ background: #ffedd5; color: #c2410c; }}
+.pill-cat.ASSOCIATION {{ background: #fdf2f8; color: #9d174d; border: 1px solid #fbcfe8; }}
+
+/* Enseigne commerciale affichée sous la dénomination officielle */
+.biz-enseigne {{
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-top: 2px;
+}}
 
 /* ==========================================================================
    BADGES D'IDENTIFIANTS OFFICIELS (HAUTE VISIBILITÉ ISPF / RCS)
@@ -1253,6 +1302,34 @@ td.td-addr {{
 }}
 [data-theme="dark"] .id-badge.id-rcs .id-val {{
   color: #faf5ff;
+}}
+
+/* Badge RNA (Répertoire National des Associations) */
+.id-badge.id-rna {{
+  background: #fdf2f8;
+  color: #9d174d;
+  border: 1.5px solid #db2777;
+}}
+.id-badge.id-rna .id-prefix {{
+  background: #db2777;
+  color: #ffffff;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}}
+.id-badge.id-rna .id-val {{
+  font-weight: 800;
+  color: #831843;
+}}
+[data-theme="dark"] .id-badge.id-rna {{
+  background: rgba(219, 39, 119, 0.2);
+  color: #f9a8d4;
+  border-color: #f9a8d4;
+}}
+[data-theme="dark"] .id-badge.id-rna .id-val {{
+  color: #fdf2f8;
 }}
 
 .biz-ids-row {{
@@ -2489,7 +2566,7 @@ td.td-addr {{
         </button>
       </div>
     </div>
-    <h1>Répertoire des entreprises et patentés</h1>
+    <h1>Répertoire des entreprises, patentés et associations</h1>
   </div>
 </header>
 
@@ -2531,6 +2608,17 @@ td.td-addr {{
       </div>
     </button>
 
+    <button type="button" class="stat-pill" id="cardAsso" data-filter="asso" title="Filtrer uniquement les Associations">
+      <span class="stat-icon" style="background:rgba(190, 24, 93, 0.1);color:#be185d;">🤝</span>
+      <div class="stat-meta">
+        <span class="stat-num" id="statAssoVal">{asso_count}</span>
+        <span class="stat-txt">
+          <span class="stat-label-long">Associations</span>
+          <span class="stat-label-short">Assos</span>
+        </span>
+      </div>
+    </button>
+
     <button type="button" class="stat-pill" id="cardDigital" data-filter="direct" title="Filtrer avec contacts directs vérifiés">
       <span class="stat-icon" style="background:rgba(5, 150, 105, 0.1);color:#059669;">⭐</span>
       <div class="stat-meta">
@@ -2547,7 +2635,7 @@ td.td-addr {{
   <section class="control-panel">
     <div class="search-box">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="searchInput" class="search-input" placeholder="Rechercher une entreprise, un gérant, un PK, une activité, n° TAHITI…">
+      <input type="text" id="searchInput" class="search-input" placeholder="Rechercher une entreprise, une association, un gérant, un PK, une activité, n° TAHITI ou RNA…">
       <span class="kbd-hint">Ctrl K</span>
     </div>
 
@@ -2594,7 +2682,7 @@ td.td-addr {{
     <div class="print-header-top">
       <div class="print-brand">
         <div class="print-logo-emblem">COMMUNE DE PAEA – OBSERVATOIRE ÉCONOMIQUE</div>
-        <div class="print-logo-sub">Mission PIAC 2026 • Répertoire consolidé officiel des Entreprises et Patentés</div>
+        <div class="print-logo-sub">Mission PIAC 2026 • Répertoire consolidé officiel des Entreprises, Patentés et Associations</div>
       </div>
       <div class="print-meta-right">
         <div class="print-date" id="printHeaderDate">Date d'édition</div>
@@ -2602,7 +2690,7 @@ td.td-addr {{
       </div>
     </div>
     <div class="print-header-banner">
-      <h1 class="print-header-title" id="printHeaderTitle">Répertoire officiel des Entreprises &amp; Patentés</h1>
+      <h1 class="print-header-title" id="printHeaderTitle">Répertoire officiel des Entreprises, Patentés &amp; Associations</h1>
       <div class="print-filter-line">
         <span class="print-filter-label">Sélection / Filtres :</span>
         <span class="print-filter-value" id="printHeaderFilters">Toutes les entités</span>
@@ -2621,8 +2709,8 @@ td.td-addr {{
             <th data-key="name" class="sorted">Dénomination / Nom</th>
             <th data-key="form">Forme</th>
             <th data-key="cat">Collège</th>
-            <th data-key="rep">Dirigeant / Mandataire</th>
-            <th data-key="naf">Activité / NAF</th>
+            <th data-key="rep">Dirigeant / Président(e)</th>
+            <th data-key="naf">Activité / Objet</th>
             <th data-key="ids">Identifiants</th>
             <th data-key="address">Adresse / PK</th>
             <th>Contact Direct</th>
@@ -2647,7 +2735,7 @@ td.td-addr {{
 
   <!-- PIED DE PAGE OFFICIEL POUR IMPRESSION (VISIBLE UNIQUEMENT À L'IMPRESSION) -->
   <footer class="print-only-footer" id="printDocumentFooter">
-    <span>Observatoire Économique de Paea — Répertoire consolidé (Données publiques CCISM • DICP • Lexpol)</span>
+    <span>Observatoire Économique de Paea — Répertoire consolidé (Données publiques CCISM • DICP • Lexpol • RNA)</span>
     <span>Document d'information économique — Paea, Tahiti</span>
   </footer>
 
@@ -2684,6 +2772,33 @@ td.td-addr {{
   </div>
 
   <div class="filter-drawer-body">
+    <!-- Groupe 0 : Type d'entité -->
+    <div class="filter-group">
+      <label class="filter-label" for="filterType">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>
+        <span>Type d'entité</span>
+      </label>
+      <select id="filterType" class="filter-drawer-select">
+        <option value="">Tous les types ({total_entries})</option>
+        <option value="societes">⚖️ Sociétés ({societes_count})</option>
+        <option value="pphy">👤 Patentés individuels ({pphy_count})</option>
+        <option value="asso">🤝 Associations ({asso_count})</option>
+        <option value="inst">🏛️ Institutions ({inst_count})</option>
+      </select>
+    </div>
+
+    <!-- Groupe 0 bis : Domaine associatif (visible uniquement pour les associations) -->
+    <div class="filter-group" id="filterDomaineGroup" style="display:none;">
+      <label class="filter-label" for="filterDomaine">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span>Domaine associatif</span>
+      </label>
+      <select id="filterDomaine" class="filter-drawer-select">
+        <option value="">Tous les domaines ({asso_count})</option>
+{domaine_options_html}
+      </select>
+    </div>
+
     <!-- Groupe 1 : Collège d'activité -->
     <div class="filter-group">
       <label class="filter-label" for="filterCat">
@@ -2691,29 +2806,20 @@ td.td-addr {{
         <span>Collège d'activité</span>
       </label>
       <select id="filterCat" class="filter-drawer-select">
-        <option value="">Tous les collèges (4)</option>
-        <option value="COMMERCE">Commerce</option>
-        <option value="INDUSTRIE">Industrie</option>
-        <option value="MÉTIER">Métier</option>
-        <option value="SERVICE">Service</option>
-        <option value="INSTITUTION">Institutions</option>
+        <option value="">Tous les collèges ({len(cat_counts)})</option>
+{cat_options_html}
       </select>
     </div>
 
     <!-- Groupe 2 : Forme juridique -->
     <div class="filter-group">
       <label class="filter-label" for="filterForm">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg>
         <span>Forme juridique</span>
       </label>
       <select id="filterForm" class="filter-drawer-select">
         <option value="">Toutes les formes</option>
-        <option value="PPHY">Patentés (PPHY)</option>
-        <option value="SARL">SARL</option>
-        <option value="SAS">SAS / SASU</option>
-        <option value="SCI">SCI</option>
-        <option value="EURL">EURL</option>
-        <option value="SCP">SCP</option>
+{form_options_html}
       </select>
     </div>
 
@@ -2742,7 +2848,7 @@ td.td-addr {{
       <select id="filterContact" class="filter-drawer-select">
         <option value="">Tous les contacts ({total_entries})</option>
         <option value="with">⭐ Avec contact direct vérifié ({with_contact})</option>
-        <option value="tel">📞 Avec ligne téléphonique</option>
+        <option value="tel">📞 Avec ligne téléphonique ({with_phone})</option>
         <option value="web_mail">🌐 Avec e-mail, site ou réseaux</option>
         <option value="alert">⚠️ Avec statut particulier ({alert_status})</option>
         <option value="without">Sans contact</option>
@@ -2787,12 +2893,12 @@ td.td-addr {{
     <div class="drawer-quick-actions" id="drawerQuickActions"></div>
 
     <div class="detail-section">
-      <span class="detail-label">Dirigeant / Mandataire officiel</span>
+      <span class="detail-label" id="drawerRepLabel">Dirigeant / Mandataire officiel</span>
       <div class="detail-value" id="drawerRep">—</div>
     </div>
 
     <div class="detail-section">
-      <span class="detail-label">Activité &amp; Code NAF</span>
+      <span class="detail-label" id="drawerNafLabel">Activité &amp; Code NAF</span>
       <div class="detail-value" id="drawerNaf">—</div>
     </div>
 
@@ -2802,7 +2908,7 @@ td.td-addr {{
     </div>
 
     <div class="detail-section">
-      <span class="detail-label">Identifiants Officiels (ISPF / RCS)</span>
+      <span class="detail-label">Identifiants Officiels (ISPF / RCS / RNA)</span>
       <div class="detail-value" id="drawerIds">—</div>
     </div>
 
@@ -2908,7 +3014,36 @@ function escapeHtml(s){{
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
 }}
 
-// RENDU DES IDENTIFIANTS OFFICIELS (HAUTE VISIBILITÉ TAHITI / RCS)
+// TYPOLOGIE DES ENTITÉS (Sociétés / Patentés / Associations / Institutions)
+function entityType(r) {{
+  if(r.form === 'PPHY') return 'pphy';
+  if(r.form === 'Association') return 'asso';
+  if(r.form === 'Institution') return 'inst';
+  return 'societes';
+}}
+const isAsso = r => r.form === 'Association';
+const FORM_CLASS = {{ SARL:'sarl', EURL:'sarl', SELARL:'sarl', SAS:'sas', SASU:'sas', SA:'sas', SCI:'sci', SCP:'sci', SNC:'sci', COOP:'sci', PPHY:'pphy', Association:'asso' }};
+const formClass = form => FORM_CLASS[form] || 'inst';
+const TYPE_LABELS = {{ societes:'Sociétés', pphy:'Patentés individuels', asso:'Associations', inst:'Institutions' }};
+function formatDateFr(iso) {{
+  const m = /^(\\d{{4}})-(\\d{{2}})-(\\d{{2}})$/.exec(iso || '');
+  return m ? `${{m[3]}}/${{m[2]}}/${{m[1]}}` : (iso || '');
+}}
+// Pastille de collège : pour une association on affiche son domaine (Sport, Culture…)
+function catPill(r) {{
+  if(isAsso(r)) return `<span class="pill-cat ASSOCIATION">${{escapeHtml(r.domaine || 'Association')}}</span>`;
+  return `<span class="pill-cat ${{escapeHtml(r.cat)}}">${{escapeHtml(r.cat)}}</span>`;
+}}
+// Libellé « activité » : objet social + date de création pour une association
+function activityText(r) {{
+  if(isAsso(r)) {{
+    const created = r.created ? ` (créée le ${{formatDateFr(r.created)}})` : '';
+    return (r.naf || 'Objet non publié') + created;
+  }}
+  return r.naf || '';
+}}
+
+// RENDU DES IDENTIFIANTS OFFICIELS (HAUTE VISIBILITÉ TAHITI / RCS / RNA)
 function renderIdBadge(id) {{
   if(!id) return '';
   const s = id.toString().trim();
@@ -2919,6 +3054,9 @@ function renderIdBadge(id) {{
   }} else if(upper.startsWith('RCS')) {{
     const val = s.replace(/^RCS\s*/i, '');
     return `<span class="id-badge id-rcs" title="Registre du Commerce et des Sociétés"><span class="id-prefix">RCS</span> <span class="id-val">${{escapeHtml(val)}}</span></span>`;
+  }} else if(upper.startsWith('RNA')) {{
+    const val = s.replace(/^RNA\s*/i, '');
+    return `<span class="id-badge id-rna" title="Répertoire National des Associations"><span class="id-prefix">RNA</span> <span class="id-val">${{escapeHtml(val)}}</span></span>`;
   }}
   return `<span class="id-badge id-generic"><span class="id-prefix">ID</span> <span class="id-val">${{escapeHtml(s)}}</span></span>`;
 }}
@@ -2940,23 +3078,36 @@ function countUp(el, target, duration = 500) {{
 }}
 
 // PARSING DU CONTACT PROPREMENT AVEC ISOLATION
+const PF_PHONE_RE = /(?:\\+?689[\\s.]*)?((?:40|87|88|89)(?:[\\s.]?\\d{{2}}){{3}})/;
+// Extrait chaque numéro (8 chiffres PF) d'un segment « 40 82 89 89 / 87 22 16 49 (note) » ; le texte restant devient une note
+function extractPhones(segment, phones, notes) {{
+  segment.split('/').forEach(seg => {{
+    const m = seg.match(PF_PHONE_RE);
+    if(!m) {{ if(seg.trim()) notes.push(seg.trim()); return; }}
+    const digits = m[1].replace(/[\\s.]/g, '');
+    if(!phones.includes(digits.replace(/(\\d{{2}})(?=\\d)/g, '$1 '))) phones.push(digits.replace(/(\\d{{2}})(?=\\d)/g, '$1 '));
+    const rest = seg.replace(m[0], '').trim().replace(/^\\(|\\)$/g, '').trim();
+    if(rest) notes.push(rest);
+  }});
+}}
+
 function parseContactData(raw) {{
-  if(!raw || !raw.trim()) return {{ hasContact: false, phones: [], mails: [], urls: [], isAlert: false, text: '' }};
+  if(!raw || !raw.trim()) return {{ hasContact: false, phones: [], mails: [], urls: [], notes: [], isAlert: false, text: '' }};
   const str = raw.trim();
   if(str.startsWith('⚠️')) {{
-    return {{ hasContact: true, phones: [], mails: [], urls: [], isAlert: true, text: str.replace(/^⚠️\s*/, '') }};
+    return {{ hasContact: true, phones: [], mails: [], urls: [], notes: [], isAlert: true, text: str.replace(/^⚠️\s*/, '') }};
   }}
 
   const phones = [];
   const mails = [];
   const urls = [];
+  const notes = [];
 
   // Découpage par composant ' · ' ou parsing multi-formats
   const parts = str.split(' · ').map(p => p.trim());
   parts.forEach(p => {{
     if(p.startsWith('☎')) {{
-      const num = p.replace(/^☎\s*/, '').trim();
-      if(num) phones.push(num);
+      extractPhones(p.replace(/^☎\s*/, ''), phones, notes);
     }} else if(p.startsWith('✉')) {{
       const em = p.replace(/^✉\s*/, '').trim();
       if(em) mails.push(em);
@@ -2965,18 +3116,24 @@ function parseContactData(raw) {{
       if(u) urls.push(u);
     }} else if(p.includes('@')) {{
       mails.push(p);
-    }} else if(/(?:40|87|88|89)\s*\d{{2}}\s*\d{{2}}\s*\d{{2}}/.test(p)) {{
-      phones.push(p.replace(/[^\d\s]/g, '').trim());
+    }} else if(PF_PHONE_RE.test(p)) {{
+      extractPhones(p, phones, notes);
     }} else if(p.includes('.com') || p.includes('.pf') || p.includes('.fr')) {{
       urls.push(p);
+    }} else if(p) {{
+      notes.push(p);
     }}
   }});
 
   return {{
     hasContact: phones.length > 0 || mails.length > 0 || urls.length > 0,
-    phones, mails, urls, isAlert: false, text: str
+    phones, mails, urls, notes, isAlert: false, text: str
   }};
 }}
+const telHref = num => 'tel:+689' + num.replace(/\\D/g, '');
+const mapsQuery = a => /paea/i.test(a) ? a + ', Tahiti' : a + ', Paea, Tahiti';
+const isGenericAddress = a => !a || /^(commune de paea|paea|paea \\(98711\\)|98711 paea)$/i.test(a.trim());
+const isMobile = num => /^8[789]/.test(num.replace(/\\D/g, ''));
 
 // RENDU CELLULE TABLE
 function renderContactCell(r, forPrint = false) {{
@@ -3001,9 +3158,7 @@ function renderContactCell(r, forPrint = false) {{
   }}
   let links = [];
   c.phones.forEach(num => {{
-    const clean = num.replace(/\\s+/g, '');
-    const href = clean.length === 8 ? `+689${{clean}}` : clean;
-    links.push(`<a href="tel:${{href}}" class="action-chip tel">📞 ${{escapeHtml(num)}}</a>`);
+    links.push(`<a href="${{telHref(num)}}" class="action-chip tel">📞 ${{escapeHtml(num)}}</a>`);
   }});
   c.mails.forEach(em => {{
     links.push(`<a href="mailto:${{escapeHtml(em)}}" class="action-chip web">✉ ${{escapeHtml(em)}}</a>`);
@@ -3021,8 +3176,8 @@ function renderContactCell(r, forPrint = false) {{
 // RENDU CARTE BENTO
 function renderBizCard(r) {{
   const c = parseContactData(r.contact);
-  let formCls = (r.form||'').toLowerCase();
-  if(!['sarl','sas','sci','pphy'].includes(formCls)) formCls = 'inst';
+  const formCls = formClass(r.form);
+  const asso = isAsso(r);
   
   let actionsHtml = '';
   if(c.isAlert) {{
@@ -3030,11 +3185,10 @@ function renderBizCard(r) {{
   }} else {{
     const chips = [];
     if(c.phones.length > 0) {{
-      const p = c.phones[0];
-      const clean = p.replace(/\\s+/g, '');
-      chips.push(`<a href="tel:+689${{clean}}" class="action-chip tel">📞 Appeler</a>`);
-      if(clean.startsWith('87') || clean.startsWith('89')) {{
-        chips.push(`<a href="https://wa.me/689${{clean}}" target="_blank" rel="noopener noreferrer" class="action-chip wa">💬 WhatsApp</a>`);
+      chips.push(`<a href="${{telHref(c.phones[0])}}" class="action-chip tel" title="${{escapeHtml(c.phones.join(' / '))}}">📞 Appeler</a>`);
+      const mobile = c.phones.find(isMobile);
+      if(mobile) {{
+        chips.push(`<a href="https://wa.me/689${{mobile.replace(/\\D/g, '')}}" target="_blank" rel="noopener noreferrer" class="action-chip wa">💬 WhatsApp</a>`);
       }}
     }}
     if(c.urls.length > 0) {{
@@ -3042,8 +3196,8 @@ function renderBizCard(r) {{
       const href = u.startsWith('http') ? u : 'https://' + u;
       chips.push(`<a href="${{escapeHtml(href)}}" target="_blank" rel="noopener noreferrer" class="action-chip web">${{u.includes('facebook')?'📘 Facebook':'🌐 Web'}}</a>`);
     }}
-    if(r.address && r.address !== 'Commune de Paea') {{
-      chips.push(`<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(r.address + ', Paea, Tahiti')}}" target="_blank" rel="noopener noreferrer" class="action-chip web">📍 Itinéraire</a>`);
+    if(!isGenericAddress(r.address)) {{
+      chips.push(`<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(mapsQuery(r.address))}}" target="_blank" rel="noopener noreferrer" class="action-chip web">📍 Itinéraire</a>`);
     }}
     actionsHtml = chips.join('');
   }}
@@ -3073,24 +3227,24 @@ function renderBizCard(r) {{
   <article class="biz-card anim-fade" data-idx="${{r.idx}}">
     <div>
       <div class="biz-top">
-        <h3 class="biz-title">${{escapeHtml(r.name)}}</h3>
+        <h3 class="biz-title">${{escapeHtml(r.name)}}${{r.enseigne ? `<span class="biz-enseigne">« ${{escapeHtml(r.enseigne)}} »</span>` : ''}}</h3>
         <div class="biz-badges">
           <span class="pill-form ${{formCls}}">${{escapeHtml(r.form)}}</span>
-          <span class="pill-cat ${{escapeHtml(r.cat)}}">${{escapeHtml(r.cat)}}</span>
+          ${{catPill(r)}}
         </div>
       </div>
       <div class="biz-info" style="margin-top:8px;">
         <div class="biz-row">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-          <span class="biz-row-label">Dirigeant : </span>
-          <span>${{escapeHtml(r.rep||'—')}}</span>
+          <span class="biz-row-label">${{asso ? 'Président(e) : ' : 'Dirigeant : '}}</span>
+          <span>${{escapeHtml(r.rep || (asso ? 'Non publié' : '—'))}}</span>
         </div>
         <div class="biz-row">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
           <span class="biz-row-label">Adresse : </span>
           <span>${{escapeHtml(r.address||'Commune de Paea')}}</span>
         </div>
-        ${{r.naf ? `<div class="biz-row"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><span class="biz-row-label">Activité : </span><span style="font-size:0.78rem;">${{escapeHtml(r.naf)}}</span></div>` : ''}}
+        ${{activityText(r) ? `<div class="biz-row"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><span class="biz-row-label">${{asso ? 'Objet : ' : 'Activité : '}}</span><span style="font-size:0.78rem;">${{escapeHtml(activityText(r))}}</span></div>` : ''}}
         ${{idsHtml}}
       </div>
     </div>
@@ -3147,11 +3301,11 @@ function render(keepCount = false) {{
     $('cardsContainer').style.display = 'none';
     const rowsHtml = visibleItems.map(r => `
       <tr data-idx="${{r.idx}}">
-        <td class="td-name">${{escapeHtml(r.name)}}</td>
-        <td><span class="pill-form ${{['sarl','sas','sci','pphy'].includes((r.form||'').toLowerCase())?(r.form||'').toLowerCase():'inst'}}">${{escapeHtml(r.form)}}</span></td>
-        <td><span class="pill-cat ${{escapeHtml(r.cat)}}">${{escapeHtml(r.cat)}}</span></td>
-        <td class="td-rep">${{escapeHtml(r.rep||'—')}}</td>
-        <td>${{r.naf ? `<span style="font-size:0.75rem;background:var(--bg-hover);padding:2px 6px;border-radius:4px;">${{escapeHtml(r.naf)}}</span>` : '—'}}</td>
+        <td class="td-name">${{escapeHtml(r.name)}}${{r.enseigne ? `<span class="biz-enseigne">« ${{escapeHtml(r.enseigne)}} »</span>` : ''}}</td>
+        <td><span class="pill-form ${{formClass(r.form)}}">${{escapeHtml(r.form)}}</span></td>
+        <td>${{catPill(r)}}</td>
+        <td class="td-rep">${{escapeHtml(r.rep || (isAsso(r) ? 'Non publié' : '—'))}}</td>
+        <td>${{activityText(r) ? `<span style="font-size:0.75rem;background:var(--bg-hover);padding:2px 6px;border-radius:4px;">${{escapeHtml(activityText(r))}}</span>` : '—'}}</td>
         <td>${{(r.ids||[]).map(id => renderIdBadge(id)).join('')}}</td>
         <td class="td-addr">${{escapeHtml(r.address||'—')}}</td>
         <td>${{renderContactCell(r)}}</td>
@@ -3178,14 +3332,26 @@ window.addEventListener('scroll', () => {{
 }});
 
 // FILTRAGE AVANCÉ
+// Le filtre « Domaine associatif » n'apparaît que lorsque la sélection vise les associations
+function syncDomaineVisibility() {{
+  const show = $('filterType').value === 'asso' || $('filterForm').value === 'Association' || $('filterCat').value === 'ASSOCIATION';
+  $('filterDomaineGroup').style.display = show ? '' : 'none';
+  if(!show) $('filterDomaine').value = '';
+}}
+
 function applyFilters() {{
+  syncDomaineVisibility();
   const q = norm($('searchInput').value);
+  const type = $('filterType').value;
+  const domaine = $('filterDomaine').value;
   const cat = $('filterCat').value;
   const form = $('filterForm').value;
   const contact = $('filterContact').value;
   const pkSelected = document.querySelector('.pk-pill.active')?.dataset.pk || '';
 
   filtered = DATA.filter(item => {{
+    if(type && entityType(item) !== type) return false;
+    if(domaine && item.domaine !== domaine) return false;
     if(cat && item.cat !== cat) return false;
     if(form) {{
       if(form === 'SAS' && !['SAS','SASU'].includes(item.form)) return false;
@@ -3206,7 +3372,7 @@ function applyFilters() {{
     }}
 
     if(q) {{
-      const blob = norm([item.name, item.rep, item.address, item.naf, (item.ids||[]).join(' '), item.contact].join(' '));
+      const blob = norm([item.name, item.enseigne, item.rep, item.address, item.naf, item.domaine, (item.ids||[]).join(' '), item.contact].join(' '));
       if(!blob.includes(q)) return false;
     }}
     return true;
@@ -3230,13 +3396,16 @@ function openDetails(target) {{
   if(!item) return;
   activeItem = item;
 
-  $('drawerTitle').textContent = item.name;
+  const asso = isAsso(item);
+  $('drawerTitle').textContent = item.enseigne ? `${{item.name}} « ${{item.enseigne}} »` : item.name;
   $('drawerBadges').innerHTML = `
-    <span class="pill-form ${{['sarl','sas','sci','pphy'].includes((item.form||'').toLowerCase())?(item.form||'').toLowerCase():'inst'}}">${{escapeHtml(item.form)}}</span>
-    <span class="pill-cat ${{escapeHtml(item.cat)}}">${{escapeHtml(item.cat)}}</span>
+    <span class="pill-form ${{formClass(item.form)}}">${{escapeHtml(item.form)}}</span>
+    ${{catPill(item)}}
   `;
-  $('drawerRep').textContent = item.rep || 'Non précisé';
-  $('drawerNaf').textContent = item.naf || 'Non renseigné';
+  $('drawerRepLabel').textContent = asso ? 'Président(e) / Représentant' : 'Dirigeant / Mandataire officiel';
+  $('drawerNafLabel').textContent = asso ? 'Objet social & date de création' : 'Activité & Code NAF';
+  $('drawerRep').textContent = item.rep || (asso ? 'Non publié dans les sources officielles' : 'Non précisé');
+  $('drawerNaf').textContent = activityText(item) || 'Non renseigné';
   $('drawerAddress').textContent = item.address || 'Commune de Paea';
   $('drawerIds').innerHTML = (item.ids||[]).length ? (item.ids||[]).map(id => renderIdBadge(id)).join('') : '<span style="color:var(--text-dim)">Non renseigné</span>';
 
@@ -3250,15 +3419,15 @@ function openDetails(target) {{
     let contactInfo = [];
     if(c.phones.length > 0) {{
       const p = c.phones[0];
-      const clean = p.replace(/\\s+/g, '');
-      actionsContainer.innerHTML += `<a href="tel:+689${{clean}}" class="btn-action-big call">📞 Appeler ${{escapeHtml(p)}}</a>`;
-      if(clean.startsWith('87') || clean.startsWith('89')) {{
-        actionsContainer.innerHTML += `<a href="https://wa.me/689${{clean}}" target="_blank" rel="noopener" class="btn-action-big" style="background:#059669;color:#fff;">💬 WhatsApp</a>`;
+      actionsContainer.innerHTML += `<a href="${{telHref(p)}}" class="btn-action-big call">📞 Appeler ${{escapeHtml(p)}}</a>`;
+      const mobile = c.phones.find(isMobile);
+      if(mobile) {{
+        actionsContainer.innerHTML += `<a href="https://wa.me/689${{mobile.replace(/\\D/g, '')}}" target="_blank" rel="noopener" class="btn-action-big" style="background:#059669;color:#fff;">💬 WhatsApp</a>`;
       }}
-      contactInfo.push(`Téléphone : ${{c.phones.join(' / ')}}`);
+      contactInfo.push(`Téléphone : ${{c.phones.map(n => `<a href="${{telHref(n)}}" style="color:var(--lagoon-600);font-weight:600;">${{escapeHtml(n)}}</a>`).join(' / ')}}`);
     }}
-    if(item.address && item.address !== 'Commune de Paea') {{
-      actionsContainer.innerHTML += `<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(item.address + ', Paea, Tahiti')}}" target="_blank" rel="noopener" class="btn-action-big maps">📍 Itinéraire GPS</a>`;
+    if(!isGenericAddress(item.address)) {{
+      actionsContainer.innerHTML += `<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(mapsQuery(item.address))}}" target="_blank" rel="noopener" class="btn-action-big maps">📍 Itinéraire GPS</a>`;
     }}
     c.mails.forEach(em => {{
       actionsContainer.innerHTML += `<a href="mailto:${{escapeHtml(em)}}" class="btn-action-big" style="background:#0284c7;color:#fff;">✉ Écrire e-mail</a>`;
@@ -3269,11 +3438,12 @@ function openDetails(target) {{
       actionsContainer.innerHTML += `<a href="${{escapeHtml(href)}}" target="_blank" rel="noopener" class="btn-action-big" style="background:#0369a1;color:#fff;">${{url.includes('facebook') ? '📘 Page Facebook' : '🌐 Site Internet'}}</a>`;
       contactInfo.push(`Site/Réseaux : <a href="${{escapeHtml(href)}}" target="_blank" rel="noopener" style="color:var(--lagoon-600);font-weight:600;">${{escapeHtml(url)}}</a>`);
     }});
+    c.notes.forEach(n => contactInfo.push(`<span style="color:var(--text-muted);">${{escapeHtml(n)}}</span>`));
     $('drawerContactText').innerHTML = contactInfo.join('<br>') || '—';
   }} else {{
     $('drawerContactText').innerHTML = '<span style="color:var(--text-muted)">Aucun contact public direct répertorié.</span>';
-    if(item.address && item.address !== 'Commune de Paea') {{
-      actionsContainer.innerHTML += `<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(item.address + ', Paea, Tahiti')}}" target="_blank" rel="noopener" class="btn-action-big maps" style="grid-column:span 2;">📍 Itinéraire GPS vers l'adresse</a>`;
+    if(!isGenericAddress(item.address)) {{
+      actionsContainer.innerHTML += `<a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(mapsQuery(item.address))}}" target="_blank" rel="noopener" class="btn-action-big maps" style="grid-column:span 2;">📍 Itinéraire GPS vers l'adresse</a>`;
     }}
   }}
 
@@ -3469,10 +3639,9 @@ document.querySelectorAll('.stat-pill').forEach(pill => {{
     document.querySelectorAll('.stat-pill').forEach(c => c.classList.remove('active'));
     pill.classList.add('active');
     const f = pill.dataset.filter;
-    if(f === 'all') {{ $('filterForm').value = ''; $('filterContact').value = ''; }}
+    if(f === 'all') {{ $('filterType').value = ''; $('filterForm').value = ''; $('filterContact').value = ''; $('filterDomaine').value = ''; }}
     else if(f === 'direct') {{ $('filterContact').value = 'with'; }}
-    else if(f === 'societes') {{ $('filterForm').value = 'SARL'; }}
-    else if(f === 'pphy') {{ $('filterForm').value = 'PPHY'; }}
+    else {{ $('filterType').value = f; $('filterForm').value = ''; $('filterDomaine').value = ''; }}
     applyFilters();
   }});
 }});
@@ -3488,12 +3657,16 @@ document.querySelectorAll('.pk-pill').forEach(pill => {{
 
 // ÉVÉNEMENTS RECHERCHE & SÉLECTEURS
 $('searchInput').addEventListener('input', applyFilters);
+$('filterType').addEventListener('change', applyFilters);
+$('filterDomaine').addEventListener('change', applyFilters);
 $('filterCat').addEventListener('change', applyFilters);
 $('filterForm').addEventListener('change', applyFilters);
 $('filterContact').addEventListener('change', applyFilters);
 
 function resetAllFilters() {{
   $('searchInput').value = '';
+  $('filterType').value = '';
+  $('filterDomaine').value = '';
   $('filterCat').value = '';
   $('filterForm').value = '';
   $('filterContact').value = '';
@@ -3557,11 +3730,18 @@ function updateFilterDrawerCounts() {{
 
 function updateFilterActiveIndicators() {{
   let activeCount = 0;
+  const type = $('filterType').value;
+  const domaine = $('filterDomaine').value;
   const cat = $('filterCat').value;
   const form = $('filterForm').value;
   const contact = $('filterContact').value;
   const pkSelected = document.querySelector('.pk-pill.active')?.dataset.pk || '';
 
+  const pillKey = type || (contact === 'with' ? 'direct' : 'all');
+  document.querySelectorAll('.stat-pill').forEach(p => p.classList.toggle('active', p.dataset.filter === pillKey));
+
+  if(type) activeCount++;
+  if(domaine) activeCount++;
   if(cat) activeCount++;
   if(form) activeCount++;
   if(contact) activeCount++;
@@ -3735,12 +3915,16 @@ themeToggle.addEventListener('click', () => {{
 function getFilterSummary() {{
   const parts = [];
   const q = $('searchInput').value.trim();
+  const type = $('filterType').value;
+  const domaine = $('filterDomaine').value;
   const cat = $('filterCat').value;
   const form = $('filterForm').value;
   const contact = $('filterContact').value;
   const pkPill = document.querySelector('.pk-pill.active');
   const pk = pkPill ? pkPill.dataset.pk : '';
 
+  if(type) parts.push(TYPE_LABELS[type] || type);
+  if(domaine) parts.push('Domaine ' + domaine);
   if(form) {{
     if(form === 'PPHY') parts.push('Patentés (PPHY)');
     else parts.push('Forme ' + form);
@@ -3763,7 +3947,7 @@ function getFilterSummary() {{
   }}
 
   if(parts.length === 0) {{
-    return 'Répertoire complet (Toutes formes, Tous collèges, Tout Paea)';
+    return 'Répertoire complet (Tous types, Toutes formes, Tous collèges, Tout Paea)';
   }}
   return parts.join(' • ');
 }}
@@ -3796,11 +3980,11 @@ function preparePrint(formatToPrint) {{
     $('cardsContainer').style.display = 'none';
     const allRowsHtml = filtered.map(r => `
       <tr data-idx="${{r.idx}}">
-        <td class="td-name">${{escapeHtml(r.name)}}</td>
-        <td><span class="pill-form ${{['sarl','sas','sci','pphy'].includes((r.form||'').toLowerCase())?(r.form||'').toLowerCase():'inst'}}">${{escapeHtml(r.form)}}</span></td>
-        <td><span class="pill-cat ${{escapeHtml(r.cat)}}">${{escapeHtml(r.cat)}}</span></td>
-        <td class="td-rep">${{escapeHtml(r.rep||'—')}}</td>
-        <td>${{r.naf ? `<span style="font-size:0.75rem;">${{escapeHtml(r.naf)}}</span>` : '—'}}</td>
+        <td class="td-name">${{escapeHtml(r.name)}}${{r.enseigne ? `<span class="biz-enseigne">« ${{escapeHtml(r.enseigne)}} »</span>` : ''}}</td>
+        <td><span class="pill-form ${{formClass(r.form)}}">${{escapeHtml(r.form)}}</span></td>
+        <td>${{catPill(r)}}</td>
+        <td class="td-rep">${{escapeHtml(r.rep || (isAsso(r) ? 'Non publié' : '—'))}}</td>
+        <td>${{activityText(r) ? `<span style="font-size:0.75rem;">${{escapeHtml(activityText(r))}}</span>` : '—'}}</td>
         <td>${{(r.ids||[]).map(id => renderIdBadge(id)).join('')}}</td>
         <td class="td-addr">${{escapeHtml(r.address||'—')}}</td>
         <td>${{renderContactCell(r, true)}}</td>
